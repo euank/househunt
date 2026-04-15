@@ -1,0 +1,6 @@
+.codex
+.codex/
+.playwright-cli
+.playwright-cli/
+data/*.sqlite3-shm
+data/*.sqlite3-wal
