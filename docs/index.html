@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Househunt Shortlists</title>
+    <meta
+      name="description"
+      content="Latest SUUMO-based used mansion and used house shortlists for Tokyo target stations."
+    />
+    <link rel="stylesheet" href="./assets/site.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">Tokyo Househunt</p>
+        <h1>Shortlists For Mansions And Houses</h1>
+        <p class="hero-copy">
+          GitHub Pages view of the latest SUUMO scrape outputs. Rankings are based on station match,
+          size, layout, walk time, building age, dishwasher mention, light/ceiling signals, and a few
+          penalties for basement-like units and less favorable house forms.
+        </p>
+        <div class="meta-grid">
+          <div class="meta-card">
+            <span class="meta-label">Generated</span>
+            <span class="meta-value" id="generated-at">Loading…</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-label">Mansion Listings Scraped</span>
+            <span class="meta-value" id="mansion-count">–</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-label">House Listings Scraped</span>
+            <span class="meta-value" id="house-count">–</span>
+          </div>
+        </div>
+        <div class="archive-bar">
+          <div class="archive-copy">
+            <span class="meta-label">Viewing</span>
+            <span class="meta-value" id="viewing-label">Loading…</span>
+          </div>
+          <label class="archive-picker">
+            <span>Archive</span>
+            <select id="archive-select">
+              <option value="">Latest</option>
+            </select>
+          </label>
+        </div>
+      </header>
+
+      <main class="content-grid">
+        <aside class="notes-panel">
+          <h2>Reading The Lists</h2>
+          <ul>
+            <li><strong>Strict Match</strong> means the listing clears the current hard filter for that category.</li>
+            <li>House walk-time threshold is <strong>12 min</strong>; mansion threshold is <strong>10 min</strong>.</li>
+            <li>The site is static. Re-run the scraper locally and push changes to refresh it.</li>
+            <li id="archive-note">Archive snapshots are organized by run date in <code>YYYY-MM-DD</code> format.</li>
+          </ul>
+        </aside>
+
+        <section class="list-section">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">Top 10</p>
+              <h2>Used Mansions</h2>
+            </div>
+          </div>
+          <div id="mansion-list" class="card-list"></div>
+        </section>
+
+        <section class="list-section">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">Top 10</p>
+              <h2>Used Houses</h2>
+            </div>
+          </div>
+          <div id="house-list" class="card-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <template id="listing-template">
+      <article class="listing-card">
+        <div class="card-topline">
+          <span class="rank-badge"></span>
+          <span class="strict-badge"></span>
+        </div>
+        <h3 class="listing-title"></h3>
+        <p class="listing-subtitle"></p>
+        <div class="stats-grid"></div>
+        <p class="summary"></p>
+        <div class="tag-row"></div>
+        <details class="notes-block">
+          <summary>Criteria Notes</summary>
+          <ul class="notes-list"></ul>
+        </details>
+        <a class="listing-link" target="_blank" rel="noreferrer">Open SUUMO Listing</a>
+      </article>
+    </template>
+
+    <script src="./assets/app.js" type="module"></script>
+  </body>
+</html>

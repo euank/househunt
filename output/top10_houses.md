@@ -1,6 +1,6 @@
 # SUUMO used house shortlist
 
-Generated at: 2026-04-14T16:32:07.558211+09:00
+Generated at: 2026-04-15T03:34:35.937676+09:00
 
 ## 1. ◆吉祥寺駅１２分◆敷地３８坪◆建物１００㎡超◆３SLDK+DEN+P
 
@@ -18,7 +18,7 @@ Generated at: 2026-04-14T16:32:07.558211+09:00
 - Access: ＪＲ中央線「吉祥寺」徒歩12分
 - Land Area: 125.93 sqm
 - Listing summary: ◆吉祥寺駅１２分 ◆敷地３８坪◆建物１００m 2 超 ◆３SLDK+DEN+P ◆リビング２２帖+吹抜+床暖房２面 ◆浴室ミストサウナ付 ◆東公道◆日照・通風良好
-- Notes: exact target station match: 吉祥寺; size clears ideal threshold at 100.16 sqm; layout: 3LDK+2S（納戸）; price is within budget at 12800万円; walk time meets target at 12 min; built in 2016; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好; ceiling/window-height positives: 吹抜け; listing age: 0 days
+- Notes: exact target station match: 吉祥寺; size clears ideal threshold at 100.16 sqm; layout: 3LDK+2S（納戸）; price is within budget at 12800万円; walk time meets target at 12 min; built in 2016; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好; ceiling/window-height positives: 吹抜け; listing age: 1 days
 
 ## 2. 梅丘３（梅ヶ丘駅） 1億2480万円
 
@@ -54,7 +54,7 @@ Generated at: 2026-04-14T16:32:07.558211+09:00
 - Access: ＪＲ総武線「中野」徒歩10分
 - Land Area: 81.04 sqm
 - Listing summary: 中野駅徒歩10分、新中野駅徒歩5分の好立地戸建 ２沿線以上利用可、南向き、ＬＤＫ１５畳以上、トイレ２ヶ所、ルーフバルコニー、市街地が近い、スーパー 徒歩10分以内、システムキッチン、浴室乾燥機、全居室収納、閑静な住宅地、シャワー付洗面化粧台、２階建、南面バルコニー、温水洗浄便座、３階建以上、都市ガス、小学校 徒歩10分以内、食器洗乾燥機、バルコニー・屋上に水栓あり 1億1680万円、3LDK+S（納戸）、土地面積81.04m 2 、建物面積101.18m 2 現地（2026年2月）撮影 現地からの眺望
-- Notes: exact target station match: 中野; size clears ideal threshold at 101.18 sqm; layout: 3LDK+S（納戸）; price is within budget at 11680万円; walk time meets target at 10 min; built in 2015; dishwasher mentioned in listing; brightness/window positives: 南向き; listing age: 1 days
+- Notes: exact target station match: 中野; size clears ideal threshold at 101.18 sqm; layout: 3LDK+S（納戸）; price is within budget at 11680万円; walk time meets target at 10 min; built in 2015; dishwasher mentioned in listing; brightness/window positives: 南向き; listing age: 2 days
 
 ## 4. 代田２（世田谷代田駅） 1億3590万円
 
@@ -72,7 +72,7 @@ Generated at: 2026-04-14T16:32:07.558211+09:00
 - Access: 小田急線「下北沢」徒歩9分
 - Land Area: 67.11 sqm
 - Listing summary: ☆世田谷代田駅4分×下北沢駅9分　2002年3月築・新規リフォーム☆ ■交通　：小田急小田原線「世田谷代田」駅徒歩4分 小田急小田原線・京王井の頭線「下北沢」駅　徒歩9分 ■土地面積　： 67.11m2（約20.30坪） ■建物面積　： 88.69m2（約26.82坪） ■間取り　　： 3LDK+駐車場1台　※車種による ■建築年月　： 2002年(平成14年)3月 ■2階洋室にはトップライト
-- Notes: exact target station match: 下北沢; size clears ideal threshold at 88.69 sqm; layout: 3LDK; price is within budget at 13590万円; walk time meets target at 9 min; built in 2002; dishwasher mentioned in listing; listing age: 1 days
+- Notes: exact target station match: 下北沢; size clears ideal threshold at 88.69 sqm; layout: 3LDK; price is within budget at 13590万円; walk time meets target at 9 min; built in 2002; dishwasher mentioned in listing; listing age: 2 days
 
 ## 5. 中央４（新中野駅） 1億4480万円
 
@@ -108,7 +108,7 @@ Generated at: 2026-04-14T16:32:07.558211+09:00
 - Access: 東京メトロ千代田線「代々木上原」徒歩12分
 - Land Area: 65.91 sqm
 - Listing summary: 2 所有権 2 陽当良好 ■土地６５．９１m 2 西公道４ｍ　床暖房　食洗器 ■笹塚駅８分　東北沢駅８分　代々木上原駅１２分
-- Notes: exact target station match: 代々木上原; size clears ideal threshold at 74.84 sqm; layout: 3LDK; price is within budget at 10800万円; walk time meets target at 12 min; built in 2024; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 眺望良好, 通風良好; listing age: 1 days
+- Notes: exact target station match: 代々木上原; size clears ideal threshold at 74.84 sqm; layout: 3LDK; price is within budget at 10800万円; walk time meets target at 12 min; built in 2024; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 眺望良好, 通風良好; listing age: 2 days
 
 ## 7. 代田３（梅ヶ丘駅） 1億3800万円
 
@@ -126,7 +126,7 @@ Generated at: 2026-04-14T16:32:07.558211+09:00
 - Access: 小田急線「梅ヶ丘」徒歩7分
 - Land Area: 81.96 sqm
 - Listing summary: 4LDK×2面バルコニー 【代田3丁目中古戸建】 おすすめポイント 〇LDK約22帖と解放的な間取り 〇4LDKで各居室6帖以上 〇2面バルコニーで開放感良好 〇カースペース有※車種制限有 〇前面広々公道
-- Notes: exact target station match: 梅ヶ丘; size clears ideal threshold at 128.97 sqm; layout: 4LDK; price is within budget at 13800万円; walk time meets target at 7 min; built in 2000; dishwasher not explicitly confirmed; brightness/window positives: 南西向き, 陽当り良好, 日当たり良好, 採光; listing age: 0 days
+- Notes: exact target station match: 梅ヶ丘; size clears ideal threshold at 128.97 sqm; layout: 4LDK; price is within budget at 13800万円; walk time meets target at 7 min; built in 2000; dishwasher not explicitly confirmed; brightness/window positives: 南西向き, 陽当り良好, 日当たり良好, 採光; listing age: 1 days
 
 ## 8. 現地見学可能【太子堂2】都心の賑わいからわずか2駅。…
 
@@ -144,7 +144,7 @@ Generated at: 2026-04-14T16:32:07.558211+09:00
 - Access: 東急田園都市線「三軒茶屋」徒歩5分
 - Land Area: 68.82 sqm
 - Listing summary: 【現地見学可能】 ◆三軒茶屋駅５分 ◆商業施設充実 ◆小・中学校至近 ◆お気軽にお問い合わせください♪ ◆東急田園都市線三軒茶屋駅５分 ◆三宿小学校５分◆三宿中学校８分 □□□□　NOT　OLD，BE　CLASSIC.　□□□□
-- Notes: exact target station match: 三軒茶屋; size clears ideal threshold at 115.27 sqm; layout: 3LDK; price is within budget at 11980万円; walk time meets target at 5 min; built in 2013; dishwasher not explicitly confirmed; listing age: 0 days
+- Notes: exact target station match: 三軒茶屋; size clears ideal threshold at 115.27 sqm; layout: 3LDK; price is within budget at 11980万円; walk time meets target at 5 min; built in 2013; dishwasher not explicitly confirmed; listing age: 1 days
 
 ## 9. 新井２（中野駅） 1億3000万円
 

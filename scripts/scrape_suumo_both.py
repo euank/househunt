@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 import re
 import sqlite3
 import time
@@ -1003,7 +1004,89 @@ def render_json(candidates: list[dict], path: Path) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def run_pipeline(session: requests.Session, conn: sqlite3.Connection, output_dir: Path, config: PropertyConfig) -> tuple[int, int]:
+def render_site_metadata(
+    path: Path,
+    *,
+    generated_at: str,
+    current_run_date: str,
+    mansion_count: int,
+    house_count: int,
+    archives: list[str],
+    is_latest: bool,
+) -> None:
+    payload = {
+        "generated_at": generated_at,
+        "current_run_date": current_run_date,
+        "mansion_count": mansion_count,
+        "house_count": house_count,
+        "archives": archives,
+        "is_latest": is_latest,
+    }
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def list_archive_dates(docs_root: Path) -> list[str]:
+    dates: list[str] = []
+    if not docs_root.exists():
+        return dates
+    for child in docs_root.iterdir():
+        if child.is_dir() and re.fullmatch(r"\d{4}-\d{2}-\d{2}", child.name):
+            dates.append(child.name)
+    return sorted(dates, reverse=True)
+
+
+def copy_site_shell(docs_root: Path, archive_dir: Path) -> None:
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(docs_root / "index.html", archive_dir / "index.html")
+    shutil.copytree(docs_root / "assets", archive_dir / "assets", dirs_exist_ok=True)
+
+
+def publish_docs(
+    mansion_shortlist: list[dict],
+    house_shortlist: list[dict],
+    *,
+    mansion_count: int,
+    house_count: int,
+) -> None:
+    docs_root = Path("docs")
+    latest_data_dir = docs_root / "data"
+    latest_data_dir.mkdir(parents=True, exist_ok=True)
+
+    run_date = today_local().isoformat()
+    archive_dir = docs_root / run_date
+    archive_data_dir = archive_dir / "data"
+    archive_data_dir.mkdir(parents=True, exist_ok=True)
+    copy_site_shell(docs_root, archive_dir)
+
+    generated_at = datetime.now().astimezone().isoformat()
+
+    render_json(mansion_shortlist, latest_data_dir / "mansions.json")
+    render_json(house_shortlist, latest_data_dir / "houses.json")
+    render_json(mansion_shortlist, archive_data_dir / "mansions.json")
+    render_json(house_shortlist, archive_data_dir / "houses.json")
+
+    archives = list_archive_dates(docs_root)
+    render_site_metadata(
+        latest_data_dir / "site.json",
+        generated_at=generated_at,
+        current_run_date=run_date,
+        mansion_count=mansion_count,
+        house_count=house_count,
+        archives=archives,
+        is_latest=True,
+    )
+    render_site_metadata(
+        archive_data_dir / "site.json",
+        generated_at=generated_at,
+        current_run_date=run_date,
+        mansion_count=mansion_count,
+        house_count=house_count,
+        archives=archives,
+        is_latest=False,
+    )
+
+
+def run_pipeline(session: requests.Session, conn: sqlite3.Connection, output_dir: Path, config: PropertyConfig) -> tuple[int, int, list[dict]]:
     listings = collect_listings(session, config)
     enrich_details(session, listings, config)
     for record in listings.values():
@@ -1027,7 +1110,7 @@ def run_pipeline(session: requests.Session, conn: sqlite3.Connection, output_dir
             shortlist.append(record)
     render_report(shortlist, output_dir / config.output_md, config)
     render_json(shortlist, output_dir / config.output_json)
-    return len(listings), len(candidates)
+    return len(listings), len(candidates), shortlist
 
 
 def main() -> int:
@@ -1035,8 +1118,14 @@ def main() -> int:
     db_path = data_dir / "suumo_listings.sqlite3"
     session = build_session()
     conn = connect_db(db_path)
-    mansion_count, mansion_candidates = run_pipeline(session, conn, output_dir, MANSION)
-    house_count, house_candidates = run_pipeline(session, conn, output_dir, HOUSE)
+    mansion_count, mansion_candidates, mansion_shortlist = run_pipeline(session, conn, output_dir, MANSION)
+    house_count, house_candidates, house_shortlist = run_pipeline(session, conn, output_dir, HOUSE)
+    publish_docs(
+        mansion_shortlist,
+        house_shortlist,
+        mansion_count=mansion_count,
+        house_count=house_count,
+    )
     print(f"scraped {mansion_count} unique mansion listings")
     print(f"ranked {mansion_candidates} positive-score mansion candidates")
     print(f"scraped {house_count} unique house listings")
