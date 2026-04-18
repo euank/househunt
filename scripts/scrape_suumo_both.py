@@ -414,6 +414,7 @@ def strict_match(record: dict, config: PropertyConfig) -> bool:
         and year >= 2000
         and rooms >= 2
         and ("LDK" in layout or "SLDK" in layout or "+S" in layout)
+        and has_freehold_land_rights(record, config)
     )
 
 
@@ -567,6 +568,30 @@ def keyword_score(record: dict) -> float:
     return dishwasher + bright + ceiling
 
 
+def house_land_rights_text(record: dict) -> str:
+    overview = record.get("overview", {})
+    fields = [
+        overview.get("土地権利", ""),
+        overview.get("土地権利・借地権", ""),
+        overview.get("借地期間・地代", ""),
+        record.get("detail_summary", ""),
+        record.get("title", ""),
+    ]
+    return " ".join(field for field in fields if field)
+
+
+def has_freehold_land_rights(record: dict, config: PropertyConfig) -> bool:
+    if config.kind != "house":
+        return True
+    text = house_land_rights_text(record)
+    if not text:
+        return True
+    if "所有権" in text:
+        return True
+    blocked_terms = ["借地権", "旧法借地権", "新法借地権", "定期借地権", "地上権", "賃借権"]
+    return not any(term in text for term in blocked_terms)
+
+
 def build_notes(record: dict, config: PropertyConfig) -> list[str]:
     notes: list[str] = []
     exact, nearby = station_groups(record)
@@ -602,6 +627,14 @@ def build_notes(record: dict, config: PropertyConfig) -> list[str]:
             notes.append(f"built in {year}")
         else:
             notes.append(f"older build year: {year}")
+    if config.kind == "house":
+        land_rights = house_land_rights_text(record)
+        if land_rights:
+            if has_freehold_land_rights(record, config):
+                if "所有権" in land_rights:
+                    notes.append("land rights: freehold / 所有権")
+            else:
+                notes.append("land rights are not freehold")
     if record.get("dishwasher_hits"):
         notes.append("dishwasher mentioned in listing")
     else:
@@ -677,6 +710,10 @@ def freshness_score(record: dict) -> float:
 
 
 def score_listing(record: dict, config: PropertyConfig) -> float:
+    if not has_freehold_land_rights(record, config):
+        record["criteria_notes"] = build_notes(record, config)
+        record["score"] = -999.0
+        return record["score"]
     score = 0.0
     score += station_score(record)
     score += area_score(record.get("area_sqm"))
