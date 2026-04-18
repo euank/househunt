@@ -523,31 +523,32 @@ def layout_score(layout: str) -> float:
 def walk_score(walk_min: int | None, config: PropertyConfig) -> float:
     if walk_min is None:
         return -4
-    if walk_min <= 3:
-        return 20
-    if walk_min <= 5:
-        return 17
-    if walk_min <= 7:
-        return 14
-    if walk_min <= config.walk_target:
-        return 10
-    if walk_min <= config.detail_prefilter_walk:
-        return 2
-    return -10
+    ideal_walk = 3.0
+    max_walk = float(config.detail_prefilter_walk)
+    if walk_min <= ideal_walk:
+        return 20.0
+    if walk_min <= max_walk:
+        span = max_walk - ideal_walk
+        progress = (walk_min - ideal_walk) / span if span else 1.0
+        # Convex decay: a 1-minute increase near the station hurts more.
+        return round(20.0 - 18.0 * (progress ** 0.85), 2)
+    overage = walk_min - max_walk
+    return round(max(-10.0, 2.0 - 2.5 * overage), 2)
 
 
 def year_score(year: int | None) -> float:
     if not year:
         return -4
-    if year >= 2015:
-        return 13
-    if year >= 2005:
-        return 11
-    if year >= 2000:
-        return 9
-    if year >= 1995:
-        return 2
-    return -8
+    age = max(0, today_local().year - year)
+    if age <= 10:
+        # Gentle decay for recent buildings.
+        return round(13.0 - 0.2 * age, 2)
+    if age <= 26:
+        # Drop from ~11 at age 10 toward ~2 by age 26.
+        progress = (age - 10) / 16.0
+        return round(11.0 - 9.0 * (progress ** 1.15), 2)
+    overage = age - 26
+    return round(max(-8.0, 2.0 - 0.65 * overage), 2)
 
 
 def station_score(record: dict) -> float:
