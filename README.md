@@ -43,17 +43,3 @@ The site reads static JSON from:
 Archived runs are also published under dated paths, for example:
 
 - `docs/2026-04-15/index.html`
-
-## Publishing safety
-
-This repo is intended to publish only:
-
-- public SUUMO listing data already shown on the site
-- derived shortlist JSON/Markdown
-- the SQLite snapshot used to build the reports
-
-It should not publish:
-
-- `.codex/`
-- `.playwright-cli/`
-- SQLite transient files such as `*.sqlite3-wal` and `*.sqlite3-shm`
