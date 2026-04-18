@@ -39,9 +39,48 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 2 days"
+      "listing age: 1 days"
     ],
     "score": 100.34
+  },
+  {
+    "listing_id": "20589563",
+    "property_name": "",
+    "title": "中野駅徒歩10分、新中野駅徒歩5分の好立地戸建",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20589563/",
+    "price_man": 11680.0,
+    "area_sqm": 101.18,
+    "land_area_sqm": 81.04,
+    "layout": "3LDK+S（納戸）",
+    "walk_min": 10,
+    "built_year": 2015,
+    "address": "東京都中野区中央４",
+    "access_text": "ＪＲ総武線「中野」徒歩10分",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "南向き"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "中野駅徒歩10分、新中野駅徒歩5分の好立地戸建 ２沿線以上利用可、南向き、ＬＤＫ１５畳以上、トイレ２ヶ所、ルーフバルコニー、市街地が近い、スーパー 徒歩10分以内、システムキッチン、浴室乾燥機、全居室収納、閑静な住宅地、シャワー付洗面化粧台、２階建、南面バルコニー、温水洗浄便座、３階建以上、都市ガス、小学校 徒歩10分以内、食器洗乾燥機、バルコニー・屋上に水栓あり 1億1680万円、3LDK+S（納戸）、土地面積81.04m 2 、建物面積101.18m 2 現地（2026年2月）撮影 現地からの眺望",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "size clears ideal threshold at 101.18 sqm",
+      "layout: 3LDK+S（納戸）",
+      "price is within budget at 11680万円",
+      "walk time meets target at 10 min",
+      "built in 2015",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き",
+      "listing age: 1 days"
+    ],
+    "score": 86.15
   },
   {
     "listing_id": "78866685",
@@ -80,48 +119,9 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好, 通風良好",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 2 days"
+      "listing age: 1 days"
     ],
     "score": 85.53
-  },
-  {
-    "listing_id": "20589563",
-    "property_name": "",
-    "title": "中野駅徒歩10分、新中野駅徒歩5分の好立地戸建",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20589563/",
-    "price_man": 11680.0,
-    "area_sqm": 101.18,
-    "land_area_sqm": 81.04,
-    "layout": "3LDK+S（納戸）",
-    "walk_min": 10,
-    "built_year": 2015,
-    "address": "東京都中野区中央４",
-    "access_text": "ＪＲ総武線「中野」徒歩10分",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "南向き"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "中野駅徒歩10分、新中野駅徒歩5分の好立地戸建 ２沿線以上利用可、南向き、ＬＤＫ１５畳以上、トイレ２ヶ所、ルーフバルコニー、市街地が近い、スーパー 徒歩10分以内、システムキッチン、浴室乾燥機、全居室収納、閑静な住宅地、シャワー付洗面化粧台、２階建、南面バルコニー、温水洗浄便座、３階建以上、都市ガス、小学校 徒歩10分以内、食器洗乾燥機、バルコニー・屋上に水栓あり 1億1680万円、3LDK+S（納戸）、土地面積81.04m 2 、建物面積101.18m 2 現地（2026年2月）撮影 現地からの眺望",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "size clears ideal threshold at 101.18 sqm",
-      "layout: 3LDK+S（納戸）",
-      "price is within budget at 11680万円",
-      "walk time meets target at 10 min",
-      "built in 2015",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き",
-      "listing age: 6 days"
-    ],
-    "score": 85.15
   },
   {
     "listing_id": "20417719",
@@ -155,7 +155,7 @@
       "walk time meets target at 9 min",
       "built in 2002",
       "dishwasher mentioned in listing",
-      "listing age: 2 days"
+      "listing age: 1 days"
     ],
     "score": 82.84
   },
@@ -197,9 +197,10 @@
       "price is within budget at 10800万円",
       "walk time meets target at 12 min",
       "built in 2024",
+      "land rights: freehold / 所有権",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 2 days"
+      "listing age: 1 days"
     ],
     "score": 82.63
   },
@@ -278,7 +279,7 @@
       "walk time meets target at 4 min",
       "built in 2024",
       "dishwasher not explicitly confirmed",
-      "listing age: 2 days"
+      "listing age: 1 days"
     ],
     "score": 78.83
   },
@@ -343,7 +344,7 @@
     ],
     "ceiling_hits": [],
     "feature_tags": [
-      "144.65平米",
+      "126.74平米",
       "2LDK＋2S",
       "65.45平米",
       "・土地面積",
@@ -360,7 +361,7 @@
       "built in 2001",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
-      "listing age: 2 days"
+      "listing age: 1 days"
     ],
     "score": 70.41
   },
