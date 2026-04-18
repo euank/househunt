@@ -39,9 +39,51 @@
       "built in 2014",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
+      "listing age: 6 days"
+    ],
+    "score": 90.0
+  },
+  {
+    "listing_id": "78836548",
+    "property_name": "マストレジデンス世田谷代田",
+    "title": "3階部分、南向き！陽当り・通風良好です◎生活に便利な住環境♪",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_setagaya/nc_78836548/",
+    "price_man": 11180.0,
+    "area_sqm": 67.93,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 7,
+    "built_year": 2016,
+    "address": "東京都世田谷区代田３",
+    "access_text": "小田急線「梅ヶ丘」徒歩7分",
+    "exact_station_hits": [
+      "梅ヶ丘"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "陽当り良好",
+      "採光",
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "3階部分、南向き！ 陽当り・通風良好です◎ 生活に便利な住環境♪ ◇LDに床暖房 ◇全居室収納 ◇インナーバルコニー設計 ◇24時間ゴミ捨て可 ◇宅配ボックス",
+    "criteria_notes": [
+      "exact target station match: 梅ヶ丘",
+      "size clears hard threshold at 67.93 sqm",
+      "layout: 3LDK",
+      "price is within budget at 11180万円",
+      "walk time meets target at 7 min",
+      "built in 2016",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
       "listing age: 2 days"
     ],
-    "score": 94.57
+    "score": 88.77
   },
   {
     "listing_id": "78929865",
@@ -83,56 +125,14 @@
       "built in 2001",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 日当たり良好, 眺望良好, 通風良好",
-      "listing age: 2 days"
-    ],
-    "score": 94.3
-  },
-  {
-    "listing_id": "78836548",
-    "property_name": "マストレジデンス世田谷代田",
-    "title": "3階部分、南向き！陽当り・通風良好です◎生活に便利な住環境♪",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_setagaya/nc_78836548/",
-    "price_man": 11180.0,
-    "area_sqm": 67.93,
-    "land_area_sqm": null,
-    "layout": "3LDK",
-    "walk_min": 7,
-    "built_year": 2016,
-    "address": "東京都世田谷区代田３",
-    "access_text": "小田急線「梅ヶ丘」徒歩7分",
-    "exact_station_hits": [
-      "梅ヶ丘"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "採光",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "3階部分、南向き！ 陽当り・通風良好です◎ 生活に便利な住環境♪ ◇LDに床暖房 ◇全居室収納 ◇インナーバルコニー設計 ◇24時間ゴミ捨て可 ◇宅配ボックス",
-    "criteria_notes": [
-      "exact target station match: 梅ヶ丘",
-      "size clears hard threshold at 67.93 sqm",
-      "layout: 3LDK",
-      "price is within budget at 11180万円",
-      "walk time meets target at 7 min",
-      "built in 2016",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
       "listing age: 1 days"
     ],
-    "score": 93.8
+    "score": 86.87
   },
   {
     "listing_id": "79183554",
     "property_name": "オープンレジデンシア吉祥寺本町",
-    "title": "■「吉祥寺」駅徒歩8分　■2022年6月築",
+    "title": "吉祥寺本町２（吉祥寺駅） 1億480万円",
     "url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_79183554/",
     "price_man": 10480.0,
     "area_sqm": 70.74,
@@ -164,9 +164,9 @@
       "built in 2022",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 2 days"
+      "listing age: 1 days"
     ],
-    "score": 87.3
+    "score": 85.58
   },
   {
     "listing_id": "79226646",
@@ -205,53 +205,9 @@
       "built in 2011",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
-      "listing age: 1 days"
+      "listing age: 2 days"
     ],
-    "score": 81.34
-  },
-  {
-    "listing_id": "20258656",
-    "property_name": "オープンレジデンス中野桃園町　Ｓ棟",
-    "title": "中野３（中野駅） 1億980万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20258656/",
-    "price_man": 10980.0,
-    "area_sqm": 72.68,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 7,
-    "built_year": 2010,
-    "address": "東京都中野区中野３",
-    "access_text": "ＪＲ中央線「中野」徒歩7分",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "眺望良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ 南向きLDKは広々約19.4帖 閑静な住宅街に位置 －物件のおすすめポイント－ ▼立地 ・JR中央本線・中央・総武緩行線・東京メトロ東西線 「中野」駅　徒歩7分 ・東京メトロ丸ノ内線「新中野」駅　徒歩13分",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "size clears ideal threshold at 72.68 sqm",
-      "layout: 2LDK",
-      "price is within budget at 10980万円",
-      "walk time meets target at 7 min",
-      "built in 2010",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
-      "basement / semi-basement indicators present",
-      "listing age: 1 days"
-    ],
-    "score": 78.23
+    "score": 76.23
   },
   {
     "listing_id": "78779520",
@@ -301,7 +257,51 @@
       "basement / semi-basement indicators present",
       "listing age: 2 days"
     ],
-    "score": 76.51
+    "score": 74.13
+  },
+  {
+    "listing_id": "20258656",
+    "property_name": "オープンレジデンス中野桃園町　Ｓ棟",
+    "title": "中野３（中野駅） 1億980万円",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20258656/",
+    "price_man": 10980.0,
+    "area_sqm": 72.68,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 7,
+    "built_year": 2010,
+    "address": "東京都中野区中野３",
+    "access_text": "ＪＲ中央線「中野」徒歩7分",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機",
+      "食洗機"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "陽当り良好",
+      "眺望良好",
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "■三井のリハウス■ 南向きLDKは広々約19.4帖 閑静な住宅街に位置 －物件のおすすめポイント－ ▼立地 ・JR中央本線・中央・総武緩行線・東京メトロ東西線 「中野」駅　徒歩7分 ・東京メトロ丸ノ内線「新中野」駅　徒歩13分",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "size clears ideal threshold at 72.68 sqm",
+      "layout: 2LDK",
+      "price is within budget at 10980万円",
+      "walk time meets target at 7 min",
+      "built in 2010",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
+      "basement / semi-basement indicators present",
+      "listing age: 2 days"
+    ],
+    "score": 72.29
   },
   {
     "listing_id": "20141592",
@@ -342,54 +342,9 @@
       "older build year: 1999",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 採光",
-      "listing age: 5 days"
-    ],
-    "score": 83.0
-  },
-  {
-    "listing_id": "20636379",
-    "property_name": "ファインスクェア吉祥寺ザ・プレミアム",
-    "title": "御殿山１（吉祥寺駅） 1億7500万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20636379/",
-    "price_man": 17500.0,
-    "area_sqm": 70.17,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 5,
-    "built_year": 2013,
-    "address": "東京都武蔵野市御殿山１",
-    "access_text": "ＪＲ中央線「吉祥寺」徒歩5分",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食器洗浄乾燥機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "南東向き",
-      "陽当り良好",
-      "日当たり良好",
-      "眺望良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス吉祥寺センター■ 四季折々が楽しめる井の頭公園ビュー ■　アクセス ○JR中央線・JR中央総武線・京王井の頭線 「吉祥寺」駅　徒歩5分 ○3沿線利用可能で通勤通学に便利 ■　おすすめポイント ○「吉祥寺」駅徒歩5分、御殿山アドレス",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "size clears ideal threshold at 70.17 sqm",
-      "layout: 2LDK",
-      "price is outside target budget at 17500万円",
-      "walk time meets target at 5 min",
-      "built in 2013",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 南東向き, 陽当り良好, 日当たり良好",
       "listing age: 1 days"
     ],
-    "score": 83.0
+    "score": 81.34
   },
   {
     "listing_id": "20427979",
@@ -429,8 +384,52 @@
       "built in 2017",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 角住戸",
-      "listing age: 2 days"
+      "listing age: 6 days"
     ],
-    "score": 81.73
+    "score": 78.93
+  },
+  {
+    "listing_id": "20315547",
+    "property_name": "オープンレジデンシア中野新井テラス",
+    "title": "再開発で注目の中野駅徒歩12分♪ペット飼育可！築浅のため、室内大変綺麗です。",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20315547/",
+    "price_man": 12080.0,
+    "area_sqm": 68.61,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 12,
+    "built_year": 2023,
+    "address": "東京都中野区新井１",
+    "access_text": "ＪＲ中央線「中野」徒歩12分",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "南向き"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "https:",
+      "lifeplan",
+      "loan",
+      "www.ad-cast.info"
+    ],
+    "detail_summary": "再開発で注目の中野駅徒歩12分♪ペット飼育可！築浅のため、室内大変綺麗です。 ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◆２０２３年築の築浅美麗マンション♪ ◆ホテルライクな内廊下で、セキュリティ面も良好 ◆2駅4路線が使えるマルチアクセス♪ ◆オートロック連動のTVモニター付インターホン♪ ◆宅配ロッカー完備♪ ◆設備充実のスマートな都市型レジデンス♪",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "size clears hard threshold at 68.61 sqm",
+      "layout: 3LDK",
+      "price is within budget at 12080万円",
+      "walk time misses target at 12 min",
+      "built in 2023",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き",
+      "listing age: 20 days"
+    ],
+    "score": 76.77
   }
 ]

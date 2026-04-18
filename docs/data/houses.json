@@ -1,54 +1,5 @@
 [
   {
-    "listing_id": "20533941",
-    "property_name": "",
-    "title": "◆吉祥寺駅１２分◆敷地３８坪◆建物１００㎡超◆３SLDK+DEN+P",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_musashino/nc_20533941/",
-    "price_man": 12800.0,
-    "area_sqm": 100.16,
-    "land_area_sqm": 125.93,
-    "layout": "3LDK+2S（納戸）",
-    "walk_min": 12,
-    "built_year": 2016,
-    "address": "東京都武蔵野市吉祥寺北町１",
-    "access_text": "ＪＲ中央線「吉祥寺」徒歩12分",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "採光",
-      "通風良好"
-    ],
-    "ceiling_hits": [
-      "吹抜け"
-    ],
-    "feature_tags": [
-      "wallmate.co.jp",
-      "～",
-      "～弊社ホームページ～https:"
-    ],
-    "detail_summary": "◆吉祥寺駅１２分 ◆敷地３８坪◆建物１００m 2 超 ◆３SLDK+DEN+P ◆リビング２２帖+吹抜+床暖房２面 ◆浴室ミストサウナ付 ◆東公道◆日照・通風良好",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "size clears ideal threshold at 100.16 sqm",
-      "layout: 3LDK+2S（納戸）",
-      "price is within budget at 12800万円",
-      "walk time meets target at 12 min",
-      "built in 2016",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
-      "ceiling/window-height positives: 吹抜け",
-      "listing age: 1 days"
-    ],
-    "score": 107.73
-  },
-  {
     "listing_id": "78056171",
     "property_name": "",
     "title": "梅丘３（梅ヶ丘駅） 1億2480万円",
@@ -88,9 +39,50 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 1 days"
+      "listing age: 2 days"
     ],
-    "score": 102.29
+    "score": 100.34
+  },
+  {
+    "listing_id": "78866685",
+    "property_name": "",
+    "title": "中央４（新中野駅） 1億3880万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_78866685/",
+    "price_man": 13880.0,
+    "area_sqm": 121.67,
+    "land_area_sqm": 119.5,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 11,
+    "built_year": 2020,
+    "address": "東京都中野区中央４",
+    "access_text": "ＪＲ中央線「中野」徒歩11分",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "陽当り良好",
+      "通風良好"
+    ],
+    "ceiling_hits": [
+      "吹抜け"
+    ],
+    "feature_tags": [],
+    "detail_summary": "■三井のリハウス■ 2SLDK+ワンルームの賃貸併用住宅 収納スペース豊富 －物件のおすすめポイント－ ▼立地 ・東京メトロ丸ノ内線「新中野」駅 徒歩7分 ・桃園川緑道に隣接した静かで開放感ある立地 ▼特徴",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "size clears ideal threshold at 121.67 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 13880万円",
+      "walk time meets target at 11 min",
+      "built in 2020",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 陽当り良好, 通風良好",
+      "ceiling/window-height positives: 吹抜け",
+      "listing age: 2 days"
+    ],
+    "score": 85.53
   },
   {
     "listing_id": "20589563",
@@ -127,9 +119,9 @@
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 2 days"
+      "listing age: 6 days"
     ],
-    "score": 90.78
+    "score": 85.15
   },
   {
     "listing_id": "20417719",
@@ -165,54 +157,13 @@
       "dishwasher mentioned in listing",
       "listing age: 2 days"
     ],
-    "score": 89.31
+    "score": 82.84
   },
   {
-    "listing_id": "78866685",
-    "property_name": "",
-    "title": "中央４（新中野駅） 1億4480万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_78866685/",
-    "price_man": 14480.0,
-    "area_sqm": 121.67,
-    "land_area_sqm": 119.5,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 11,
-    "built_year": 2020,
-    "address": "東京都中野区中央４",
-    "access_text": "ＪＲ中央線「中野」徒歩11分",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "陽当り良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [
-      "吹抜け"
-    ],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ 2SLDK+ワンルームの賃貸併用住宅 収納スペース豊富 －物件のおすすめポイント－ ▼立地 ・東京メトロ丸ノ内線「新中野」駅 徒歩7分 ・桃園川緑道に隣接した静かで開放感ある立地 ▼特徴",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "size clears ideal threshold at 121.67 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 14480万円",
-      "walk time meets target at 11 min",
-      "built in 2020",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 陽当り良好, 通風良好",
-      "ceiling/window-height positives: 吹抜け",
-      "listing age: 1 days"
-    ],
-    "score": 88.75
-  },
-  {
-    "listing_id": "20564712",
+    "listing_id": "20675566",
     "property_name": "",
     "title": "【築１年/空家】３LDK＋車１台　建物７４．８４㎡　所有権",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20564712/",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20675566/",
     "price_man": 10800.0,
     "area_sqm": 74.84,
     "land_area_sqm": 65.91,
@@ -238,7 +189,7 @@
       "【築１年",
       "空家】３LDK＋車１台　建物７４．８４m"
     ],
-    "detail_summary": "2 所有権 2 陽当良好 ■土地６５．９１m 2 西公道４ｍ　床暖房　食洗器 ■笹塚駅８分　東北沢駅８分　代々木上原駅１２分",
+    "detail_summary": "2 所有権 2 陽当良好　弊社専任 ■土地６５．９１m 2 西公道４ｍ　床暖房　食洗器 ■笹塚駅８分　東北沢駅８分　代々木上原駅１２分",
     "criteria_notes": [
       "exact target station match: 代々木上原",
       "size clears ideal threshold at 74.84 sqm",
@@ -250,7 +201,7 @@
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好",
       "listing age: 2 days"
     ],
-    "score": 88.21
+    "score": 82.63
   },
   {
     "listing_id": "79097849",
@@ -292,7 +243,44 @@
       "brightness/window positives: 南西向き, 陽当り良好, 日当たり良好, 採光",
       "listing age: 1 days"
     ],
-    "score": 87.81
+    "score": 79.19
+  },
+  {
+    "listing_id": "20551066",
+    "property_name": "",
+    "title": "元代々木町（代々木八幡駅） 1億4200万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20551066/",
+    "price_man": 14200.0,
+    "area_sqm": 68.13,
+    "land_area_sqm": 44.97,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 4,
+    "built_year": 2024,
+    "address": "東京都渋谷区元代々木町",
+    "access_text": "東京メトロ千代田線「代々木公園」徒歩4分",
+    "exact_station_hits": [
+      "代々木上原",
+      "代々木公園"
+    ],
+    "nearby_station_hits": [
+      "代々木八幡"
+    ],
+    "dishwasher_hits": [],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "渋谷区元代々木町アドレス　３駅２路線利用可能　未入居戸建 ・令和６年５月築 ・車庫あり（車種による） ・３駅２路線利用可能な立地 ・近隣商業地域 【アクセス】 小田急線「代々木八幡」駅まで徒歩３分 東京メトロ千代田線「代々木公園」駅まで徒歩４分",
+    "criteria_notes": [
+      "exact target station match: 代々木上原, 代々木公園",
+      "size clears hard threshold at 68.13 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 14200万円",
+      "walk time meets target at 4 min",
+      "built in 2024",
+      "dishwasher not explicitly confirmed",
+      "listing age: 2 days"
+    ],
+    "score": 78.83
   },
   {
     "listing_id": "20631574",
@@ -330,7 +318,7 @@
       "dishwasher not explicitly confirmed",
       "listing age: 1 days"
     ],
-    "score": 81.09
+    "score": 78.55
   },
   {
     "listing_id": "20650097",
@@ -372,45 +360,56 @@
       "built in 2001",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
-      "listing age: 1 days"
+      "listing age: 2 days"
     ],
-    "score": 80.5
+    "score": 70.41
   },
   {
-    "listing_id": "20551066",
+    "listing_id": "78483844",
     "property_name": "",
-    "title": "元代々木町（代々木八幡駅） 1億4200万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20551066/",
-    "price_man": 14200.0,
-    "area_sqm": 68.13,
-    "land_area_sqm": 44.97,
+    "title": "2012年12月築注文住宅・ルーフバルコニー、天井裏収納付き",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78483844/",
+    "price_man": 15800.0,
+    "area_sqm": 91.57,
+    "land_area_sqm": 46.74,
     "layout": "2LDK+S（納戸）",
-    "walk_min": 4,
-    "built_year": 2024,
-    "address": "東京都渋谷区元代々木町",
-    "access_text": "東京メトロ千代田線「代々木公園」徒歩4分",
+    "walk_min": 11,
+    "built_year": 2012,
+    "address": "東京都渋谷区富ヶ谷２",
+    "access_text": "東京メトロ千代田線「代々木上原」徒歩11分",
     "exact_station_hits": [
-      "代々木上原",
-      "代々木公園"
+      "代々木上原"
     ],
     "nearby_station_hits": [
       "代々木八幡"
     ],
-    "dishwasher_hits": [],
-    "brightness_hits": [],
-    "ceiling_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "眺望良好",
+      "通風良好",
+      "大きな窓"
+    ],
+    "ceiling_hits": [
+      "天井高",
+      "吹抜け"
+    ],
     "feature_tags": [],
-    "detail_summary": "渋谷区元代々木町アドレス　３駅２路線利用可能　未入居戸建 ・令和６年５月築 ・車庫あり（車種による） ・３駅２路線利用可能な立地 ・近隣商業地域 【アクセス】 小田急線「代々木八幡」駅まで徒歩３分 東京メトロ千代田線「代々木公園」駅まで徒歩４分",
+    "detail_summary": "2012年12月築注文住宅・ルーフバルコニー、天井裏収納付き ■南東・北東の角地に佇む注文住宅 ■容積率と高さを最大限に活かして設計されたこだわりの邸宅 ■約15.6帖のLDK、複数の窓から光が入り陽当り・眺望良好 ■キッチンカウンターとダイニングテーブルが一直線に繋がるよう、スキップフロア採用 ■床暖房(LD)、食器洗乾燥機、浴室乾燥機などの設備搭載 ■約10.8帖の洋室は引き戸で仕切ることが可能(工事要) ■車庫1台分有り(車種による制限有)",
     "criteria_notes": [
-      "exact target station match: 代々木上原, 代々木公園",
-      "size clears hard threshold at 68.13 sqm",
+      "exact target station match: 代々木上原",
+      "size clears ideal threshold at 91.57 sqm",
       "layout: 2LDK+S（納戸）",
-      "price is within budget at 14200万円",
-      "walk time meets target at 4 min",
-      "built in 2024",
-      "dishwasher not explicitly confirmed",
+      "price is outside target budget at 15800万円",
+      "walk time meets target at 11 min",
+      "built in 2012",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 大きな窓",
+      "ceiling/window-height positives: 天井高, 吹抜け",
       "listing age: 1 days"
     ],
-    "score": 78.57
+    "score": 87.44
   }
 ]
