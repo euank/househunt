@@ -166,6 +166,8 @@ def connect_db(path: Path) -> sqlite3.Connection:
           dishwasher INTEGER,
           brightness_hits_json TEXT,
           ceiling_hits_json TEXT,
+          identity_key TEXT,
+          first_seen_at TEXT,
           score REAL,
           criteria_notes_json TEXT,
           scraped_at TEXT NOT NULL,
@@ -206,6 +208,8 @@ def connect_db(path: Path) -> sqlite3.Connection:
           dishwasher INTEGER,
           brightness_hits_json TEXT,
           ceiling_hits_json TEXT,
+          identity_key TEXT,
+          first_seen_at TEXT,
           score REAL,
           criteria_notes_json TEXT,
           scraped_at TEXT NOT NULL,
@@ -222,9 +226,41 @@ def connect_db(path: Path) -> sqlite3.Connection:
           scraped_at TEXT NOT NULL,
           PRIMARY KEY (listing_id, station_code)
         );
+
+        CREATE TABLE IF NOT EXISTS listing_identities (
+          identity_key TEXT PRIMARY KEY,
+          property_type TEXT NOT NULL,
+          first_seen_at TEXT NOT NULL,
+          last_seen_at TEXT NOT NULL,
+          latest_listing_id TEXT,
+          latest_url TEXT,
+          address TEXT,
+          built_year INTEGER,
+          area_sqm REAL,
+          land_area_sqm REAL,
+          layout TEXT
+        );
         """
     )
+    ensure_columns(
+        conn,
+        "listings",
+        {"identity_key": "TEXT", "first_seen_at": "TEXT"},
+    )
+    ensure_columns(
+        conn,
+        "house_listings",
+        {"identity_key": "TEXT", "first_seen_at": "TEXT"},
+    )
     return conn
+
+
+def ensure_columns(conn: sqlite3.Connection, table: str, columns: dict[str, str]) -> None:
+    existing = {row["name"] for row in conn.execute(f"PRAGMA table_info({table})")}
+    for name, column_type in columns.items():
+        if name not in existing:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {name} {column_type}")
+    conn.commit()
 
 
 def build_session() -> requests.Session:
@@ -592,6 +628,44 @@ def has_freehold_land_rights(record: dict, config: PropertyConfig) -> bool:
     return not any(term in text for term in blocked_terms)
 
 
+def rounded_metric(value: float | None) -> str:
+    if value is None:
+        return ""
+    return f"{value:.1f}"
+
+
+def identity_fingerprint(record: dict, config: PropertyConfig) -> str:
+    address = normalize_address(record.get("address", ""))
+    name = normalize_name(record.get("property_name") or record.get("title") or "")
+    year = str(record.get("built_year") or "")
+    area = rounded_metric(record.get("area_sqm"))
+    land = rounded_metric(record.get("land_area_sqm")) if config.kind == "house" else ""
+    layout = normalize_layout(record.get("layout") or "")
+    anchor = address or name or record["listing_id"]
+    return "|".join(part for part in [config.kind, anchor, year, area, land, layout] if part)
+
+
+def load_identity_history(conn: sqlite3.Connection, config: PropertyConfig) -> dict[str, str]:
+    rows = conn.execute(
+        """
+        SELECT identity_key, first_seen_at
+        FROM listing_identities
+        WHERE property_type = ?
+        """,
+        (config.kind,),
+    )
+    return {row["identity_key"]: row["first_seen_at"] for row in rows}
+
+
+def attach_identity_history(conn: sqlite3.Connection, listings: dict[str, dict], config: PropertyConfig) -> None:
+    history = load_identity_history(conn, config)
+    run_seen_at = now_iso()
+    for record in listings.values():
+        identity_key = identity_fingerprint(record, config)
+        record["identity_key"] = identity_key
+        record["first_seen_at"] = history.get(identity_key, run_seen_at)
+
+
 def build_notes(record: dict, config: PropertyConfig) -> list[str]:
     notes: list[str] = []
     exact, nearby = station_groups(record)
@@ -649,6 +723,10 @@ def build_notes(record: dict, config: PropertyConfig) -> list[str]:
     if info_date:
         days_old = (today_local() - info_date).days
         notes.append(f"listing age: {days_old} days")
+    first_seen_at = record.get("first_seen_at")
+    if first_seen_at:
+        first_seen_date = datetime.fromisoformat(first_seen_at).date()
+        notes.append(f"first seen: {first_seen_date.isoformat()} ({(today_local() - first_seen_date).days} days ago)")
     return notes
 
 
@@ -693,18 +771,25 @@ def house_story_score(record: dict, config: PropertyConfig) -> float:
 
 def freshness_score(record: dict) -> float:
     info_date = parse_jp_date(record.get("overview", {}).get("情報提供日"))
-    if not info_date:
+    first_seen_at = record.get("first_seen_at")
+    first_seen_date = datetime.fromisoformat(first_seen_at).date() if first_seen_at else None
+    ages = []
+    if info_date:
+        ages.append((today_local() - info_date).days)
+    if first_seen_date:
+        ages.append((today_local() - first_seen_date).days)
+    if not ages:
         return 0.0
-    days_old = (today_local() - info_date).days
-    if days_old <= 3:
+    effective_days_old = max(ages)
+    if effective_days_old <= 3:
         return 2.0
-    if days_old <= 7:
+    if effective_days_old <= 7:
         return 1.0
-    if days_old <= 14:
+    if effective_days_old <= 14:
         return 0.0
-    if days_old <= 30:
+    if effective_days_old <= 30:
         return -0.5
-    if days_old <= 60:
+    if effective_days_old <= 60:
         return -1.0
     return -2.0
 
@@ -734,6 +819,47 @@ def score_listing(record: dict, config: PropertyConfig) -> float:
     return record["score"]
 
 
+def persist_identity_history(conn: sqlite3.Connection, listings: dict[str, dict], config: PropertyConfig) -> None:
+    seen_at = now_iso()
+    for record in listings.values():
+        identity_key = record.get("identity_key")
+        first_seen_at = record.get("first_seen_at")
+        if not identity_key or not first_seen_at:
+            continue
+        conn.execute(
+            """
+            INSERT INTO listing_identities (
+              identity_key, property_type, first_seen_at, last_seen_at,
+              latest_listing_id, latest_url, address, built_year, area_sqm, land_area_sqm, layout
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(identity_key) DO UPDATE SET
+              last_seen_at=excluded.last_seen_at,
+              latest_listing_id=excluded.latest_listing_id,
+              latest_url=excluded.latest_url,
+              address=excluded.address,
+              built_year=excluded.built_year,
+              area_sqm=excluded.area_sqm,
+              land_area_sqm=excluded.land_area_sqm,
+              layout=excluded.layout
+            """,
+            (
+                identity_key,
+                config.kind,
+                first_seen_at,
+                seen_at,
+                record["listing_id"],
+                record.get("url"),
+                record.get("address"),
+                record.get("built_year"),
+                record.get("area_sqm"),
+                record.get("land_area_sqm"),
+                record.get("layout"),
+            ),
+        )
+    conn.commit()
+
+
 def persist_mansions(conn: sqlite3.Connection, listings: dict[str, dict]) -> None:
     scraped_at = now_iso()
     for record in listings.values():
@@ -745,10 +871,10 @@ def persist_mansions(conn: sqlite3.Connection, listings: dict[str, dict]) -> Non
               price_man, area_sqm, layout, balcony_sqm, walk_min, built_year,
               built_text, list_blurb, detail_summary, feature_tags_json, overview_json,
               exact_station_hits_json, nearby_station_hits_json, dishwasher,
-              brightness_hits_json, ceiling_hits_json, score, criteria_notes_json,
+              brightness_hits_json, ceiling_hits_json, identity_key, first_seen_at, score, criteria_notes_json,
               scraped_at, detail_scraped_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(listing_id) DO UPDATE SET
               url=excluded.url,
               title=excluded.title,
@@ -771,6 +897,8 @@ def persist_mansions(conn: sqlite3.Connection, listings: dict[str, dict]) -> Non
               dishwasher=excluded.dishwasher,
               brightness_hits_json=excluded.brightness_hits_json,
               ceiling_hits_json=excluded.ceiling_hits_json,
+              identity_key=excluded.identity_key,
+              first_seen_at=excluded.first_seen_at,
               score=excluded.score,
               criteria_notes_json=excluded.criteria_notes_json,
               scraped_at=excluded.scraped_at,
@@ -799,6 +927,8 @@ def persist_mansions(conn: sqlite3.Connection, listings: dict[str, dict]) -> Non
                 1 if record.get("dishwasher_hits") else 0,
                 json.dumps(record.get("brightness_hits", []), ensure_ascii=False),
                 json.dumps(record.get("ceiling_hits", []), ensure_ascii=False),
+                record.get("identity_key"),
+                record.get("first_seen_at"),
                 record.get("score"),
                 json.dumps(record.get("criteria_notes", []), ensure_ascii=False),
                 scraped_at,
@@ -842,9 +972,9 @@ def persist_houses(conn: sqlite3.Connection, listings: dict[str, dict]) -> None:
               area_sqm, land_area_sqm, layout, walk_min, built_year, built_text, list_blurb,
               detail_summary, feature_tags_json, overview_json, exact_station_hits_json,
               nearby_station_hits_json, dishwasher, brightness_hits_json, ceiling_hits_json,
-              score, criteria_notes_json, scraped_at, detail_scraped_at
+              identity_key, first_seen_at, score, criteria_notes_json, scraped_at, detail_scraped_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(listing_id) DO UPDATE SET
               url=excluded.url,
               title=excluded.title,
@@ -867,6 +997,8 @@ def persist_houses(conn: sqlite3.Connection, listings: dict[str, dict]) -> None:
               dishwasher=excluded.dishwasher,
               brightness_hits_json=excluded.brightness_hits_json,
               ceiling_hits_json=excluded.ceiling_hits_json,
+              identity_key=excluded.identity_key,
+              first_seen_at=excluded.first_seen_at,
               score=excluded.score,
               criteria_notes_json=excluded.criteria_notes_json,
               scraped_at=excluded.scraped_at,
@@ -895,6 +1027,8 @@ def persist_houses(conn: sqlite3.Connection, listings: dict[str, dict]) -> None:
                 1 if record.get("dishwasher_hits") else 0,
                 json.dumps(record.get("brightness_hits", []), ensure_ascii=False),
                 json.dumps(record.get("ceiling_hits", []), ensure_ascii=False),
+                record.get("identity_key"),
+                record.get("first_seen_at"),
                 record.get("score"),
                 json.dumps(record.get("criteria_notes", []), ensure_ascii=False),
                 scraped_at,
@@ -992,6 +1126,7 @@ def render_report(candidates: list[dict], path: Path, config: PropertyConfig) ->
                 f"- Layout: {record.get('layout') or 'n/a'}",
                 f"- Walk: {record.get('walk_min')} min",
                 f"- Built: {record.get('built_year') or 'n/a'}",
+                f"- First Seen: {record.get('first_seen_at') or 'n/a'}",
                 f"- Strict Match: {'yes' if strict_match(record, config) else 'near miss'}",
                 f"- Dishwasher: {'yes' if record.get('dishwasher_hits') else 'not confirmed'}",
                 f"- Address: {record.get('address') or 'n/a'}",
@@ -1026,6 +1161,7 @@ def render_json(candidates: list[dict], path: Path) -> None:
                 "layout": record.get("layout"),
                 "walk_min": record.get("walk_min"),
                 "built_year": record.get("built_year"),
+                "first_seen_at": record.get("first_seen_at"),
                 "address": record.get("address"),
                 "access_text": record.get("access_text"),
                 "exact_station_hits": exact,
@@ -1127,8 +1263,10 @@ def publish_docs(
 def run_pipeline(session: requests.Session, conn: sqlite3.Connection, output_dir: Path, config: PropertyConfig) -> tuple[int, int, list[dict]]:
     listings = collect_listings(session, config)
     enrich_details(session, listings, config)
+    attach_identity_history(conn, listings, config)
     for record in listings.values():
         score_listing(record, config)
+    persist_identity_history(conn, listings, config)
     if config.kind == "mansion":
         persist_mansions(conn, listings)
     else:
