@@ -10,6 +10,7 @@
     "layout": "3LDK",
     "walk_min": 9,
     "built_year": 2020,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都世田谷区梅丘３",
     "access_text": "小田急線「梅ヶ丘」徒歩9分",
     "exact_station_hits": [
@@ -39,7 +40,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 1 days"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (1 days ago)"
     ],
     "score": 100.34
   },
@@ -54,6 +56,7 @@
     "layout": "3LDK+S（納戸）",
     "walk_min": 10,
     "built_year": 2015,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都中野区中央４",
     "access_text": "ＪＲ総武線「中野」徒歩10分",
     "exact_station_hits": [
@@ -78,7 +81,8 @@
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 1 days"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (1 days ago)"
     ],
     "score": 86.15
   },
@@ -93,6 +97,7 @@
     "layout": "2LDK+S（納戸）",
     "walk_min": 11,
     "built_year": 2020,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都中野区中央４",
     "access_text": "ＪＲ中央線「中野」徒歩11分",
     "exact_station_hits": [
@@ -119,7 +124,8 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好, 通風良好",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 1 days"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (1 days ago)"
     ],
     "score": 85.53
   },
@@ -134,6 +140,7 @@
     "layout": "3LDK",
     "walk_min": 9,
     "built_year": 2002,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都世田谷区代田２",
     "access_text": "小田急線「下北沢」徒歩9分",
     "exact_station_hits": [
@@ -155,7 +162,8 @@
       "walk time meets target at 9 min",
       "built in 2002",
       "dishwasher mentioned in listing",
-      "listing age: 1 days"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (1 days ago)"
     ],
     "score": 82.84
   },
@@ -170,6 +178,7 @@
     "layout": "3LDK",
     "walk_min": 12,
     "built_year": 2024,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都世田谷区北沢５",
     "access_text": "東京メトロ千代田線「代々木上原」徒歩12分",
     "exact_station_hits": [
@@ -200,7 +209,8 @@
       "land rights: freehold / 所有権",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 1 days"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (1 days ago)"
     ],
     "score": 82.63
   },
@@ -215,6 +225,7 @@
     "layout": "4LDK",
     "walk_min": 7,
     "built_year": 2000,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都世田谷区代田３",
     "access_text": "小田急線「梅ヶ丘」徒歩7分",
     "exact_station_hits": [
@@ -242,7 +253,8 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南西向き, 陽当り良好, 日当たり良好, 採光",
-      "listing age: 1 days"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (1 days ago)"
     ],
     "score": 79.19
   },
@@ -257,6 +269,7 @@
     "layout": "2LDK+S（納戸）",
     "walk_min": 4,
     "built_year": 2024,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都渋谷区元代々木町",
     "access_text": "東京メトロ千代田線「代々木公園」徒歩4分",
     "exact_station_hits": [
@@ -279,7 +292,8 @@
       "walk time meets target at 4 min",
       "built in 2024",
       "dishwasher not explicitly confirmed",
-      "listing age: 1 days"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (1 days ago)"
     ],
     "score": 78.83
   },
@@ -294,6 +308,7 @@
     "layout": "3LDK",
     "walk_min": 5,
     "built_year": 2013,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都世田谷区太子堂２",
     "access_text": "東急田園都市線「三軒茶屋」徒歩5分",
     "exact_station_hits": [
@@ -317,7 +332,8 @@
       "walk time meets target at 5 min",
       "built in 2013",
       "dishwasher not explicitly confirmed",
-      "listing age: 1 days"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (1 days ago)"
     ],
     "score": 78.55
   },
@@ -332,6 +348,7 @@
     "layout": "2LDK+S（納戸）",
     "walk_min": 11,
     "built_year": 2001,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都中野区新井２",
     "access_text": "ＪＲ中央線「中野」徒歩11分",
     "exact_station_hits": [
@@ -361,7 +378,8 @@
       "built in 2001",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
-      "listing age: 1 days"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (1 days ago)"
     ],
     "score": 70.41
   },
@@ -376,6 +394,7 @@
     "layout": "2LDK+S（納戸）",
     "walk_min": 11,
     "built_year": 2012,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都渋谷区富ヶ谷２",
     "access_text": "東京メトロ千代田線「代々木上原」徒歩11分",
     "exact_station_hits": [
@@ -409,7 +428,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 大きな窓",
       "ceiling/window-height positives: 天井高, 吹抜け",
-      "listing age: 1 days"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (1 days ago)"
     ],
     "score": 87.44
   }
