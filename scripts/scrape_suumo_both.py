@@ -490,6 +490,31 @@ def extract_overview(soup: BeautifulSoup) -> dict[str, str]:
     return overview
 
 
+def extract_preview_image_url(soup: BeautifulSoup) -> str:
+    for node in soup.select("img.js-scrollLazy-image[rel], input[id$='orgn'][value]"):
+        value = (node.get("rel") or node.get("value") or "").strip()
+        if not value:
+            continue
+        value = value.split(",", 1)[0].strip()
+        if "img01.suumo.com" in value:
+            return value
+    selectors = [
+        ('meta[property="og:image"]', "content"),
+        ('meta[name="twitter:image"]', "content"),
+        ("img[src]", "src"),
+    ]
+    for selector, attr in selectors:
+        for node in soup.select(selector):
+            value = (node.get(attr) or "").strip()
+            if not value or value.startswith("data:"):
+                continue
+            resolved = urljoin(BASE_URL, value)
+            if "/edit/assets/" in resolved or "/jj/jjcommon/" in resolved:
+                continue
+            return resolved
+    return ""
+
+
 def enrich_details(session: requests.Session, listings: dict[str, dict], config: PropertyConfig) -> None:
     for record in listings.values():
         if not listing_prefilter(record, config):
@@ -501,6 +526,7 @@ def enrich_details(session: requests.Session, listings: dict[str, dict], config:
         record["detail_summary"] = summary
         record["feature_tags"] = tags
         record["overview"] = overview
+        record["preview_image_url"] = extract_preview_image_url(soup)
         record["dishwasher_hits"] = [kw for kw in DISHWASHER_KEYWORDS if kw in page_text]
         record["brightness_hits"] = [kw for kw in BRIGHTNESS_KEYWORDS if kw in page_text]
         record["ceiling_hits"] = [kw for kw in CEILING_WINDOW_KEYWORDS if kw in page_text]
@@ -1172,6 +1198,7 @@ def render_json(candidates: list[dict], path: Path) -> None:
                 "ceiling_hits": record.get("ceiling_hits", []),
                 "feature_tags": record.get("feature_tags", []),
                 "detail_summary": record.get("detail_summary"),
+                "preview_image_url": record.get("preview_image_url"),
                 "criteria_notes": record.get("criteria_notes", []),
                 "score": record.get("score"),
             }
