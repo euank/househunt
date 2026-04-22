@@ -63,40 +63,43 @@
           <div class="section-header">
             <div>
               <p class="section-kicker">Top 15</p>
-              <h2>Used Mansions</h2>
+              <h2 id="list-heading">Used Mansions</h2>
+            </div>
+            <div class="tab-bar" role="tablist" aria-label="Property type">
+              <button class="tab-button is-active" type="button" role="tab" aria-selected="true" data-kind="mansion">
+                Mansions
+              </button>
+              <button class="tab-button" type="button" role="tab" aria-selected="false" data-kind="house">
+                Houses
+              </button>
             </div>
           </div>
-          <div id="mansion-list" class="card-list"></div>
-        </section>
-
-        <section class="list-section">
-          <div class="section-header">
-            <div>
-              <p class="section-kicker">Top 15</p>
-              <h2>Used Houses</h2>
-            </div>
-          </div>
-          <div id="house-list" class="card-list"></div>
+          <div id="active-list" class="card-list" aria-live="polite"></div>
         </section>
       </main>
     </div>
 
     <template id="listing-template">
       <article class="listing-card">
-        <div class="card-topline">
-          <span class="rank-badge"></span>
-          <span class="strict-badge"></span>
+        <div class="card-media">
+          <img class="listing-image" alt="" loading="lazy" />
         </div>
-        <h3 class="listing-title"></h3>
-        <p class="listing-subtitle"></p>
-        <div class="stats-grid"></div>
-        <p class="summary"></p>
-        <div class="tag-row"></div>
-        <details class="notes-block">
-          <summary>Criteria Notes</summary>
-          <ul class="notes-list"></ul>
-        </details>
-        <a class="listing-link" target="_blank" rel="noreferrer">Open SUUMO Listing</a>
+        <div class="card-body">
+          <div class="card-topline">
+            <span class="rank-badge"></span>
+            <span class="strict-badge"></span>
+          </div>
+          <h3 class="listing-title"></h3>
+          <p class="listing-subtitle"></p>
+          <p class="summary"></p>
+          <div class="stats-grid"></div>
+          <div class="tag-row"></div>
+          <details class="notes-block">
+            <summary>Criteria Notes</summary>
+            <ul class="notes-list"></ul>
+          </details>
+          <a class="listing-link" target="_blank" rel="noreferrer">Open SUUMO Listing</a>
+        </div>
       </article>
     </template>
 

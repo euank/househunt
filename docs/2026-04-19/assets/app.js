@@ -22,6 +22,30 @@ const createStat = (label, value) => {
   return wrap;
 };
 
+const setPreviewImage = (node, record) => {
+  const media = node.querySelector(".card-media");
+  const image = node.querySelector(".listing-image");
+  const title = record.property_name || record.title || "Listing";
+  const src = record.preview_image_url;
+
+  if (!src) {
+    image.remove();
+    return;
+  }
+
+  media.classList.add("has-image");
+  image.src = src;
+  image.alt = `${title} preview`;
+  image.addEventListener(
+    "error",
+    () => {
+      media.classList.remove("has-image");
+      image.remove();
+    },
+    { once: true },
+  );
+};
+
 const renderListing = (record, index) => {
   const node = template.content.firstElementChild.cloneNode(true);
   node.querySelector(".rank-badge").textContent = `#${index + 1}`;
@@ -35,6 +59,8 @@ const renderListing = (record, index) => {
 
   node.querySelector(".listing-title").textContent = record.property_name || record.title || "Untitled listing";
   node.querySelector(".listing-subtitle").textContent = record.address || record.access_text || "No address";
+  node.querySelector(".summary").textContent = record.detail_summary || "No summary available.";
+  setPreviewImage(node, record);
 
   const stats = node.querySelector(".stats-grid");
   stats.append(
@@ -49,8 +75,6 @@ const renderListing = (record, index) => {
   if (record.land_area_sqm != null) {
     stats.append(createStat("Land", `${fmtNumber(record.land_area_sqm)} sqm`));
   }
-
-  node.querySelector(".summary").textContent = record.detail_summary || "No summary available.";
 
   const tags = node.querySelector(".tag-row");
   const pills = [
@@ -77,8 +101,8 @@ const renderListing = (record, index) => {
   return node;
 };
 
-const renderList = (containerId, rows) => {
-  const container = document.getElementById(containerId);
+const renderList = (rows) => {
+  const container = document.getElementById("active-list");
   container.replaceChildren(...rows.map(renderListing));
 };
 
@@ -110,6 +134,32 @@ const renderArchivePicker = (site) => {
   });
 };
 
+const initTabs = (datasets) => {
+  const heading = document.getElementById("list-heading");
+  const tabs = [...document.querySelectorAll(".tab-button")];
+  let activeKind = "mansion";
+
+  const update = () => {
+    for (const tab of tabs) {
+      const isActive = tab.dataset.kind === activeKind;
+      tab.classList.toggle("is-active", isActive);
+      tab.setAttribute("aria-selected", String(isActive));
+    }
+
+    heading.textContent = activeKind === "mansion" ? "Used Mansions" : "Used Houses";
+    renderList(datasets[activeKind]);
+  };
+
+  for (const tab of tabs) {
+    tab.addEventListener("click", () => {
+      activeKind = tab.dataset.kind;
+      update();
+    });
+  }
+
+  update();
+};
+
 const load = async () => {
   const [site, mansions, houses] = await Promise.all([
     fetch("./data/site.json").then((r) => r.json()),
@@ -121,9 +171,7 @@ const load = async () => {
   document.getElementById("mansion-count").textContent = fmtNumber(site.mansion_count);
   document.getElementById("house-count").textContent = fmtNumber(site.house_count);
   renderArchivePicker(site);
-
-  renderList("mansion-list", mansions);
-  renderList("house-list", houses);
+  initTabs({ mansion: mansions, house: houses });
 };
 
 load().catch((error) => {
