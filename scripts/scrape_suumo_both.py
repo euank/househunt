@@ -22,6 +22,7 @@ USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
 )
+SHORTLIST_LIMIT = 15
 
 
 @dataclass(frozen=True)
@@ -73,8 +74,8 @@ MANSION = PropertyConfig(
     size_field="専有面積",
     walk_target=10,
     detail_prefilter_walk=12,
-    output_md="top10_mansions.md",
-    output_json="top10_mansions.json",
+    output_md="top15_mansions.md",
+    output_json="top15_mansions.json",
 )
 HOUSE = PropertyConfig(
     kind="house",
@@ -85,8 +86,8 @@ HOUSE = PropertyConfig(
     size_field="建物面積",
     walk_target=12,
     detail_prefilter_walk=14,
-    output_md="top10_houses.md",
-    output_json="top10_houses.json",
+    output_md="top15_houses.md",
+    output_json="top15_houses.json",
 )
 
 BRIGHTNESS_KEYWORDS = [
@@ -1087,7 +1088,7 @@ def building_key(record: dict) -> str:
     return name or record["listing_id"]
 
 
-def top_candidates(listings: Iterable[dict], limit: int = 10, *, dedupe_building: bool = False) -> list[dict]:
+def top_candidates(listings: Iterable[dict], limit: int = SHORTLIST_LIMIT, *, dedupe_building: bool = False) -> list[dict]:
     ranked = sorted(list(listings), key=lambda record: record.get("score", float("-inf")), reverse=True)
     if not dedupe_building:
         return ranked[:limit]
@@ -1273,13 +1274,13 @@ def run_pipeline(session: requests.Session, conn: sqlite3.Connection, output_dir
         persist_houses(conn, listings)
     candidates = [record for record in listings.values() if record.get("score", -999) > 0]
     strict_candidates = [record for record in candidates if strict_match(record, config)]
-    shortlist = top_candidates(strict_candidates, 10, dedupe_building=True)
-    if len(shortlist) < 10:
+    shortlist = top_candidates(strict_candidates, SHORTLIST_LIMIT, dedupe_building=True)
+    if len(shortlist) < SHORTLIST_LIMIT:
         strict_ids = {record["listing_id"] for record in shortlist}
         fallback_pool = [record for record in candidates if record["listing_id"] not in strict_ids]
-        fallback = top_candidates(fallback_pool, 20, dedupe_building=True)
+        fallback = top_candidates(fallback_pool, SHORTLIST_LIMIT * 2, dedupe_building=True)
         for record in fallback:
-            if len(shortlist) >= 10:
+            if len(shortlist) >= SHORTLIST_LIMIT:
                 break
             if building_key(record) in {building_key(item) for item in shortlist}:
                 continue
