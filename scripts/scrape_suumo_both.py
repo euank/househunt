@@ -11,7 +11,7 @@ from dataclasses import dataclass
 from datetime import datetime, date, timezone
 from pathlib import Path
 from typing import Iterable
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -1206,6 +1206,53 @@ def render_json(candidates: list[dict], path: Path) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def image_extension(content_type: str, url: str) -> str:
+    content_type = content_type.split(";", 1)[0].strip().lower()
+    if content_type == "image/jpeg":
+        return ".jpg"
+    if content_type == "image/png":
+        return ".png"
+    if content_type == "image/webp":
+        return ".webp"
+    parsed = urlparse(url)
+    suffix = Path(parsed.path).suffix.lower()
+    if suffix in {".jpg", ".jpeg", ".png", ".webp"}:
+        return ".jpg" if suffix == ".jpeg" else suffix
+    return ".jpg"
+
+
+def localize_preview_images(
+    session: requests.Session,
+    candidates: list[dict],
+    image_dir: Path,
+    *,
+    url_prefix: str,
+) -> list[dict]:
+    if image_dir.exists():
+        shutil.rmtree(image_dir)
+    image_dir.mkdir(parents=True, exist_ok=True)
+
+    localized: list[dict] = []
+    for record in candidates:
+        payload = dict(record)
+        preview_url = record.get("preview_image_url")
+        if not preview_url:
+            payload["preview_image_url"] = ""
+            localized.append(payload)
+            continue
+        try:
+            response = session.get(preview_url, timeout=30)
+            response.raise_for_status()
+            suffix = image_extension(response.headers.get("content-type", ""), preview_url)
+            image_path = image_dir / f"{record['listing_id']}{suffix}"
+            image_path.write_bytes(response.content)
+            payload["preview_image_url"] = f"{url_prefix}/{image_path.name}"
+        except Exception:  # noqa: BLE001
+            payload["preview_image_url"] = ""
+        localized.append(payload)
+    return localized
+
+
 def render_site_metadata(
     path: Path,
     *,
@@ -1244,6 +1291,7 @@ def copy_site_shell(docs_root: Path, archive_dir: Path) -> None:
 
 
 def publish_docs(
+    session: requests.Session,
     mansion_shortlist: list[dict],
     house_shortlist: list[dict],
     *,
@@ -1262,10 +1310,35 @@ def publish_docs(
 
     generated_at = datetime.now().astimezone().isoformat()
 
-    render_json(mansion_shortlist, latest_data_dir / "mansions.json")
-    render_json(house_shortlist, latest_data_dir / "houses.json")
-    render_json(mansion_shortlist, archive_data_dir / "mansions.json")
-    render_json(house_shortlist, archive_data_dir / "houses.json")
+    latest_mansions = localize_preview_images(
+        session,
+        mansion_shortlist,
+        latest_data_dir / "images" / "mansions",
+        url_prefix="./data/images/mansions",
+    )
+    latest_houses = localize_preview_images(
+        session,
+        house_shortlist,
+        latest_data_dir / "images" / "houses",
+        url_prefix="./data/images/houses",
+    )
+    archive_mansions = localize_preview_images(
+        session,
+        mansion_shortlist,
+        archive_data_dir / "images" / "mansions",
+        url_prefix="./data/images/mansions",
+    )
+    archive_houses = localize_preview_images(
+        session,
+        house_shortlist,
+        archive_data_dir / "images" / "houses",
+        url_prefix="./data/images/houses",
+    )
+
+    render_json(latest_mansions, latest_data_dir / "mansions.json")
+    render_json(latest_houses, latest_data_dir / "houses.json")
+    render_json(archive_mansions, archive_data_dir / "mansions.json")
+    render_json(archive_houses, archive_data_dir / "houses.json")
 
     archives = list_archive_dates(docs_root)
     render_site_metadata(
@@ -1312,8 +1385,14 @@ def run_pipeline(session: requests.Session, conn: sqlite3.Connection, output_dir
             if building_key(record) in {building_key(item) for item in shortlist}:
                 continue
             shortlist.append(record)
-    render_report(shortlist, output_dir / config.output_md, config)
-    render_json(shortlist, output_dir / config.output_json)
+    output_shortlist = localize_preview_images(
+        session,
+        shortlist,
+        output_dir / f"{config.kind}_images",
+        url_prefix=f"./{config.kind}_images",
+    )
+    render_report(output_shortlist, output_dir / config.output_md, config)
+    render_json(output_shortlist, output_dir / config.output_json)
     return len(listings), len(candidates), shortlist
 
 
@@ -1325,6 +1404,7 @@ def main() -> int:
     mansion_count, mansion_candidates, mansion_shortlist = run_pipeline(session, conn, output_dir, MANSION)
     house_count, house_candidates, house_shortlist = run_pipeline(session, conn, output_dir, HOUSE)
     publish_docs(
+        session,
         mansion_shortlist,
         house_shortlist,
         mansion_count=mansion_count,

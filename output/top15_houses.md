@@ -1,6 +1,6 @@
 # SUUMO used house shortlist
 
-Generated at: 2026-04-23T00:50:09.672998+09:00
+Generated at: 2026-04-23T00:56:21.786070+09:00
 
 ## 1. 梅丘３（梅ヶ丘駅） 1億2480万円
 
