@@ -1,6 +1,6 @@
 # SUUMO used mansion shortlist
 
-Generated at: 2026-04-23T00:49:09.739035+09:00
+Generated at: 2026-04-23T00:55:18.751036+09:00
 
 ## 1. パークホームズ中野中央フォーシーズンコート
 
