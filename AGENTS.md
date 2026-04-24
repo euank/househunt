@@ -2,7 +2,12 @@
 
 ## Purpose
 
-This repo's main executable task is the SUUMO scraper/ranker in `scripts/scrape_suumo_both.py`.
+This repo's main executable task is the housing scraper/ranker in `scripts/scrape_suumo_both.py`.
+
+It currently aggregates listings from:
+
+- SUUMO
+- KEN Corporation buy listings
 
 ## How To Run
 
@@ -21,6 +26,13 @@ This enters the default dev shell and runs the scraper with the Python environme
 - `beautifulsoup4`
 - `sqlite`
 
+The script performs the full pipeline:
+
+- scrape source listings
+- enrich listing details
+- score and rank candidates
+- update `data/`, `output/`, and `docs/`
+
 ## Sandbox Note
 
 In restricted environments, `nix develop` may fail if Nix cannot write to its default cache directory under `~/.cache/nix`.
@@ -38,11 +50,18 @@ Running the script updates these repo paths:
 - `data/suumo_listings.sqlite3`
 - `output/top15_mansions.*`
 - `output/top15_houses.*`
+- `output/mansion_images/`
+- `output/house_images/`
 - `docs/data/*.json`
+- `docs/data/images/**`
 - `docs/YYYY-MM-DD/data/*.json`
+- `docs/YYYY-MM-DD/assets/`
+- `docs/YYYY-MM-DD/index.html`
 
 ## Agent Guidance
 
 - Prefer `nix develop -c ...` over invoking the system Python directly.
 - Do not assume Python dependencies are installed outside the flake dev shell.
 - If verifying the script without waiting for a full scrape, `nix develop -c python -m py_compile scripts/scrape_suumo_both.py` is a quick sanity check.
+- If `nix develop` fails due to cache permissions, use the `XDG_CACHE_HOME=/tmp/nix-cache-househunt` prefix shown above.
+- Expect a full run to take several minutes because the pipeline fetches detail pages and localizes preview images for published outputs.

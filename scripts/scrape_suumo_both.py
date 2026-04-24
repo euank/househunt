@@ -17,7 +17,8 @@ import requests
 from bs4 import BeautifulSoup
 
 
-BASE_URL = "https://suumo.jp"
+SUUMO_BASE_URL = "https://suumo.jp"
+KEN_BASE_URL = "https://www.kencorp.co.jp"
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
@@ -149,6 +150,7 @@ def connect_db(path: Path) -> sqlite3.Connection:
 
         CREATE TABLE IF NOT EXISTS listings (
           listing_id TEXT PRIMARY KEY,
+          source TEXT,
           url TEXT NOT NULL,
           title TEXT,
           property_name TEXT,
@@ -191,6 +193,7 @@ def connect_db(path: Path) -> sqlite3.Connection:
 
         CREATE TABLE IF NOT EXISTS house_listings (
           listing_id TEXT PRIMARY KEY,
+          source TEXT,
           url TEXT NOT NULL,
           title TEXT,
           property_name TEXT,
@@ -249,13 +252,16 @@ def connect_db(path: Path) -> sqlite3.Connection:
     ensure_columns(
         conn,
         "listings",
-        {"identity_key": "TEXT", "first_seen_at": "TEXT"},
+        {"identity_key": "TEXT", "first_seen_at": "TEXT", "source": "TEXT"},
     )
     ensure_columns(
         conn,
         "house_listings",
-        {"identity_key": "TEXT", "first_seen_at": "TEXT"},
+        {"identity_key": "TEXT", "first_seen_at": "TEXT", "source": "TEXT"},
     )
+    conn.execute("UPDATE listings SET source = 'suumo' WHERE source IS NULL")
+    conn.execute("UPDATE house_listings SET source = 'suumo' WHERE source IS NULL")
+    conn.commit()
     return conn
 
 
@@ -309,6 +315,13 @@ def parse_price_man(text: str | None) -> float | None:
         return float(match.group(1) or 0) * 10000 + float(match.group(2) or 0)
     match = re.search(r"(\d+(?:\.\d+)?)", compact)
     return float(match.group(1)) if match else None
+
+
+def parse_yyyymm_year(text: str | None) -> int | None:
+    if not text:
+        return None
+    match = re.match(r"(\d{4})(\d{2})$", text.strip())
+    return int(match.group(1)) if match else None
 
 
 def parse_year(text: str | None) -> int | None:
@@ -370,7 +383,7 @@ def listing_id_from_url(url: str) -> str:
 
 
 def page_urls_for_seed(session: requests.Session, seed: StationSeed, config: PropertyConfig) -> list[str]:
-    base = f"{BASE_URL}/{config.base_path}/ek_{seed.code}/"
+    base = f"{SUUMO_BASE_URL}/{config.base_path}/ek_{seed.code}/"
     first = soup_for(session, base)
     pages = {1}
     for anchor in first.select("a[href]"):
@@ -381,7 +394,7 @@ def page_urls_for_seed(session: requests.Session, seed: StationSeed, config: Pro
     return [base if page == 1 else f"{base}?page={page}&rn=0305" for page in range(1, max(pages) + 1)]
 
 
-def collect_listings(session: requests.Session, config: PropertyConfig) -> dict[str, dict]:
+def collect_suumo_listings(session: requests.Session, config: PropertyConfig) -> dict[str, dict]:
     collected: dict[str, dict] = {}
     for seed in SEEDS:
         for page_url in page_urls_for_seed(session, seed, config):
@@ -390,13 +403,14 @@ def collect_listings(session: requests.Session, config: PropertyConfig) -> dict[
                 title_anchor = item.select_one("h2 a[href]")
                 if not title_anchor:
                     continue
-                detail_url = urljoin(BASE_URL, title_anchor["href"])
+                detail_url = urljoin(SUUMO_BASE_URL, title_anchor["href"])
                 listing_id = listing_id_from_url(detail_url)
                 rows = extract_rows_from_listing(item)
                 record = collected.setdefault(
                     listing_id,
                     {
                         "listing_id": listing_id,
+                        "source": "suumo",
                         "property_type": config.kind,
                         "url": detail_url,
                         "title": title_anchor.get_text(" ", strip=True),
@@ -511,14 +525,14 @@ def extract_preview_image_url(soup: BeautifulSoup) -> str:
             value = (node.get(attr) or "").strip()
             if not value or value.startswith("data:"):
                 continue
-            resolved = urljoin(BASE_URL, value)
+            resolved = urljoin(SUUMO_BASE_URL, value)
             if "/edit/assets/" in resolved or "/jj/jjcommon/" in resolved:
                 continue
             return resolved
     return ""
 
 
-def enrich_details(session: requests.Session, listings: dict[str, dict], config: PropertyConfig) -> None:
+def enrich_suumo_details(session: requests.Session, listings: dict[str, dict], config: PropertyConfig) -> None:
     for record in listings.values():
         if not listing_prefilter(record, config):
             continue
@@ -899,15 +913,16 @@ def persist_mansions(conn: sqlite3.Connection, listings: dict[str, dict]) -> Non
         conn.execute(
             """
             INSERT INTO listings (
-              listing_id, url, title, property_name, address, access_text,
+              listing_id, source, url, title, property_name, address, access_text,
               price_man, area_sqm, layout, balcony_sqm, walk_min, built_year,
               built_text, list_blurb, detail_summary, feature_tags_json, overview_json,
               exact_station_hits_json, nearby_station_hits_json, dishwasher,
               brightness_hits_json, ceiling_hits_json, identity_key, first_seen_at, score, criteria_notes_json,
               scraped_at, detail_scraped_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(listing_id) DO UPDATE SET
+              source=excluded.source,
               url=excluded.url,
               title=excluded.title,
               property_name=excluded.property_name,
@@ -938,6 +953,7 @@ def persist_mansions(conn: sqlite3.Connection, listings: dict[str, dict]) -> Non
             """,
             (
                 record["listing_id"],
+                record.get("source", "suumo"),
                 record["url"],
                 record.get("title"),
                 record.get("property_name"),
@@ -1000,14 +1016,15 @@ def persist_houses(conn: sqlite3.Connection, listings: dict[str, dict]) -> None:
         conn.execute(
             """
             INSERT INTO house_listings (
-              listing_id, url, title, property_name, address, access_text, price_man,
+              listing_id, source, url, title, property_name, address, access_text, price_man,
               area_sqm, land_area_sqm, layout, walk_min, built_year, built_text, list_blurb,
               detail_summary, feature_tags_json, overview_json, exact_station_hits_json,
               nearby_station_hits_json, dishwasher, brightness_hits_json, ceiling_hits_json,
               identity_key, first_seen_at, score, criteria_notes_json, scraped_at, detail_scraped_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(listing_id) DO UPDATE SET
+              source=excluded.source,
               url=excluded.url,
               title=excluded.title,
               property_name=excluded.property_name,
@@ -1038,6 +1055,7 @@ def persist_houses(conn: sqlite3.Connection, listings: dict[str, dict]) -> None:
             """,
             (
                 record["listing_id"],
+                record.get("source", "suumo"),
                 record["url"],
                 record.get("title"),
                 record.get("property_name"),
@@ -1093,6 +1111,125 @@ def persist_houses(conn: sqlite3.Connection, listings: dict[str, dict]) -> None:
     conn.commit()
 
 
+def parse_ken_station_options(session: requests.Session) -> dict[str, list[dict[str, str]]]:
+    soup = soup_for(session, f"{KEN_BASE_URL}/housing/buy/search/line/")
+    options: dict[str, list[dict[str, str]]] = {}
+    current_line_name = ""
+    for section in soup.select("#content__stations .bl-001_14"):
+        title = section.select_one(".bl-001_14__head__title")
+        if title:
+            current_line_name = title.get_text(" ", strip=True)
+        for item in section.select('input[name="line_stations"]'):
+            if item.has_attr("disabled"):
+                continue
+            value = item.get("value", "").strip()
+            label = item.find_next("span")
+            station_name = label.get_text(" ", strip=True) if label else ""
+            if not station_name or not value:
+                continue
+            options.setdefault(station_name, []).append(
+                {"line_station": value, "line_name": current_line_name}
+            )
+    return options
+
+
+def ken_result_url(line_station: str, config: PropertyConfig) -> str:
+    build_type = "apartment" if config.kind == "mansion" else "detached"
+    return (
+        f"{KEN_BASE_URL}/_api/search/result/?search_type=buy&search_by=line"
+        f"&line_stations={line_station}&build_type={build_type}&per_page=1000&sort_key=_created_at"
+    )
+
+
+def collect_ken_listings(session: requests.Session, config: PropertyConfig) -> dict[str, dict]:
+    station_options = parse_ken_station_options(session)
+    collected: dict[str, dict] = {}
+    for seed in SEEDS:
+        for option in station_options.get(seed.name, []):
+            payload = fetch(session, ken_result_url(option["line_station"], config), sleep_s=0.05)
+            data = json.loads(payload)
+            for building in data.get("buildings", []):
+                for prop in building.get("properties", []):
+                    listing_id = f"ken:{prop['code']}"
+                    detail_url = urljoin(KEN_BASE_URL, prop.get("url") or building.get("url") or "")
+                    image_path = prop.get("image_1") or ""
+                    if not image_path:
+                        building_images = building.get("image_path") or []
+                        if isinstance(building_images, list) and building_images:
+                            image_path = building_images[0]
+                        elif isinstance(building_images, str):
+                            image_path = building_images
+                    record = collected.setdefault(
+                        listing_id,
+                        {
+                            "listing_id": listing_id,
+                            "source": "ken",
+                            "property_type": config.kind,
+                            "url": detail_url,
+                            "title": f"{building.get('bldg_name', '')} {building.get('bldg_ridge', '')}".strip(),
+                            "property_name": building.get("bldg_name", ""),
+                            "address": building.get("address", ""),
+                            "access_text": building.get("route", ""),
+                            "price_man": parse_price_man(prop.get("price")),
+                            "area_sqm": parse_float(str(prop.get("footprint", ""))),
+                            "land_area_sqm": parse_float(str(prop.get("site_area", ""))) if config.kind == "house" else None,
+                            "layout": normalize_layout(prop.get("layout")),
+                            "balcony_sqm": None,
+                            "walk_min": parse_walk_min(building.get("route", "")),
+                            "built_year": parse_yyyymm_year(building.get("complete_date")),
+                            "built_text": building.get("complete_date", ""),
+                            "list_blurb": "",
+                            "detail_summary": "",
+                            "feature_tags": [],
+                            "overview": {},
+                            "station_hits": [],
+                            "preview_image_url": urljoin(KEN_BASE_URL, image_path) if image_path else "",
+                            "dishwasher_hits": [],
+                            "brightness_hits": [],
+                            "ceiling_hits": [],
+                        },
+                    )
+                    record["station_hits"].append(
+                        {
+                            "station_name": seed.name,
+                            "station_code": option["line_station"],
+                            "priority": seed.priority,
+                            "note": f"KEN {option['line_name']}",
+                            "source_url": ken_result_url(option["line_station"], config),
+                        }
+                    )
+    return collected
+
+
+def extract_ken_feature_tags(soup: BeautifulSoup) -> list[str]:
+    tags: list[str] = []
+    for row in soup.select("table tr"):
+        head = row.select_one("th")
+        data = row.select_one("td")
+        if not head or not data:
+            continue
+        head_text = head.get_text(" ", strip=True)
+        if head_text in {"特徴", "部屋設備", "建物設備・施設"}:
+            for piece in re.split(r"[、/\n]", data.get_text(" ", strip=True)):
+                piece = piece.strip()
+                if piece:
+                    tags.append(piece)
+    return sorted(dict.fromkeys(tags))
+
+
+def extract_ken_detail_summary(soup: BeautifulSoup) -> str:
+    parts: list[str] = []
+    for row in soup.select("table tr"):
+        head = row.select_one("th")
+        data = row.select_one("td")
+        if not head or not data:
+            continue
+        head_text = head.get_text(" ", strip=True)
+        if head_text in {"特徴", "部屋設備", "建物設備・施設"}:
+            parts.append(data.get_text(" ", strip=True))
+    return " ".join(part for part in parts if part).strip()
+
+
 def normalize_name(text: str) -> str:
     if not text:
         return ""
@@ -1138,7 +1275,7 @@ def top_candidates(listings: Iterable[dict], limit: int = SHORTLIST_LIMIT, *, de
 
 def render_report(candidates: list[dict], path: Path, config: PropertyConfig) -> None:
     lines = [
-        f"# SUUMO {config.label} shortlist",
+        f"# {config.label.title()} shortlist",
         "",
         f"Generated at: {datetime.now().astimezone().isoformat()}",
         "",
@@ -1151,6 +1288,7 @@ def render_report(candidates: list[dict], path: Path, config: PropertyConfig) ->
                 f"## {idx}. {record.get('property_name') or record.get('title')}",
                 "",
                 f"- Score: {record.get('score')}",
+                f"- Source: {record.get('source', 'suumo')}",
                 f"- URL: {record.get('url')}",
                 f"- Stations: {station_label or 'n/a'}",
                 f"- Price: {record.get('price_man', 0):.0f}万円",
@@ -1184,6 +1322,7 @@ def render_json(candidates: list[dict], path: Path) -> None:
         payload.append(
             {
                 "listing_id": record["listing_id"],
+                "source": record.get("source", "suumo"),
                 "property_name": record.get("property_name"),
                 "title": record.get("title"),
                 "url": record.get("url"),
@@ -1364,6 +1503,49 @@ def publish_docs(
         archives=archives,
         is_latest=False,
     )
+
+
+def enrich_ken_details(session: requests.Session, listings: dict[str, dict], config: PropertyConfig) -> None:
+    for record in listings.values():
+        try:
+            soup = soup_for(session, record["url"])
+        except Exception:  # noqa: BLE001
+            continue
+        page_text = soup.get_text(" ", strip=True)
+        overview = extract_overview(soup)
+        record["overview"] = overview
+        record["detail_summary"] = extract_ken_detail_summary(soup)
+        record["feature_tags"] = extract_ken_feature_tags(soup)
+        record["dishwasher_hits"] = [kw for kw in DISHWASHER_KEYWORDS if kw in page_text]
+        record["brightness_hits"] = [kw for kw in BRIGHTNESS_KEYWORDS if kw in page_text]
+        record["ceiling_hits"] = [kw for kw in CEILING_WINDOW_KEYWORDS if kw in page_text]
+        record["preview_image_url"] = record.get("preview_image_url") or extract_preview_image_url(soup)
+        title = soup.select_one("h1")
+        if title:
+            record["title"] = title.get_text(" ", strip=True)
+        record["address"] = record.get("address") or overview.get("住所", "")
+        record["access_text"] = record.get("access_text") or overview.get("交通/駅徒歩*", "") or overview.get("交通/駅徒歩", "")
+        record["walk_min"] = record.get("walk_min") or parse_walk_min(record.get("access_text"))
+        record["price_man"] = record.get("price_man") or parse_price_man(overview.get("価格"))
+        record["layout"] = record.get("layout") or normalize_layout(overview.get("間取り / 方位", "").split("/", 1)[0].strip())
+        record["area_sqm"] = record.get("area_sqm") or parse_float(overview.get("専有面積"))
+        record["built_year"] = record.get("built_year") or parse_year(overview.get("完成時期(築年月)") or overview.get("築年月"))
+        record["built_text"] = record.get("built_text") or overview.get("完成時期(築年月)") or overview.get("築年月", "")
+        if config.kind == "house":
+            record["land_area_sqm"] = record.get("land_area_sqm") or parse_float(overview.get("土地面積"))
+
+
+def collect_listings(session: requests.Session, config: PropertyConfig) -> dict[str, dict]:
+    listings = collect_suumo_listings(session, config)
+    listings.update(collect_ken_listings(session, config))
+    return listings
+
+
+def enrich_details(session: requests.Session, listings: dict[str, dict], config: PropertyConfig) -> None:
+    suumo = {k: v for k, v in listings.items() if v.get("source") == "suumo"}
+    ken = {k: v for k, v in listings.items() if v.get("source") == "ken"}
+    enrich_suumo_details(session, suumo, config)
+    enrich_ken_details(session, ken, config)
 
 
 def run_pipeline(session: requests.Session, conn: sqlite3.Connection, output_dir: Path, config: PropertyConfig) -> tuple[int, int, list[dict]]:
