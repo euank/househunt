@@ -23,6 +23,9 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
 )
 SHORTLIST_LIMIT = 15
+TARGET_BUDGET_MIN_MAN = 8000
+TARGET_BUDGET_MAX_MAN = 15000
+IDEAL_PRICE_MAN = 11000
 
 
 @dataclass(frozen=True)
@@ -445,7 +448,7 @@ def strict_match(record: dict, config: PropertyConfig) -> bool:
     layout = record.get("layout") or ""
     rooms = layout_room_count(layout) or 0
     return (
-        10000 <= price <= 15000
+        TARGET_BUDGET_MIN_MAN <= price <= TARGET_BUDGET_MAX_MAN
         and area >= 65
         and walk <= config.walk_target
         and year >= 2000
@@ -550,10 +553,12 @@ def station_groups(record: dict) -> tuple[list[str], list[str]]:
 def price_score(price_man: float | None) -> float:
     if not price_man:
         return -6
-    if 10000 <= price_man <= 15000:
-        return max(4, 12 - abs(price_man - 13000) / 350)
-    if 9000 <= price_man < 10000 or 15000 < price_man <= 16000:
-        return 1
+    distance_kman = abs(price_man - IDEAL_PRICE_MAN) / 1000.0
+    raw_score = 10.5 - 1.1 * distance_kman - 0.35 * (distance_kman**2)
+    if TARGET_BUDGET_MIN_MAN <= price_man <= TARGET_BUDGET_MAX_MAN:
+        return round(max(0.5, raw_score), 2)
+    if 7000 <= price_man < TARGET_BUDGET_MIN_MAN or TARGET_BUDGET_MAX_MAN < price_man <= 16000:
+        return round(max(-3.0, raw_score - 3.0), 2)
     return -8
 
 
@@ -712,7 +717,7 @@ def build_notes(record: dict, config: PropertyConfig) -> list[str]:
         notes.append(f"layout: {record['layout']}")
     price_man = record.get("price_man")
     if price_man:
-        if 10000 <= price_man <= 15000:
+        if TARGET_BUDGET_MIN_MAN <= price_man <= TARGET_BUDGET_MAX_MAN:
             notes.append(f"price is within budget at {price_man:.0f}万円")
         else:
             notes.append(f"price is outside target budget at {price_man:.0f}万円")
