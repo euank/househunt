@@ -19,9 +19,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機",
-      "食器洗浄乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -67,7 +65,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き"
@@ -110,8 +108,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -158,7 +155,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -206,8 +203,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -241,6 +237,47 @@
     "score": 78.3
   },
   {
+    "listing_id": "20703519",
+    "source": "suumo",
+    "property_name": "オープンレジデンス祐天寺",
+    "title": "東横線「祐天寺」駅徒歩5分！戸建然としたテラス付きメゾネット！室内美麗！",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_meguro/nc_20703519/",
+    "price_man": 10180.0,
+    "area_sqm": 65.51,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 4,
+    "built_year": 2024,
+    "first_seen_at": "2026-04-22T15:45:58.724357+00:00",
+    "address": "東京都目黒区五本木１",
+    "access_text": "東急東横線「祐天寺」徒歩4分",
+    "exact_station_hits": [
+      "祐天寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "東横線「祐天寺」駅徒歩5分！戸建然としたテラス付きメゾネット！室内美麗！ ※当物件の一部画像を抜粋しています。 ※映像に誤り・問題がある場合は こちら オープンレジデンス祐天寺の外観（南東側から）［2026年4月21日撮影］ LDK13.4帖［2026年4月21日撮影］ 北側洋室5.0帖［2026年4月21日撮影］ オープンレジデンス祐天寺の外観（北東側から）［2026年4月21日撮影］",
+    "preview_image_url": "./mansion_images/20703519.png",
+    "criteria_notes": [
+      "exact target station match: 祐天寺",
+      "size clears hard threshold at 65.51 sqm",
+      "layout: 2LDK",
+      "price is within budget at 10180万円",
+      "walk time meets target at 4 min",
+      "built in 2024",
+      "dishwasher mentioned in listing",
+      "basement / semi-basement indicators present",
+      "listing age: 3 days",
+      "first seen: 2026-04-22 (3 days ago)"
+    ],
+    "score": 76.18
+  },
+  {
     "listing_id": "20258656",
     "source": "suumo",
     "property_name": "オープンレジデンス中野桃園町　Ｓ棟",
@@ -260,8 +297,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -308,8 +344,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -443,7 +478,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -491,7 +526,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -537,8 +572,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食器洗浄乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -564,256 +598,94 @@
     "score": 80.29
   },
   {
-    "listing_id": "ken:2026035600",
-    "source": "ken",
-    "property_name": "プラウドタワー渋谷",
-    "title": "プラウドタワー渋谷  18階 3LDK",
-    "url": "https://www.kencorp.co.jp/housing/properties/209869/2026035600/",
-    "price_man": 38000.0,
-    "area_sqm": 82.83,
+    "listing_id": "20255516",
+    "source": "suumo",
+    "property_name": "レジェンド中野ガーデン",
+    "title": "◆2 駅4 路線利用可・最寄り駅徒歩5分◆商業施設近接で生活利便性良好",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20255516/",
+    "price_man": 12300.0,
+    "area_sqm": 75.42,
     "land_area_sqm": null,
-    "layout": "3LDK",
-    "walk_min": 6,
-    "built_year": 2025,
-    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
-    "address": "東京都渋谷区渋谷３",
-    "access_text": "山手線 渋谷駅 徒歩6分ほか",
-    "exact_station_hits": [
-      "代官山",
-      "渋谷"
-    ],
-    "nearby_station_hits": [
-      "恵比寿"
-    ],
-    "dishwasher_hits": [
-      "食洗機"
-    ],
-    "brightness_hits": [
-      "陽当り良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "14Fゲストルーム",
-      "1Fラウンジ(貸し切り利用可能)",
-      "24時間ゴミ出し可能",
-      "24時間換気システム",
-      "26Fスカイデッキ",
-      "2沿線利用",
-      "2駅利用",
-      "LDK15帖以上",
-      "TVモニター付きインターホン",
-      "エアコン",
-      "エレベーター",
-      "オートロック",
-      "カウンターキッチン",
-      "ガスコンロ",
-      "クローゼット",
-      "グリル付き",
-      "ゲストルーム",
-      "コンシェルジュサービス",
-      "コンロ3口",
-      "システムキッチン",
-      "シューズインクローゼット",
-      "スカイラウンジ",
-      "セコム",
-      "ディスポーザー",
-      "トランクルーム",
-      "バストイレ別",
-      "バルコニー",
-      "ビューラウンジ",
-      "フロア毎ゴミ置場",
-      "フロントサービス",
-      "ペット設備",
-      "全室エアコン",
-      "全居室収納",
-      "始発駅",
-      "宅配ボックス",
-      "室内洗濯機置場",
-      "敷地内ゴミ置場",
-      "新耐震構造",
-      "日勤管理",
-      "洗浄便座",
-      "洗面所独立",
-      "浴室乾燥機",
-      "追焚",
-      "都市ガス",
-      "防犯カメラ",
-      "食洗機"
-    ],
-    "detail_summary": "バルコニー、 LDK15帖以上 全室エアコン、 エアコン、 室内洗濯機置場、 浴室乾燥機、 24時間換気システム、 追焚、 洗浄便座、 バストイレ別、 洗面所独立、 クローゼット、 シューズインクローゼット、 都市ガス、 ガスコンロ、 グリル付き、 コンロ3口、 ディスポーザー、 食洗機、 システムキッチン、 カウンターキッチン、 全居室収納 新耐震構造、 エレベーター、 宅配ボックス、 トランクルーム、 ペット設備、 24時間ゴミ出し可能、 フロア毎ゴミ置場、 敷地内ゴミ置場、 スカイラウンジ、 ビューラウンジ、 ゲストルーム、 フロントサービス、 コンシェルジュサービス、 オートロック、 TVモニター付きインターホン、 防犯カメラ、 日勤管理、 セコム、 始発駅、 2駅利用、 2沿線利用、 1Fラウンジ(貸し切り利用可能)、14Fゲストルーム、26Fスカイデッキ",
-    "preview_image_url": "./mansion_images/ken:2026035600.jpg",
-    "criteria_notes": [
-      "exact target station match: 代官山, 渋谷",
-      "size clears ideal threshold at 82.83 sqm",
-      "layout: 3LDK",
-      "price is outside target budget at 38000万円",
-      "walk time meets target at 6 min",
-      "built in 2025",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好",
-      "first seen: 2026-04-24 (1 days ago)"
-    ],
-    "score": 80.23
-  },
-  {
-    "listing_id": "ken:2026035269",
-    "source": "ken",
-    "property_name": "センチュリーフォレスト",
-    "title": "センチュリーフォレスト 5棟 2階 2LDK+WIC+SIC",
-    "url": "https://www.kencorp.co.jp/housing/properties/168120/2026035269/",
-    "price_man": 34800.0,
-    "area_sqm": 82.27,
-    "land_area_sqm": null,
-    "layout": "2LDK+WIC+SIC",
-    "walk_min": 6,
-    "built_year": 2011,
-    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
-    "address": "東京都渋谷区鶯谷町１４",
-    "access_text": "山手線 渋谷駅 徒歩6分ほか",
-    "exact_station_hits": [
-      "中目黒",
-      "代官山",
-      "渋谷"
-    ],
-    "nearby_station_hits": [
-      "恵比寿"
-    ],
-    "dishwasher_hits": [
-      "食洗機"
-    ],
-    "brightness_hits": [
-      "南西向き",
-      "陽当り良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "24時間ゴミ出し可能",
-      "24時間有人管理",
-      "2沿線利用",
-      "3駅利用",
-      "LDK15帖以上",
-      "TVモニター付きインターホン",
-      "ウォークインクローゼット",
-      "エアコン",
-      "エレベーター",
-      "オートロック",
-      "ガスコンロ",
-      "クローゼット",
-      "ゲストルーム",
-      "コンシェルジュサービス",
-      "システムキッチン",
-      "セコム",
-      "ダブルロックキー",
-      "ディンプルキー",
-      "トランクルーム",
-      "バイク置場",
-      "バストイレ別",
-      "バルコニー",
-      "フロントサービス",
-      "光ファイバー対応",
-      "免震構造",
-      "宅配ボックス",
-      "敷地内ゴミ置場",
-      "新耐震構造",
-      "楽器相談",
-      "都市ガス",
-      "閑静な住宅街",
-      "防犯カメラ",
-      "防犯センサー付き窓",
-      "食洗機",
-      "駐輪場"
-    ],
-    "detail_summary": "楽器相談、 閑静な住宅街、 バルコニー、 防犯センサー付き窓、 LDK15帖以上 エアコン、 バストイレ別、 クローゼット、 ウォークインクローゼット、 都市ガス、 ガスコンロ、 食洗機、 システムキッチン、 光ファイバー対応 免震構造、 新耐震構造、 エレベーター、 宅配ボックス、 トランクルーム、 24時間ゴミ出し可能、 敷地内ゴミ置場、 ゲストルーム、 フロントサービス、 コンシェルジュサービス、 オートロック、 ディンプルキー、 ダブルロックキー、 TVモニター付きインターホン、 防犯カメラ、 24時間有人管理、 セコム、 駐輪場、 バイク置場、 3駅利用、 2沿線利用",
-    "preview_image_url": "./mansion_images/ken:2026035269.jpg",
-    "criteria_notes": [
-      "exact target station match: 中目黒, 代官山, 渋谷",
-      "size clears ideal threshold at 82.27 sqm",
-      "layout: 2LDK+WIC+SIC",
-      "price is outside target budget at 34800万円",
-      "walk time meets target at 6 min",
-      "built in 2011",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南西向き, 陽当り良好",
-      "first seen: 2026-04-24 (1 days ago)"
-    ],
-    "score": 79.57
-  },
-  {
-    "listing_id": "ken:2025126254",
-    "source": "ken",
-    "property_name": "クロスエアタワー",
-    "title": "クロスエアタワー  39階 3LDK",
-    "url": "https://www.kencorp.co.jp/housing/properties/170987/2025126254/",
-    "price_man": 25980.0,
-    "area_sqm": 79.91,
-    "land_area_sqm": null,
-    "layout": "3LDK",
+    "layout": "2LDK+S（納戸）",
     "walk_min": 5,
-    "built_year": 2013,
-    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
-    "address": "東京都目黒区大橋１",
-    "access_text": "田園都市線 池尻大橋駅 徒歩5分ほか",
+    "built_year": 1999,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都中野区中野３",
+    "access_text": "ＪＲ中央線「中野」徒歩5分",
     "exact_station_hits": [
-      "中目黒",
-      "渋谷"
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "南向き",
+      "通風良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "◆2 駅4 路線利用可・最寄り駅徒歩5分 ◆商業施設近接で生活利便性良好 ■南向き／角部屋／3 面開口で風通し良好 ■全室床暖房付き　　■宅配ボックス有 ■居室窓はペアガラス仕様 ■ペット可（規約による制限有り） 2LDK+S（納戸）、価格1億2300万円、専有面積75.42m 2",
+    "preview_image_url": "./mansion_images/20255516.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "size clears ideal threshold at 75.42 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 12300万円",
+      "walk time meets target at 5 min",
+      "older build year: 1999",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 南向き, 通風良好, 角住戸",
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (7 days ago)"
+    ],
+    "score": 76.32
+  },
+  {
+    "listing_id": "20315547",
+    "source": "suumo",
+    "property_name": "オープンレジデンシア中野新井テラス",
+    "title": "再開発で注目の中野駅徒歩12分♪ペット飼育可！築浅のため、室内大変綺麗です。",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20315547/",
+    "price_man": 12080.0,
+    "area_sqm": 68.61,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 12,
+    "built_year": 2023,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都中野区新井１",
+    "access_text": "ＪＲ中央線「中野」徒歩12分",
+    "exact_station_hits": [
+      "中野"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
-      "眺望良好"
+      "南向き"
     ],
     "ceiling_hits": [],
     "feature_tags": [
-      "2駅利用",
-      "3沿線利用",
-      "H)・ゲストスイート(2,000円",
-      "H)・パーティルーム(500円",
-      "LDK15帖以上",
-      "TVモニター付きインターホン",
-      "エレベーター",
-      "オートロック",
-      "ゲストルーム",
-      "コンシェルジュサービス",
-      "システムキッチン",
-      "ジム(￥2,000",
-      "スポーツジム",
-      "バストイレ別",
-      "バルコニー",
-      "パーティルーム",
-      "ビューラウンジ",
-      "フロントサービス",
-      "ペット設備",
-      "一部フローリング",
-      "人",
-      "免震構造",
-      "制震構造",
-      "宅配ボックス",
-      "新耐震構造",
-      "日勤管理",
-      "月)・ビューラウンジ(無料)・キッズルーム(無料)・ミーティングルーム(300円",
-      "泊)・エグゼクティブスイ-ト(4,000円",
-      "泊)・宿泊時リネン代1,500円",
-      "浴室乾燥機",
-      "追焚",
-      "都市ガス",
-      "防犯カメラ",
-      "食洗機"
+      "https:",
+      "lifeplan",
+      "loan",
+      "www.ad-cast.info"
     ],
-    "detail_summary": "バルコニー、 LDK15帖以上、 一部フローリング 浴室乾燥機、 追焚、 バストイレ別、 都市ガス、 食洗機、 システムキッチン 制震構造、 免震構造、 新耐震構造、 エレベーター、 宅配ボックス、 ペット設備、 ビューラウンジ、 スポーツジム、 ゲストルーム、 パーティルーム、 フロントサービス、 コンシェルジュサービス、 オートロック、 TVモニター付きインターホン、 防犯カメラ、 日勤管理、 2駅利用、 3沿線利用、 ジム(￥2,000/月)・ビューラウンジ(無料)・キッズルーム(無料)・ミーティングルーム(300円/H)・パーティルーム(500円/H)・ゲストスイート(2,000円/泊)・エグゼクティブスイ-ト(4,000円/泊)・宿泊時リネン代1,500円/人",
-    "preview_image_url": "./mansion_images/ken:2025126254.jpg",
+    "detail_summary": "再開発で注目の中野駅徒歩12分♪ペット飼育可！築浅のため、室内大変綺麗です。 ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◆２０２３年築の築浅美麗マンション♪ ◆ホテルライクな内廊下で、セキュリティ面も良好 ◆2駅4路線が使えるマルチアクセス♪ ◆オートロック連動のTVモニター付インターホン♪ ◆宅配ロッカー完備♪ ◆設備充実のスマートな都市型レジデンス♪",
+    "preview_image_url": "./mansion_images/20315547.jpg",
     "criteria_notes": [
-      "exact target station match: 中目黒, 渋谷",
-      "size clears ideal threshold at 79.91 sqm",
+      "exact target station match: 中野",
+      "size clears hard threshold at 68.61 sqm",
       "layout: 3LDK",
-      "price is outside target budget at 25980万円",
-      "walk time meets target at 5 min",
-      "built in 2013",
+      "price is within budget at 12080万円",
+      "walk time misses target at 12 min",
+      "built in 2023",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 眺望良好",
-      "first seen: 2026-04-24 (1 days ago)"
+      "brightness/window positives: 南向き",
+      "listing age: 26 days",
+      "first seen: 2026-04-18 (7 days ago)"
     ],
-    "score": 79.18
+    "score": 76.3
   }
 ]

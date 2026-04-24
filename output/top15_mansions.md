@@ -1,6 +1,6 @@
 # Used Mansion shortlist
 
-Generated at: 2026-04-25T01:24:45.443398+09:00
+Generated at: 2026-04-25T01:32:49.282236+09:00
 
 ## 1. マストレジデンス世田谷
 
@@ -97,7 +97,26 @@ Generated at: 2026-04-25T01:24:45.443398+09:00
 - Listing summary: □1F～3F部分のメゾネットタイプ□西向き角部屋・73.87m2 ◆2013年7月築 ◆複数路線利用可能 『中野』駅より徒歩6分・『新中野』駅より徒歩10分 ◆（株）オープンハウス・ディベロップメント旧分譲 ◆管理は管理会社に全部委託：日本ハウズイング株式会社（巡回） ◆オートロック・モニター付きインターホン ◆宅配ボックス
 - Notes: exact target station match: 中野; size clears ideal threshold at 73.87 sqm; layout: 2LDK; price is within budget at 10380万円; walk time meets target at 6 min; built in 2013; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸; basement / semi-basement indicators present; listing age: 2 days; first seen: 2026-04-18 (7 days ago)
 
-## 6. オープンレジデンス中野桃園町　Ｓ棟
+## 6. オープンレジデンス祐天寺
+
+- Score: 76.18
+- Source: suumo
+- URL: https://suumo.jp/ms/chuko/tokyo/sc_meguro/nc_20703519/
+- Stations: 祐天寺
+- Price: 10180万円
+- Size: 65.51 sqm
+- Layout: 2LDK
+- Walk: 4 min
+- Built: 2024
+- First Seen: 2026-04-22T15:45:58.724357+00:00
+- Strict Match: yes
+- Dishwasher: yes
+- Address: 東京都目黒区五本木１
+- Access: 東急東横線「祐天寺」徒歩4分
+- Listing summary: 東横線「祐天寺」駅徒歩5分！戸建然としたテラス付きメゾネット！室内美麗！ ※当物件の一部画像を抜粋しています。 ※映像に誤り・問題がある場合は こちら オープンレジデンス祐天寺の外観（南東側から）［2026年4月21日撮影］ LDK13.4帖［2026年4月21日撮影］ 北側洋室5.0帖［2026年4月21日撮影］ オープンレジデンス祐天寺の外観（北東側から）［2026年4月21日撮影］
+- Notes: exact target station match: 祐天寺; size clears hard threshold at 65.51 sqm; layout: 2LDK; price is within budget at 10180万円; walk time meets target at 4 min; built in 2024; dishwasher mentioned in listing; basement / semi-basement indicators present; listing age: 3 days; first seen: 2026-04-22 (3 days ago)
+
+## 7. オープンレジデンス中野桃園町　Ｓ棟
 
 - Score: 75.54
 - Source: suumo
@@ -116,7 +135,7 @@ Generated at: 2026-04-25T01:24:45.443398+09:00
 - Listing summary: ■三井のリハウス■ 南向きLDKは広々約19.4帖 閑静な住宅街に位置 －物件のおすすめポイント－ ▼立地 ・JR中央本線・中央・総武緩行線・東京メトロ東西線 「中野」駅　徒歩7分 ・東京メトロ丸ノ内線「新中野」駅　徒歩13分
 - Notes: exact target station match: 中野; size clears ideal threshold at 72.68 sqm; layout: 2LDK; price is within budget at 10980万円; walk time meets target at 7 min; built in 2010; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好; basement / semi-basement indicators present; listing age: 2 days; first seen: 2026-04-18 (7 days ago)
 
-## 7. パークホームズ中野
+## 8. パークホームズ中野
 
 - Score: 69.47
 - Source: suumo
@@ -135,7 +154,7 @@ Generated at: 2026-04-25T01:24:45.443398+09:00
 - Listing summary: ■三井のリハウス■ 南向きのLDKは約18.2帖 ペット飼育可能(規約有) －物件のおすすめポイント－ ▼立地 ・JR中央本線「中野」徒歩9分 他 ▼特徴 ・三井不動産レジデンシャル(株)旧分譲
 - Notes: exact target station match: 中野; size clears hard threshold at 66.33 sqm; layout: 2LDK; price is within budget at 14980万円; walk time meets target at 9 min; built in 2011; dishwasher mentioned in listing; brightness/window positives: 南向き, 採光; listing age: 2 days; first seen: 2026-04-18 (7 days ago)
 
-## 8. パルテール目黒青葉台
+## 9. パルテール目黒青葉台
 
 - Score: 68.94
 - Source: ken
@@ -154,7 +173,7 @@ Generated at: 2026-04-25T01:24:45.443398+09:00
 - Listing summary: エレベーター、 宅配ボックス、 オートロック
 - Notes: exact target station match: 渋谷; size clears ideal threshold at 70.76 sqm; layout: 2LDK; price is within budget at 12980万円; walk time meets target at 5 min; built in 2000; dishwasher not explicitly confirmed; brightness/window positives: 南向き, 角住戸; first seen: 2026-04-24 (1 days ago)
 
-## 9. ファミールグラン代々木の杜
+## 10. ファミールグラン代々木の杜
 
 - Score: 63.61
 - Source: ken
@@ -173,7 +192,7 @@ Generated at: 2026-04-25T01:24:45.443398+09:00
 - Listing summary: バルコニー 都市ガス エレベーター、 オートロック
 - Notes: exact target station match: 代々木上原; size clears hard threshold at 65.50 sqm; layout: 2LDK; price is within budget at 11490万円; walk time meets target at 8 min; built in 2005; dishwasher not explicitly confirmed; brightness/window positives: 南西向き; first seen: 2026-04-24 (1 days ago)
 
-## 10. レジェンド中野ガーデン
+## 11. レジェンド中野ガーデン
 
 - Score: 92.82
 - Source: suumo
@@ -192,7 +211,7 @@ Generated at: 2026-04-25T01:24:45.443398+09:00
 - Listing summary: 価格を見直し、よりご検討いただきやすい条件に変更いたしました。 現地集合にてご案内可能です。 〇南向き・角部屋・中野駅5分の好立地〇 ■全部屋床暖対応 ■WIC収納、収納数豊富。 ■ペット飼育可（要申請） ■オートロック・管理人（日勤）安心できるセキュリティ対応。 明るい南向き・3方向角部屋のお部屋です。バルコニー2か所。
 - Notes: exact target station match: 中野; size clears ideal threshold at 75.42 sqm; layout: 3LDK; price is within budget at 12300万円; walk time meets target at 5 min; older build year: 1999; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 眺望良好; listing age: 1 days; first seen: 2026-04-24 (1 days ago)
 
-## 11. レジェンド中野ガーデン
+## 12. レジェンド中野ガーデン
 
 - Score: 86.73
 - Source: suumo
@@ -211,7 +230,7 @@ Generated at: 2026-04-25T01:24:45.443398+09:00
 - Listing summary: 2026年2月内装リノベーション済。価格変更致しました。 現地集合にてご案内可能です。 〇南向き・中野駅5分の好立地〇 ■全部屋床暖対応 ■WIC収納、収納数豊富。 ■ペット飼育可（要申請） ■オートロック・管理人（日勤）安心できるセキュリティ対応。 明るい南向き。
 - Notes: exact target station match: 中野; size clears ideal threshold at 70.00 sqm; layout: 3LDK; price is within budget at 13200万円; walk time meets target at 5 min; older build year: 1999; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好; listing age: 1 days; first seen: 2026-04-22 (3 days ago)
 
-## 12. オープンレジデンシア中野
+## 13. オープンレジデンシア中野
 
 - Score: 80.29
 - Source: suumo
@@ -230,59 +249,40 @@ Generated at: 2026-04-25T01:24:45.443398+09:00
 - Listing summary: ■5階部分南西角部屋 ■充実したセキュリティシステム ■ TES温水式床暖房 部屋全体を足元から暖める温水式の床暖房です。 電気式に比べ、立ち上がりが早いなどのメリットがございます。 ■ 二重床・二重天井 衝撃音を軽減し、静かで快適な暮らしを守ります。 ■ピピッとコンロ
 - Notes: exact target station match: 中野; size clears hard threshold at 67.50 sqm; layout: 3LDK; price is within budget at 11680万円; walk time misses target at 12 min; built in 2017; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 角住戸; listing age: 5 days; first seen: 2026-04-18 (7 days ago)
 
-## 13. プラウドタワー渋谷
+## 14. レジェンド中野ガーデン
 
-- Score: 80.23
-- Source: ken
-- URL: https://www.kencorp.co.jp/housing/properties/209869/2026035600/
-- Stations: 代官山, 渋谷
-- Price: 38000万円
-- Size: 82.83 sqm
-- Layout: 3LDK
-- Walk: 6 min
-- Built: 2025
-- First Seen: 2026-04-24T16:24:45.109631+00:00
-- Strict Match: near miss
-- Dishwasher: yes
-- Address: 東京都渋谷区渋谷３
-- Access: 山手線 渋谷駅 徒歩6分ほか
-- Listing summary: バルコニー、 LDK15帖以上 全室エアコン、 エアコン、 室内洗濯機置場、 浴室乾燥機、 24時間換気システム、 追焚、 洗浄便座、 バストイレ別、 洗面所独立、 クローゼット、 シューズインクローゼット、 都市ガス、 ガスコンロ、 グリル付き、 コンロ3口、 ディスポーザー、 食洗機、 システムキッチン、 カウンターキッチン、 全居室収納 新耐震構造、 エレベーター、 宅配ボックス、 トランクルーム、 ペット設備、 24時間ゴミ出し可能、 フロア毎ゴミ置場、 敷地内ゴミ置場、 スカイラウンジ、 ビューラウンジ、 ゲストルーム、 フロントサービス、 コンシェルジュサービス、 オートロック、 TVモニター付きインターホン、 防犯カメラ、 日勤管理、 セコム、 始発駅、 2駅利用、 2沿線利用、 1Fラウンジ(貸し切り利用可能)、14Fゲストルーム、26Fスカイデッキ
-- Notes: exact target station match: 代官山, 渋谷; size clears ideal threshold at 82.83 sqm; layout: 3LDK; price is outside target budget at 38000万円; walk time meets target at 6 min; built in 2025; dishwasher mentioned in listing; brightness/window positives: 陽当り良好; first seen: 2026-04-24 (1 days ago)
-
-## 14. センチュリーフォレスト
-
-- Score: 79.57
-- Source: ken
-- URL: https://www.kencorp.co.jp/housing/properties/168120/2026035269/
-- Stations: 中目黒, 代官山, 渋谷
-- Price: 34800万円
-- Size: 82.27 sqm
-- Layout: 2LDK+WIC+SIC
-- Walk: 6 min
-- Built: 2011
-- First Seen: 2026-04-24T16:24:45.109631+00:00
-- Strict Match: near miss
-- Dishwasher: yes
-- Address: 東京都渋谷区鶯谷町１４
-- Access: 山手線 渋谷駅 徒歩6分ほか
-- Listing summary: 楽器相談、 閑静な住宅街、 バルコニー、 防犯センサー付き窓、 LDK15帖以上 エアコン、 バストイレ別、 クローゼット、 ウォークインクローゼット、 都市ガス、 ガスコンロ、 食洗機、 システムキッチン、 光ファイバー対応 免震構造、 新耐震構造、 エレベーター、 宅配ボックス、 トランクルーム、 24時間ゴミ出し可能、 敷地内ゴミ置場、 ゲストルーム、 フロントサービス、 コンシェルジュサービス、 オートロック、 ディンプルキー、 ダブルロックキー、 TVモニター付きインターホン、 防犯カメラ、 24時間有人管理、 セコム、 駐輪場、 バイク置場、 3駅利用、 2沿線利用
-- Notes: exact target station match: 中目黒, 代官山, 渋谷; size clears ideal threshold at 82.27 sqm; layout: 2LDK+WIC+SIC; price is outside target budget at 34800万円; walk time meets target at 6 min; built in 2011; dishwasher mentioned in listing; brightness/window positives: 南西向き, 陽当り良好; first seen: 2026-04-24 (1 days ago)
-
-## 15. クロスエアタワー
-
-- Score: 79.18
-- Source: ken
-- URL: https://www.kencorp.co.jp/housing/properties/170987/2025126254/
-- Stations: 中目黒, 渋谷
-- Price: 25980万円
-- Size: 79.91 sqm
-- Layout: 3LDK
+- Score: 76.32
+- Source: suumo
+- URL: https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20255516/
+- Stations: 中野
+- Price: 12300万円
+- Size: 75.42 sqm
+- Layout: 2LDK+S（納戸）
 - Walk: 5 min
-- Built: 2013
-- First Seen: 2026-04-24T16:24:45.109631+00:00
+- Built: 1999
+- First Seen: 2026-04-18T16:47:14.209834+00:00
+- Strict Match: near miss
+- Dishwasher: not confirmed
+- Address: 東京都中野区中野３
+- Access: ＪＲ中央線「中野」徒歩5分
+- Listing summary: ◆2 駅4 路線利用可・最寄り駅徒歩5分 ◆商業施設近接で生活利便性良好 ■南向き／角部屋／3 面開口で風通し良好 ■全室床暖房付き　　■宅配ボックス有 ■居室窓はペアガラス仕様 ■ペット可（規約による制限有り） 2LDK+S（納戸）、価格1億2300万円、専有面積75.42m 2
+- Notes: exact target station match: 中野; size clears ideal threshold at 75.42 sqm; layout: 2LDK+S（納戸）; price is within budget at 12300万円; walk time meets target at 5 min; older build year: 1999; dishwasher not explicitly confirmed; brightness/window positives: 南向き, 通風良好, 角住戸; listing age: 1 days; first seen: 2026-04-18 (7 days ago)
+
+## 15. オープンレジデンシア中野新井テラス
+
+- Score: 76.3
+- Source: suumo
+- URL: https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20315547/
+- Stations: 中野
+- Price: 12080万円
+- Size: 68.61 sqm
+- Layout: 3LDK
+- Walk: 12 min
+- Built: 2023
+- First Seen: 2026-04-18T16:47:14.209834+00:00
 - Strict Match: near miss
 - Dishwasher: yes
-- Address: 東京都目黒区大橋１
-- Access: 田園都市線 池尻大橋駅 徒歩5分ほか
-- Listing summary: バルコニー、 LDK15帖以上、 一部フローリング 浴室乾燥機、 追焚、 バストイレ別、 都市ガス、 食洗機、 システムキッチン 制震構造、 免震構造、 新耐震構造、 エレベーター、 宅配ボックス、 ペット設備、 ビューラウンジ、 スポーツジム、 ゲストルーム、 パーティルーム、 フロントサービス、 コンシェルジュサービス、 オートロック、 TVモニター付きインターホン、 防犯カメラ、 日勤管理、 2駅利用、 3沿線利用、 ジム(￥2,000/月)・ビューラウンジ(無料)・キッズルーム(無料)・ミーティングルーム(300円/H)・パーティルーム(500円/H)・ゲストスイート(2,000円/泊)・エグゼクティブスイ-ト(4,000円/泊)・宿泊時リネン代1,500円/人
-- Notes: exact target station match: 中目黒, 渋谷; size clears ideal threshold at 79.91 sqm; layout: 3LDK; price is outside target budget at 25980万円; walk time meets target at 5 min; built in 2013; dishwasher mentioned in listing; brightness/window positives: 眺望良好; first seen: 2026-04-24 (1 days ago)
+- Address: 東京都中野区新井１
+- Access: ＪＲ中央線「中野」徒歩12分
+- Listing summary: 再開発で注目の中野駅徒歩12分♪ペット飼育可！築浅のため、室内大変綺麗です。 ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◆２０２３年築の築浅美麗マンション♪ ◆ホテルライクな内廊下で、セキュリティ面も良好 ◆2駅4路線が使えるマルチアクセス♪ ◆オートロック連動のTVモニター付インターホン♪ ◆宅配ロッカー完備♪ ◆設備充実のスマートな都市型レジデンス♪
+- Notes: exact target station match: 中野; size clears hard threshold at 68.61 sqm; layout: 3LDK; price is within budget at 12080万円; walk time misses target at 12 min; built in 2023; dishwasher mentioned in listing; brightness/window positives: 南向き; listing age: 26 days; first seen: 2026-04-18 (7 days ago)
