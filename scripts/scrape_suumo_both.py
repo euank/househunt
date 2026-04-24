@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import shutil
 import re
@@ -26,6 +27,7 @@ USER_AGENT = (
 SHORTLIST_LIMIT = 15
 TARGET_BUDGET_MIN_MAN = 8000
 TARGET_BUDGET_MAX_MAN = 15000
+HARD_BUDGET_MAX_MAN = 16000
 IDEAL_PRICE_MAN = 11000
 
 
@@ -451,7 +453,7 @@ def listing_prefilter(record: dict, config: PropertyConfig) -> bool:
     walk = record.get("walk_min") or 999
     year = record.get("built_year") or 0
     rooms = layout_room_count(record.get("layout") or "") or 0
-    return 8000 <= price <= 18000 and area >= 60 and walk <= config.detail_prefilter_walk and year >= 1995 and rooms >= 2
+    return 8000 <= price <= HARD_BUDGET_MAX_MAN and area >= 60 and walk <= config.detail_prefilter_walk and year >= 1995 and rooms >= 2
 
 
 def strict_match(record: dict, config: PropertyConfig) -> bool:
@@ -507,7 +509,7 @@ def extract_overview(soup: BeautifulSoup) -> dict[str, str]:
     return overview
 
 
-def extract_preview_image_url(soup: BeautifulSoup) -> str:
+def extract_preview_image_url(soup: BeautifulSoup, page_url: str = "") -> str:
     for node in soup.select("img.js-scrollLazy-image[rel], input[id$='orgn'][value]"):
         value = (node.get("rel") or node.get("value") or "").strip()
         if not value:
@@ -525,7 +527,7 @@ def extract_preview_image_url(soup: BeautifulSoup) -> str:
             value = (node.get(attr) or "").strip()
             if not value or value.startswith("data:"):
                 continue
-            resolved = urljoin(SUUMO_BASE_URL, value)
+            resolved = urljoin(page_url or SUUMO_BASE_URL, value)
             if "/edit/assets/" in resolved or "/jj/jjcommon/" in resolved:
                 continue
             return resolved
@@ -543,7 +545,7 @@ def enrich_suumo_details(session: requests.Session, listings: dict[str, dict], c
         record["detail_summary"] = summary
         record["feature_tags"] = tags
         record["overview"] = overview
-        record["preview_image_url"] = extract_preview_image_url(soup)
+        record["preview_image_url"] = extract_preview_image_url(soup, record["url"])
         record["dishwasher_hits"] = [kw for kw in DISHWASHER_KEYWORDS if kw in page_text]
         record["brightness_hits"] = [kw for kw in BRIGHTNESS_KEYWORDS if kw in page_text]
         record["ceiling_hits"] = [kw for kw in CEILING_WINDOW_KEYWORDS if kw in page_text]
@@ -571,7 +573,7 @@ def price_score(price_man: float | None) -> float:
     raw_score = 10.5 - 1.1 * distance_kman - 0.35 * (distance_kman**2)
     if TARGET_BUDGET_MIN_MAN <= price_man <= TARGET_BUDGET_MAX_MAN:
         return round(max(0.5, raw_score), 2)
-    if 7000 <= price_man < TARGET_BUDGET_MIN_MAN or TARGET_BUDGET_MAX_MAN < price_man <= 16000:
+    if 7000 <= price_man < TARGET_BUDGET_MIN_MAN or TARGET_BUDGET_MAX_MAN < price_man <= HARD_BUDGET_MAX_MAN:
         return round(max(-3.0, raw_score - 3.0), 2)
     return -8
 
@@ -841,6 +843,11 @@ def freshness_score(record: dict) -> float:
 
 
 def score_listing(record: dict, config: PropertyConfig) -> float:
+    price_man = record.get("price_man")
+    if price_man and price_man > HARD_BUDGET_MAX_MAN:
+        record["criteria_notes"] = build_notes(record, config)
+        record["score"] = -999.0
+        return record["score"]
     if not has_freehold_land_rights(record, config):
         record["criteria_notes"] = build_notes(record, config)
         record["score"] = -999.0
@@ -1519,7 +1526,7 @@ def enrich_ken_details(session: requests.Session, listings: dict[str, dict], con
         record["dishwasher_hits"] = [kw for kw in DISHWASHER_KEYWORDS if kw in page_text]
         record["brightness_hits"] = [kw for kw in BRIGHTNESS_KEYWORDS if kw in page_text]
         record["ceiling_hits"] = [kw for kw in CEILING_WINDOW_KEYWORDS if kw in page_text]
-        record["preview_image_url"] = record.get("preview_image_url") or extract_preview_image_url(soup)
+        record["preview_image_url"] = record.get("preview_image_url") or extract_preview_image_url(soup, record["url"])
         title = soup.select_one("h1")
         if title:
             record["title"] = title.get_text(" ", strip=True)
@@ -1533,6 +1540,85 @@ def enrich_ken_details(session: requests.Session, listings: dict[str, dict], con
         record["built_text"] = record.get("built_text") or overview.get("完成時期(築年月)") or overview.get("築年月", "")
         if config.kind == "house":
             record["land_area_sqm"] = record.get("land_area_sqm") or parse_float(overview.get("土地面積"))
+
+
+def load_persisted_listings(conn: sqlite3.Connection, config: PropertyConfig) -> dict[str, dict]:
+    table = config.db_table
+    rows = conn.execute(f"SELECT * FROM {table}")
+    listings: dict[str, dict] = {}
+    for row in rows:
+        exact_hits = json.loads(row["exact_station_hits_json"] or "[]")
+        nearby_hits = json.loads(row["nearby_station_hits_json"] or "[]")
+        station_hits = [
+            {"station_name": name, "station_code": "", "priority": "exact", "note": "", "source_url": ""}
+            for name in exact_hits
+        ] + [
+            {"station_name": name, "station_code": "", "priority": "nearby", "note": "", "source_url": ""}
+            for name in nearby_hits
+        ]
+        dishwasher_hits = ["dishwasher"] if row["dishwasher"] else []
+        listings[row["listing_id"]] = {
+            "listing_id": row["listing_id"],
+            "source": row["source"] or "suumo",
+            "property_type": config.kind,
+            "url": row["url"],
+            "title": row["title"],
+            "property_name": row["property_name"],
+            "address": row["address"],
+            "access_text": row["access_text"],
+            "price_man": row["price_man"],
+            "area_sqm": row["area_sqm"],
+            "land_area_sqm": row["land_area_sqm"] if "land_area_sqm" in row.keys() else None,
+            "layout": row["layout"],
+            "balcony_sqm": row["balcony_sqm"] if "balcony_sqm" in row.keys() else None,
+            "walk_min": row["walk_min"],
+            "built_year": row["built_year"],
+            "built_text": row["built_text"],
+            "list_blurb": row["list_blurb"],
+            "detail_summary": row["detail_summary"],
+            "feature_tags": json.loads(row["feature_tags_json"] or "[]"),
+            "overview": json.loads(row["overview_json"] or "{}"),
+            "station_hits": station_hits,
+            "dishwasher_hits": dishwasher_hits,
+            "brightness_hits": json.loads(row["brightness_hits_json"] or "[]"),
+            "ceiling_hits": json.loads(row["ceiling_hits_json"] or "[]"),
+            "identity_key": row["identity_key"],
+            "first_seen_at": row["first_seen_at"],
+            "criteria_notes": json.loads(row["criteria_notes_json"] or "[]"),
+            "score": row["score"],
+            "preview_image_url": "",
+        }
+    return listings
+
+
+def hydrate_preview_urls(session: requests.Session, listings: list[dict]) -> None:
+    for record in listings:
+        if record.get("preview_image_url"):
+            continue
+        try:
+            soup = soup_for(session, record["url"])
+        except Exception:  # noqa: BLE001
+            continue
+        record["preview_image_url"] = extract_preview_image_url(soup, record["url"])
+
+
+def build_shortlist(listings: dict[str, dict], config: PropertyConfig) -> tuple[int, list[dict]]:
+    for record in listings.values():
+        score_listing(record, config)
+    candidates = [record for record in listings.values() if record.get("score", -999) > 0]
+    strict_candidates = [record for record in candidates if strict_match(record, config)]
+    shortlist = top_candidates(strict_candidates, SHORTLIST_LIMIT, dedupe_building=True)
+    if len(shortlist) < SHORTLIST_LIMIT:
+        strict_ids = {record["listing_id"] for record in shortlist}
+        fallback_pool = [record for record in candidates if record["listing_id"] not in strict_ids]
+        fallback = top_candidates(fallback_pool, SHORTLIST_LIMIT * 2, dedupe_building=True)
+        for record in fallback:
+            if len(shortlist) >= SHORTLIST_LIMIT:
+                break
+            if building_key(record) in {building_key(item) for item in shortlist}:
+                continue
+            shortlist.append(record)
+    return len(candidates), shortlist
 
 
 def collect_listings(session: requests.Session, config: PropertyConfig) -> dict[str, dict]:
@@ -1552,26 +1638,12 @@ def run_pipeline(session: requests.Session, conn: sqlite3.Connection, output_dir
     listings = collect_listings(session, config)
     enrich_details(session, listings, config)
     attach_identity_history(conn, listings, config)
-    for record in listings.values():
-        score_listing(record, config)
+    candidate_count, shortlist = build_shortlist(listings, config)
     persist_identity_history(conn, listings, config)
     if config.kind == "mansion":
         persist_mansions(conn, listings)
     else:
         persist_houses(conn, listings)
-    candidates = [record for record in listings.values() if record.get("score", -999) > 0]
-    strict_candidates = [record for record in candidates if strict_match(record, config)]
-    shortlist = top_candidates(strict_candidates, SHORTLIST_LIMIT, dedupe_building=True)
-    if len(shortlist) < SHORTLIST_LIMIT:
-        strict_ids = {record["listing_id"] for record in shortlist}
-        fallback_pool = [record for record in candidates if record["listing_id"] not in strict_ids]
-        fallback = top_candidates(fallback_pool, SHORTLIST_LIMIT * 2, dedupe_building=True)
-        for record in fallback:
-            if len(shortlist) >= SHORTLIST_LIMIT:
-                break
-            if building_key(record) in {building_key(item) for item in shortlist}:
-                continue
-            shortlist.append(record)
     output_shortlist = localize_preview_images(
         session,
         shortlist,
@@ -1580,16 +1652,35 @@ def run_pipeline(session: requests.Session, conn: sqlite3.Connection, output_dir
     )
     render_report(output_shortlist, output_dir / config.output_md, config)
     render_json(output_shortlist, output_dir / config.output_json)
-    return len(listings), len(candidates), shortlist
+    return len(listings), candidate_count, shortlist
+
+
+def rescore_pipeline(session: requests.Session, conn: sqlite3.Connection, output_dir: Path, config: PropertyConfig) -> tuple[int, int, list[dict]]:
+    listings = load_persisted_listings(conn, config)
+    candidate_count, shortlist = build_shortlist(listings, config)
+    hydrate_preview_urls(session, shortlist)
+    output_shortlist = localize_preview_images(
+        session,
+        shortlist,
+        output_dir / f"{config.kind}_images",
+        url_prefix=f"./{config.kind}_images",
+    )
+    render_report(output_shortlist, output_dir / config.output_md, config)
+    render_json(output_shortlist, output_dir / config.output_json)
+    return len(listings), candidate_count, shortlist
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--rescore-only", action="store_true")
+    args = parser.parse_args()
     data_dir, output_dir = ensure_dirs()
     db_path = data_dir / "suumo_listings.sqlite3"
     session = build_session()
     conn = connect_db(db_path)
-    mansion_count, mansion_candidates, mansion_shortlist = run_pipeline(session, conn, output_dir, MANSION)
-    house_count, house_candidates, house_shortlist = run_pipeline(session, conn, output_dir, HOUSE)
+    pipeline_fn = rescore_pipeline if args.rescore_only else run_pipeline
+    mansion_count, mansion_candidates, mansion_shortlist = pipeline_fn(session, conn, output_dir, MANSION)
+    house_count, house_candidates, house_shortlist = pipeline_fn(session, conn, output_dir, HOUSE)
     publish_docs(
         session,
         mansion_shortlist,
