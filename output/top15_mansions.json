@@ -19,7 +19,9 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機",
+      "食器洗浄乾燥機"
     ],
     "brightness_hits": [
       "南向き",
@@ -41,9 +43,9 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 91.46
+    "score": 90.46
   },
   {
     "listing_id": "79183554",
@@ -65,7 +67,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き"
@@ -83,57 +85,60 @@
       "built in 2022",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 89.61
+    "score": 88.61
   },
   {
-    "listing_id": "78929865",
+    "listing_id": "78918559",
     "source": "suumo",
-    "property_name": "エスト・グランディールカーロ吉祥寺本町",
-    "title": "吉祥寺本町２（吉祥寺駅） 1億1180万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_78929865/",
+    "property_name": "吉祥寺本町2丁目　エスト・グランディールカーロ吉祥寺…",
+    "title": "吉祥寺駅徒歩5分！北東角部屋78㎡ LDK21帖超のリノベマンション♪",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_78918559/",
     "price_man": 11180.0,
     "area_sqm": 78.31,
     "land_area_sqm": null,
     "layout": "2LDK",
-    "walk_min": 6,
+    "walk_min": 5,
     "built_year": 2001,
     "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
     "address": "東京都武蔵野市吉祥寺本町２",
-    "access_text": "ＪＲ総武線「吉祥寺」徒歩6分",
+    "access_text": "ＪＲ中央線「吉祥寺」徒歩5分",
     "exact_station_hits": [
       "吉祥寺"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機"
     ],
     "brightness_hits": [
-      "陽当り良好",
-      "日当たり良好",
       "眺望良好",
       "通風良好",
       "角住戸"
     ],
     "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "「吉祥寺徒歩6分、新規リフォーム×収納充実の快適住まい」 ・JR中央・総武線、京王井の頭線「吉祥寺」駅徒歩6分の好立地。 ・駅近でありながら落ち着いた住環境に位置し、日常の利便性が高い住まいホテルライクな内廊下設計で、角部屋につき日当たり良好。 ・リフォーム済みのため、引渡後すぐに快適な生活が始められる点も魅力 ・共用部分では大規模修繕工事を実施中（2025年12月末完了予定）で、建物全体の安心感や将来的な価値向上にも期待 ・周辺には東急百貨店、ロフト、サンロード商店街、西友など多様な商業施設が揃い、井の頭恩賜公園へも徒歩7分と生活と自然が両立した環境 外観 2LDK、価格1億1180万円、専有面積78.31m",
-    "preview_image_url": "./mansion_images/78929865.jpg",
+    "feature_tags": [
+      "https:",
+      "lifeplan",
+      "www.ad-cast.info"
+    ],
+    "detail_summary": "吉祥寺駅徒歩5分！北東角部屋78m 2 LDK21帖超のリノベマンション♪ 快適な毎日を演出する ☆―――――・・・　　物件の特徴　　・・・―――――☆ ◆ JR他「吉祥寺」駅まで徒歩5分の好アクセス！商業施設・公園が充実の利便性の高い立地♪ ◇ 専有面積78.31m 2",
+    "preview_image_url": "./mansion_images/78918559.jpg",
     "criteria_notes": [
       "exact target station match: 吉祥寺",
       "size clears ideal threshold at 78.31 sqm",
       "layout: 2LDK",
       "price is within budget at 11180万円",
-      "walk time meets target at 6 min",
+      "walk time meets target at 5 min",
       "built in 2001",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 日当たり良好, 眺望良好, 通風良好",
+      "brightness/window positives: 眺望良好, 通風良好, 角住戸",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 89.36
+    "score": 87.42
   },
   {
     "listing_id": "79101150",
@@ -155,7 +160,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き",
@@ -178,10 +183,10 @@
       "built in 2014",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 5 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 84.32
+    "score": 83.32
   },
   {
     "listing_id": "78779520",
@@ -203,7 +208,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -232,50 +237,9 @@
       "brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 78.3
-  },
-  {
-    "listing_id": "20703519",
-    "source": "suumo",
-    "property_name": "オープンレジデンス祐天寺",
-    "title": "東横線「祐天寺」駅徒歩5分！戸建然としたテラス付きメゾネット！室内美麗！",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_meguro/nc_20703519/",
-    "price_man": 10180.0,
-    "area_sqm": 65.51,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 4,
-    "built_year": 2024,
-    "first_seen_at": "2026-04-22T15:45:58.724357+00:00",
-    "address": "東京都目黒区五本木１",
-    "access_text": "東急東横線「祐天寺」徒歩4分",
-    "exact_station_hits": [
-      "祐天寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "東横線「祐天寺」駅徒歩5分！戸建然としたテラス付きメゾネット！室内美麗！ ※当物件の一部画像を抜粋しています。 ※映像に誤り・問題がある場合は こちら オープンレジデンス祐天寺の外観（南東側から）［2026年4月21日撮影］ LDK13.4帖［2026年4月21日撮影］ 北側洋室5.0帖［2026年4月21日撮影］ オープンレジデンス祐天寺の外観（北東側から）［2026年4月21日撮影］",
-    "preview_image_url": "./mansion_images/20703519.png",
-    "criteria_notes": [
-      "exact target station match: 祐天寺",
-      "size clears hard threshold at 65.51 sqm",
-      "layout: 2LDK",
-      "price is within budget at 10180万円",
-      "walk time meets target at 4 min",
-      "built in 2024",
-      "dishwasher mentioned in listing",
-      "basement / semi-basement indicators present",
-      "listing age: 3 days",
-      "first seen: 2026-04-22 (3 days ago)"
-    ],
-    "score": 76.18
+    "score": 77.3
   },
   {
     "listing_id": "20258656",
@@ -297,7 +261,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機"
     ],
     "brightness_hits": [
       "南向き",
@@ -320,9 +285,9 @@
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "basement / semi-basement indicators present",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 75.54
+    "score": 74.54
   },
   {
     "listing_id": "79226646",
@@ -344,7 +309,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機"
     ],
     "brightness_hits": [
       "南向き",
@@ -364,9 +330,9 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 69.47
+    "score": 68.47
   },
   {
     "listing_id": "ken:2025095714",
@@ -409,9 +375,9 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 角住戸",
-      "first seen: 2026-04-24 (1 days ago)"
+      "first seen: 2026-04-24 (4 days ago)"
     ],
-    "score": 68.94
+    "score": 67.94
   },
   {
     "listing_id": "ken:2024125886",
@@ -454,9 +420,9 @@
       "built in 2005",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-24 (1 days ago)"
+      "first seen: 2026-04-24 (4 days ago)"
     ],
-    "score": 63.61
+    "score": 62.61
   },
   {
     "listing_id": "20141592",
@@ -478,7 +444,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き",
@@ -501,10 +467,10 @@
       "older build year: 1999",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 眺望良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-24 (1 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-04-24 (4 days ago)"
     ],
-    "score": 92.82
+    "score": 91.82
   },
   {
     "listing_id": "20720017",
@@ -526,7 +492,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き",
@@ -547,10 +513,10 @@
       "older build year: 1999",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-22 (3 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-04-22 (6 days ago)"
     ],
-    "score": 86.73
+    "score": 85.73
   },
   {
     "listing_id": "20427979",
@@ -572,7 +538,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食器洗浄乾燥機"
     ],
     "brightness_hits": [
       "南向き",
@@ -592,10 +559,53 @@
       "built in 2017",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 角住戸",
-      "listing age: 5 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 80.29
+    "score": 79.29
+  },
+  {
+    "listing_id": "20723669",
+    "source": "suumo",
+    "property_name": "オープンレジデンシア中野新井テラス",
+    "title": "再開発で注目の中野駅徒歩12分♪ペット飼育可！築浅のため、室内大変綺麗です。",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20723669/",
+    "price_man": 12080.0,
+    "area_sqm": 68.61,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 12,
+    "built_year": 2023,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都中野区新井１",
+    "access_text": "ＪＲ中央線「中野」徒歩12分",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "南向き"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "再開発で注目の中野駅徒歩12分♪ペット飼育可！築浅のため、室内大変綺麗です。 ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◆２０２３年築の築浅美麗マンション♪ ◆ホテルライクな内廊下で、セキュリティ面も良好 ◆2駅4路線が使えるマルチアクセス♪ ◆オートロック連動のTVモニター付インターホン♪ ◆宅配ロッカー完備♪ ◆設備充実のスマートな都市型レジデンス♪",
+    "preview_image_url": "./mansion_images/20723669.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "size clears hard threshold at 68.61 sqm",
+      "layout: 3LDK",
+      "price is within budget at 12080万円",
+      "walk time misses target at 12 min",
+      "built in 2023",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き",
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (10 days ago)"
+    ],
+    "score": 76.8
   },
   {
     "listing_id": "20255516",
@@ -635,57 +645,79 @@
       "older build year: 1999",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 通風良好, 角住戸",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 76.32
+    "score": 75.32
   },
   {
-    "listing_id": "20315547",
-    "source": "suumo",
-    "property_name": "オープンレジデンシア中野新井テラス",
-    "title": "再開発で注目の中野駅徒歩12分♪ペット飼育可！築浅のため、室内大変綺麗です。",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20315547/",
-    "price_man": 12080.0,
-    "area_sqm": 68.61,
+    "listing_id": "ken:2026015059",
+    "source": "ken",
+    "property_name": "参宮橋ペアシティ",
+    "title": "参宮橋ペアシティ  6階 3LDK",
+    "url": "https://www.kencorp.co.jp/housing/properties/157399/2026015059/",
+    "price_man": 11990.0,
+    "area_sqm": 88.02,
     "land_area_sqm": null,
     "layout": "3LDK",
-    "walk_min": 12,
-    "built_year": 2023,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都中野区新井１",
-    "access_text": "ＪＲ中央線「中野」徒歩12分",
+    "walk_min": 6,
+    "built_year": 1974,
+    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
+    "address": "東京都渋谷区代々木４",
+    "access_text": "小田急線 参宮橋駅 徒歩6分ほか",
     "exact_station_hits": [
-      "中野"
+      "代々木公園"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食洗機"
     ],
     "brightness_hits": [
-      "南向き"
+      "角住戸"
     ],
     "ceiling_hits": [],
     "feature_tags": [
-      "https:",
-      "lifeplan",
-      "loan",
-      "www.ad-cast.info"
+      "24時間ゴミ出し可能",
+      "24時間換気システム",
+      "LDK15帖以上",
+      "TVモニター付きインターホン",
+      "エレベーター",
+      "オートバス",
+      "オートロック",
+      "カウンターキッチン",
+      "ガスコンロ",
+      "クローゼット",
+      "グリル付き",
+      "コンロ3口",
+      "システムキッチン",
+      "バストイレ別",
+      "バルコニー",
+      "全居室収納",
+      "室内洗濯機置場",
+      "敷地内ゴミ置場",
+      "日勤管理",
+      "洗浄便座",
+      "洗面所独立",
+      "浄水器",
+      "浴室乾燥機",
+      "追焚",
+      "都市ガス",
+      "防犯カメラ",
+      "食洗機"
     ],
-    "detail_summary": "再開発で注目の中野駅徒歩12分♪ペット飼育可！築浅のため、室内大変綺麗です。 ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◆２０２３年築の築浅美麗マンション♪ ◆ホテルライクな内廊下で、セキュリティ面も良好 ◆2駅4路線が使えるマルチアクセス♪ ◆オートロック連動のTVモニター付インターホン♪ ◆宅配ロッカー完備♪ ◆設備充実のスマートな都市型レジデンス♪",
-    "preview_image_url": "./mansion_images/20315547.jpg",
+    "detail_summary": "バルコニー、 LDK15帖以上 室内洗濯機置場、 浴室乾燥機、 24時間換気システム、 オートバス、 追焚、 洗浄便座、 バストイレ別、 洗面所独立、 クローゼット、 都市ガス、 ガスコンロ、 グリル付き、 コンロ3口、 食洗機、 浄水器、 システムキッチン、 カウンターキッチン、 全居室収納 エレベーター、 24時間ゴミ出し可能、 敷地内ゴミ置場、 オートロック、 TVモニター付きインターホン、 防犯カメラ、 日勤管理",
+    "preview_image_url": "./mansion_images/ken:2026015059.jpg",
     "criteria_notes": [
-      "exact target station match: 中野",
-      "size clears hard threshold at 68.61 sqm",
+      "exact target station match: 代々木公園",
+      "size clears ideal threshold at 88.02 sqm",
       "layout: 3LDK",
-      "price is within budget at 12080万円",
-      "walk time misses target at 12 min",
-      "built in 2023",
+      "price is within budget at 11990万円",
+      "walk time meets target at 6 min",
+      "older build year: 1974",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き",
-      "listing age: 26 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "brightness/window positives: 角住戸",
+      "first seen: 2026-04-24 (4 days ago)"
     ],
-    "score": 76.3
+    "score": 74.5
   }
 ]

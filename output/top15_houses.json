@@ -19,7 +19,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機"
     ],
     "brightness_hits": [
       "南向き",
@@ -42,61 +43,9 @@
       "brightness/window positives: 南向き, 採光",
       "ceiling/window-height positives: 吹抜け",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 96.93
-  },
-  {
-    "listing_id": "20533941",
-    "source": "suumo",
-    "property_name": "",
-    "title": "◆吉祥寺駅１２分◆敷地３８坪◆建物１００㎡超◆３SLDK+DEN+P",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_musashino/nc_20533941/",
-    "price_man": 12800.0,
-    "area_sqm": 100.16,
-    "land_area_sqm": 125.93,
-    "layout": "3LDK+2S（納戸）",
-    "walk_min": 12,
-    "built_year": 2016,
-    "first_seen_at": null,
-    "address": "東京都武蔵野市吉祥寺北町１",
-    "access_text": "ＪＲ中央線「吉祥寺」徒歩12分",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "採光",
-      "通風良好"
-    ],
-    "ceiling_hits": [
-      "吹抜け"
-    ],
-    "feature_tags": [
-      "wallmate.co.jp",
-      "～",
-      "～弊社ホームページ～https:"
-    ],
-    "detail_summary": "◆吉祥寺駅１２分 ◆敷地３８坪◆建物１００m 2 超 ◆３SLDK+DEN+P ◆リビング２２帖+吹抜+床暖房２面 ◆浴室ミストサウナ付 ◆東公道◆日照・通風良好",
-    "preview_image_url": "",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "size clears ideal threshold at 100.16 sqm",
-      "layout: 3LDK+2S（納戸）",
-      "price is within budget at 12800万円",
-      "walk time meets target at 12 min",
-      "built in 2016",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
-      "ceiling/window-height positives: 吹抜け",
-      "listing age: 11 days"
-    ],
-    "score": 94.51
+    "score": 95.93
   },
   {
     "listing_id": "20133704",
@@ -118,7 +67,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南西向き",
@@ -138,17 +87,17 @@
       "built in 2009",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 陽当り良好, 通風良好",
-      "listing age: 5 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 88.63
+    "score": 87.63
   },
   {
-    "listing_id": "20589563",
+    "listing_id": "20737103",
     "source": "suumo",
     "property_name": "",
     "title": "中野駅徒歩10分、新中野駅徒歩5分の好立地戸建",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20589563/",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20737103/",
     "price_man": 11680.0,
     "area_sqm": 101.18,
     "land_area_sqm": 81.04,
@@ -163,7 +112,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き"
@@ -171,7 +120,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "中野駅徒歩10分、新中野駅徒歩5分の好立地戸建 ２沿線以上利用可、南向き、ＬＤＫ１５畳以上、トイレ２ヶ所、ルーフバルコニー、市街地が近い、スーパー 徒歩10分以内、システムキッチン、浴室乾燥機、全居室収納、閑静な住宅地、シャワー付洗面化粧台、２階建、南面バルコニー、温水洗浄便座、３階建以上、都市ガス、小学校 徒歩10分以内、食器洗乾燥機、バルコニー・屋上に水栓あり 1億1680万円、3LDK+S（納戸）、土地面積81.04m 2 、建物面積101.18m 2 現地（2026年2月）撮影 現地からの眺望",
-    "preview_image_url": "./house_images/20589563.jpg",
+    "preview_image_url": "./house_images/20737103.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
       "size clears ideal threshold at 101.18 sqm",
@@ -182,9 +131,9 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 86.51
+    "score": 85.51
   },
   {
     "listing_id": "20675566",
@@ -206,7 +155,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -231,9 +180,9 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 86.19
+    "score": 85.19
   },
   {
     "listing_id": "20588657",
@@ -255,7 +204,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食器洗浄乾燥機"
     ],
     "brightness_hits": [
       "南向き",
@@ -283,10 +233,10 @@
       "built in 2004",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 84.01
+    "score": 83.01
   },
   {
     "listing_id": "78979363",
@@ -328,106 +278,16 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 南東向き, 陽当り良好, 通風良好",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 80.04
+    "score": 79.04
   },
   {
-    "listing_id": "78866685",
-    "source": "suumo",
-    "property_name": "",
-    "title": "中央４（新中野駅） 1億3880万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_78866685/",
-    "price_man": 13880.0,
-    "area_sqm": 121.67,
-    "land_area_sqm": 119.5,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 11,
-    "built_year": 2020,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都中野区中央４",
-    "access_text": "ＪＲ中央線「中野」徒歩11分",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "陽当り良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [
-      "吹抜け"
-    ],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ 2SLDK+ワンルームの賃貸併用住宅 収納スペース豊富 －物件のおすすめポイント－ ▼立地 ・東京メトロ丸ノ内線「新中野」駅 徒歩7分 ・桃園川緑道に隣接した静かで開放感ある立地 ▼特徴",
-    "preview_image_url": "./house_images/78866685.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "size clears ideal threshold at 121.67 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 13880万円",
-      "walk time meets target at 11 min",
-      "built in 2020",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 陽当り良好, 通風良好",
-      "ceiling/window-height positives: 吹抜け",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
-    ],
-    "score": 79.47
-  },
-  {
-    "listing_id": "20583077",
-    "source": "suumo",
-    "property_name": "",
-    "title": "【本日立地ご見学いただけます！】南東側道路のため陽当たり・通風良好！！",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20583077/",
-    "price_man": 8980.0,
-    "area_sqm": 83.59,
-    "land_area_sqm": 55.62,
-    "layout": "3LDK",
-    "walk_min": 10,
-    "built_year": 2001,
-    "first_seen_at": null,
-    "address": "東京都世田谷区上馬２",
-    "access_text": "東急田園都市線「三軒茶屋」徒歩10分",
-    "exact_station_hits": [
-      "三軒茶屋"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "採光",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "【本日立地ご見学いただけます！】 南東側道路のため陽当たり・通風良好！！ ■Point ・使い勝手の良い人気の3LDK ・コミュニケーションの取りやすい対面キッチン！ ・食洗機・浴室乾燥機等充実の設備を搭載！ ・全居室収納あり！ ■Access",
-    "preview_image_url": "",
-    "criteria_notes": [
-      "exact target station match: 三軒茶屋",
-      "size clears ideal threshold at 83.59 sqm",
-      "layout: 3LDK",
-      "price is within budget at 8980万円",
-      "walk time meets target at 10 min",
-      "built in 2001",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
-      "listing age: 11 days"
-    ],
-    "score": 78.23
-  },
-  {
-    "listing_id": "20631574",
+    "listing_id": "20695456",
     "source": "suumo",
     "property_name": "現地見学可能【太子堂2】都心の賑わいからわずか2駅。…",
     "title": "【現地見学可能】◆三軒茶屋駅５分◆商業施設充実◆小・中学校至近",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20631574/",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20695456/",
     "price_man": 11980.0,
     "area_sqm": 115.27,
     "land_area_sqm": 68.82,
@@ -450,7 +310,7 @@
       "～弊社ホームページ～https:"
     ],
     "detail_summary": "【現地見学可能】 ◆三軒茶屋駅５分 ◆商業施設充実 ◆小・中学校至近 ◆お気軽にお問い合わせください♪ ◆東急田園都市線三軒茶屋駅５分 ◆三宿小学校５分◆三宿中学校８分 □□□□　NOT　OLD，BE　CLASSIC.　□□□□",
-    "preview_image_url": "",
+    "preview_image_url": "./house_images/20695456.jpg",
     "criteria_notes": [
       "exact target station match: 三軒茶屋",
       "size clears ideal threshold at 115.27 sqm",
@@ -459,10 +319,10 @@
       "walk time meets target at 5 min",
       "built in 2013",
       "dishwasher not explicitly confirmed",
-      "listing age: 7 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 77.55
+    "score": 76.55
   },
   {
     "listing_id": "20417719",
@@ -484,7 +344,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -500,9 +360,9 @@
       "built in 2002",
       "dishwasher mentioned in listing",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 76.83
+    "score": 75.83
   },
   {
     "listing_id": "20655736",
@@ -543,9 +403,9 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 73.4
+    "score": 72.4
   },
   {
     "listing_id": "79097849",
@@ -589,9 +449,9 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南西向き, 陽当り良好, 日当たり良好, 採光",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 73.16
+    "score": 72.16
   },
   {
     "listing_id": "20551066",
@@ -630,9 +490,54 @@
       "built in 2024",
       "dishwasher not explicitly confirmed",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (7 days ago)"
+      "first seen: 2026-04-18 (10 days ago)"
     ],
-    "score": 72.66
+    "score": 71.66
+  },
+  {
+    "listing_id": "20719158",
+    "source": "suumo",
+    "property_name": "",
+    "title": "■人気エリアの三軒茶屋が徒歩圏内♪■2SLDK+ビルトインガレージ",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20719158/",
+    "price_man": 8980.0,
+    "area_sqm": 83.59,
+    "land_area_sqm": 55.62,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 10,
+    "built_year": 2001,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都世田谷区上馬２",
+    "access_text": "東急田園都市線「三軒茶屋」徒歩10分",
+    "exact_station_hits": [
+      "三軒茶屋"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "南向き",
+      "陽当り良好",
+      "採光",
+      "眺望良好",
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "■人気エリアの三軒茶屋が徒歩圏内♪ ■2SLDK+ビルトインガレージ 《Access》 ・田園都市線・世田谷線「三軒茶屋駅」歩10分 ・世田谷線「西太子堂駅」歩9分 ・田園都市線「駒沢大学駅」歩11分 《Point》 ・駅までフラットアプローチ♪",
+    "preview_image_url": "./house_images/20719158.jpg",
+    "criteria_notes": [
+      "exact target station match: 三軒茶屋",
+      "size clears ideal threshold at 83.59 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 8980万円",
+      "walk time meets target at 10 min",
+      "built in 2001",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (10 days ago)"
+    ],
+    "score": 67.73
   },
   {
     "listing_id": "20650097",
@@ -674,8 +579,95 @@
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
       "listing age: 2 days",
-      "first seen: 2026-04-22 (3 days ago)"
+      "first seen: 2026-04-22 (6 days ago)"
     ],
-    "score": 67.31
+    "score": 66.31
+  },
+  {
+    "listing_id": "78542103",
+    "source": "suumo",
+    "property_name": "",
+    "title": "静寂なる低層エリア、愛車二台と暮らす贅をご体感くださいませ♪",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_meguro/nc_78542103/",
+    "price_man": 9780.0,
+    "area_sqm": 85.54,
+    "land_area_sqm": 81.07,
+    "layout": "3LDK",
+    "walk_min": 11,
+    "built_year": 2004,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都目黒区柿の木坂１",
+    "access_text": "東急東横線「学芸大学」徒歩11分",
+    "exact_station_hits": [
+      "学芸大学"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "陽当り良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "https:",
+      "lifeplan",
+      "loan",
+      "www.ad-cast.info"
+    ],
+    "detail_summary": "静寂なる低層エリア、愛車二台と暮らす贅をご体感くださいませ♪ ☆―――――・・・　　物件の特徴　　・・・―――――☆ 洗練された文化と静謐が交差する、目黒区柿の木坂一丁目。 第一種低層住居専用地域の守られた聖域に佇む、平成１６年築の品格ある私邸をご案内します。 特筆すべきは、都心邸宅において希少価値の高い２台分のカースペース。 愛車との優雅な日常を叶える贅沢な設計です。２階に配された約１７．５帖の広がりあるＬＤＫは、柔らかな陽光と風を招き入れる寛ぎの空間。 個室もしっかりと確保された３階建てのプランニングが、住まう方のプライバシーを守ります。 空室につき、即時のご内覧が可能です。",
+    "preview_image_url": "./house_images/78542103.jpg",
+    "criteria_notes": [
+      "exact target station match: 学芸大学",
+      "size clears ideal threshold at 85.54 sqm",
+      "layout: 3LDK",
+      "price is within budget at 9780万円",
+      "walk time meets target at 11 min",
+      "built in 2004",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 陽当り良好",
+      "listing age: 3 days",
+      "first seen: 2026-04-18 (10 days ago)"
+    ],
+    "score": 63.0
+  },
+  {
+    "listing_id": "20281567",
+    "source": "suumo",
+    "property_name": "",
+    "title": "梅丘３（梅ヶ丘駅） 9580万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20281567/",
+    "price_man": 9580.0,
+    "area_sqm": 123.25,
+    "land_area_sqm": 110.29,
+    "layout": "3LDK+S（納戸）",
+    "walk_min": 11,
+    "built_year": 2000,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都世田谷区梅丘３",
+    "access_text": "小田急線「梅ヶ丘」徒歩11分",
+    "exact_station_hits": [
+      "梅ヶ丘"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "眺望良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "世田谷区梅丘3丁目の高台に存しているため、3階バルコニーからの眺望良好 ■前面道路幅員約6.0ｍ ■駐車2台可　※車種による制限あり ■ＬＤＫ約20.0帖 ■第一種低層住居専用地域の閑静な住宅街に存す ■小田急小田原線「梅ヶ丘」駅徒歩11分 9580万円、3LDK+S、土地面積110.29m 2",
+    "preview_image_url": "./house_images/20281567.jpg",
+    "criteria_notes": [
+      "exact target station match: 梅ヶ丘",
+      "size clears ideal threshold at 123.25 sqm",
+      "layout: 3LDK+S（納戸）",
+      "price is within budget at 9580万円",
+      "walk time meets target at 11 min",
+      "built in 2000",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 眺望良好",
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (10 days ago)"
+    ],
+    "score": 62.51
   }
 ]
