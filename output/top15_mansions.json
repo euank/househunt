@@ -42,8 +42,8 @@
       "built in 2016",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (10 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (11 days ago)"
     ],
     "score": 90.46
   },
@@ -86,7 +86,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (10 days ago)"
+      "first seen: 2026-04-18 (11 days ago)"
     ],
     "score": 88.61
   },
@@ -135,8 +135,8 @@
       "built in 2001",
       "dishwasher mentioned in listing",
       "brightness/window positives: 眺望良好, 通風良好, 角住戸",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (10 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (11 days ago)"
     ],
     "score": 87.42
   },
@@ -183,8 +183,8 @@
       "built in 2014",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 4 days",
-      "first seen: 2026-04-18 (10 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (11 days ago)"
     ],
     "score": 83.32
   },
@@ -236,10 +236,51 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (10 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (11 days ago)"
     ],
     "score": 77.3
+  },
+  {
+    "listing_id": "20719117",
+    "source": "suumo",
+    "property_name": "オープンレジデンス祐天寺",
+    "title": "東横線「祐天寺」駅徒歩4分！戸建然とした2024年築の2LDK！室内美麗！",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_meguro/nc_20719117/",
+    "price_man": 10180.0,
+    "area_sqm": 65.51,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 4,
+    "built_year": 2024,
+    "first_seen_at": "2026-04-22T15:45:58.724357+00:00",
+    "address": "東京都目黒区五本木１",
+    "access_text": "東急東横線「祐天寺」徒歩4分",
+    "exact_station_hits": [
+      "祐天寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "東横線「祐天寺」駅徒歩4分！戸建然とした2024年築の2LDK！室内美麗！ ◆東横線「祐天寺」徒歩4分！各地へのアクセス良好！ ◇2024年築のため室内美麗！ ◆戸建然としたメゾネット住戸！階下に住戸がなく、足音に気を遣う必要がありません。 ◇周辺は低層住宅の並ぶ住宅地。たいへん静かな住環境です。 ◆ペットは2匹まで飼育可（細則あり） ◇各住戸に宅配ボックスがあります ◆地下のお部屋も、窓が2方向にあり湿気がたまりにくい構造です",
+    "preview_image_url": "./mansion_images/20719117.jpg",
+    "criteria_notes": [
+      "exact target station match: 祐天寺",
+      "size clears hard threshold at 65.51 sqm",
+      "layout: 2LDK",
+      "price is within budget at 10180万円",
+      "walk time meets target at 4 min",
+      "built in 2024",
+      "dishwasher mentioned in listing",
+      "basement / semi-basement indicators present",
+      "listing age: 0 days",
+      "first seen: 2026-04-22 (7 days ago)"
+    ],
+    "score": 75.18
   },
   {
     "listing_id": "20258656",
@@ -284,8 +325,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "basement / semi-basement indicators present",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (10 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (11 days ago)"
     ],
     "score": 74.54
   },
@@ -329,8 +370,8 @@
       "built in 2011",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (10 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (11 days ago)"
     ],
     "score": 68.47
   },
@@ -375,7 +416,7 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 角住戸",
-      "first seen: 2026-04-24 (4 days ago)"
+      "first seen: 2026-04-24 (5 days ago)"
     ],
     "score": 67.94
   },
@@ -420,7 +461,7 @@
       "built in 2005",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-24 (4 days ago)"
+      "first seen: 2026-04-24 (5 days ago)"
     ],
     "score": 62.61
   },
@@ -467,8 +508,8 @@
       "older build year: 1999",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 眺望良好",
-      "listing age: 4 days",
-      "first seen: 2026-04-24 (4 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-24 (5 days ago)"
     ],
     "score": 91.82
   },
@@ -513,8 +554,8 @@
       "older build year: 1999",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 4 days",
-      "first seen: 2026-04-22 (6 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-22 (7 days ago)"
     ],
     "score": 85.73
   },
@@ -560,7 +601,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 角住戸",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (10 days ago)"
+      "first seen: 2026-04-18 (11 days ago)"
     ],
     "score": 79.29
   },
@@ -602,8 +643,8 @@
       "built in 2023",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (10 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (11 days ago)"
     ],
     "score": 76.8
   },
@@ -645,79 +686,9 @@
       "older build year: 1999",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 通風良好, 角住戸",
-      "listing age: 4 days",
-      "first seen: 2026-04-18 (10 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (11 days ago)"
     ],
     "score": 75.32
-  },
-  {
-    "listing_id": "ken:2026015059",
-    "source": "ken",
-    "property_name": "参宮橋ペアシティ",
-    "title": "参宮橋ペアシティ  6階 3LDK",
-    "url": "https://www.kencorp.co.jp/housing/properties/157399/2026015059/",
-    "price_man": 11990.0,
-    "area_sqm": 88.02,
-    "land_area_sqm": null,
-    "layout": "3LDK",
-    "walk_min": 6,
-    "built_year": 1974,
-    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
-    "address": "東京都渋谷区代々木４",
-    "access_text": "小田急線 参宮橋駅 徒歩6分ほか",
-    "exact_station_hits": [
-      "代々木公園"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食洗機"
-    ],
-    "brightness_hits": [
-      "角住戸"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "24時間ゴミ出し可能",
-      "24時間換気システム",
-      "LDK15帖以上",
-      "TVモニター付きインターホン",
-      "エレベーター",
-      "オートバス",
-      "オートロック",
-      "カウンターキッチン",
-      "ガスコンロ",
-      "クローゼット",
-      "グリル付き",
-      "コンロ3口",
-      "システムキッチン",
-      "バストイレ別",
-      "バルコニー",
-      "全居室収納",
-      "室内洗濯機置場",
-      "敷地内ゴミ置場",
-      "日勤管理",
-      "洗浄便座",
-      "洗面所独立",
-      "浄水器",
-      "浴室乾燥機",
-      "追焚",
-      "都市ガス",
-      "防犯カメラ",
-      "食洗機"
-    ],
-    "detail_summary": "バルコニー、 LDK15帖以上 室内洗濯機置場、 浴室乾燥機、 24時間換気システム、 オートバス、 追焚、 洗浄便座、 バストイレ別、 洗面所独立、 クローゼット、 都市ガス、 ガスコンロ、 グリル付き、 コンロ3口、 食洗機、 浄水器、 システムキッチン、 カウンターキッチン、 全居室収納 エレベーター、 24時間ゴミ出し可能、 敷地内ゴミ置場、 オートロック、 TVモニター付きインターホン、 防犯カメラ、 日勤管理",
-    "preview_image_url": "./mansion_images/ken:2026015059.jpg",
-    "criteria_notes": [
-      "exact target station match: 代々木公園",
-      "size clears ideal threshold at 88.02 sqm",
-      "layout: 3LDK",
-      "price is within budget at 11990万円",
-      "walk time meets target at 6 min",
-      "older build year: 1974",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 角住戸",
-      "first seen: 2026-04-24 (4 days ago)"
-    ],
-    "score": 74.5
   }
 ]
