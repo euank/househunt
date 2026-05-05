@@ -31,7 +31,7 @@
     ],
     "feature_tags": [],
     "detail_summary": "【三井の戸建】築浅ファインコート 吹抜けLDK＋建物面積外ロフト7.3帖！ －物件のおすすめポイント－ ▼特徴 ・全居室2面以上の採光設計 ・2階LDKは3面採光設計、南向きの窓が多く、自然光がたっぷり入る明るいリビングダイニング ・LDKに床暖房を設置 ・LDを見渡せる対面式キッチンを採用、食洗機・浄水器付",
-    "preview_image_url": "./house_images/78056171.jpg",
+    "preview_image_url": "./data/images/houses/78056171.jpg",
     "criteria_notes": [
       "exact target station match: 梅ヶ丘",
       "size clears ideal threshold at 89.19 sqm",
@@ -42,10 +42,10 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (13 days ago)"
     ],
-    "score": 95.43
+    "score": 95.93
   },
   {
     "listing_id": "20133704",
@@ -75,14 +75,9 @@
       "通風良好"
     ],
     "ceiling_hits": [],
-    "feature_tags": [
-      "https:",
-      "lifeplan",
-      "loan",
-      "www.ad-cast.info"
-    ],
+    "feature_tags": [],
     "detail_summary": "◇ 2階建て・開放感・日当たり抜群 ◆三軒茶屋の閑静な住宅街に佇む邸宅 ♪ADCAST♪ ♪お問い合わせは【0120-566-117】まで♪ 快適な毎日を演出する ☆―――――・・・　　物件の特徴　　・・・―――――☆ ◆20.5帖超の広々LDKは、ご家族の笑顔が集まる開放的な空間 ◇各居室もゆとりの5帖以上を確保し、プライベートな時間も快適に",
-    "preview_image_url": "./house_images/20133704.jpg",
+    "preview_image_url": "./data/images/houses/20133704.jpg",
     "criteria_notes": [
       "exact target station match: 三軒茶屋",
       "size clears ideal threshold at 85.43 sqm",
@@ -93,9 +88,9 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 陽当り良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "first seen: 2026-04-18 (13 days ago)"
     ],
-    "score": 87.13
+    "score": 87.63
   },
   {
     "listing_id": "20737103",
@@ -125,7 +120,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "中野駅徒歩10分、新中野駅徒歩5分の好立地戸建 ２沿線以上利用可、南向き、ＬＤＫ１５畳以上、トイレ２ヶ所、ルーフバルコニー、市街地が近い、スーパー 徒歩10分以内、システムキッチン、浴室乾燥機、全居室収納、閑静な住宅地、シャワー付洗面化粧台、２階建、南面バルコニー、温水洗浄便座、３階建以上、都市ガス、小学校 徒歩10分以内、食器洗乾燥機、バルコニー・屋上に水栓あり 1億1680万円、3LDK+S（納戸）、土地面積81.04m 2 、建物面積101.18m 2 現地（2026年2月）撮影 現地からの眺望",
-    "preview_image_url": "./house_images/20737103.jpg",
+    "preview_image_url": "./data/images/houses/20737103.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
       "size clears ideal threshold at 101.18 sqm",
@@ -135,10 +130,10 @@
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 9 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-18 (13 days ago)"
     ],
-    "score": 85.01
+    "score": 85.51
   },
   {
     "listing_id": "20675566",
@@ -173,7 +168,7 @@
       "空家】３LDK＋車１台　建物７４．８４m"
     ],
     "detail_summary": "2 所有権 2 陽当良好　弊社専任 ■土地６５．９１m 2 西公道４ｍ　床暖房　食洗器 ■笹塚駅８分　東北沢駅８分　代々木上原駅１２分",
-    "preview_image_url": "./house_images/20675566.jpg",
+    "preview_image_url": "./data/images/houses/20675566.jpg",
     "criteria_notes": [
       "exact target station match: 代々木上原",
       "size clears ideal threshold at 74.84 sqm",
@@ -184,24 +179,24 @@
       "land rights: freehold / 所有権",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-18 (13 days ago)"
     ],
-    "score": 84.69
+    "score": 85.19
   },
   {
-    "listing_id": "20690524",
+    "listing_id": "20588657",
     "source": "suumo",
-    "property_name": "",
-    "title": "中央５（中野駅） 9580万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20690524/",
+    "property_name": "【住宅ローン減税利用可能】２年間の瑕疵保険付/内外フ…",
+    "title": "瑕疵保険付/３ＬＤＫ＆Ｐ/フルリノベーション/小学校歩２分/住宅ローン減税",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20588657/",
     "price_man": 9580.0,
     "area_sqm": 82.87,
-    "land_area_sqm": 62.4,
+    "land_area_sqm": 54.19,
     "layout": "3LDK",
     "walk_min": 10,
     "built_year": 2004,
-    "first_seen_at": "2026-04-22T15:47:01.701300+00:00",
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都中野区中央５",
     "access_text": "ＪＲ中央線「中野」徒歩10分",
     "exact_station_hits": [
@@ -210,17 +205,25 @@
     "nearby_station_hits": [],
     "dishwasher_hits": [
       "食器洗乾燥機",
-      "食洗機"
+      "食器洗浄乾燥機"
     ],
     "brightness_hits": [
+      "南向き",
       "陽当り良好",
       "採光",
+      "眺望良好",
       "通風良好"
     ],
     "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ 閑静な住宅地内に立地 陽当り・通風良好な角地の戸建 －物件のおすすめポイント－ ▼特徴 ・コミュニケーションを育むリビング階段設計 ・1階LDK約16.5帖は3面採光を確保、南面にウッドデッキ有 ・作業効率の良いL字型キッチン、食洗機・浄水器付",
-    "preview_image_url": "./house_images/20690524.jpg",
+    "feature_tags": [
+      "フルリノベーション",
+      "住宅ローン減税",
+      "小学校歩２分",
+      "瑕疵保険付",
+      "３ＬＤＫ＆Ｐ"
+    ],
+    "detail_summary": "【住宅ローン減税 利用可能！】 【安心の既存住宅瑕疵保険付き】 ・構造上主要部分、屋根や外壁など雨水浸水を防止する部分などを保証します 【交通】 ・ＪＲ中央線、総武線、東西線「中野駅」　徒歩１０分 ～中央特快停車駅 ～「新宿駅」まで最短５分直通、「東京駅」まで最短１８分直通 【リフォーム内容】",
+    "preview_image_url": "./data/images/houses/20588657.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
       "size clears ideal threshold at 82.87 sqm",
@@ -229,9 +232,9 @@
       "walk time meets target at 10 min",
       "built in 2004",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 採光, 通風良好",
+      "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
       "listing age: 1 days",
-      "first seen: 2026-04-22 (13 days ago)"
+      "first seen: 2026-04-18 (13 days ago)"
     ],
     "score": 83.01
   },
@@ -264,7 +267,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "◇南東角地　2017年築の一戸建て◇ ◇南東角地　2017年築の一戸建て◇ 交通：小田急線「梅ヶ丘」駅徒歩10分 世田谷線「若林」駅徒歩12分 土地面積：70.65m 2 (約21.37坪) 建物面積：1階34.86m",
-    "preview_image_url": "./house_images/78979363.jpg",
+    "preview_image_url": "./data/images/houses/78979363.jpg",
     "criteria_notes": [
       "exact target station match: 梅ヶ丘",
       "size clears ideal threshold at 77.09 sqm",
@@ -274,10 +277,10 @@
       "built in 2017",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 南東向き, 陽当り良好, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (13 days ago)"
     ],
-    "score": 78.54
+    "score": 79.04
   },
   {
     "listing_id": "20695456",
@@ -307,7 +310,7 @@
       "～弊社ホームページ～https:"
     ],
     "detail_summary": "【現地見学可能】 ◆三軒茶屋駅５分 ◆商業施設充実 ◆小・中学校至近 ◆お気軽にお問い合わせください♪ ◆東急田園都市線三軒茶屋駅５分 ◆三宿小学校５分◆三宿中学校８分 □□□□　NOT　OLD，BE　CLASSIC.　□□□□",
-    "preview_image_url": "./house_images/20695456.jpg",
+    "preview_image_url": "./data/images/houses/20695456.jpg",
     "criteria_notes": [
       "exact target station match: 三軒茶屋",
       "size clears ideal threshold at 115.27 sqm",
@@ -317,9 +320,9 @@
       "built in 2013",
       "dishwasher not explicitly confirmed",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "first seen: 2026-04-18 (13 days ago)"
     ],
-    "score": 76.05
+    "score": 76.55
   },
   {
     "listing_id": "20417719",
@@ -347,7 +350,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "☆世田谷代田駅4分×下北沢駅9分　2002年3月築・新規リフォーム☆ ■交通　：小田急小田原線「世田谷代田」駅徒歩4分 小田急小田原線・京王井の頭線「下北沢」駅　徒歩9分 ■土地面積　： 67.11m2（約20.30坪） ■建物面積　： 88.69m2（約26.82坪） ■間取り　　： 3LDK+駐車場1台　※車種による ■建築年月　： 2002年(平成14年)3月 ■2階洋室にはトップライト",
-    "preview_image_url": "./house_images/20417719.jpg",
+    "preview_image_url": "./data/images/houses/20417719.jpg",
     "criteria_notes": [
       "exact target station match: 下北沢",
       "size clears ideal threshold at 88.69 sqm",
@@ -357,9 +360,9 @@
       "built in 2002",
       "dishwasher mentioned in listing",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "first seen: 2026-04-18 (13 days ago)"
     ],
-    "score": 75.33
+    "score": 75.83
   },
   {
     "listing_id": "20655736",
@@ -389,7 +392,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "『中野』駅　徒歩６分／前面道路公道約４．６ｍ ■JR、東京メトロ東西線『中野』駅　徒歩６分 ■整形地 ■前面道路約４．６ｍ ■閑静な住宅街 ■屋上ルーフバルコニー ■現在空室 ■駐車場",
-    "preview_image_url": "./house_images/20655736.jpg",
+    "preview_image_url": "./data/images/houses/20655736.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
       "size clears ideal threshold at 86.17 sqm",
@@ -399,10 +402,10 @@
       "built in 2004",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (13 days ago)"
     ],
-    "score": 71.9
+    "score": 72.4
   },
   {
     "listing_id": "79097849",
@@ -435,7 +438,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "4LDK×2面バルコニー 【代田3丁目中古戸建】 おすすめポイント 〇LDK約22帖と解放的な間取り 〇4LDKで各居室6帖以上 〇2面バルコニーで開放感良好 〇カースペース有※車種制限有 〇前面広々公道",
-    "preview_image_url": "./house_images/79097849.jpg",
+    "preview_image_url": "./data/images/houses/79097849.jpg",
     "criteria_notes": [
       "exact target station match: 梅ヶ丘",
       "size clears ideal threshold at 128.97 sqm",
@@ -446,7 +449,48 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南西向き, 陽当り良好, 日当たり良好, 採光",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "first seen: 2026-04-18 (13 days ago)"
+    ],
+    "score": 72.16
+  },
+  {
+    "listing_id": "20551066",
+    "source": "suumo",
+    "property_name": "",
+    "title": "元代々木町（代々木八幡駅） 1億4200万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20551066/",
+    "price_man": 14200.0,
+    "area_sqm": 68.13,
+    "land_area_sqm": 44.97,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 4,
+    "built_year": 2024,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都渋谷区元代々木町",
+    "access_text": "東京メトロ千代田線「代々木公園」徒歩4分",
+    "exact_station_hits": [
+      "代々木上原",
+      "代々木公園"
+    ],
+    "nearby_station_hits": [
+      "代々木八幡"
+    ],
+    "dishwasher_hits": [],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "渋谷区元代々木町アドレス　３駅２路線利用可能　未入居戸建 ・令和６年５月築 ・車庫あり（車種による） ・３駅２路線利用可能な立地 ・近隣商業地域 【アクセス】 小田急線「代々木八幡」駅まで徒歩３分 東京メトロ千代田線「代々木公園」駅まで徒歩４分",
+    "preview_image_url": "./data/images/houses/20551066.jpg",
+    "criteria_notes": [
+      "exact target station match: 代々木上原, 代々木公園",
+      "size clears hard threshold at 68.13 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 14200万円",
+      "walk time meets target at 4 min",
+      "built in 2024",
+      "dishwasher not explicitly confirmed",
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (13 days ago)"
     ],
     "score": 71.66
   },
@@ -480,7 +524,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "◆三軒茶屋駅徒歩10分！◆各居室6畳以上の戸建◆ ◆南向き日当たり良好！ 快適な毎日を演出する ☆―――――・・・　　物件の特徴　　・・・―――――☆ ◆三軒茶屋駅10分・駒沢大学駅11分！ 小学校まで徒歩5分の物件です。 ◇駐車場スペースあり！ ◆各居室6畳以上と広々",
-    "preview_image_url": "./house_images/78760273.jpg",
+    "preview_image_url": "./data/images/houses/78760273.jpg",
     "criteria_notes": [
       "exact target station match: 三軒茶屋",
       "size clears ideal threshold at 83.59 sqm",
@@ -490,10 +534,10 @@
       "built in 2001",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 眺望良好",
-      "listing age: 8 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-04-18 (13 days ago)"
     ],
-    "score": 67.23
+    "score": 67.73
   },
   {
     "listing_id": "20650097",
@@ -523,7 +567,7 @@
     ],
     "feature_tags": [],
     "detail_summary": "■三井のリハウス■ テラス・屋上付の4階建住宅 スーパーまで徒歩5分の立地 －物件のおすすめポイント－ ▼立地 ・中央本線／東京メトロ東西線「中野」徒歩11分 ・西武新宿線「沼袋」徒歩11分 ・前面道路幅員約10mにつき開放感あり",
-    "preview_image_url": "./house_images/20650097.jpg",
+    "preview_image_url": "./data/images/houses/20650097.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
       "size clears ideal threshold at 126.74 sqm",
@@ -534,8 +578,8 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 1 days",
-      "first seen: 2026-04-22 (13 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-22 (9 days ago)"
     ],
     "score": 65.31
   },
@@ -570,7 +614,7 @@
       "www.ad-cast.info"
     ],
     "detail_summary": "静寂なる低層エリア、愛車二台と暮らす贅をご体感くださいませ♪ ☆―――――・・・　　物件の特徴　　・・・―――――☆ 洗練された文化と静謐が交差する、目黒区柿の木坂一丁目。 第一種低層住居専用地域の守られた聖域に佇む、平成１６年築の品格ある私邸をご案内します。 特筆すべきは、都心邸宅において希少価値の高い２台分のカースペース。 愛車との優雅な日常を叶える贅沢な設計です。２階に配された約１７．５帖の広がりあるＬＤＫは、柔らかな陽光と風を招き入れる寛ぎの空間。 個室もしっかりと確保された３階建てのプランニングが、住まう方のプライバシーを守ります。 空室につき、即時のご内覧が可能です。",
-    "preview_image_url": "./house_images/78542103.jpg",
+    "preview_image_url": "./data/images/houses/78542103.jpg",
     "criteria_notes": [
       "exact target station match: 学芸大学",
       "size clears ideal threshold at 85.54 sqm",
@@ -580,10 +624,10 @@
       "built in 2004",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-04-18 (13 days ago)"
     ],
-    "score": 62.5
+    "score": 63.0
   },
   {
     "listing_id": "20281567",
@@ -611,7 +655,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "世田谷区梅丘3丁目の高台に存しているため、3階バルコニーからの眺望良好 ■前面道路幅員約6.0ｍ ■駐車2台可　※車種による制限あり ■ＬＤＫ約20.0帖 ■第一種低層住居専用地域の閑静な住宅街に存す ■小田急小田原線「梅ヶ丘」駅徒歩11分 9580万円、3LDK+S、土地面積110.29m 2",
-    "preview_image_url": "./house_images/20281567.jpg",
+    "preview_image_url": "./data/images/houses/20281567.jpg",
     "criteria_notes": [
       "exact target station match: 梅ヶ丘",
       "size clears ideal threshold at 123.25 sqm",
@@ -621,61 +665,9 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 眺望良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (13 days ago)"
     ],
-    "score": 62.01
-  },
-  {
-    "listing_id": "78483844",
-    "source": "suumo",
-    "property_name": "",
-    "title": "2012年12月築注文住宅・ルーフバルコニー、天井裏収納付き",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78483844/",
-    "price_man": 15800.0,
-    "area_sqm": 91.57,
-    "land_area_sqm": 46.74,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 11,
-    "built_year": 2012,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都渋谷区富ヶ谷２",
-    "access_text": "東京メトロ千代田線「代々木上原」徒歩11分",
-    "exact_station_hits": [
-      "代々木上原"
-    ],
-    "nearby_station_hits": [
-      "代々木八幡"
-    ],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "陽当り良好",
-      "眺望良好",
-      "通風良好",
-      "大きな窓"
-    ],
-    "ceiling_hits": [
-      "天井高",
-      "吹抜け"
-    ],
-    "feature_tags": [],
-    "detail_summary": "2012年12月築注文住宅・ルーフバルコニー、天井裏収納付き ■南東・北東の角地に佇む注文住宅 ■容積率と高さを最大限に活かして設計されたこだわりの邸宅 ■約15.6帖のLDK、複数の窓から光が入り陽当り・眺望良好 ■キッチンカウンターとダイニングテーブルが一直線に繋がるよう、スキップフロア採用 ■床暖房(LD)、食器洗乾燥機、浴室乾燥機などの設備搭載 ■約10.8帖の洋室は引き戸で仕切ることが可能(工事要) ■車庫1台分有り(車種による制限有)",
-    "preview_image_url": "./house_images/78483844.jpg",
-    "criteria_notes": [
-      "exact target station match: 代々木上原",
-      "size clears ideal threshold at 91.57 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is outside target budget at 15800万円",
-      "walk time meets target at 11 min",
-      "built in 2012",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 大きな窓",
-      "ceiling/window-height positives: 天井高, 吹抜け",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
-    ],
-    "score": 80.94
+    "score": 62.51
   }
 ]
