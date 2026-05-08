@@ -62,7 +62,6 @@ SEEDS = [
     StationSeed("中目黒", "27580", "exact", "user-added exact target"),
     StationSeed("池ノ上", "02030", "exact", "user-added exact target"),
     StationSeed("学芸大学", "07660", "exact", "user-added exact target"),
-    StationSeed("梅ヶ丘", "04590", "exact", "user-added exact target"),
     StationSeed("渋谷", "17640", "exact", "user-added exact target"),
     StationSeed("祐天寺", "40640", "exact", "user-added exact target"),
     StationSeed("三軒茶屋", "16720", "exact", "user-added exact target"),
@@ -70,6 +69,9 @@ SEEDS = [
     StationSeed("代々木八幡", "41310", "nearby", "adjacent to 代々木公園/代々木上原"),
     StationSeed("恵比寿", "05050", "nearby", "adjacent to 代官山"),
 ]
+
+ACTIVE_EXACT_STATIONS = {seed.name for seed in SEEDS if seed.priority == "exact"}
+ACTIVE_NEARBY_STATIONS = {seed.name for seed in SEEDS if seed.priority != "exact"}
 
 MANSION = PropertyConfig(
     kind="mansion",
@@ -561,8 +563,20 @@ def enrich_suumo_details(session: requests.Session, listings: dict[str, dict], c
 
 
 def station_groups(record: dict) -> tuple[list[str], list[str]]:
-    exact = sorted({hit["station_name"] for hit in record["station_hits"] if hit["priority"] == "exact"})
-    nearby = sorted({hit["station_name"] for hit in record["station_hits"] if hit["priority"] != "exact"})
+    exact = sorted(
+        {
+            hit["station_name"]
+            for hit in record["station_hits"]
+            if hit["priority"] == "exact" and hit["station_name"] in ACTIVE_EXACT_STATIONS
+        }
+    )
+    nearby = sorted(
+        {
+            hit["station_name"]
+            for hit in record["station_hits"]
+            if hit["priority"] != "exact" and hit["station_name"] in ACTIVE_NEARBY_STATIONS
+        }
+    )
     return exact, nearby
 
 
@@ -843,6 +857,11 @@ def freshness_score(record: dict) -> float:
 
 
 def score_listing(record: dict, config: PropertyConfig) -> float:
+    exact, nearby = station_groups(record)
+    if not exact and not nearby:
+        record["criteria_notes"] = build_notes(record, config)
+        record["score"] = -999.0
+        return record["score"]
     price_man = record.get("price_man")
     if price_man and price_man > HARD_BUDGET_MAX_MAN:
         record["criteria_notes"] = build_notes(record, config)

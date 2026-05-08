@@ -1,53 +1,5 @@
 [
   {
-    "listing_id": "78593400",
-    "source": "suumo",
-    "property_name": "マストレジデンス世田谷",
-    "title": "南向き、陽当り・通風良好◎2駅利用可能な好立地！",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_setagaya/nc_78593400/",
-    "price_man": 10700.0,
-    "area_sqm": 67.93,
-    "land_area_sqm": null,
-    "layout": "3LDK",
-    "walk_min": 7,
-    "built_year": 2016,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都世田谷区代田３",
-    "access_text": "小田急線「梅ヶ丘」徒歩7分",
-    "exact_station_hits": [
-      "梅ヶ丘"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機",
-      "食器洗浄乾燥機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "採光",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "南向き、陽当り・通風良好◎ 2駅利用可能な好立地！ ◇5階建・2階部分 ◇全居室収納 ◇約13.3帖のLDK(床暖房付) ◇食洗機・浄水器 ◇浴室乾燥・ミストサウナ ◇ペット飼育相談可",
-    "preview_image_url": "./mansion_images/78593400.jpg",
-    "criteria_notes": [
-      "exact target station match: 梅ヶ丘",
-      "size clears hard threshold at 67.93 sqm",
-      "layout: 3LDK",
-      "price is within budget at 10700万円",
-      "walk time meets target at 7 min",
-      "built in 2016",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
-    ],
-    "score": 89.61
-  },
-  {
     "listing_id": "79183554",
     "source": "suumo",
     "property_name": "オープンレジデンシア吉祥寺本町",
@@ -86,7 +38,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "first seen: 2026-04-18 (20 days ago)"
     ],
     "score": 88.11
   },
@@ -133,8 +85,8 @@
       "built in 2014",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 4 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (20 days ago)"
     ],
     "score": 82.82
   },
@@ -187,50 +139,9 @@
       "brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "first seen: 2026-04-18 (20 days ago)"
     ],
     "score": 76.8
-  },
-  {
-    "listing_id": "20719117",
-    "source": "suumo",
-    "property_name": "オープンレジデンス祐天寺",
-    "title": "GWも営業　東横線「祐天寺」駅徒歩4分！戸建然とした2024年築の2LDK",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_meguro/nc_20719117/",
-    "price_man": 10180.0,
-    "area_sqm": 65.51,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 4,
-    "built_year": 2024,
-    "first_seen_at": "2026-04-22T15:45:58.724357+00:00",
-    "address": "東京都目黒区五本木１",
-    "access_text": "東急東横線「祐天寺」徒歩4分",
-    "exact_station_hits": [
-      "祐天寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "GWも営業　東横線「祐天寺」駅徒歩4分！戸建然とした2024年築の2LDK ◆東横線「祐天寺」徒歩4分！各地へのアクセス良好！ ◇2024年築のため室内美麗！ ◆戸建然としたメゾネット住戸！階下に住戸がなく、足音に気を遣う必要がありません。 ◇周辺は低層住宅の並ぶ住宅地。たいへん静かな住環境です。 ◆ペットは2匹まで飼育可（細則あり） ◇各住戸に宅配ボックスがあります ◆地下のお部屋も、窓が2方向にあり湿気がたまりにくい構造です",
-    "preview_image_url": "./mansion_images/20719117.jpg",
-    "criteria_notes": [
-      "exact target station match: 祐天寺",
-      "size clears hard threshold at 65.51 sqm",
-      "layout: 2LDK",
-      "price is within budget at 10180万円",
-      "walk time meets target at 4 min",
-      "built in 2024",
-      "dishwasher mentioned in listing",
-      "basement / semi-basement indicators present",
-      "listing age: 1 days",
-      "first seen: 2026-04-22 (13 days ago)"
-    ],
-    "score": 74.18
   },
   {
     "listing_id": "20258656",
@@ -276,9 +187,50 @@
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "first seen: 2026-04-18 (20 days ago)"
     ],
     "score": 74.04
+  },
+  {
+    "listing_id": "20719117",
+    "source": "suumo",
+    "property_name": "オープンレジデンス祐天寺",
+    "title": "GWも営業　東横線「祐天寺」駅徒歩4分！戸建然とした2024年築の2LDK",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_meguro/nc_20719117/",
+    "price_man": 10180.0,
+    "area_sqm": 65.51,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 4,
+    "built_year": 2024,
+    "first_seen_at": "2026-04-22T15:45:58.724357+00:00",
+    "address": "東京都目黒区五本木１",
+    "access_text": "東急東横線「祐天寺」徒歩4分",
+    "exact_station_hits": [
+      "祐天寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "GWも営業　東横線「祐天寺」駅徒歩4分！戸建然とした2024年築の2LDK ◆東横線「祐天寺」徒歩4分！各地へのアクセス良好！ ◇2024年築のため室内美麗！ ◆戸建然としたメゾネット住戸！階下に住戸がなく、足音に気を遣う必要がありません。 ◇周辺は低層住宅の並ぶ住宅地。たいへん静かな住環境です。 ◆ペットは2匹まで飼育可（細則あり） ◇各住戸に宅配ボックスがあります ◆地下のお部屋も、窓が2方向にあり湿気がたまりにくい構造です",
+    "preview_image_url": "./mansion_images/20719117.jpg",
+    "criteria_notes": [
+      "exact target station match: 祐天寺",
+      "size clears hard threshold at 65.51 sqm",
+      "layout: 2LDK",
+      "price is within budget at 10180万円",
+      "walk time meets target at 4 min",
+      "built in 2024",
+      "dishwasher mentioned in listing",
+      "basement / semi-basement indicators present",
+      "listing age: 0 days",
+      "first seen: 2026-04-22 (16 days ago)"
+    ],
+    "score": 73.68
   },
   {
     "listing_id": "79226646",
@@ -321,7 +273,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "first seen: 2026-04-18 (20 days ago)"
     ],
     "score": 67.97
   },
@@ -366,7 +318,7 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 角住戸",
-      "first seen: 2026-04-24 (11 days ago)"
+      "first seen: 2026-04-24 (14 days ago)"
     ],
     "score": 66.94
   },
@@ -411,7 +363,7 @@
       "built in 2005",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-24 (11 days ago)"
+      "first seen: 2026-04-24 (14 days ago)"
     ],
     "score": 61.61
   },
@@ -458,8 +410,8 @@
       "older build year: 1999",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 眺望良好",
-      "listing age: 3 days",
-      "first seen: 2026-04-24 (11 days ago)"
+      "listing age: 6 days",
+      "first seen: 2026-04-24 (14 days ago)"
     ],
     "score": 90.82
   },
@@ -504,10 +456,10 @@
       "older build year: 1999",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 3 days",
-      "first seen: 2026-04-22 (13 days ago)"
+      "listing age: 6 days",
+      "first seen: 2026-04-22 (16 days ago)"
     ],
-    "score": 85.49
+    "score": 84.99
   },
   {
     "listing_id": "ken:2026026006",
@@ -562,7 +514,7 @@
       "older build year: 1998",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光, 通風良好",
-      "first seen: 2026-04-18 (17 days ago)"
+      "first seen: 2026-04-18 (20 days ago)"
     ],
     "score": 79.78
   },
@@ -607,8 +559,8 @@
       "built in 2017",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 角住戸",
-      "listing age: 5 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "listing age: 8 days",
+      "first seen: 2026-04-18 (20 days ago)"
     ],
     "score": 78.79
   },
@@ -655,7 +607,7 @@
       "older build year: 1989",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南東向き, 採光",
-      "first seen: 2026-05-05 (0 days ago)"
+      "first seen: 2026-05-05 (3 days ago)"
     ],
     "score": 76.42
   },
@@ -702,9 +654,52 @@
       "built in 2023",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (17 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (20 days ago)"
     ],
     "score": 76.3
+  },
+  {
+    "listing_id": "20255516",
+    "source": "suumo",
+    "property_name": "レジェンド中野ガーデン",
+    "title": "◆2 駅4 路線利用可・最寄り駅徒歩5分◆商業施設近接で生活利便性良好",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20255516/",
+    "price_man": 12300.0,
+    "area_sqm": 75.42,
+    "land_area_sqm": null,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 5,
+    "built_year": 1999,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都中野区中野３",
+    "access_text": "ＪＲ中央線「中野」徒歩5分",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "南向き",
+      "通風良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "◆2 駅4 路線利用可・最寄り駅徒歩5分 ◆商業施設近接で生活利便性良好 ■南向き／角部屋／3 面開口で風通し良好 ■全室床暖房付き　　■宅配ボックス有 ■居室窓はペアガラス仕様 ■ペット可（規約による制限有り） 2LDK+S（納戸）、価格1億2300万円、専有面積75.42m 2",
+    "preview_image_url": "./mansion_images/20255516.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "size clears ideal threshold at 75.42 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 12300万円",
+      "walk time meets target at 5 min",
+      "older build year: 1999",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 南向き, 通風良好, 角住戸",
+      "listing age: 7 days",
+      "first seen: 2026-04-18 (20 days ago)"
+    ],
+    "score": 74.82
   }
 ]
