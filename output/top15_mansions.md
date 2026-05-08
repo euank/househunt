@@ -1,6 +1,6 @@
 # Used Mansion shortlist
 
-Generated at: 2026-05-08T19:33:44.738593+09:00
+Generated at: 2026-05-08T10:31:16.240150-07:00
 
 ## 1. オープンレジデンシア吉祥寺本町
 
@@ -19,7 +19,7 @@ Generated at: 2026-05-08T19:33:44.738593+09:00
 - Address: 東京都武蔵野市吉祥寺本町２
 - Access: ＪＲ中央線「吉祥寺」徒歩8分
 - Listing summary: ■「吉祥寺」駅徒歩8分　■2022年6月築 *。.・◇・.。*オープンレジデンシア吉祥寺本町†*。.・◇・.。* ┏┓　【アクセス】 ┗□━━━━━━━━━━━━━━━━━━━━━━━━━━━ ・中央線 「吉祥寺」駅 徒歩8分 ・京王井の頭線 「吉祥寺」駅 徒歩8分 本物件に関する「ご質問」や「現地ご見学希望」等は 野村の仲介＋(PLUS) 吉祥寺営業部
-- Notes: exact target station match: 吉祥寺; size clears ideal threshold at 70.74 sqm; layout: 3LDK; price is within budget at 10480万円; walk time meets target at 8 min; built in 2022; dishwasher mentioned in listing; brightness/window positives: 南向き; listing age: 1 days; first seen: 2026-04-18 (20 days ago)
+- Notes: exact target station match: 吉祥寺; size clears ideal threshold at 70.74 sqm; layout: 3LDK; price is within budget at 10480万円; walk time meets target at 8 min; built in 2022; dishwasher mentioned in listing; brightness/window positives: 南向き; listing age: 0 days; first seen: 2026-04-18 (20 days ago)
 
 ## 2. パークホームズ中野中央フォーシーズンコート
 
@@ -57,7 +57,7 @@ Generated at: 2026-05-08T19:33:44.738593+09:00
 - Address: 東京都中野区中野２
 - Access: ＪＲ総武線「中野」徒歩6分
 - Listing summary: □1F～3F部分のメゾネットタイプ□西向き角部屋・73.87m2 ◆2013年7月築 ◆複数路線利用可能 『中野』駅より徒歩6分・『新中野』駅より徒歩10分 ◆（株）オープンハウス・ディベロップメント旧分譲 ◆管理は管理会社に全部委託：日本ハウズイング株式会社（巡回） ◆オートロック・モニター付きインターホン ◆宅配ボックス
-- Notes: exact target station match: 中野; size clears ideal threshold at 73.87 sqm; layout: 2LDK; price is within budget at 10380万円; walk time meets target at 6 min; built in 2013; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸; basement / semi-basement indicators present; listing age: 1 days; first seen: 2026-04-18 (20 days ago)
+- Notes: exact target station match: 中野; size clears ideal threshold at 73.87 sqm; layout: 2LDK; price is within budget at 10380万円; walk time meets target at 6 min; built in 2013; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸; basement / semi-basement indicators present; listing age: 0 days; first seen: 2026-04-18 (20 days ago)
 
 ## 4. オープンレジデンス中野桃園町　Ｓ棟
 
@@ -76,7 +76,7 @@ Generated at: 2026-05-08T19:33:44.738593+09:00
 - Address: 東京都中野区中野３
 - Access: ＪＲ中央線「中野」徒歩7分
 - Listing summary: ■三井のリハウス■ 南向きLDKは広々約19.4帖 閑静な住宅街に位置 －物件のおすすめポイント－ ▼立地 ・JR中央本線・中央・総武緩行線・東京メトロ東西線 「中野」駅　徒歩7分 ・東京メトロ丸ノ内線「新中野」駅　徒歩13分
-- Notes: exact target station match: 中野; size clears ideal threshold at 72.68 sqm; layout: 2LDK; price is within budget at 10980万円; walk time meets target at 7 min; built in 2010; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好; basement / semi-basement indicators present; listing age: 1 days; first seen: 2026-04-18 (20 days ago)
+- Notes: exact target station match: 中野; size clears ideal threshold at 72.68 sqm; layout: 2LDK; price is within budget at 10980万円; walk time meets target at 7 min; built in 2010; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好; basement / semi-basement indicators present; listing age: 0 days; first seen: 2026-04-18 (20 days ago)
 
 ## 5. オープンレジデンス祐天寺
 
@@ -114,7 +114,7 @@ Generated at: 2026-05-08T19:33:44.738593+09:00
 - Address: 東京都中野区新井２
 - Access: ＪＲ中央線「中野」徒歩9分
 - Listing summary: ■三井のリハウス■ 南向きのLDKは約18.2帖 ペット飼育可能(規約有) －物件のおすすめポイント－ ▼立地 ・JR中央本線「中野」徒歩9分 他 ▼特徴 ・三井不動産レジデンシャル(株)旧分譲
-- Notes: exact target station match: 中野; size clears hard threshold at 66.33 sqm; layout: 2LDK; price is within budget at 14980万円; walk time meets target at 9 min; built in 2011; dishwasher mentioned in listing; brightness/window positives: 南向き, 採光; listing age: 1 days; first seen: 2026-04-18 (20 days ago)
+- Notes: exact target station match: 中野; size clears hard threshold at 66.33 sqm; layout: 2LDK; price is within budget at 14980万円; walk time meets target at 9 min; built in 2011; dishwasher mentioned in listing; brightness/window positives: 南向き, 採光; listing age: 0 days; first seen: 2026-04-18 (20 days ago)
 
 ## 7. パルテール目黒青葉台
 
@@ -285,4 +285,4 @@ Generated at: 2026-05-08T19:33:44.738593+09:00
 - Address: 東京都中野区中野３
 - Access: ＪＲ中央線「中野」徒歩5分
 - Listing summary: ◆2 駅4 路線利用可・最寄り駅徒歩5分 ◆商業施設近接で生活利便性良好 ■南向き／角部屋／3 面開口で風通し良好 ■全室床暖房付き　　■宅配ボックス有 ■居室窓はペアガラス仕様 ■ペット可（規約による制限有り） 2LDK+S（納戸）、価格1億2300万円、専有面積75.42m 2
-- Notes: exact target station match: 中野; size clears ideal threshold at 75.42 sqm; layout: 2LDK+S（納戸）; price is within budget at 12300万円; walk time meets target at 5 min; older build year: 1999; dishwasher not explicitly confirmed; brightness/window positives: 南向き, 通風良好, 角住戸; listing age: 7 days; first seen: 2026-04-18 (20 days ago)
+- Notes: exact target station match: 中野; size clears ideal threshold at 75.42 sqm; layout: 2LDK+S（納戸）; price is within budget at 12300万円; walk time meets target at 5 min; older build year: 1999; dishwasher not explicitly confirmed; brightness/window positives: 南向き, 通風良好, 角住戸; listing age: 0 days; first seen: 2026-04-18 (20 days ago)

@@ -1,6 +1,6 @@
 # Used House shortlist
 
-Generated at: 2026-05-08T19:35:01.698035+09:00
+Generated at: 2026-05-08T10:32:40.710330-07:00
 
 ## 1. 若林2丁目 中古戸建
 
@@ -80,7 +80,7 @@ Generated at: 2026-05-08T19:35:01.698035+09:00
 - Access: 小田急線「下北沢」徒歩9分
 - Land Area: 67.11 sqm
 - Listing summary: ☆世田谷代田駅4分×下北沢駅9分　2002年3月築・新規リフォーム☆ ■交通　：小田急小田原線「世田谷代田」駅徒歩4分 小田急小田原線・京王井の頭線「下北沢」駅　徒歩9分 ■土地面積　： 67.11m2（約20.30坪） ■建物面積　： 88.69m2（約26.82坪） ■間取り　　： 3LDK+駐車場1台　※車種による ■建築年月　： 2002年(平成14年)3月 ■2階洋室にはトップライト
-- Notes: exact target station match: 下北沢; size clears ideal threshold at 88.69 sqm; layout: 3LDK; price is within budget at 13590万円; walk time meets target at 9 min; built in 2002; dishwasher mentioned in listing; listing age: 1 days; first seen: 2026-04-18 (20 days ago)
+- Notes: exact target station match: 下北沢; size clears ideal threshold at 88.69 sqm; layout: 3LDK; price is within budget at 13590万円; walk time meets target at 9 min; built in 2002; dishwasher mentioned in listing; listing age: 0 days; first seen: 2026-04-18 (20 days ago)
 
 ## 5. 中野５（中野駅） 8780万円
 
@@ -100,7 +100,7 @@ Generated at: 2026-05-08T19:35:01.698035+09:00
 - Access: ＪＲ中央線「中野」徒歩6分
 - Land Area: 52.99 sqm
 - Listing summary: 『中野』駅　徒歩６分／前面道路公道約４．６ｍ ■JR、東京メトロ東西線『中野』駅　徒歩６分 ■整形地 ■前面道路約４．６ｍ ■閑静な住宅街 ■屋上ルーフバルコニー ■現在空室 ■駐車場
-- Notes: exact target station match: 中野; size clears ideal threshold at 86.17 sqm; layout: 2LDK+S（納戸）; price is within budget at 8780万円; walk time meets target at 6 min; built in 2004; dishwasher not explicitly confirmed; brightness/window positives: 南向き, 陽当り良好, 通風良好; listing age: 1 days; first seen: 2026-04-18 (20 days ago)
+- Notes: exact target station match: 中野; size clears ideal threshold at 86.17 sqm; layout: 2LDK+S（納戸）; price is within budget at 8780万円; walk time meets target at 6 min; built in 2004; dishwasher not explicitly confirmed; brightness/window positives: 南向き, 陽当り良好, 通風良好; listing age: 0 days; first seen: 2026-04-18 (20 days ago)
 
 ## 6. ◆三軒茶屋駅徒歩10分！◆各居室6畳以上の戸建◆◆南向き日当たり良好！
 
@@ -140,7 +140,7 @@ Generated at: 2026-05-08T19:35:01.698035+09:00
 - Access: ＪＲ中央線「中野」徒歩11分
 - Land Area: 65.45 sqm
 - Listing summary: ■三井のリハウス■ テラス・屋上付の4階建住宅 スーパーまで徒歩5分の立地 －物件のおすすめポイント－ ▼立地 ・中央本線／東京メトロ東西線「中野」徒歩11分 ・西武新宿線「沼袋」徒歩11分 ・前面道路幅員約10mにつき開放感あり
-- Notes: exact target station match: 中野; size clears ideal threshold at 126.74 sqm; layout: 2LDK+S（納戸）; price is within budget at 13000万円; walk time meets target at 11 min; built in 2001; dishwasher not explicitly confirmed; brightness/window positives: 採光; ceiling/window-height positives: 吹抜け; listing age: 1 days; first seen: 2026-04-22 (16 days ago)
+- Notes: exact target station match: 中野; size clears ideal threshold at 126.74 sqm; layout: 2LDK+S（納戸）; price is within budget at 13000万円; walk time meets target at 11 min; built in 2001; dishwasher not explicitly confirmed; brightness/window positives: 採光; ceiling/window-height positives: 吹抜け; listing age: 0 days; first seen: 2026-04-22 (16 days ago)
 
 ## 8. 静寂なる低層エリア、愛車二台と暮らす贅をご体感くださいませ♪
 
@@ -260,7 +260,7 @@ Generated at: 2026-05-08T19:35:01.698035+09:00
 - Access: 小田急線「下北沢」徒歩11分
 - Land Area: 100.35 sqm
 - Listing summary: 世田谷代田駅徒歩5分、下北沢徒歩11分のゆとりある4LDK戸建 小田急線「世田谷代田」駅徒歩5分、京王井の頭線「下北沢」駅徒歩11分。人気の下北沢を生活圏にしながら、第一種低層住居専用地域の穏やかな住環境も享受できる世田谷区代田二丁目の一戸建です。土地100.35m 2 、建物123.14m 2 の3階建4LDKで、約21.9帖のLDKを中心にゆとりある間取りを実現。LD部分床暖房、食器洗乾燥機、両面バルコニーなど暮らしを快適に彩る設備も充実。整った建物コンディションも魅力で、ご家族皆さまで心地よくお住まいいただけます。南側道路に接道し、毎日の暮らしにうれしい開放感も備えた、利便性と住環境を兼ね備えた住まいをぜひご覧ください。 現地（2026年2月）撮影 1億5380万円、4LDK+S（納戸）、土地面積100.35m
-- Notes: exact target station match: 下北沢; size clears ideal threshold at 123.14 sqm; layout: 4LDK+S（納戸）; price is outside target budget at 15380万円; walk time meets target at 11 min; built in 2014; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 通風良好; listing age: 3 days; first seen: 2026-04-18 (20 days ago)
+- Notes: exact target station match: 下北沢; size clears ideal threshold at 123.14 sqm; layout: 4LDK+S（納戸）; price is outside target budget at 15380万円; walk time meets target at 11 min; built in 2014; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 通風良好; listing age: 0 days; first seen: 2026-04-18 (20 days ago)
 
 ## 14. 【旭化成施工・軽量鉄骨造戸建】　～再開発で資産価値も高まるJR「中野」駅～
 
