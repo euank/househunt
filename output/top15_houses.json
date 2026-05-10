@@ -44,8 +44,8 @@
       "built in 2009",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 陽当り良好, 通風良好",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 87.13
   },
@@ -87,8 +87,8 @@
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 85.01
   },
@@ -141,8 +141,8 @@
       "built in 2004",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 7 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "listing age: 9 days",
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 82.51
   },
@@ -181,8 +181,8 @@
       "walk time meets target at 9 min",
       "built in 2002",
       "dishwasher mentioned in listing",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 75.33
   },
@@ -224,55 +224,10 @@
       "built in 2004",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 71.9
-  },
-  {
-    "listing_id": "78760273",
-    "source": "suumo",
-    "property_name": "",
-    "title": "◆三軒茶屋駅徒歩10分！◆各居室6畳以上の戸建◆◆南向き日当たり良好！",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_78760273/",
-    "price_man": 8980.0,
-    "area_sqm": 83.59,
-    "land_area_sqm": 55.62,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 10,
-    "built_year": 2001,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都世田谷区上馬２",
-    "access_text": "東急田園都市線「三軒茶屋」徒歩10分",
-    "exact_station_hits": [
-      "三軒茶屋"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "日当たり良好",
-      "眺望良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "◆三軒茶屋駅徒歩10分！◆各居室6畳以上の戸建◆ ◆南向き日当たり良好！ 快適な毎日を演出する ☆―――――・・・　　物件の特徴　　・・・―――――☆ ◆三軒茶屋駅10分・駒沢大学駅11分！ 小学校まで徒歩5分の物件です。 ◇駐車場スペースあり！ ◆各居室6畳以上と広々",
-    "preview_image_url": "./house_images/78760273.jpg",
-    "criteria_notes": [
-      "exact target station match: 三軒茶屋",
-      "size clears ideal threshold at 83.59 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 8980万円",
-      "walk time meets target at 10 min",
-      "built in 2001",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 眺望良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (20 days ago)"
-    ],
-    "score": 67.23
   },
   {
     "listing_id": "20650097",
@@ -313,8 +268,8 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 0 days",
-      "first seen: 2026-04-22 (16 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-22 (18 days ago)"
     ],
     "score": 64.81
   },
@@ -360,7 +315,7 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 62.5
   },
@@ -412,7 +367,7 @@
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 大きな窓",
       "ceiling/window-height positives: 天井高, 吹抜け",
       "listing age: 0 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 80.94
   },
@@ -469,8 +424,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 7 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "listing age: 9 days",
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 79.64
   },
@@ -513,8 +468,8 @@
       "built in 2009",
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
-      "listing age: 4 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 74.58
   },
@@ -553,8 +508,8 @@
       "walk time misses target at 14 min",
       "built in 2016",
       "dishwasher mentioned in listing",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 74.51
   },
@@ -599,7 +554,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好",
       "listing age: 0 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 74.47
   },
@@ -640,8 +595,8 @@
       "built in 2010",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好",
-      "listing age: 5 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 73.38
   },
@@ -680,9 +635,50 @@
       "walk time meets target at 7 min",
       "built in 2011",
       "dishwasher mentioned in listing",
-      "listing age: 7 days",
-      "first seen: 2026-04-18 (20 days ago)"
+      "listing age: 9 days",
+      "first seen: 2026-04-18 (22 days ago)"
     ],
     "score": 72.52
+  },
+  {
+    "listing_id": "20555178",
+    "source": "suumo",
+    "property_name": "",
+    "title": "〇駅近×閑静〇約8ｍ超の広い接道間口〇2022年の築浅物件",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_meguro/nc_20555178/",
+    "price_man": 12800.0,
+    "area_sqm": 63.68,
+    "land_area_sqm": 46.24,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 4,
+    "built_year": 2022,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都目黒区祐天寺２",
+    "access_text": "東急東横線「祐天寺」徒歩4分",
+    "exact_station_hits": [
+      "祐天寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "南向き"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "〇駅近×閑静 〇約8ｍ超の広い接道間口 〇2022年の築浅物件 【ライフインフォメーション】 ■東急ストア祐天寺店　約300ｍ ■まいばすけっと祐天寺駅前店　約290ｍ ■ファミリーマート 祐天寺駅東口店　　　約250ｍ ■ココカラファイン祐天寺駅前店　約290ｍ",
+    "preview_image_url": "./house_images/20555178.jpg",
+    "criteria_notes": [
+      "exact target station match: 祐天寺",
+      "size is below target at 63.68 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 12800万円",
+      "walk time meets target at 4 min",
+      "built in 2022",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 南向き",
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (22 days ago)"
+    ],
+    "score": 66.25
   }
 ]
