@@ -37,6 +37,8 @@ class StationSeed:
     code: str
     priority: str
     note: str
+    preference: float
+    prefecture: str = "tokyo"
 
 
 @dataclass(frozen=True)
@@ -53,25 +55,37 @@ class PropertyConfig:
     output_json: str
 
 
+DEFAULT_STATION_PREFERENCE = 4.5
+MIN_STATION_PREFERENCE = 0.0
+MAX_STATION_PREFERENCE = 10.0
+STATION_PREFERENCE_MULTIPLIER = 1.5
+
+
 SEEDS = [
-    StationSeed("中野", "27280", "exact", "exact target"),
-    StationSeed("下北沢", "18010", "exact", "exact target"),
-    StationSeed("代々木公園", "41300", "exact", "exact target"),
-    StationSeed("代々木上原", "41290", "exact", "exact target"),
-    StationSeed("代官山", "21850", "exact", "exact target"),
-    StationSeed("中目黒", "27580", "exact", "user-added exact target"),
-    StationSeed("池ノ上", "02030", "exact", "user-added exact target"),
-    StationSeed("学芸大学", "07660", "exact", "user-added exact target"),
-    StationSeed("渋谷", "17640", "exact", "user-added exact target"),
-    StationSeed("祐天寺", "40640", "exact", "user-added exact target"),
-    StationSeed("三軒茶屋", "16720", "exact", "user-added exact target"),
-    StationSeed("吉祥寺", "11640", "exact", "user-added exact target"),
-    StationSeed("代々木八幡", "41310", "nearby", "adjacent to 代々木公園/代々木上原"),
-    StationSeed("恵比寿", "05050", "nearby", "adjacent to 代官山"),
+    StationSeed("中野", "27280", "exact", "exact target", 6.5),
+    StationSeed("下北沢", "18010", "exact", "exact target", 4.5),
+    StationSeed("代々木公園", "41300", "exact", "exact target", 4.5),
+    StationSeed("代々木上原", "41290", "exact", "exact target", 9.0),
+    StationSeed("代官山", "21850", "exact", "exact target", 9.0),
+    StationSeed("中目黒", "27580", "exact", "user-added exact target", 9.0),
+    StationSeed("池ノ上", "02030", "exact", "user-added exact target", 4.5),
+    StationSeed("学芸大学", "07660", "exact", "user-added exact target", 5.6),
+    StationSeed("渋谷", "17640", "exact", "user-added exact target", 9.0),
+    StationSeed("祐天寺", "40640", "exact", "user-added exact target", 4.5),
+    StationSeed("三軒茶屋", "16720", "exact", "user-added exact target", 7.0),
+    StationSeed("吉祥寺", "11640", "exact", "user-added exact target", 6.0),
+    StationSeed("代々木", "41280", "exact", "user-added exact target", 7.0),
+    StationSeed("原宿", "31250", "exact", "user-added exact target", 8.0),
+    StationSeed("表参道", "07240", "exact", "user-added exact target", 8.0),
+    StationSeed("登戸", "30130", "exact", "user-added exact target", 2.0, "kanagawa"),
+    StationSeed("代々木八幡", "41310", "nearby", "adjacent to 代々木公園/代々木上原", 6.3),
+    StationSeed("参宮橋", "16710", "nearby", "adjacent to 代々木", 6.3),
+    StationSeed("恵比寿", "05050", "nearby", "adjacent to 代官山", 4.5),
 ]
 
 ACTIVE_EXACT_STATIONS = {seed.name for seed in SEEDS if seed.priority == "exact"}
 ACTIVE_NEARBY_STATIONS = {seed.name for seed in SEEDS if seed.priority != "exact"}
+STATION_PREFERENCES = {seed.name: seed.preference for seed in SEEDS}
 
 MANSION = PropertyConfig(
     kind="mansion",
@@ -387,7 +401,8 @@ def listing_id_from_url(url: str) -> str:
 
 
 def page_urls_for_seed(session: requests.Session, seed: StationSeed, config: PropertyConfig) -> list[str]:
-    base = f"{SUUMO_BASE_URL}/{config.base_path}/ek_{seed.code}/"
+    base_path = config.base_path.replace("/tokyo", f"/{seed.prefecture}", 1)
+    base = f"{SUUMO_BASE_URL}/{base_path}/ek_{seed.code}/"
     first = soup_for(session, base)
     pages = {1}
     for anchor in first.select("a[href]"):
@@ -580,6 +595,11 @@ def station_groups(record: dict) -> tuple[list[str], list[str]]:
     return exact, nearby
 
 
+def station_preference(station_name: str) -> float:
+    preference = STATION_PREFERENCES.get(station_name, DEFAULT_STATION_PREFERENCE)
+    return max(MIN_STATION_PREFERENCE, min(MAX_STATION_PREFERENCE, preference))
+
+
 def price_score(price_man: float | None) -> float:
     if not price_man:
         return -6
@@ -653,9 +673,13 @@ def year_score(year: int | None) -> float:
 def station_score(record: dict) -> float:
     exact, nearby = station_groups(record)
     if exact:
-        return 14 + min(4, len(exact))
+        best_preference = max(station_preference(station_name) for station_name in exact)
+        extra_matches = max(0, len(exact) - 1)
+        return round(10.0 + best_preference * STATION_PREFERENCE_MULTIPLIER + min(2.0, extra_matches * 0.5), 2)
     if nearby:
-        return 7 + min(3, len(nearby))
+        best_preference = max(station_preference(station_name) for station_name in nearby)
+        extra_matches = max(0, len(nearby) - 1)
+        return round(4.0 + best_preference * STATION_PREFERENCE_MULTIPLIER * 0.8 + min(1.5, extra_matches * 0.5), 2)
     return 0
 
 
@@ -733,8 +757,12 @@ def build_notes(record: dict, config: PropertyConfig) -> list[str]:
     exact, nearby = station_groups(record)
     if exact:
         notes.append(f"exact target station match: {', '.join(exact)}")
+        best_preference = max(station_preference(station_name) for station_name in exact)
+        notes.append(f"best station preference: {best_preference:.1f}/10")
     elif nearby:
         notes.append(f"nearby target-area station match: {', '.join(nearby)}")
+        best_preference = max(station_preference(station_name) for station_name in nearby)
+        notes.append(f"best station preference: {best_preference:.1f}/10")
     area = record.get("area_sqm")
     if area:
         if area >= 70:
