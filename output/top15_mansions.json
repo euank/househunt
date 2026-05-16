@@ -47,15 +47,16 @@
     "preview_image_url": "./mansion_images/ken:2026055364.jpg",
     "criteria_notes": [
       "exact target station match: 下北沢",
+      "best station preference: 4.5/10",
       "size clears ideal threshold at 81.82 sqm",
       "layout: 2LDK+S",
       "price is within budget at 10980万円",
       "walk time meets target at 4 min",
       "built in 2012",
       "dishwasher mentioned in listing",
-      "first seen: 2026-05-12 (3 days ago)"
+      "first seen: 2026-05-12 (4 days ago)"
     ],
-    "score": 97.87
+    "score": 98.62
   },
   {
     "listing_id": "20353620",
@@ -89,16 +90,17 @@
     "preview_image_url": "./mansion_images/20353620.jpg",
     "criteria_notes": [
       "exact target station match: 吉祥寺",
+      "best station preference: 6.0/10",
       "size clears ideal threshold at 70.74 sqm",
       "layout: 3LDK",
       "price is within budget at 9990万円",
       "walk time meets target at 8 min",
       "built in 2022",
       "dishwasher mentioned in listing",
-      "listing age: 5 days",
-      "first seen: 2026-04-18 (27 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (28 days ago)"
     ],
-    "score": 85.81
+    "score": 89.81
   },
   {
     "listing_id": "78779520",
@@ -140,6 +142,7 @@
     "preview_image_url": "./mansion_images/78779520.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
+      "best station preference: 6.5/10",
       "size clears ideal threshold at 73.87 sqm",
       "layout: 2LDK",
       "price is within budget at 10380万円",
@@ -149,9 +152,84 @@
       "brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (27 days ago)"
+      "first seen: 2026-04-18 (28 days ago)"
     ],
-    "score": 76.8
+    "score": 81.55
+  },
+  {
+    "listing_id": "ken:2025125255",
+    "source": "ken",
+    "property_name": "オープンレジデンス南青山イーストテラス",
+    "title": "オープンレジデンス南青山イーストテラス  B1-1階 2LDK",
+    "url": "https://www.kencorp.co.jp/housing/properties/179520/2025125255/",
+    "price_man": 14400.0,
+    "area_sqm": 72.98,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 4,
+    "built_year": 2013,
+    "first_seen_at": "2026-05-16T14:38:52.386204+00:00",
+    "address": "東京都港区南青山２",
+    "access_text": "銀座線 外苑前駅 徒歩4分ほか",
+    "exact_station_hits": [
+      "表参道"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食洗機"
+    ],
+    "brightness_hits": [],
+    "ceiling_hits": [
+      "天井高"
+    ],
+    "feature_tags": [
+      "24時間換気システム",
+      "3沿線利用",
+      "3駅利用",
+      "TVモニター付きインターホン",
+      "ウォークインクローゼット",
+      "エアコン",
+      "オートバス",
+      "オートロック",
+      "ガスコンロ",
+      "クローゼット",
+      "コンロ3口",
+      "システムキッチン",
+      "ドライエリア",
+      "バストイレ別",
+      "メゾネット",
+      "全面フローリング",
+      "宅配ボックス",
+      "室内洗濯機置場",
+      "床暖房",
+      "敷地内ゴミ置場",
+      "新耐震構造",
+      "洗浄便座",
+      "洗面所独立",
+      "浴室乾燥機",
+      "追焚",
+      "都市ガス",
+      "閑静な住宅街",
+      "防犯カメラ",
+      "食洗機",
+      "駐輪場"
+    ],
+    "detail_summary": "閑静な住宅街、 メゾネット、 ドライエリア、 床暖房、 全面フローリング エアコン、 室内洗濯機置場、 浴室乾燥機、 24時間換気システム、 オートバス、 追焚、 洗浄便座、 バストイレ別、 洗面所独立、 クローゼット、 ウォークインクローゼット、 都市ガス、 ガスコンロ、 コンロ3口、 食洗機、 システムキッチン 新耐震構造、 宅配ボックス、 敷地内ゴミ置場、 オートロック、 TVモニター付きインターホン、 防犯カメラ、 駐輪場、 3駅利用、 3沿線利用",
+    "preview_image_url": "./mansion_images/ken:2025125255.jpg",
+    "criteria_notes": [
+      "exact target station match: 表参道",
+      "best station preference: 8.0/10",
+      "size clears ideal threshold at 72.98 sqm",
+      "layout: 2LDK",
+      "price is within budget at 14400万円",
+      "walk time meets target at 4 min",
+      "built in 2013",
+      "dishwasher mentioned in listing",
+      "ceiling/window-height positives: 天井高",
+      "basement / semi-basement indicators present",
+      "first seen: 2026-05-16 (0 days ago)"
+    ],
+    "score": 79.62
   },
   {
     "listing_id": "20258656",
@@ -188,6 +266,7 @@
     "preview_image_url": "./mansion_images/20258656.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
+      "best station preference: 6.5/10",
       "size clears ideal threshold at 72.68 sqm",
       "layout: 2LDK",
       "price is within budget at 10980万円",
@@ -197,9 +276,9 @@
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (27 days ago)"
+      "first seen: 2026-04-18 (28 days ago)"
     ],
-    "score": 74.04
+    "score": 78.79
   },
   {
     "listing_id": "20719117",
@@ -230,6 +309,7 @@
     "preview_image_url": "./mansion_images/20719117.jpg",
     "criteria_notes": [
       "exact target station match: 祐天寺",
+      "best station preference: 4.5/10",
       "size clears hard threshold at 65.51 sqm",
       "layout: 2LDK",
       "price is within budget at 10180万円",
@@ -238,54 +318,9 @@
       "dishwasher mentioned in listing",
       "basement / semi-basement indicators present",
       "listing age: 0 days",
-      "first seen: 2026-04-22 (23 days ago)"
+      "first seen: 2026-04-22 (24 days ago)"
     ],
-    "score": 73.68
-  },
-  {
-    "listing_id": "79226646",
-    "source": "suumo",
-    "property_name": "パークホームズ中野",
-    "title": "新井２（中野駅） 1億4980万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_79226646/",
-    "price_man": 14980.0,
-    "area_sqm": 66.33,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 9,
-    "built_year": 2011,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都中野区新井２",
-    "access_text": "ＪＲ中央線「中野」徒歩9分",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "採光"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ 南向きのLDKは約18.2帖 ペット飼育可能(規約有) －物件のおすすめポイント－ ▼立地 ・JR中央本線「中野」徒歩9分 他 ▼特徴 ・三井不動産レジデンシャル(株)旧分譲",
-    "preview_image_url": "./mansion_images/79226646.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "size clears hard threshold at 66.33 sqm",
-      "layout: 2LDK",
-      "price is within budget at 14980万円",
-      "walk time meets target at 9 min",
-      "built in 2011",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 採光",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (27 days ago)"
-    ],
-    "score": 67.97
+    "score": 75.43
   },
   {
     "listing_id": "ken:2025095714",
@@ -321,6 +356,7 @@
     "preview_image_url": "./mansion_images/ken:2025095714.jpg",
     "criteria_notes": [
       "exact target station match: 渋谷",
+      "best station preference: 9.0/10",
       "size clears ideal threshold at 70.76 sqm",
       "layout: 2LDK",
       "price is within budget at 12980万円",
@@ -328,9 +364,55 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 角住戸",
-      "first seen: 2026-04-24 (21 days ago)"
+      "first seen: 2026-04-24 (22 days ago)"
     ],
-    "score": 66.44
+    "score": 74.94
+  },
+  {
+    "listing_id": "79226646",
+    "source": "suumo",
+    "property_name": "パークホームズ中野",
+    "title": "新井２（中野駅） 1億4980万円",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_79226646/",
+    "price_man": 14980.0,
+    "area_sqm": 66.33,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 9,
+    "built_year": 2011,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都中野区新井２",
+    "access_text": "ＪＲ中央線「中野」徒歩9分",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機",
+      "食洗機"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "採光"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "■三井のリハウス■ 南向きのLDKは約18.2帖 ペット飼育可能(規約有) －物件のおすすめポイント－ ▼立地 ・JR中央本線「中野」徒歩9分 他 ▼特徴 ・三井不動産レジデンシャル(株)旧分譲",
+    "preview_image_url": "./mansion_images/79226646.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "best station preference: 6.5/10",
+      "size clears hard threshold at 66.33 sqm",
+      "layout: 2LDK",
+      "price is within budget at 14980万円",
+      "walk time meets target at 9 min",
+      "built in 2011",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 採光",
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (28 days ago)"
+    ],
+    "score": 72.72
   },
   {
     "listing_id": "ken:2024125886",
@@ -350,7 +432,9 @@
     "exact_station_hits": [
       "代々木上原"
     ],
-    "nearby_station_hits": [],
+    "nearby_station_hits": [
+      "参宮橋"
+    ],
     "dishwasher_hits": [],
     "brightness_hits": [
       "南西向き"
@@ -366,6 +450,7 @@
     "preview_image_url": "./mansion_images/ken:2024125886.jpg",
     "criteria_notes": [
       "exact target station match: 代々木上原",
+      "best station preference: 9.0/10",
       "size clears hard threshold at 65.50 sqm",
       "layout: 2LDK",
       "price is within budget at 11490万円",
@@ -373,9 +458,9 @@
       "built in 2005",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-24 (21 days ago)"
+      "first seen: 2026-04-24 (22 days ago)"
     ],
-    "score": 61.11
+    "score": 69.61
   },
   {
     "listing_id": "20141592",
@@ -413,6 +498,7 @@
     "preview_image_url": "./mansion_images/20141592.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
+      "best station preference: 6.5/10",
       "size clears ideal threshold at 75.42 sqm",
       "layout: 3LDK",
       "price is within budget at 12300万円",
@@ -420,10 +506,10 @@
       "older build year: 1999",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 眺望良好",
-      "listing age: 4 days",
-      "first seen: 2026-04-24 (21 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-24 (22 days ago)"
     ],
-    "score": 90.32
+    "score": 95.07
   },
   {
     "listing_id": "20688971",
@@ -457,6 +543,7 @@
     "preview_image_url": "./mansion_images/20688971.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
+      "best station preference: 6.5/10",
       "size clears ideal threshold at 70.00 sqm",
       "layout: 3LDK",
       "price is within budget at 12900万円",
@@ -464,10 +551,57 @@
       "older build year: 1999",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 1 days",
-      "first seen: 2026-04-22 (23 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-22 (24 days ago)"
     ],
-    "score": 80.49
+    "score": 85.24
+  },
+  {
+    "listing_id": "20427979",
+    "source": "suumo",
+    "property_name": "オープンレジデンシア中野",
+    "title": "■5階部分南西角部屋 ■充実したセキュリティシステム",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20427979/",
+    "price_man": 11680.0,
+    "area_sqm": 67.5,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 12,
+    "built_year": 2017,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都中野区中野１",
+    "access_text": "ＪＲ中央線「中野」徒歩12分",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機",
+      "食器洗浄乾燥機"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "陽当り良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "■5階部分南西角部屋 ■充実したセキュリティシステム ■ TES温水式床暖房 部屋全体を足元から暖める温水式の床暖房です。 電気式に比べ、立ち上がりが早いなどのメリットがございます。 ■ 二重床・二重天井 衝撃音を軽減し、静かで快適な暮らしを守ります。 ■ピピッとコンロ",
+    "preview_image_url": "./mansion_images/20427979.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "best station preference: 6.5/10",
+      "size clears hard threshold at 67.50 sqm",
+      "layout: 3LDK",
+      "price is within budget at 11680万円",
+      "walk time misses target at 12 min",
+      "built in 2017",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 陽当り良好, 角住戸",
+      "listing age: 5 days",
+      "first seen: 2026-04-18 (28 days ago)"
+    ],
+    "score": 83.54
   },
   {
     "listing_id": "ken:2026026006",
@@ -515,6 +649,7 @@
     "preview_image_url": "./mansion_images/ken:2026026006.jpg",
     "criteria_notes": [
       "exact target station match: 下北沢",
+      "best station preference: 4.5/10",
       "size clears ideal threshold at 82.15 sqm",
       "layout: 2LDK",
       "price is within budget at 12900万円",
@@ -522,55 +657,9 @@
       "older build year: 1998",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光, 通風良好",
-      "first seen: 2026-04-18 (27 days ago)"
+      "first seen: 2026-04-18 (28 days ago)"
     ],
-    "score": 79.78
-  },
-  {
-    "listing_id": "20427979",
-    "source": "suumo",
-    "property_name": "オープンレジデンシア中野",
-    "title": "■5階部分南西角部屋 ■充実したセキュリティシステム",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20427979/",
-    "price_man": 11680.0,
-    "area_sqm": 67.5,
-    "land_area_sqm": null,
-    "layout": "3LDK",
-    "walk_min": 12,
-    "built_year": 2017,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都中野区中野１",
-    "access_text": "ＪＲ中央線「中野」徒歩12分",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食器洗浄乾燥機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "角住戸"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■5階部分南西角部屋 ■充実したセキュリティシステム ■ TES温水式床暖房 部屋全体を足元から暖める温水式の床暖房です。 電気式に比べ、立ち上がりが早いなどのメリットがございます。 ■ 二重床・二重天井 衝撃音を軽減し、静かで快適な暮らしを守ります。 ■ピピッとコンロ",
-    "preview_image_url": "./mansion_images/20427979.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "size clears hard threshold at 67.50 sqm",
-      "layout: 3LDK",
-      "price is within budget at 11680万円",
-      "walk time misses target at 12 min",
-      "built in 2017",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 角住戸",
-      "listing age: 4 days",
-      "first seen: 2026-04-18 (27 days ago)"
-    ],
-    "score": 78.79
+    "score": 81.53
   },
   {
     "listing_id": "20723669",
@@ -608,6 +697,7 @@
     "preview_image_url": "./mansion_images/20723669.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
+      "best station preference: 6.5/10",
       "size clears hard threshold at 68.61 sqm",
       "layout: 3LDK",
       "price is within budget at 12080万円",
@@ -615,10 +705,10 @@
       "built in 2023",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (27 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (28 days ago)"
     ],
-    "score": 76.3
+    "score": 81.05
   },
   {
     "listing_id": "20255516",
@@ -651,6 +741,7 @@
     "preview_image_url": "./mansion_images/20255516.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
+      "best station preference: 6.5/10",
       "size clears ideal threshold at 75.42 sqm",
       "layout: 2LDK+S（納戸）",
       "price is within budget at 12300万円",
@@ -658,56 +749,9 @@
       "older build year: 1999",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 通風良好, 角住戸",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (27 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-04-18 (28 days ago)"
     ],
-    "score": 74.82
-  },
-  {
-    "listing_id": "ken:2026015681",
-    "source": "ken",
-    "property_name": "ロイヤルヴィーゼ学芸大学",
-    "title": "ロイヤルヴィーゼ学芸大学  3階 2LDK+S",
-    "url": "https://www.kencorp.co.jp/housing/properties/120895/2026015681/",
-    "price_man": 10990.0,
-    "area_sqm": 74.99,
-    "land_area_sqm": null,
-    "layout": "2LDK+S",
-    "walk_min": 8,
-    "built_year": 1989,
-    "first_seen_at": "2026-05-05T03:07:19.090282+00:00",
-    "address": "東京都目黒区中央町１",
-    "access_text": "東横線 学芸大学駅 徒歩8分",
-    "exact_station_hits": [
-      "学芸大学"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "南東向き",
-      "採光"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "オートロック",
-      "バルコニー",
-      "都市ガス"
-    ],
-    "detail_summary": "バルコニー 都市ガス オートロック",
-    "preview_image_url": "./mansion_images/ken:2026015681.png",
-    "criteria_notes": [
-      "exact target station match: 学芸大学",
-      "size clears ideal threshold at 74.99 sqm",
-      "layout: 2LDK+S",
-      "price is within budget at 10990万円",
-      "walk time meets target at 8 min",
-      "older build year: 1989",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南東向き, 採光",
-      "first seen: 2026-05-05 (10 days ago)"
-    ],
-    "score": 74.42
+    "score": 79.57
   }
 ]
