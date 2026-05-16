@@ -45,7 +45,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 陽当り良好, 通風良好",
       "listing age: 0 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 87.13
   },
@@ -87,8 +87,8 @@
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 85.01
   },
@@ -142,7 +142,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 82.51
   },
@@ -182,7 +182,7 @@
       "built in 2002",
       "dishwasher mentioned in listing",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 75.33
   },
@@ -225,7 +225,7 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 71.9
   },
@@ -269,7 +269,7 @@
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
       "listing age: 1 days",
-      "first seen: 2026-04-22 (20 days ago)"
+      "first seen: 2026-04-22 (23 days ago)"
     ],
     "score": 64.81
   },
@@ -314,8 +314,8 @@
       "built in 2004",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 62.5
   },
@@ -367,7 +367,7 @@
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 大きな窓",
       "ceiling/window-height positives: 天井高, 吹抜け",
       "listing age: 0 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 80.94
   },
@@ -425,16 +425,16 @@
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
       "ceiling/window-height positives: 吹抜け",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 79.64
   },
   {
-    "listing_id": "20704994",
+    "listing_id": "79070273",
     "source": "suumo",
     "property_name": "",
-    "title": "三宿２（池尻大橋駅） 9498万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20704994/",
+    "title": "ー 住環境良好◎ × 新規デザインリフォーム済 × 安心の新耐震基準 ー",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_79070273/",
     "price_man": 9498.0,
     "area_sqm": 81.0,
     "land_area_sqm": 67.64,
@@ -445,36 +445,33 @@
     "address": "東京都世田谷区三宿２",
     "access_text": "京王井の頭線「池ノ上」徒歩14分",
     "exact_station_hits": [
+      "三軒茶屋",
       "池ノ上"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
-      "南西向き",
-      "陽当り良好",
-      "採光",
-      "眺望良好"
+      "通風良好"
     ],
     "ceiling_hits": [],
     "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ 2025年10月リフォーム済 小学校まで徒歩2分の立地 －物件のおすすめポイント－ ▼特徴 ・全居室2面以上採光設計 ・プライバシー等に配慮された2階リビング ・動線が短く作業効率の良いL字型キッチン",
-    "preview_image_url": "./house_images/20704994.jpg",
+    "detail_summary": "ー 住環境良好◎ × 新規デザインリフォーム済 × 安心の新耐震基準 ー □田園都市線「池尻大橋駅」徒歩15分 □京王・井の頭線「池ノ上駅」徒歩15分 ・新規内装リノベーション済み！ そのままご入居いただけます♪ ・陽当たり・通風良好！ ・充実の住環境◎ ・収納豊富でお部屋スッキリ！",
+    "preview_image_url": "./house_images/79070273.jpg",
     "criteria_notes": [
-      "exact target station match: 池ノ上",
+      "exact target station match: 三軒茶屋, 池ノ上",
       "size clears ideal threshold at 81.00 sqm",
       "layout: 4LDK",
       "price is within budget at 9498万円",
       "walk time misses target at 14 min",
       "built in 2009",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 南西向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "brightness/window positives: 通風良好",
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (27 days ago)"
     ],
-    "score": 78.08
+    "score": 74.58
   },
   {
     "listing_id": "20387370",
@@ -511,55 +508,10 @@
       "walk time misses target at 14 min",
       "built in 2016",
       "dishwasher mentioned in listing",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 74.51
-  },
-  {
-    "listing_id": "20498302",
-    "source": "suumo",
-    "property_name": "",
-    "title": "代田２（世田谷代田駅） 1億5380万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20498302/",
-    "price_man": 15380.0,
-    "area_sqm": 123.14,
-    "land_area_sqm": 100.35,
-    "layout": "4LDK+S（納戸）",
-    "walk_min": 11,
-    "built_year": 2014,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都世田谷区代田２",
-    "access_text": "小田急線「下北沢」徒歩11分",
-    "exact_station_hits": [
-      "下北沢"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "世田谷代田駅徒歩5分、下北沢徒歩11分のゆとりある4LDK戸建 小田急線「世田谷代田」駅徒歩5分、京王井の頭線「下北沢」駅徒歩11分。人気の下北沢を生活圏にしながら、第一種低層住居専用地域の穏やかな住環境も享受できる世田谷区代田二丁目の一戸建です。土地100.35m 2 、建物123.14m 2 の3階建4LDKで、約21.9帖のLDKを中心にゆとりある間取りを実現。LD部分床暖房、食器洗乾燥機、両面バルコニーなど暮らしを快適に彩る設備も充実。整った建物コンディションも魅力で、ご家族皆さまで心地よくお住まいいただけます。南側道路に接道し、毎日の暮らしにうれしい開放感も備えた、利便性と住環境を兼ね備えた住まいをぜひご覧ください。 現地（2026年2月）撮影 1億5380万円、4LDK+S（納戸）、土地面積100.35m",
-    "preview_image_url": "./house_images/20498302.jpg",
-    "criteria_notes": [
-      "exact target station match: 下北沢",
-      "size clears ideal threshold at 123.14 sqm",
-      "layout: 4LDK+S（納戸）",
-      "price is outside target budget at 15380万円",
-      "walk time meets target at 11 min",
-      "built in 2014",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (24 days ago)"
-    ],
-    "score": 74.47
   },
   {
     "listing_id": "20567873",
@@ -598,8 +550,8 @@
       "built in 2010",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 73.38
   },
@@ -638,8 +590,8 @@
       "walk time meets target at 7 min",
       "built in 2011",
       "dishwasher mentioned in listing",
-      "listing age: 11 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 72.52
   },
@@ -677,8 +629,54 @@
       "walk time misses target at 15 min",
       "built in 2024",
       "dishwasher not explicitly confirmed",
-      "first seen: 2026-04-18 (24 days ago)"
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 65.46
+  },
+  {
+    "listing_id": "20086461",
+    "source": "suumo",
+    "property_name": "【ADCAST】　学芸大学の家",
+    "title": "■空室のため内覧可能♪■前面道路６ｍに間口７．４ｍ接道♪",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_meguro/nc_20086461/",
+    "price_man": 15980.0,
+    "area_sqm": 105.52,
+    "land_area_sqm": 66.11,
+    "layout": "2LDK+2S（納戸）",
+    "walk_min": 10,
+    "built_year": 2010,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都目黒区中央町２",
+    "access_text": "東急東横線「学芸大学」徒歩10分",
+    "exact_station_hits": [
+      "学芸大学",
+      "祐天寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "https:",
+      "lifeplan",
+      "loan",
+      "www.ad-cast.info"
+    ],
+    "detail_summary": "■空室のため内覧可能♪ ■前面道路６ｍに間口７．４ｍ接道♪ ☆━━━…‥ ・ 物件の特徴 ・ ‥ …━━━☆ ◆通勤通学に便利な東急東横線線『学芸大学』駅 徒歩10分の好立地♪ ◆4LDKのゆとりある空間♪床暖房完備 ◆駐車場は２台可・道路幅6ｍ車庫入れもスムーズ♪ ◆周辺は閑静な住宅地につき落ち着いた街並みでお過ごし頂けます♪ ◆スーパー、コンビニ、公園等、生活環境良好♪",
+    "preview_image_url": "./house_images/20086461.jpg",
+    "criteria_notes": [
+      "exact target station match: 学芸大学, 祐天寺",
+      "size clears ideal threshold at 105.52 sqm",
+      "layout: 2LDK+2S（納戸）",
+      "price is outside target budget at 15980万円",
+      "walk time meets target at 10 min",
+      "built in 2010",
+      "dishwasher mentioned in listing",
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (27 days ago)"
+    ],
+    "score": 65.33
   }
 ]

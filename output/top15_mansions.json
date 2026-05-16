@@ -53,7 +53,7 @@
       "walk time meets target at 4 min",
       "built in 2012",
       "dishwasher mentioned in listing",
-      "first seen: 2026-05-12 (0 days ago)"
+      "first seen: 2026-05-12 (3 days ago)"
     ],
     "score": 97.87
   },
@@ -95,58 +95,10 @@
       "walk time meets target at 8 min",
       "built in 2022",
       "dishwasher mentioned in listing",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 85.81
-  },
-  {
-    "listing_id": "79101150",
-    "source": "suumo",
-    "property_name": "パークホームズ中野中央フォーシーズンコート",
-    "title": "◆最上階3面採光角住戸◆ペット飼育可能◆2014年築◆床暖房等設備充実",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_79101150/",
-    "price_man": 14900.0,
-    "area_sqm": 72.5,
-    "land_area_sqm": null,
-    "layout": "3LDK+S（納戸）",
-    "walk_min": 9,
-    "built_year": 2014,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都中野区中央５",
-    "access_text": "ＪＲ中央線「中野」徒歩9分",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "採光",
-      "眺望良好",
-      "通風良好",
-      "角住戸"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "◆最上階3面採光角住戸◆ペット飼育可能◆2014年築◆床暖房等設備充実 ～　売主様から当社が直接お預かりしている専任物件です　～ ●最上階3面採光角住戸につき日当たり眺望良好で明るいお部屋 ●ペット飼育可能（飼育細則等あり） ●2014年築、三井不動産レジデンシャル旧分譲マンション ●床暖房等、設備充実してます ●納戸や大型ウォークインクローゼットがあり、収納スペース豊富です ●お部屋のご見学可能です",
-    "preview_image_url": "./mansion_images/79101150.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "size clears ideal threshold at 72.50 sqm",
-      "layout: 3LDK+S（納戸）",
-      "price is within budget at 14900万円",
-      "walk time meets target at 9 min",
-      "built in 2014",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (24 days ago)"
-    ],
-    "score": 82.82
   },
   {
     "listing_id": "78779520",
@@ -197,7 +149,7 @@
       "brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 76.8
   },
@@ -245,7 +197,7 @@
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 74.04
   },
@@ -286,7 +238,7 @@
       "dishwasher mentioned in listing",
       "basement / semi-basement indicators present",
       "listing age: 0 days",
-      "first seen: 2026-04-22 (20 days ago)"
+      "first seen: 2026-04-22 (23 days ago)"
     ],
     "score": 73.68
   },
@@ -294,7 +246,7 @@
     "listing_id": "79226646",
     "source": "suumo",
     "property_name": "パークホームズ中野",
-    "title": "■三井のリハウス■南向きのLDKは約18.2帖ペット飼育可能(規約有)",
+    "title": "新井２（中野駅） 1億4980万円",
     "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_79226646/",
     "price_man": 14980.0,
     "area_sqm": 66.33,
@@ -331,7 +283,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 67.97
   },
@@ -376,7 +328,7 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 角住戸",
-      "first seen: 2026-04-24 (18 days ago)"
+      "first seen: 2026-04-24 (21 days ago)"
     ],
     "score": 66.44
   },
@@ -421,7 +373,7 @@
       "built in 2005",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-24 (18 days ago)"
+      "first seen: 2026-04-24 (21 days ago)"
     ],
     "score": 61.11
   },
@@ -468,8 +420,8 @@
       "older build year: 1999",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 眺望良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-24 (18 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-04-24 (21 days ago)"
     ],
     "score": 90.32
   },
@@ -512,8 +464,8 @@
       "older build year: 1999",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 12 days",
-      "first seen: 2026-04-22 (20 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-22 (23 days ago)"
     ],
     "score": 80.49
   },
@@ -570,7 +522,7 @@
       "older build year: 1998",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光, 通風良好",
-      "first seen: 2026-04-18 (24 days ago)"
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 79.78
   },
@@ -615,8 +567,8 @@
       "built in 2017",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 角住戸",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 78.79
   },
@@ -664,9 +616,52 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
       "listing age: 0 days",
-      "first seen: 2026-04-18 (24 days ago)"
+      "first seen: 2026-04-18 (27 days ago)"
     ],
     "score": 76.3
+  },
+  {
+    "listing_id": "20255516",
+    "source": "suumo",
+    "property_name": "レジェンド中野ガーデン",
+    "title": "◆2 駅4 路線利用可・最寄り駅徒歩5分◆商業施設近接で生活利便性良好",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20255516/",
+    "price_man": 12300.0,
+    "area_sqm": 75.42,
+    "land_area_sqm": null,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 5,
+    "built_year": 1999,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都中野区中野３",
+    "access_text": "ＪＲ中央線「中野」徒歩5分",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "南向き",
+      "通風良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "◆2 駅4 路線利用可・最寄り駅徒歩5分 ◆商業施設近接で生活利便性良好 ■南向き／角部屋／3 面開口で風通し良好 ■全室床暖房付き　　■宅配ボックス有 ■居室窓はペアガラス仕様 ■ペット可（規約による制限有り） 2LDK+S（納戸）、価格1億2300万円、専有面積75.42m 2",
+    "preview_image_url": "./mansion_images/20255516.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "size clears ideal threshold at 75.42 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 12300万円",
+      "walk time meets target at 5 min",
+      "older build year: 1999",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 南向き, 通風良好, 角住戸",
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (27 days ago)"
+    ],
+    "score": 74.82
   },
   {
     "listing_id": "ken:2026015681",
@@ -711,8 +706,8 @@
       "older build year: 1989",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南東向き, 採光",
-      "first seen: 2026-05-05 (7 days ago)"
+      "first seen: 2026-05-05 (10 days ago)"
     ],
-    "score": 75.42
+    "score": 74.42
   }
 ]
