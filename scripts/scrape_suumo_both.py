@@ -75,6 +75,8 @@ SEEDS = [
     StationSeed("三軒茶屋", "16720", "exact", "user-added exact target", 7.0),
     StationSeed("吉祥寺", "11640", "exact", "user-added exact target", 6.0),
     StationSeed("代々木", "41280", "exact", "user-added exact target", 7.0),
+    StationSeed("新宿", "19670", "exact", "user-added exact target", 8.0),
+    StationSeed("西新宿五丁目", "28870", "exact", "user-added exact target", 6.5),
     StationSeed("原宿", "31250", "exact", "user-added exact target", 8.0),
     StationSeed("表参道", "07240", "exact", "user-added exact target", 8.0),
     StationSeed("登戸", "30130", "exact", "user-added exact target", 2.0, "kanagawa"),
