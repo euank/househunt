@@ -45,8 +45,8 @@
       "built in 2009",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 陽当り良好, 通風良好",
-      "listing age: 4 days",
-      "first seen: 2026-04-18 (31 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (38 days ago)"
     ],
     "score": 92.13
   },
@@ -89,57 +89,59 @@
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (31 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (38 days ago)"
     ],
     "score": 89.26
   },
   {
-    "listing_id": "20690524",
+    "listing_id": "20890640",
     "source": "suumo",
-    "property_name": "",
-    "title": "中央５（中野駅） 9580万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20690524/",
-    "price_man": 9580.0,
-    "area_sqm": 82.87,
-    "land_area_sqm": 62.4,
+    "property_name": "～現地見学可能～三軒茶屋２丁目　都市の利便と邸宅のプ…",
+    "title": "【現地見学可能】◆３LDK＋大型フリースペース◆ガレージや事務所等",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20890640/",
+    "price_man": 13980.0,
+    "area_sqm": 102.7,
+    "land_area_sqm": 61.62,
     "layout": "3LDK",
-    "walk_min": 10,
-    "built_year": 2004,
-    "first_seen_at": "2026-04-22T15:47:01.701300+00:00",
-    "address": "東京都中野区中央５",
-    "access_text": "ＪＲ中央線「中野」徒歩10分",
+    "walk_min": 7,
+    "built_year": 2011,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都世田谷区三軒茶屋２",
+    "access_text": "東急田園都市線「三軒茶屋」徒歩7分",
     "exact_station_hits": [
-      "中野"
+      "三軒茶屋"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
-      "陽当り良好",
       "採光",
       "通風良好"
     ],
     "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ 閑静な住宅地内に立地 陽当り・通風良好な角地の戸建 －物件のおすすめポイント－ ▼特徴 ・コミュニケーションを育むリビング階段設計 ・1階LDK約16.5帖は3面採光を確保、南面にウッドデッキ有 ・作業効率の良いL字型キッチン、食洗機・浄水器付",
-    "preview_image_url": "./house_images/20690524.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "best station preference: 6.5/10",
-      "size clears ideal threshold at 82.87 sqm",
-      "layout: 3LDK",
-      "price is within budget at 9580万円",
-      "walk time meets target at 10 min",
-      "built in 2004",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 採光, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-22 (27 days ago)"
+    "feature_tags": [
+      "wallmate.co.jp",
+      "～",
+      "～弊社ホームページ～https:"
     ],
-    "score": 87.26
+    "detail_summary": "【現地見学可能】 ◆３LDK＋大型フリースペース ◆ガレージや事務所等 ◆田園都市線「三軒茶屋」駅徒歩７分 ◆三軒茶屋小学校 ◆駒沢中学校 □□□□　NOT　OLD，BE　CLASSIC.　□□□□ ■ウォールメイトは【かかりつけの不動産屋】として",
+    "preview_image_url": "./house_images/20890640.jpg",
+    "criteria_notes": [
+      "exact target station match: 三軒茶屋",
+      "best station preference: 7.0/10",
+      "size clears ideal threshold at 102.70 sqm",
+      "layout: 3LDK",
+      "price is within budget at 13980万円",
+      "walk time meets target at 7 min",
+      "built in 2011",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 採光, 通風良好",
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (38 days ago)"
+    ],
+    "score": 87.63
   },
   {
     "listing_id": "20353813",
@@ -182,9 +184,9 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (0 days ago)"
+      "first seen: 2026-05-19 (7 days ago)"
     ],
-    "score": 82.73
+    "score": 81.73
   },
   {
     "listing_id": "20417719",
@@ -223,7 +225,7 @@
       "built in 2002",
       "dishwasher mentioned in listing",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (31 days ago)"
+      "first seen: 2026-04-18 (38 days ago)"
     ],
     "score": 77.69
   },
@@ -255,7 +257,7 @@
     ],
     "ceiling_hits": [],
     "feature_tags": [],
-    "detail_summary": "■三井のリハウス高円寺 ・令和6年6月築 ・3LDK＋S＋ルーフバルコニー ▼立地 ・JR中央本線、中央・総武緩行線、東京メトロ東西線 「中野」駅　徒歩10分 ・3路線利用可能で通勤・通学に便利 ・第一種中高層住居専用地域の閑静な住宅街",
+    "detail_summary": "■三井のリハウス■ 南側接道、2024年6月築の3階建 ルーフバルコニー付 －物件のおすすめポイント－ ▼立地 JR中央線・総武線・東京メトロ東西線「中野」駅徒歩10分 再開発の進む中野駅を生活圏とする立地 ▼特徴",
     "preview_image_url": "./house_images/20878404.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
@@ -268,9 +270,9 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好, 採光, 眺望良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (0 days ago)"
+      "first seen: 2026-05-19 (7 days ago)"
     ],
-    "score": 77.27
+    "score": 76.27
   },
   {
     "listing_id": "20655736",
@@ -312,54 +314,9 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (31 days ago)"
+      "first seen: 2026-04-18 (38 days ago)"
     ],
     "score": 76.15
-  },
-  {
-    "listing_id": "20650097",
-    "source": "suumo",
-    "property_name": "",
-    "title": "新井２（中野駅） 1億3000万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20650097/",
-    "price_man": 13000.0,
-    "area_sqm": 126.74,
-    "land_area_sqm": 65.45,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 11,
-    "built_year": 2001,
-    "first_seen_at": "2026-04-22T15:47:01.701300+00:00",
-    "address": "東京都中野区新井２",
-    "access_text": "ＪＲ中央線「中野」徒歩11分",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "採光"
-    ],
-    "ceiling_hits": [
-      "吹抜け"
-    ],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ テラス・屋上付の4階建住宅 スーパーまで徒歩5分の立地 －物件のおすすめポイント－ ▼立地 ・中央本線／東京メトロ東西線「中野」徒歩11分 ・西武新宿線「沼袋」徒歩11分 ・前面道路幅員約10mにつき開放感あり",
-    "preview_image_url": "./house_images/20650097.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "best station preference: 6.5/10",
-      "size clears ideal threshold at 126.74 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 13000万円",
-      "walk time meets target at 11 min",
-      "built in 2001",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 採光",
-      "ceiling/window-height positives: 吹抜け",
-      "listing age: 1 days",
-      "first seen: 2026-04-22 (27 days ago)"
-    ],
-    "score": 69.56
   },
   {
     "listing_id": "78542103",
@@ -403,8 +360,8 @@
       "built in 2004",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (31 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-18 (38 days ago)"
     ],
     "score": 65.4
   },
@@ -457,9 +414,55 @@
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 大きな窓",
       "ceiling/window-height positives: 天井高, 吹抜け",
       "listing age: 0 days",
-      "first seen: 2026-04-18 (31 days ago)"
+      "first seen: 2026-04-18 (38 days ago)"
     ],
     "score": 88.94
+  },
+  {
+    "listing_id": "20917020",
+    "source": "suumo",
+    "property_name": "",
+    "title": "【3駅5路線利用可能な立地】希少性の高い代々木1丁目アドレスの築浅戸建です",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20917020/",
+    "price_man": 15750.0,
+    "area_sqm": 81.9,
+    "land_area_sqm": 44.54,
+    "layout": "3LDK",
+    "walk_min": 6,
+    "built_year": 2019,
+    "first_seen_at": "2026-05-16T14:40:23.730086+00:00",
+    "address": "東京都渋谷区代々木１",
+    "access_text": "ＪＲ山手線「代々木」徒歩6分",
+    "exact_station_hits": [
+      "代々木"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "採光",
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "【3駅5路線利用可能な立地】希少性の高い代々木1丁目アドレスの築浅戸建です ■令和元年６ 月築の築浅戸建 ■南東・北東角地 ■3階洋室とルーフバルコニーからはドコモタワーを望めます ■周辺施設が充実しており、生活利便性の高いエリア ■明治神宮まで徒歩圏内 ■制震システムGVAを導入 ■リビングに床暖房有",
+    "preview_image_url": "",
+    "criteria_notes": [
+      "exact target station match: 代々木",
+      "best station preference: 7.0/10",
+      "size clears ideal threshold at 81.90 sqm",
+      "layout: 3LDK",
+      "price is outside target budget at 15750万円",
+      "walk time meets target at 6 min",
+      "built in 2019",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 採光, 通風良好",
+      "listing age: 1 days",
+      "first seen: 2026-05-16 (10 days ago)"
+    ],
+    "score": 87.63
   },
   {
     "listing_id": "20707797",
@@ -505,17 +508,17 @@
       "built in 2022",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 5 days",
-      "first seen: 2026-05-16 (3 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-05-16 (10 days ago)"
     ],
-    "score": 81.94
+    "score": 80.94
   },
   {
-    "listing_id": "20880075",
+    "listing_id": "20927719",
     "source": "suumo",
-    "property_name": "下北沢の戸建　即内覧可能です",
+    "property_name": "下北沢のリノベーション済戸建♪",
     "title": "◇最寄り駅4分！下北沢エリア◆即内覧可！4部屋＋車庫付きの戸建て",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20880075/",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20927719/",
     "price_man": 15498.0,
     "area_sqm": 99.04,
     "land_area_sqm": 62.12,
@@ -541,7 +544,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "◇最寄り駅4分！下北沢エリア ◆即内覧可！4部屋＋車庫付きの戸建て ♪ADCAST♪ ♪お問い合わせは【0120-566-117】まで♪ 快適な毎日を演出する ☆―――――・・・　　物件の特徴　　・・・―――――☆ ◆タカラスタンダードのホーローキッチン！ ◇閑静な住宅地の落ち着いた立地！",
-    "preview_image_url": "./house_images/20880075.jpg",
+    "preview_image_url": "./house_images/20927719.jpg",
     "criteria_notes": [
       "exact target station match: 下北沢, 代々木上原, 池ノ上",
       "best station preference: 9.0/10",
@@ -552,8 +555,8 @@
       "built in 2023",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 通風良好",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (31 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (38 days ago)"
     ],
     "score": 80.64
   },
@@ -593,8 +596,8 @@
       "walk time misses target at 14 min",
       "built in 2016",
       "dishwasher mentioned in listing",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (31 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-18 (38 days ago)"
     ],
     "score": 79.51
   },
@@ -638,8 +641,8 @@
       "built in 2009",
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (31 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-04-18 (38 days ago)"
     ],
     "score": 79.08
   },
@@ -681,8 +684,8 @@
       "built in 2010",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (31 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (38 days ago)"
     ],
     "score": 77.63
   }
