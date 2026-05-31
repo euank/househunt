@@ -54,9 +54,9 @@
       "walk time meets target at 4 min",
       "built in 2012",
       "dishwasher mentioned in listing",
-      "first seen: 2026-05-12 (14 days ago)"
+      "first seen: 2026-05-12 (19 days ago)"
     ],
-    "score": 96.15
+    "score": 95.65
   },
   {
     "listing_id": "20864387",
@@ -103,9 +103,9 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (7 days ago)"
+      "first seen: 2026-05-19 (12 days ago)"
     ],
-    "score": 94.8
+    "score": 93.8
   },
   {
     "listing_id": "20353620",
@@ -146,8 +146,8 @@
       "walk time meets target at 8 min",
       "built in 2022",
       "dishwasher mentioned in listing",
-      "listing age: 4 days",
-      "first seen: 2026-04-18 (38 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-04-18 (43 days ago)"
     ],
     "score": 89.31
   },
@@ -197,9 +197,9 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
       "listing age: 0 days",
-      "first seen: 2026-05-26 (0 days ago)"
+      "first seen: 2026-05-26 (5 days ago)"
     ],
-    "score": 82.66
+    "score": 81.66
   },
   {
     "listing_id": "78779520",
@@ -251,7 +251,7 @@
       "brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (38 days ago)"
+      "first seen: 2026-04-18 (43 days ago)"
     ],
     "score": 81.05
   },
@@ -300,7 +300,7 @@
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (38 days ago)"
+      "first seen: 2026-04-18 (43 days ago)"
     ],
     "score": 78.29
   },
@@ -375,9 +375,9 @@
       "dishwasher mentioned in listing",
       "ceiling/window-height positives: 天井高",
       "basement / semi-basement indicators present",
-      "first seen: 2026-05-16 (10 days ago)"
+      "first seen: 2026-05-16 (15 days ago)"
     ],
-    "score": 77.62
+    "score": 77.12
   },
   {
     "listing_id": "20855725",
@@ -420,8 +420,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
       "basement / semi-basement indicators present",
-      "listing age: 4 days",
-      "first seen: 2026-04-22 (34 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-04-22 (39 days ago)"
     ],
     "score": 76.43
   },
@@ -467,7 +467,7 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 角住戸",
-      "first seen: 2026-04-24 (32 days ago)"
+      "first seen: 2026-04-24 (37 days ago)"
     ],
     "score": 74.44
   },
@@ -500,7 +500,7 @@
     ],
     "ceiling_hits": [],
     "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ 南向きのLDKは約18.2帖 ペット飼育可能(規約有) －物件のおすすめポイント－ ▼立地 ・JR中央本線「中野」徒歩9分 他 ▼特徴 ・三井不動産レジデンシャル(株)旧分譲",
+    "detail_summary": "■三井のリハウス■ LDK約18.2帖は南向き 2026年3月リフォーム済 －物件のおすすめポイント－ ▼特徴 ・三井不動産レジデンシャル(株)旧分譲 ・玄関・居室・リビングの壁面にエコカラットを採用 ・会話が弾む対面式キッチン",
     "preview_image_url": "./mansion_images/20905924.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
@@ -513,7 +513,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (38 days ago)"
+      "first seen: 2026-04-18 (43 days ago)"
     ],
     "score": 72.22
   },
@@ -561,7 +561,7 @@
       "built in 2005",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-24 (32 days ago)"
+      "first seen: 2026-04-24 (37 days ago)"
     ],
     "score": 69.11
   },
@@ -606,10 +606,10 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
-      "listing age: 1 days",
-      "first seen: 2026-05-19 (7 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-05-19 (12 days ago)"
     ],
-    "score": 50.0
+    "score": 49.0
   },
   {
     "listing_id": "20668454",
@@ -653,9 +653,9 @@
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (7 days ago)"
+      "first seen: 2026-05-19 (12 days ago)"
     ],
-    "score": 50.0
+    "score": 49.0
   },
   {
     "listing_id": "20141592",
@@ -702,7 +702,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 眺望良好",
       "listing age: 2 days",
-      "first seen: 2026-04-24 (32 days ago)"
+      "first seen: 2026-04-24 (37 days ago)"
     ],
     "score": 94.57
   },
@@ -760,7 +760,7 @@
       "older build year: 1998",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光, 通風良好",
-      "first seen: 2026-04-18 (38 days ago)"
+      "first seen: 2026-04-18 (43 days ago)"
     ],
     "score": 81.03
   }
