@@ -43,8 +43,8 @@
       "built in 2003",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 1 days",
-      "first seen: 2026-06-02 (0 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-06-02 (1 days ago)"
     ],
     "score": 100.3
   },
@@ -103,7 +103,7 @@
       "walk time meets target at 4 min",
       "built in 2012",
       "dishwasher mentioned in listing",
-      "first seen: 2026-05-12 (21 days ago)"
+      "first seen: 2026-05-12 (22 days ago)"
     ],
     "score": 95.65
   },
@@ -146,8 +146,8 @@
       "walk time meets target at 8 min",
       "built in 2022",
       "dishwasher mentioned in listing",
-      "listing age: 5 days",
-      "first seen: 2026-04-18 (45 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (46 days ago)"
     ],
     "score": 89.31
   },
@@ -194,60 +194,10 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
-      "listing age: 2 days",
-      "first seen: 2026-06-02 (0 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-06-02 (1 days ago)"
     ],
     "score": 82.81
-  },
-  {
-    "listing_id": "20927594",
-    "source": "suumo",
-    "property_name": "クレストフォルム中野弥生町",
-    "title": "新宿至近の好立地！2駅利用可能♪全居室収納＆広々WICでスッキリ！",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20927594/",
-    "price_man": 9380.0,
-    "area_sqm": 67.16,
-    "land_area_sqm": null,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 9,
-    "built_year": 2007,
-    "first_seen_at": "2026-05-26T13:38:14.292457+00:00",
-    "address": "東京都中野区弥生町１",
-    "access_text": "都営大江戸線「西新宿五丁目」徒歩9分",
-    "exact_station_hits": [
-      "西新宿五丁目"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "https:",
-      "lifeplan",
-      "loan",
-      "www.ad-cast.info",
-      "い"
-    ],
-    "detail_summary": "新宿至近の好立地！2駅利用可能♪ 全居室収納＆広々WICでスッキリ！ ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◆大江戸線「西新宿五丁目」駅歩9分♪ ◇内覧予約受付中♪ ぜひ現地をご確認ください♪ ☆━━━…‥・　　━☆━　　・‥…━━━☆ 【豊富な未公開物件情報】",
-    "preview_image_url": "./mansion_images/20927594.jpg",
-    "criteria_notes": [
-      "exact target station match: 西新宿五丁目",
-      "best station preference: 6.5/10",
-      "size clears hard threshold at 67.16 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 9380万円",
-      "walk time meets target at 9 min",
-      "built in 2007",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-05-26 (7 days ago)"
-    ],
-    "score": 81.66
   },
   {
     "listing_id": "78779520",
@@ -299,9 +249,59 @@
       "brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (45 days ago)"
+      "first seen: 2026-04-18 (46 days ago)"
     ],
     "score": 81.05
+  },
+  {
+    "listing_id": "20927594",
+    "source": "suumo",
+    "property_name": "クレストフォルム中野弥生町",
+    "title": "新宿至近の好立地！2駅利用可能♪全居室収納＆広々WICでスッキリ！",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20927594/",
+    "price_man": 9380.0,
+    "area_sqm": 67.16,
+    "land_area_sqm": null,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 9,
+    "built_year": 2007,
+    "first_seen_at": "2026-05-26T13:38:14.292457+00:00",
+    "address": "東京都中野区弥生町１",
+    "access_text": "都営大江戸線「西新宿五丁目」徒歩9分",
+    "exact_station_hits": [
+      "西新宿五丁目"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "https:",
+      "lifeplan",
+      "loan",
+      "www.ad-cast.info",
+      "い"
+    ],
+    "detail_summary": "新宿至近の好立地！2駅利用可能♪ 全居室収納＆広々WICでスッキリ！ ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◆大江戸線「西新宿五丁目」駅歩9分♪ ◇内覧予約受付中♪ ぜひ現地をご確認ください♪ ☆━━━…‥・　　━☆━　　・‥…━━━☆ 【豊富な未公開物件情報】",
+    "preview_image_url": "./mansion_images/20927594.jpg",
+    "criteria_notes": [
+      "exact target station match: 西新宿五丁目",
+      "best station preference: 6.5/10",
+      "size clears hard threshold at 67.16 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 9380万円",
+      "walk time meets target at 9 min",
+      "built in 2007",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 通風良好",
+      "listing age: 2 days",
+      "first seen: 2026-05-26 (8 days ago)"
+    ],
+    "score": 80.66
   },
   {
     "listing_id": "20258656",
@@ -348,7 +348,7 @@
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (45 days ago)"
+      "first seen: 2026-04-18 (46 days ago)"
     ],
     "score": 78.29
   },
@@ -423,7 +423,7 @@
       "dishwasher mentioned in listing",
       "ceiling/window-height positives: 天井高",
       "basement / semi-basement indicators present",
-      "first seen: 2026-05-16 (17 days ago)"
+      "first seen: 2026-05-16 (18 days ago)"
     ],
     "score": 77.12
   },
@@ -468,8 +468,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
       "basement / semi-basement indicators present",
-      "listing age: 2 days",
-      "first seen: 2026-04-22 (41 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-04-22 (42 days ago)"
     ],
     "score": 76.43
   },
@@ -549,7 +549,7 @@
       "built in 2014",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-27 (36 days ago)"
+      "first seen: 2026-04-27 (37 days ago)"
     ],
     "score": 76.2
   },
@@ -595,7 +595,7 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 角住戸",
-      "first seen: 2026-04-24 (39 days ago)"
+      "first seen: 2026-04-24 (40 days ago)"
     ],
     "score": 74.44
   },
@@ -641,7 +641,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (45 days ago)"
+      "first seen: 2026-04-18 (46 days ago)"
     ],
     "score": 72.22
   },
@@ -689,7 +689,7 @@
       "built in 2005",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-24 (39 days ago)"
+      "first seen: 2026-04-24 (40 days ago)"
     ],
     "score": 69.11
   },
@@ -734,10 +734,10 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
-      "listing age: 1 days",
-      "first seen: 2026-05-19 (14 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-05-19 (15 days ago)"
     ],
-    "score": 49.0
+    "score": 48.5
   },
   {
     "listing_id": "20668454",
@@ -781,8 +781,8 @@
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (14 days ago)"
+      "first seen: 2026-05-19 (15 days ago)"
     ],
-    "score": 49.0
+    "score": 48.5
   }
 ]

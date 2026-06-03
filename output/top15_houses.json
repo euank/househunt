@@ -40,8 +40,8 @@
       "built in 2021",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光, 通風良好",
-      "listing age: 2 days",
-      "first seen: 2026-05-22 (11 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-05-22 (12 days ago)"
     ],
     "score": 97.52
   },
@@ -91,8 +91,8 @@
       "built in 2009",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 陽当り良好, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (45 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (46 days ago)"
     ],
     "score": 92.13
   },
@@ -135,8 +135,8 @@
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (45 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (46 days ago)"
     ],
     "score": 89.26
   },
@@ -184,16 +184,16 @@
       "built in 2011",
       "dishwasher mentioned in listing",
       "brightness/window positives: 採光, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (45 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (46 days ago)"
     ],
     "score": 87.63
   },
   {
     "listing_id": "20353813",
     "source": "suumo",
-    "property_name": "",
-    "title": "西新宿４（西新宿五丁目駅） 1億2800万円",
+    "property_name": "新宿区西新宿４丁目　中古戸建",
+    "title": "駅徒歩2分！新宿区の注文戸建でシティライクな暮らし♪",
     "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shinjuku/nc_20353813/",
     "price_man": 12800.0,
     "area_sqm": 89.57,
@@ -230,9 +230,9 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (14 days ago)"
+      "first seen: 2026-05-19 (15 days ago)"
     ],
-    "score": 80.73
+    "score": 80.23
   },
   {
     "listing_id": "20417719",
@@ -271,7 +271,7 @@
       "built in 2002",
       "dishwasher mentioned in listing",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (45 days ago)"
+      "first seen: 2026-04-18 (46 days ago)"
     ],
     "score": 77.69
   },
@@ -315,7 +315,7 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (45 days ago)"
+      "first seen: 2026-04-18 (46 days ago)"
     ],
     "score": 76.15
   },
@@ -365,9 +365,9 @@
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (14 days ago)"
+      "first seen: 2026-05-19 (15 days ago)"
     ],
-    "score": 75.82
+    "score": 75.32
   },
   {
     "listing_id": "20878404",
@@ -410,9 +410,9 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好, 採光, 眺望良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (14 days ago)"
+      "first seen: 2026-05-19 (15 days ago)"
     ],
-    "score": 75.27
+    "score": 74.77
   },
   {
     "listing_id": "78542103",
@@ -456,10 +456,63 @@
       "built in 2004",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (45 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (46 days ago)"
     ],
     "score": 65.4
+  },
+  {
+    "listing_id": "78483844",
+    "source": "suumo",
+    "property_name": "",
+    "title": "2012年12月築注文住宅・ルーフバルコニー、天井裏収納付き",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78483844/",
+    "price_man": 15800.0,
+    "area_sqm": 91.57,
+    "land_area_sqm": 46.74,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 11,
+    "built_year": 2012,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都渋谷区富ヶ谷２",
+    "access_text": "東京メトロ千代田線「代々木上原」徒歩11分",
+    "exact_station_hits": [
+      "代々木上原"
+    ],
+    "nearby_station_hits": [
+      "代々木八幡"
+    ],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "眺望良好",
+      "通風良好",
+      "大きな窓"
+    ],
+    "ceiling_hits": [
+      "天井高",
+      "吹抜け"
+    ],
+    "feature_tags": [],
+    "detail_summary": "2012年12月築注文住宅・ルーフバルコニー、天井裏収納付き ■南東・北東の角地に佇む注文住宅 ■容積率と高さを最大限に活かして設計されたこだわりの邸宅 ■約15.6帖のLDK、複数の窓から光が入り陽当り・眺望良好 ■キッチンカウンターとダイニングテーブルが一直線に繋がるよう、スキップフロア採用 ■床暖房(LD)、食器洗乾燥機、浴室乾燥機などの設備搭載 ■約10.8帖の洋室は引き戸で仕切ることが可能(工事要) ■車庫1台分有り(車種による制限有)",
+    "preview_image_url": "./house_images/78483844.jpg",
+    "criteria_notes": [
+      "exact target station match: 代々木上原",
+      "best station preference: 9.0/10",
+      "size clears ideal threshold at 91.57 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is outside target budget at 15800万円",
+      "walk time meets target at 11 min",
+      "built in 2012",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 大きな窓",
+      "ceiling/window-height positives: 天井高, 吹抜け",
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (46 days ago)"
+    ],
+    "score": 88.94
   },
   {
     "listing_id": "20917020",
@@ -502,8 +555,8 @@
       "built in 2019",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-05-16 (17 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-05-16 (18 days ago)"
     ],
     "score": 87.13
   },
@@ -549,8 +602,8 @@
       "built in 2023",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 通風良好",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (45 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (46 days ago)"
     ],
     "score": 80.64
   },
@@ -598,8 +651,8 @@
       "built in 2022",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 2 days",
-      "first seen: 2026-05-16 (17 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-05-16 (18 days ago)"
     ],
     "score": 80.44
   },
@@ -639,54 +692,9 @@
       "walk time misses target at 14 min",
       "built in 2016",
       "dishwasher mentioned in listing",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (45 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (46 days ago)"
     ],
     "score": 79.51
-  },
-  {
-    "listing_id": "79070273",
-    "source": "suumo",
-    "property_name": "",
-    "title": "ー 住環境良好◎ × 新規デザインリフォーム済 × 安心の新耐震基準 ー",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_79070273/",
-    "price_man": 9498.0,
-    "area_sqm": 81.0,
-    "land_area_sqm": 67.64,
-    "layout": "4LDK",
-    "walk_min": 14,
-    "built_year": 2009,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都世田谷区三宿２",
-    "access_text": "京王井の頭線「池ノ上」徒歩14分",
-    "exact_station_hits": [
-      "三軒茶屋",
-      "池ノ上"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "ー 住環境良好◎ × 新規デザインリフォーム済 × 安心の新耐震基準 ー □田園都市線「池尻大橋駅」徒歩15分 □京王・井の頭線「池ノ上駅」徒歩15分 ・新規内装リノベーション済み！ そのままご入居いただけます♪ ・陽当たり・通風良好！ ・充実の住環境◎ ・収納豊富でお部屋スッキリ！",
-    "preview_image_url": "./house_images/79070273.jpg",
-    "criteria_notes": [
-      "exact target station match: 三軒茶屋, 池ノ上",
-      "best station preference: 7.0/10",
-      "size clears ideal threshold at 81.00 sqm",
-      "layout: 4LDK",
-      "price is within budget at 9498万円",
-      "walk time misses target at 14 min",
-      "built in 2009",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (45 days ago)"
-    ],
-    "score": 79.08
   }
 ]
