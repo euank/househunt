@@ -1,6 +1,6 @@
 # Used Mansion shortlist
 
-Generated at: 2026-06-03T22:21:13.565094+09:00
+Generated at: 2026-06-03T23:50:54.318632+09:00
 
 ## 1. フィールM西新宿
 
@@ -232,10 +232,10 @@ Generated at: 2026-06-03T22:21:13.565094+09:00
 
 ## 13. ファミールグラン代々木の杜
 
-- Score: 69.11
+- Score: 69.61
 - Source: ken
 - URL: https://www.kencorp.co.jp/housing/properties/153543/2024125886/
-- Stations: 代々木上原
+- Stations: 代々木上原, 初台
 - Price: 11490万円
 - Size: 65.50 sqm
 - Layout: 2LDK
@@ -247,7 +247,7 @@ Generated at: 2026-06-03T22:21:13.565094+09:00
 - Address: 東京都渋谷区初台２
 - Access: 京王新線 初台駅 徒歩8分ほか
 - Listing summary: バルコニー 都市ガス エレベーター、 オートロック
-- Notes: exact target station match: 代々木上原; best station preference: 9.0/10; size clears hard threshold at 65.50 sqm; layout: 2LDK; price is within budget at 11490万円; walk time meets target at 8 min; built in 2005; dishwasher not explicitly confirmed; brightness/window positives: 南西向き; first seen: 2026-04-24 (40 days ago)
+- Notes: exact target station match: 代々木上原, 初台; best station preference: 9.0/10; size clears hard threshold at 65.50 sqm; layout: 2LDK; price is within budget at 11490万円; walk time meets target at 8 min; built in 2005; dishwasher not explicitly confirmed; brightness/window positives: 南西向き; first seen: 2026-04-24 (40 days ago)
 
 ## 14. セントラルレジデンス新宿シティタワー
 

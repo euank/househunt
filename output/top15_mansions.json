@@ -661,7 +661,8 @@
     "address": "東京都渋谷区初台２",
     "access_text": "京王新線 初台駅 徒歩8分ほか",
     "exact_station_hits": [
-      "代々木上原"
+      "代々木上原",
+      "初台"
     ],
     "nearby_station_hits": [
       "参宮橋"
@@ -680,7 +681,7 @@
     "detail_summary": "バルコニー 都市ガス エレベーター、 オートロック",
     "preview_image_url": "./mansion_images/ken:2024125886.jpg",
     "criteria_notes": [
-      "exact target station match: 代々木上原",
+      "exact target station match: 代々木上原, 初台",
       "best station preference: 9.0/10",
       "size clears hard threshold at 65.50 sqm",
       "layout: 2LDK",
@@ -691,7 +692,7 @@
       "brightness/window positives: 南西向き",
       "first seen: 2026-04-24 (40 days ago)"
     ],
-    "score": 69.11
+    "score": 69.61
   },
   {
     "listing_id": "76897434",
