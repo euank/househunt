@@ -72,6 +72,7 @@ SEEDS = [
     StationSeed("池ノ上", "02030", "exact", "user-added exact target", 4.5),
     StationSeed("学芸大学", "07660", "exact", "user-added exact target", 5.6),
     StationSeed("渋谷", "17640", "exact", "user-added exact target", 9.0),
+    StationSeed("神泉", "19790", "exact", "user-added exact target", 8.5),
     StationSeed("祐天寺", "40640", "exact", "user-added exact target", 4.5),
     StationSeed("三軒茶屋", "16720", "exact", "user-added exact target", 7.0),
     StationSeed("池尻大橋", "02000", "exact", "user-added exact target", 7.5),
@@ -457,6 +458,12 @@ def collect_suumo_listings(session: requests.Session, config: PropertyConfig) ->
                 )
                 if not record.get("list_blurb") and item.select_one("div.moreinfo"):
                     record["list_blurb"] = item.select_one("div.moreinfo").get_text(" ", strip=True)
+                candidate_access = rows.get("沿線・駅", "")
+                candidate_walk = parse_walk_min(candidate_access)
+                current_walk = record.get("walk_min")
+                if candidate_walk is not None and (current_walk is None or candidate_walk < current_walk):
+                    record["access_text"] = candidate_access
+                    record["walk_min"] = candidate_walk
                 record["station_hits"].append(
                     {
                         "station_name": seed.name,

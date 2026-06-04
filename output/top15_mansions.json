@@ -43,8 +43,8 @@
       "built in 2003",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 2 days",
-      "first seen: 2026-06-02 (1 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-06-02 (3 days ago)"
     ],
     "score": 100.3
   },
@@ -103,7 +103,7 @@
       "walk time meets target at 4 min",
       "built in 2012",
       "dishwasher mentioned in listing",
-      "first seen: 2026-05-12 (22 days ago)"
+      "first seen: 2026-05-12 (24 days ago)"
     ],
     "score": 95.65
   },
@@ -146,10 +146,121 @@
       "walk time meets target at 8 min",
       "built in 2022",
       "dishwasher mentioned in listing",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (46 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (48 days ago)"
     ],
     "score": 89.31
+  },
+  {
+    "listing_id": "20531011",
+    "source": "suumo",
+    "property_name": "ビバリーホームズ松濤",
+    "title": "◇4駅11路線利用可能！2025年12月リフォーム済みの収納豊富な2LDK+S◇",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20531011/",
+    "price_man": 11499.0,
+    "area_sqm": 65.96,
+    "land_area_sqm": null,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 9,
+    "built_year": 2001,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都渋谷区松濤２",
+    "access_text": "京王井の頭線「神泉」徒歩9分",
+    "exact_station_hits": [
+      "代々木公園",
+      "神泉"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機",
+      "食洗機"
+    ],
+    "brightness_hits": [
+      "南西向き",
+      "採光",
+      "通風良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "【LDK",
+      "【収納",
+      "【洋室",
+      "洋室（約4.5帖）】",
+      "約15.3帖】",
+      "約4.5帖】"
+    ],
+    "detail_summary": "◇4駅11路線利用可能！2025年12月リフォーム済みの収納豊富な2LDK+S◇ ■□生涯の「安心」をお届け。東宝ハウスにお任せください□■ ～ビバリーホームズ松濤の魅力～ §通勤・通学に便利な立地 ▽京王井の頭線「神泉」駅まで徒歩9分 ▽小田急小田原線「代々木八幡」駅まで徒歩15分 ▽東京メトロ千代田線「代々木公園」駅まで徒歩15分 ▽JR山手線、ほか「渋谷駅」まで徒歩15分",
+    "preview_image_url": "./mansion_images/20531011.jpg",
+    "criteria_notes": [
+      "exact target station match: 代々木公園, 神泉",
+      "best station preference: 8.5/10",
+      "size clears hard threshold at 65.96 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 11499万円",
+      "walk time meets target at 9 min",
+      "built in 2001",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南西向き, 採光, 通風良好, 角住戸",
+      "listing age: 4 days",
+      "first seen: 2026-04-18 (48 days ago)"
+    ],
+    "score": 86.0
+  },
+  {
+    "listing_id": "20944908",
+    "source": "suumo",
+    "property_name": "ビバリーホームズ松濤",
+    "title": "高級住宅街『松濤』に佇む洗練されたレジデンス。「代々木公園」を庭にする。",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20944908/",
+    "price_man": 11499.0,
+    "area_sqm": 65.96,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 9,
+    "built_year": 2001,
+    "first_seen_at": "2026-05-31T05:50:00.924704+00:00",
+    "address": "東京都渋谷区松濤２-2-13",
+    "access_text": "京王井の頭線「神泉」徒歩9分",
+    "exact_station_hits": [
+      "代々木公園",
+      "神泉"
+    ],
+    "nearby_station_hits": [
+      "代々木八幡"
+    ],
+    "dishwasher_hits": [
+      "食器洗乾燥機",
+      "食器洗浄乾燥機"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "南西向き",
+      "陽当り良好",
+      "採光",
+      "眺望良好",
+      "通風良好",
+      "角住戸",
+      "三面採光"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "高級住宅街『松濤』に佇む洗練されたレジデンス。「代々木公園」を庭にする。 ～～～～～≪recommended points≫～～～～～ 渋谷や代々木公園も生活圏におさめる、 落ち着いた住宅街「松濤アドレス」に佇む2SLDK。 約15.3帖の広々LDKは家族が自然と集まる 心地よい空間。全居室収納＆Sルーム付きで 子どもの成長に合わせた使い分けも自在です。 南西向きで陽当たりも良好、階下に住戸が",
+    "preview_image_url": "./mansion_images/20944908.jpg",
+    "criteria_notes": [
+      "exact target station match: 代々木公園, 神泉",
+      "best station preference: 8.5/10",
+      "size clears hard threshold at 65.96 sqm",
+      "layout: 2LDK",
+      "price is within budget at 11499万円",
+      "walk time meets target at 9 min",
+      "built in 2001",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 南西向き, 陽当り良好, 採光",
+      "listing age: 4 days",
+      "first seen: 2026-05-31 (5 days ago)"
+    ],
+    "score": 86.0
   },
   {
     "listing_id": "78889838",
@@ -194,10 +305,10 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
-      "listing age: 3 days",
-      "first seen: 2026-06-02 (1 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-06-02 (3 days ago)"
     ],
-    "score": 82.81
+    "score": 81.81
   },
   {
     "listing_id": "78779520",
@@ -248,8 +359,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (46 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (48 days ago)"
     ],
     "score": 81.05
   },
@@ -298,8 +409,8 @@
       "built in 2007",
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
-      "listing age: 2 days",
-      "first seen: 2026-05-26 (8 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-05-26 (10 days ago)"
     ],
     "score": 80.66
   },
@@ -347,8 +458,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "basement / semi-basement indicators present",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (46 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (48 days ago)"
     ],
     "score": 78.29
   },
@@ -423,7 +534,7 @@
       "dishwasher mentioned in listing",
       "ceiling/window-height positives: 天井高",
       "basement / semi-basement indicators present",
-      "first seen: 2026-05-16 (18 days ago)"
+      "first seen: 2026-05-16 (20 days ago)"
     ],
     "score": 77.12
   },
@@ -468,8 +579,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
       "basement / semi-basement indicators present",
-      "listing age: 3 days",
-      "first seen: 2026-04-22 (42 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-22 (44 days ago)"
     ],
     "score": 76.43
   },
@@ -549,7 +660,7 @@
       "built in 2014",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-27 (37 days ago)"
+      "first seen: 2026-04-27 (39 days ago)"
     ],
     "score": 76.2
   },
@@ -569,7 +680,8 @@
     "address": "東京都目黒区青葉台４",
     "access_text": "井の頭線 神泉駅 徒歩5分ほか",
     "exact_station_hits": [
-      "渋谷"
+      "渋谷",
+      "神泉"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [],
@@ -586,7 +698,7 @@
     "detail_summary": "エレベーター、 宅配ボックス、 オートロック",
     "preview_image_url": "./mansion_images/ken:2025095714.jpg",
     "criteria_notes": [
-      "exact target station match: 渋谷",
+      "exact target station match: 渋谷, 神泉",
       "best station preference: 9.0/10",
       "size clears ideal threshold at 70.76 sqm",
       "layout: 2LDK",
@@ -595,9 +707,9 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 角住戸",
-      "first seen: 2026-04-24 (40 days ago)"
+      "first seen: 2026-04-24 (42 days ago)"
     ],
-    "score": 74.44
+    "score": 74.94
   },
   {
     "listing_id": "20905924",
@@ -640,8 +752,8 @@
       "built in 2011",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (46 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (48 days ago)"
     ],
     "score": 72.22
   },
@@ -690,100 +802,8 @@
       "built in 2005",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-24 (40 days ago)"
+      "first seen: 2026-04-24 (42 days ago)"
     ],
     "score": 69.61
-  },
-  {
-    "listing_id": "76897434",
-    "source": "suumo",
-    "property_name": "セントラルレジデンス新宿シティタワー",
-    "title": "■12階角住戸のため日照・眺望・通風良好■リフォーム履歴あり",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_76897434/",
-    "price_man": 13980.0,
-    "area_sqm": 67.05,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 9,
-    "built_year": 2001,
-    "first_seen_at": "2026-05-19T05:51:52.385780+00:00",
-    "address": "東京都新宿区西新宿７",
-    "access_text": "ＪＲ山手線「新宿」徒歩9分",
-    "exact_station_hits": [
-      "新宿"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "陽当り良好",
-      "眺望良好",
-      "通風良好",
-      "角住戸"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■12階角住戸のため日照・眺望・通風良好 ■リフォーム履歴あり ・2017年8月クロス全室張替、キッチン交換、給湯器交換 ・2023年2月トイレ交換 ■開放的なパノラマビューウィンドウ、トランクルーム専用使用権付（有償） ■ペット飼育可（細則あり） ■充実の共用部（コンシェルジュサービス、パーティラウンジ、ゲストスイート、各階ゴミステーション） ■建物一階にはオリンピック新宿百人町店あり",
-    "preview_image_url": "./mansion_images/76897434.jpg",
-    "criteria_notes": [
-      "exact target station match: 新宿",
-      "best station preference: 8.0/10",
-      "size clears hard threshold at 67.05 sqm",
-      "layout: 2LDK",
-      "price is within budget at 13980万円",
-      "walk time meets target at 9 min",
-      "built in 2001",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 角住戸",
-      "basement / semi-basement indicators present",
-      "listing age: 0 days",
-      "first seen: 2026-05-19 (15 days ago)"
-    ],
-    "score": 48.5
-  },
-  {
-    "listing_id": "20668454",
-    "source": "suumo",
-    "property_name": "セントラルレジデンス新宿シティタワー",
-    "title": "西新宿７（大久保駅） 1億3980万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20668454/",
-    "price_man": 13980.0,
-    "area_sqm": 67.05,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 9,
-    "built_year": 2001,
-    "first_seen_at": "2026-05-19T05:51:52.385780+00:00",
-    "address": "東京都新宿区西新宿７-7-19",
-    "access_text": "ＪＲ山手線「新宿」徒歩9分",
-    "exact_station_hits": [
-      "新宿"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "陽当り良好",
-      "眺望良好",
-      "通風良好",
-      "角住戸"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "2LDK、価格1億3980万円、専有面積67.05m 2 、バルコニー面積16.84m 2 ※写真に誤り・問題がある場合は こちら ２沿線以上利用可",
-    "preview_image_url": "./mansion_images/20668454.jpg",
-    "criteria_notes": [
-      "exact target station match: 新宿",
-      "best station preference: 8.0/10",
-      "size clears hard threshold at 67.05 sqm",
-      "layout: 2LDK",
-      "price is within budget at 13980万円",
-      "walk time meets target at 9 min",
-      "built in 2001",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 角住戸",
-      "basement / semi-basement indicators present",
-      "listing age: 1 days",
-      "first seen: 2026-05-19 (15 days ago)"
-    ],
-    "score": 48.5
   }
 ]

@@ -31,7 +31,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "◇◆築浅戸建◇◆小田急線「豪徳寺」駅徒歩4分の利便性！！ ■2路線3駅利用可能 ■家事導線の整った間取り ■食器手洗い乾燥機・浄水器 ■電動シャッター ■ワークスペース ■充実の収納力 実際に仕様や住環境の良さをご覧くださいませ。",
-    "preview_image_url": "./house_images/20749207.jpg",
+    "preview_image_url": "./data/images/houses/20749207.jpg",
     "criteria_notes": [
       "exact target station match: 経堂",
       "best station preference: 5.5/10",
@@ -42,58 +42,10 @@
       "built in 2023",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 2 days",
-      "first seen: 2026-06-03 (2 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-06-03 (1 days ago)"
     ],
     "score": 98.99
-  },
-  {
-    "listing_id": "20403686",
-    "source": "suumo",
-    "property_name": "",
-    "title": "【田園都市線「池尻大橋」駅徒歩５分】築９年の３ＬＤＫ♪室内環境良好です♪",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20403686/",
-    "price_man": 9980.0,
-    "area_sqm": 70.39,
-    "land_area_sqm": 57.49,
-    "layout": "3LDK",
-    "walk_min": 5,
-    "built_year": 2016,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都世田谷区池尻２",
-    "access_text": "東急田園都市線「池尻大橋」徒歩5分",
-    "exact_station_hits": [
-      "三軒茶屋",
-      "池尻大橋",
-      "渋谷"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機",
-      "食器洗浄乾燥機"
-    ],
-    "brightness_hits": [
-      "南西向き"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "【田園都市線「池尻大橋」駅徒歩５分】築９年の３ＬＤＫ♪室内環境良好です♪ ～おすすめポイント～ ◆東急田園都市線「池尻大橋」駅徒歩５分◆ ◆東急田園都市線「三軒茶屋」駅徒歩１４分◆ ◆２駅利用可能な好立地◆ ◆周辺環境良好◆ ◇白を基調とし、グレーのタイルでアクセントを付けた上品な外観 ◇２０１６年１２月築、３階建て",
-    "preview_image_url": "./house_images/20403686.jpg",
-    "criteria_notes": [
-      "exact target station match: 三軒茶屋, 池尻大橋, 渋谷",
-      "best station preference: 9.0/10",
-      "size clears ideal threshold at 70.39 sqm",
-      "layout: 3LDK",
-      "price is within budget at 9980万円",
-      "walk time meets target at 5 min",
-      "built in 2016",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南西向き",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (48 days ago)"
-    ],
-    "score": 98.78
   },
   {
     "listing_id": "20902175",
@@ -125,7 +77,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "■複数路線利用可能な好立地 ■雨の日も安心のビルトインガレージ付き戸建て □□　Report from Toho House Oji　□□ 【TOHO HOUSE CLUBでのアフターサービス】 ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc 購入前のタイミングは勿論、購入後のご不安につきましてもご相談可能です！",
-    "preview_image_url": "./house_images/20902175.jpg",
+    "preview_image_url": "./data/images/houses/20902175.jpg",
     "criteria_notes": [
       "exact target station match: 新宿",
       "best station preference: 8.0/10",
@@ -136,8 +88,8 @@
       "built in 2021",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光, 通風良好",
-      "listing age: 5 days",
-      "first seen: 2026-05-22 (14 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-05-22 (13 days ago)"
     ],
     "score": 97.52
   },
@@ -176,7 +128,7 @@
       "www.ad-cast.info"
     ],
     "detail_summary": "◇ 2階建て・開放感・日当たり抜群 ◆三軒茶屋の閑静な住宅街に佇む邸宅 ♪ADCAST♪ ♪お問い合わせは【0120-566-117】まで♪ 快適な毎日を演出する ☆―――――・・・　　物件の特徴　　・・・―――――☆ ◆20.5帖超の広々LDKは、ご家族の笑顔が集まる開放的な空間 ◇各居室もゆとりの5帖以上を確保し、プライベートな時間も快適に",
-    "preview_image_url": "./house_images/20133704.jpg",
+    "preview_image_url": "./data/images/houses/20133704.jpg",
     "criteria_notes": [
       "exact target station match: 三軒茶屋",
       "best station preference: 7.0/10",
@@ -187,8 +139,8 @@
       "built in 2009",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 陽当り良好, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (48 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (47 days ago)"
     ],
     "score": 92.13
   },
@@ -220,7 +172,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "中野駅徒歩10分、新中野駅徒歩5分の好立地戸建 ２沿線以上利用可、南向き、ＬＤＫ１５畳以上、トイレ２ヶ所、ルーフバルコニー、市街地が近い、スーパー 徒歩10分以内、システムキッチン、浴室乾燥機、全居室収納、閑静な住宅地、シャワー付洗面化粧台、２階建、南面バルコニー、温水洗浄便座、３階建以上、都市ガス、小学校 徒歩10分以内、食器洗乾燥機、バルコニー・屋上に水栓あり 1億1680万円、3LDK+S（納戸）、土地面積81.04m 2 、建物面積101.18m 2 現地（2026年2月）撮影 現地からの眺望",
-    "preview_image_url": "./house_images/20737103.jpg",
+    "preview_image_url": "./data/images/houses/20737103.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
       "best station preference: 6.5/10",
@@ -231,8 +183,8 @@
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 4 days",
-      "first seen: 2026-04-18 (48 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-04-18 (47 days ago)"
     ],
     "score": 89.26
   },
@@ -262,7 +214,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "憧れの街をわが家に。利便性と心地よさが交差する、3階建ての住まい 「ただいま」が、もっと楽しみになる場所に ～スタッフが見つけた、この物件の住みたいポイント～ ■元カフェの店舗スペースがある暮らし。 ■東急ホームズ施工！こだわり3LDK。 ■小屋裏収納も完備。 ▼この街と歩んで、30年▼ 私たちがご紹介したいのは、家そのものだけでなく、",
-    "preview_image_url": "./house_images/20675569.jpg",
+    "preview_image_url": "./data/images/houses/20675569.jpg",
     "criteria_notes": [
       "exact target station match: 三軒茶屋",
       "best station preference: 7.0/10",
@@ -272,8 +224,8 @@
       "walk time meets target at 7 min",
       "built in 2011",
       "dishwasher mentioned in listing",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (48 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (47 days ago)"
     ],
     "score": 84.63
   },
@@ -307,7 +259,7 @@
       "（2LDK"
     ],
     "detail_summary": "駅徒歩2分！新宿区の注文戸建でシティライクな暮らし♪ ◇◇都営大江戸線「西新宿五丁目」駅　徒歩2分◇◇ 新宿まで乗車４分でアクセス良好！ 専有面積　89.57m 2 3Fの洋室は壁で区切れるようになっているので、LDK＋3部屋として使用できます！ ■小学校徒歩10分以内で安心！ ■スーパー・コンビニも近く、買い物にも便利です！",
-    "preview_image_url": "./house_images/20353813.jpg",
+    "preview_image_url": "./data/images/houses/20353813.jpg",
     "criteria_notes": [
       "exact target station match: 初台, 西新宿五丁目",
       "best station preference: 7.0/10",
@@ -318,8 +270,8 @@
       "built in 2010",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
-      "listing age: 3 days",
-      "first seen: 2026-05-19 (17 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-05-19 (16 days ago)"
     ],
     "score": 81.48
   },
@@ -349,7 +301,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "☆世田谷代田駅4分×下北沢駅9分　2002年3月築・新規リフォーム☆ ■交通　：小田急小田原線「世田谷代田」駅徒歩4分 小田急小田原線・京王井の頭線「下北沢」駅　徒歩9分 ■土地面積　： 67.11m2（約20.30坪） ■建物面積　： 88.69m2（約26.82坪） ■間取り　　： 3LDK+駐車場1台　※車種による ■建築年月　： 2002年(平成14年)3月 ■2階洋室にはトップライト",
-    "preview_image_url": "./house_images/20417719.jpg",
+    "preview_image_url": "./data/images/houses/20417719.jpg",
     "criteria_notes": [
       "exact target station match: 下北沢",
       "best station preference: 4.5/10",
@@ -359,8 +311,8 @@
       "walk time meets target at 9 min",
       "built in 2002",
       "dishwasher mentioned in listing",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (48 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (47 days ago)"
     ],
     "score": 77.69
   },
@@ -392,7 +344,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "『中野』駅　徒歩６分／前面道路公道約４．６ｍ ■JR、東京メトロ東西線『中野』駅　徒歩６分 ■整形地 ■前面道路約４．６ｍ ■閑静な住宅街 ■屋上ルーフバルコニー ■現在空室 ■駐車場",
-    "preview_image_url": "./house_images/20655736.jpg",
+    "preview_image_url": "./data/images/houses/20655736.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
       "best station preference: 6.5/10",
@@ -403,8 +355,8 @@
       "built in 2004",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (48 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (47 days ago)"
     ],
     "score": 76.15
   },
@@ -441,7 +393,7 @@
       "浴室"
     ],
     "detail_summary": "西新宿五丁目駅徒歩4分！RC造駒田建築設計事務所施工のオフィス兼用住宅 ◆アクセス ・都営大江戸線『西新宿五丁目』駅まで徒歩4分、 京王新線『初台』駅まで徒歩13分。 ◆施工・構造 ・2011年10月築、鉄筋コンクリート造3階建て。 ・耐震性能向上のため、杭打ち工事済みです。 ・建物の対角線上を斜めに横切る形で間仕切りを配置。",
-    "preview_image_url": "./house_images/78419001.jpg",
+    "preview_image_url": "./data/images/houses/78419001.jpg",
     "criteria_notes": [
       "exact target station match: 西新宿五丁目",
       "best station preference: 6.5/10",
@@ -453,8 +405,8 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 2 days",
-      "first seen: 2026-05-19 (17 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-05-19 (16 days ago)"
     ],
     "score": 75.32
   },
@@ -487,7 +439,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "■三井のリハウス■ 南側接道、2024年6月築の3階建 ルーフバルコニー付 －物件のおすすめポイント－ ▼立地 JR中央線・総武線・東京メトロ東西線「中野」駅徒歩10分 再開発の進む中野駅を生活圏とする立地 ▼特徴",
-    "preview_image_url": "./house_images/20878404.jpg",
+    "preview_image_url": "./data/images/houses/20878404.jpg",
     "criteria_notes": [
       "exact target station match: 中野",
       "best station preference: 6.5/10",
@@ -498,8 +450,8 @@
       "built in 2024",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好, 採光, 眺望良好, 通風良好",
-      "listing age: 2 days",
-      "first seen: 2026-05-19 (17 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-05-19 (16 days ago)"
     ],
     "score": 74.77
   },
@@ -529,7 +481,7 @@
     "ceiling_hits": [],
     "feature_tags": [],
     "detail_summary": "■三井のリハウス■ 北西・南西側が接道した住まい スーパーが徒歩1分の立地 －物件のおすすめポイント－ ▼立地 ・京王電鉄京王線「初台」徒歩10分 ▼特徴 ・全居室2面以上の採光が確保された間取り",
-    "preview_image_url": "./house_images/20612419.jpg",
+    "preview_image_url": "./data/images/houses/20612419.jpg",
     "criteria_notes": [
       "exact target station match: 初台",
       "best station preference: 7.0/10",
@@ -540,58 +492,10 @@
       "built in 2009",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
-      "listing age: 2 days",
-      "first seen: 2026-06-03 (2 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-06-03 (1 days ago)"
     ],
     "score": 74.32
-  },
-  {
-    "listing_id": "20923873",
-    "source": "suumo",
-    "property_name": "",
-    "title": "－ベルクハウス施工－光と開放感を纏う邸宅売主様との条件交渉お任せください",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20923873/",
-    "price_man": 14500.0,
-    "area_sqm": 103.54,
-    "land_area_sqm": 81.27,
-    "layout": "3LDK+S（納戸）",
-    "walk_min": 11,
-    "built_year": 2012,
-    "first_seen_at": "2026-04-22T15:47:01.701300+00:00",
-    "address": "東京都世田谷区下馬５",
-    "access_text": "東急東横線「祐天寺」徒歩11分",
-    "exact_station_hits": [
-      "三軒茶屋",
-      "学芸大学",
-      "祐天寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "眺望良好",
-      "通風良好",
-      "大きな窓"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "－ベルクハウス施工－光と開放感を纏う邸宅 売主様との条件交渉お任せください 約17.7帖の大型空間は、 シアタールームやシミュレーションゴルフなど多彩な用途に対応。 専用バーカウンターも備え、 ライフスタイルに合わせて4LDKへの変更も検討可能な自由度の高い住まいです。 ≪弊社ランディックス桜新町本店は創業50年≫ 世田谷区・目黒区・大田区・品川区・渋谷区・港区をはじめとした城南エリア、",
-    "preview_image_url": "./house_images/20923873.jpg",
-    "criteria_notes": [
-      "exact target station match: 三軒茶屋, 学芸大学, 祐天寺",
-      "best station preference: 7.0/10",
-      "size clears ideal threshold at 103.54 sqm",
-      "layout: 3LDK+S（納戸）",
-      "price is within budget at 14500万円",
-      "walk time meets target at 11 min",
-      "built in 2012",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 4 days",
-      "first seen: 2026-04-22 (44 days ago)"
-    ],
-    "score": 73.86
   },
   {
     "listing_id": "20800111",
@@ -621,7 +525,7 @@
     ],
     "feature_tags": [],
     "detail_summary": "◆静謐な文教・住宅地 ◆新規内装リノべ×外壁塗装 ◆延床面積８０．８９m 2 ◆集まる文教エリア 渋谷中心地まで徒歩15分圏内。 京王井の頭線「駒場東大前」駅徒歩6分、「神泉」駅徒歩9分 山手通りもほど近く、車利用も至便。",
-    "preview_image_url": "./house_images/20800111.jpg",
+    "preview_image_url": "./data/images/houses/20800111.jpg",
     "criteria_notes": [
       "exact target station match: 神泉",
       "best station preference: 8.5/10",
@@ -633,8 +537,8 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 1 days",
-      "first seen: 2026-06-04 (1 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-06-04 (0 days ago)"
     ],
     "score": 73.09
   },
@@ -669,7 +573,7 @@
       "www.ad-cast.info"
     ],
     "detail_summary": "静寂なる低層エリア、愛車二台と暮らす贅をご体感くださいませ♪ ☆―――――・・・　　物件の特徴　　・・・―――――☆ 洗練された文化と静謐が交差する、目黒区柿の木坂一丁目。 第一種低層住居専用地域の守られた聖域に佇む、平成１６年築の品格ある私邸をご案内します。 特筆すべきは、都心邸宅において希少価値の高い２台分のカースペース。 愛車との優雅な日常を叶える贅沢な設計です。２階に配された約１７．５帖の広がりあるＬＤＫは、柔らかな陽光と風を招き入れる寛ぎの空間。 個室もしっかりと確保された３階建てのプランニングが、住まう方のプライバシーを守ります。 空室につき、即時のご内覧が可能です。",
-    "preview_image_url": "./house_images/78542103.jpg",
+    "preview_image_url": "./data/images/houses/78542103.jpg",
     "criteria_notes": [
       "exact target station match: 学芸大学",
       "best station preference: 5.6/10",
@@ -680,9 +584,97 @@
       "built in 2004",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (48 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (47 days ago)"
     ],
     "score": 65.4
+  },
+  {
+    "listing_id": "20837428",
+    "source": "suumo",
+    "property_name": "",
+    "title": "池尻４（池尻大橋駅） 8280万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20837428/",
+    "price_man": 8280.0,
+    "area_sqm": 72.97,
+    "land_area_sqm": 46.19,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 12,
+    "built_year": 2005,
+    "first_seen_at": "2026-05-15T08:36:32.412435+00:00",
+    "address": "東京都世田谷区池尻４",
+    "access_text": "東急田園都市線「池尻大橋」徒歩12分",
+    "exact_station_hits": [
+      "池尻大橋"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "◆東急田園都市線「池尻大橋」駅　徒歩12分　◆閑静な住宅街に佇む3階建の戸建 【物件概要】 ☆土地面積：46.19m 2 （13.97坪） ※別途共有通路持分あり ☆建物面積:72.97m 2",
+    "preview_image_url": "./data/images/houses/20837428.jpg",
+    "criteria_notes": [
+      "exact target station match: 池尻大橋",
+      "best station preference: 7.5/10",
+      "size clears ideal threshold at 72.97 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 8280万円",
+      "walk time meets target at 12 min",
+      "built in 2005",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 通風良好",
+      "listing age: 1 days",
+      "first seen: 2026-05-15 (20 days ago)"
+    ],
+    "score": 63.14
+  },
+  {
+    "listing_id": "20917020",
+    "source": "suumo",
+    "property_name": "",
+    "title": "【3駅5路線利用可能な立地】希少性の高い代々木1丁目アドレスの築浅戸建です",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20917020/",
+    "price_man": 15750.0,
+    "area_sqm": 81.9,
+    "land_area_sqm": 44.54,
+    "layout": "3LDK",
+    "walk_min": 6,
+    "built_year": 2019,
+    "first_seen_at": "2026-05-16T14:40:23.730086+00:00",
+    "address": "東京都渋谷区代々木１",
+    "access_text": "ＪＲ山手線「代々木」徒歩6分",
+    "exact_station_hits": [
+      "代々木"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "採光",
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "【3駅5路線利用可能な立地】希少性の高い代々木1丁目アドレスの築浅戸建です ■令和元年６ 月築の築浅戸建 ■南東・北東角地 ■3階洋室とルーフバルコニーからはドコモタワーを望めます ■周辺施設が充実しており、生活利便性の高いエリア ■明治神宮まで徒歩圏内 ■制震システムGVAを導入 ■リビングに床暖房有",
+    "preview_image_url": "",
+    "criteria_notes": [
+      "exact target station match: 代々木",
+      "best station preference: 7.0/10",
+      "size clears ideal threshold at 81.90 sqm",
+      "layout: 3LDK",
+      "price is outside target budget at 15750万円",
+      "walk time meets target at 6 min",
+      "built in 2019",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 採光, 通風良好",
+      "listing age: 0 days",
+      "first seen: 2026-05-16 (19 days ago)"
+    ],
+    "score": 87.13
   }
 ]
