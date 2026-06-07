@@ -43,10 +43,10 @@
       "built in 2003",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 1 days",
-      "first seen: 2026-06-02 (3 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-06-02 (5 days ago)"
     ],
-    "score": 100.3
+    "score": 99.3
   },
   {
     "listing_id": "ken:2026055364",
@@ -103,9 +103,60 @@
       "walk time meets target at 4 min",
       "built in 2012",
       "dishwasher mentioned in listing",
-      "first seen: 2026-05-12 (24 days ago)"
+      "first seen: 2026-05-12 (26 days ago)"
     ],
     "score": 95.65
+  },
+  {
+    "listing_id": "21012854",
+    "source": "suumo",
+    "property_name": "フィールＭ西新宿",
+    "title": "「西新宿五丁目駅」歩1分のプレミアム住戸です。コンビニ徒歩1分/詳細資料あり",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21012854/",
+    "price_man": 9780.0,
+    "area_sqm": 65.62,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 1,
+    "built_year": 2003,
+    "first_seen_at": "2026-06-07T05:48:08.323137+00:00",
+    "address": "東京都新宿区西新宿５-24-14",
+    "access_text": "都営大江戸線「西新宿五丁目」徒歩1分",
+    "exact_station_hits": [
+      "西新宿五丁目"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機",
+      "食洗機"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "陽当り良好",
+      "通風良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "7】より内覧スタートしました！まずは資料請求からでもどうぞ！",
+      "新着【6"
+    ],
+    "detail_summary": "～～～～～≪recommended points≫～～～～～ ◇都営大江戸線「西新宿五丁目」駅徒歩1分！ ◇専有面積65.62m 2 、収納も豊富にそろえた2LDK！ ◇広々とした16.8畳のリビングで、家族もゲストもゆったり！ ◇角部屋につき、陽当たり・通風ともに良好です。 ◇安心の「新耐震基準（2000年基準）」マンション！",
+    "preview_image_url": "./mansion_images/21012854.jpg",
+    "criteria_notes": [
+      "exact target station match: 西新宿五丁目",
+      "best station preference: 6.5/10",
+      "size clears hard threshold at 65.62 sqm",
+      "layout: 2LDK",
+      "price is within budget at 9780万円",
+      "walk time meets target at 1 min",
+      "built in 2003",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 陽当り良好, 通風良好, 角住戸",
+      "listing age: 0 days",
+      "first seen: 2026-06-07 (0 days ago)"
+    ],
+    "score": 94.3
   },
   {
     "listing_id": "20353620",
@@ -146,8 +197,8 @@
       "walk time meets target at 8 min",
       "built in 2022",
       "dishwasher mentioned in listing",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (48 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-04-18 (50 days ago)"
     ],
     "score": 89.31
   },
@@ -202,65 +253,10 @@
       "built in 2001",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 採光, 通風良好, 角住戸",
-      "listing age: 4 days",
-      "first seen: 2026-04-18 (48 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (50 days ago)"
     ],
-    "score": 86.0
-  },
-  {
-    "listing_id": "20944908",
-    "source": "suumo",
-    "property_name": "ビバリーホームズ松濤",
-    "title": "高級住宅街『松濤』に佇む洗練されたレジデンス。「代々木公園」を庭にする。",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20944908/",
-    "price_man": 11499.0,
-    "area_sqm": 65.96,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 9,
-    "built_year": 2001,
-    "first_seen_at": "2026-05-31T05:50:00.924704+00:00",
-    "address": "東京都渋谷区松濤２-2-13",
-    "access_text": "京王井の頭線「神泉」徒歩9分",
-    "exact_station_hits": [
-      "代々木公園",
-      "神泉"
-    ],
-    "nearby_station_hits": [
-      "代々木八幡"
-    ],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食器洗浄乾燥機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "南西向き",
-      "陽当り良好",
-      "採光",
-      "眺望良好",
-      "通風良好",
-      "角住戸",
-      "三面採光"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "高級住宅街『松濤』に佇む洗練されたレジデンス。「代々木公園」を庭にする。 ～～～～～≪recommended points≫～～～～～ 渋谷や代々木公園も生活圏におさめる、 落ち着いた住宅街「松濤アドレス」に佇む2SLDK。 約15.3帖の広々LDKは家族が自然と集まる 心地よい空間。全居室収納＆Sルーム付きで 子どもの成長に合わせた使い分けも自在です。 南西向きで陽当たりも良好、階下に住戸が",
-    "preview_image_url": "./mansion_images/20944908.jpg",
-    "criteria_notes": [
-      "exact target station match: 代々木公園, 神泉",
-      "best station preference: 8.5/10",
-      "size clears hard threshold at 65.96 sqm",
-      "layout: 2LDK",
-      "price is within budget at 11499万円",
-      "walk time meets target at 9 min",
-      "built in 2001",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 南西向き, 陽当り良好, 採光",
-      "listing age: 4 days",
-      "first seen: 2026-05-31 (5 days ago)"
-    ],
-    "score": 86.0
+    "score": 86.63
   },
   {
     "listing_id": "78889838",
@@ -305,8 +301,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
-      "listing age: 5 days",
-      "first seen: 2026-06-02 (3 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-06-02 (5 days ago)"
     ],
     "score": 81.81
   },
@@ -359,8 +355,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (48 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (50 days ago)"
     ],
     "score": 81.05
   },
@@ -409,8 +405,8 @@
       "built in 2007",
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-05-26 (10 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-05-26 (12 days ago)"
     ],
     "score": 80.66
   },
@@ -458,8 +454,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "basement / semi-basement indicators present",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (48 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (50 days ago)"
     ],
     "score": 78.29
   },
@@ -534,7 +530,7 @@
       "dishwasher mentioned in listing",
       "ceiling/window-height positives: 天井高",
       "basement / semi-basement indicators present",
-      "first seen: 2026-05-16 (20 days ago)"
+      "first seen: 2026-05-16 (22 days ago)"
     ],
     "score": 77.12
   },
@@ -579,8 +575,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
       "basement / semi-basement indicators present",
-      "listing age: 5 days",
-      "first seen: 2026-04-22 (44 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-22 (46 days ago)"
     ],
     "score": 76.43
   },
@@ -660,7 +656,7 @@
       "built in 2014",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-27 (39 days ago)"
+      "first seen: 2026-04-27 (41 days ago)"
     ],
     "score": 76.2
   },
@@ -707,17 +703,17 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 角住戸",
-      "first seen: 2026-04-24 (42 days ago)"
+      "first seen: 2026-04-24 (44 days ago)"
     ],
-    "score": 74.94
+    "score": 74.96
   },
   {
     "listing_id": "20905924",
     "source": "suumo",
     "property_name": "パークホームズ中野",
-    "title": "新井２（中野駅） 1億4980万円",
+    "title": "新井２（中野駅） 1億4780万円",
     "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20905924/",
-    "price_man": 14980.0,
+    "price_man": 14780.0,
     "area_sqm": 66.33,
     "land_area_sqm": null,
     "layout": "2LDK",
@@ -747,15 +743,15 @@
       "best station preference: 6.5/10",
       "size clears hard threshold at 66.33 sqm",
       "layout: 2LDK",
-      "price is within budget at 14980万円",
+      "price is within budget at 14780万円",
       "walk time meets target at 9 min",
       "built in 2011",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (48 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (50 days ago)"
     ],
-    "score": 72.22
+    "score": 72.98
   },
   {
     "listing_id": "ken:2024125886",
@@ -802,8 +798,8 @@
       "built in 2005",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-24 (42 days ago)"
+      "first seen: 2026-04-24 (44 days ago)"
     ],
-    "score": 69.61
+    "score": 70.22
   }
 ]

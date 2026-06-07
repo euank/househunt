@@ -19,7 +19,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -68,7 +68,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -108,12 +108,12 @@
     "score": 95.65
   },
   {
-    "listing_id": "20353620",
+    "listing_id": "79183554",
     "source": "suumo",
     "property_name": "オープンレジデンシア吉祥寺本町",
-    "title": "【吉祥寺本町アドレス】ミストサウナ・食洗機・床暖房完備/駅徒歩8分",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20353620/",
-    "price_man": 9990.0,
+    "title": "吉祥寺本町２（吉祥寺駅） 1億480万円",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_79183554/",
+    "price_man": 10480.0,
     "area_sqm": 70.74,
     "land_area_sqm": null,
     "layout": "3LDK",
@@ -127,29 +127,126 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食洗機"
+      "dishwasher"
     ],
-    "brightness_hits": [],
+    "brightness_hits": [
+      "南向き"
+    ],
     "ceiling_hits": [],
-    "feature_tags": [
-      "【吉祥寺本町アドレス】ミストサウナ・食洗機・床暖房完備",
-      "駅徒歩8分"
-    ],
-    "detail_summary": "《殖産ベストの４つのおすすめのくらしポイント！》 ■吉祥寺エリアの落ち着きと利便性が融合した理想的な町並み ■築4年と新しく、暮らしのトレンドにマッチした住宅設備 ■階下に住戸がないので、子供が走り回っても安心です ■東急百貨店や吉祥寺パルコまで徒歩5分。暮らしやすい立地 ▼地域に根づいて30年の実績▼ 城西エリアを中心に限定されたエリアで営業してきました。 紹介する物件以上に、これからお住いになる地域の、",
-    "preview_image_url": "./data/images/mansions/20353620.jpg",
+    "feature_tags": [],
+    "detail_summary": "■「吉祥寺」駅徒歩8分　■2022年6月築 *。.・◇・.。*オープンレジデンシア吉祥寺本町†*。.・◇・.。* ┏┓　【アクセス】 ┗□━━━━━━━━━━━━━━━━━━━━━━━━━━━ ・中央線 「吉祥寺」駅 徒歩8分 ・京王井の頭線 「吉祥寺」駅 徒歩8分 本物件に関する「ご質問」や「現地ご見学希望」等は 野村の仲介＋(PLUS) 吉祥寺営業部",
+    "preview_image_url": "./data/images/mansions/79183554.png",
     "criteria_notes": [
       "exact target station match: 吉祥寺",
       "best station preference: 6.0/10",
       "size clears ideal threshold at 70.74 sqm",
       "layout: 3LDK",
-      "price is within budget at 9990万円",
+      "price is within budget at 10480万円",
       "walk time meets target at 8 min",
       "built in 2022",
       "dishwasher mentioned in listing",
-      "listing age: 2 days",
+      "brightness/window positives: 南向き",
+      "listing age: 27 days",
       "first seen: 2026-04-18 (48 days ago)"
     ],
-    "score": 89.31
+    "score": 91.61
+  },
+  {
+    "listing_id": "78929865",
+    "source": "suumo",
+    "property_name": "エスト・グランディールカーロ吉祥寺本町",
+    "title": "吉祥寺本町２（吉祥寺駅） 1億1180万円",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_78929865/",
+    "price_man": 11180.0,
+    "area_sqm": 78.31,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 6,
+    "built_year": 2001,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都武蔵野市吉祥寺本町２",
+    "access_text": "ＪＲ総武線「吉祥寺」徒歩6分",
+    "exact_station_hits": [
+      "吉祥寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "日当たり良好",
+      "眺望良好",
+      "通風良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "「吉祥寺徒歩6分、新規リフォーム×収納充実の快適住まい」 ・JR中央・総武線、京王井の頭線「吉祥寺」駅徒歩6分の好立地。 ・駅近でありながら落ち着いた住環境に位置し、日常の利便性が高い住まいホテルライクな内廊下設計で、角部屋につき日当たり良好。 ・リフォーム済みのため、引渡後すぐに快適な生活が始められる点も魅力 ・共用部分では大規模修繕工事を実施中（2025年12月末完了予定）で、建物全体の安心感や将来的な価値向上にも期待 ・周辺には東急百貨店、ロフト、サンロード商店街、西友など多様な商業施設が揃い、井の頭恩賜公園へも徒歩7分と生活と自然が両立した環境 外観 2LDK、価格1億1180万円、専有面積78.31m",
+    "preview_image_url": "./data/images/mansions/78929865.png",
+    "criteria_notes": [
+      "exact target station match: 吉祥寺",
+      "best station preference: 6.0/10",
+      "size clears ideal threshold at 78.31 sqm",
+      "layout: 2LDK",
+      "price is within budget at 11180万円",
+      "walk time meets target at 6 min",
+      "built in 2001",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 日当たり良好, 眺望良好, 通風良好",
+      "listing age: 43 days",
+      "first seen: 2026-04-18 (48 days ago)"
+    ],
+    "score": 91.59
+  },
+  {
+    "listing_id": "79101150",
+    "source": "suumo",
+    "property_name": "パークホームズ中野中央フォーシーズンコート",
+    "title": "◆最上階3面採光角住戸◆ペット飼育可能◆2014年築◆床暖房等設備充実",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_79101150/",
+    "price_man": 14900.0,
+    "area_sqm": 72.5,
+    "land_area_sqm": null,
+    "layout": "3LDK+S（納戸）",
+    "walk_min": 9,
+    "built_year": 2014,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都中野区中央５",
+    "access_text": "ＪＲ中央線「中野」徒歩9分",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "陽当り良好",
+      "採光",
+      "眺望良好",
+      "通風良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "◆最上階3面採光角住戸◆ペット飼育可能◆2014年築◆床暖房等設備充実 ～　売主様から当社が直接お預かりしている専任物件です　～ ●最上階3面採光角住戸につき日当たり眺望良好で明るいお部屋 ●ペット飼育可能（飼育細則等あり） ●2014年築、三井不動産レジデンシャル旧分譲マンション ●床暖房等、設備充実してます ●納戸や大型ウォークインクローゼットがあり、収納スペース豊富です ●お部屋のご見学可能です",
+    "preview_image_url": "./data/images/mansions/79101150.png",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "best station preference: 6.5/10",
+      "size clears ideal threshold at 72.50 sqm",
+      "layout: 3LDK+S（納戸）",
+      "price is within budget at 14900万円",
+      "walk time meets target at 9 min",
+      "built in 2014",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
+      "listing age: 26 days",
+      "first seen: 2026-04-18 (48 days ago)"
+    ],
+    "score": 87.07
   },
   {
     "listing_id": "20531011",
@@ -172,8 +269,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南西向き",
@@ -205,7 +301,7 @@
       "listing age: 4 days",
       "first seen: 2026-04-18 (48 days ago)"
     ],
-    "score": 86.0
+    "score": 86.63
   },
   {
     "listing_id": "20944908",
@@ -230,8 +326,7 @@
       "代々木八幡"
     ],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食器洗浄乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -260,7 +355,7 @@
       "listing age: 4 days",
       "first seen: 2026-05-31 (5 days ago)"
     ],
-    "score": 86.0
+    "score": 86.63
   },
   {
     "listing_id": "78889838",
@@ -282,8 +377,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -330,7 +424,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -384,7 +478,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "通風良好"
@@ -434,8 +528,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -483,7 +576,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [],
     "ceiling_hits": [
@@ -558,8 +651,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "通風良好"
@@ -604,7 +696,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南西向き"
@@ -709,101 +801,6 @@
       "brightness/window positives: 南向き, 角住戸",
       "first seen: 2026-04-24 (42 days ago)"
     ],
-    "score": 74.94
-  },
-  {
-    "listing_id": "20905924",
-    "source": "suumo",
-    "property_name": "パークホームズ中野",
-    "title": "新井２（中野駅） 1億4980万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20905924/",
-    "price_man": 14980.0,
-    "area_sqm": 66.33,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 9,
-    "built_year": 2011,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都中野区新井２",
-    "access_text": "ＪＲ中央線「中野」徒歩9分",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "採光"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ LDK約18.2帖は南向き 2026年3月リフォーム済 －物件のおすすめポイント－ ▼特徴 ・三井不動産レジデンシャル(株)旧分譲 ・玄関・居室・リビングの壁面にエコカラットを採用 ・会話が弾む対面式キッチン",
-    "preview_image_url": "./data/images/mansions/20905924.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "best station preference: 6.5/10",
-      "size clears hard threshold at 66.33 sqm",
-      "layout: 2LDK",
-      "price is within budget at 14980万円",
-      "walk time meets target at 9 min",
-      "built in 2011",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 採光",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (48 days ago)"
-    ],
-    "score": 72.22
-  },
-  {
-    "listing_id": "ken:2024125886",
-    "source": "ken",
-    "property_name": "ファミールグラン代々木の杜",
-    "title": "ファミールグラン代々木の杜  4階 2LDK",
-    "url": "https://www.kencorp.co.jp/housing/properties/153543/2024125886/",
-    "price_man": 11490.0,
-    "area_sqm": 65.5,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 8,
-    "built_year": 2005,
-    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
-    "address": "東京都渋谷区初台２",
-    "access_text": "京王新線 初台駅 徒歩8分ほか",
-    "exact_station_hits": [
-      "代々木上原",
-      "初台"
-    ],
-    "nearby_station_hits": [
-      "参宮橋"
-    ],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "南西向き"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "エレベーター",
-      "オートロック",
-      "バルコニー",
-      "都市ガス"
-    ],
-    "detail_summary": "バルコニー 都市ガス エレベーター、 オートロック",
-    "preview_image_url": "./data/images/mansions/ken:2024125886.jpg",
-    "criteria_notes": [
-      "exact target station match: 代々木上原, 初台",
-      "best station preference: 9.0/10",
-      "size clears hard threshold at 65.50 sqm",
-      "layout: 2LDK",
-      "price is within budget at 11490万円",
-      "walk time meets target at 8 min",
-      "built in 2005",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 南西向き",
-      "first seen: 2026-04-24 (42 days ago)"
-    ],
-    "score": 69.61
+    "score": 74.96
   }
 ]
