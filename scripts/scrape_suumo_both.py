@@ -617,6 +617,9 @@ def price_score(price_man: float | None) -> float:
         return -6
     distance_kman = abs(price_man - IDEAL_PRICE_MAN) / 1000.0
     raw_score = 10.5 - 1.1 * distance_kman - 0.35 * (distance_kman**2)
+    if IDEAL_PRICE_MAN < price_man < 13000:
+        soft_budget_relief = max(0.0, 1.0 - abs(price_man - 12000) / 1000.0) * 1.25
+        raw_score += soft_budget_relief
     if TARGET_BUDGET_MIN_MAN <= price_man <= TARGET_BUDGET_MAX_MAN:
         return round(max(0.5, raw_score), 2)
     if 7000 <= price_man < TARGET_BUDGET_MIN_MAN or TARGET_BUDGET_MAX_MAN < price_man <= HARD_BUDGET_MAX_MAN:
