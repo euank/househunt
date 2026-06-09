@@ -43,7 +43,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
       "listing age: 1 days",
-      "first seen: 2026-06-03 (4 days ago)"
+      "first seen: 2026-06-03 (6 days ago)"
     ],
     "score": 97.99
   },
@@ -89,7 +89,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-05-22 (16 days ago)"
+      "first seen: 2026-05-22 (18 days ago)"
     ],
     "score": 97.02
   },
@@ -130,61 +130,10 @@
       "walk time meets target at 5 min",
       "built in 2016",
       "dishwasher mentioned in listing",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (50 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (52 days ago)"
     ],
     "score": 94.53
-  },
-  {
-    "listing_id": "20133704",
-    "source": "suumo",
-    "property_name": "若林2丁目 中古戸建",
-    "title": "◇ 2階建て・開放感・日当たり抜群◆三軒茶屋の閑静な住宅街に佇む邸宅",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20133704/",
-    "price_man": 9500.0,
-    "area_sqm": 85.43,
-    "land_area_sqm": 94.54,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 12,
-    "built_year": 2009,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都世田谷区若林２",
-    "access_text": "東急田園都市線「三軒茶屋」徒歩12分",
-    "exact_station_hits": [
-      "三軒茶屋"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "南西向き",
-      "陽当り良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "https:",
-      "lifeplan",
-      "loan",
-      "www.ad-cast.info"
-    ],
-    "detail_summary": "◇ 2階建て・開放感・日当たり抜群 ◆三軒茶屋の閑静な住宅街に佇む邸宅 ♪ADCAST♪ ♪お問い合わせは【0120-566-117】まで♪ 快適な毎日を演出する ☆―――――・・・　　物件の特徴　　・・・―――――☆ ◆20.5帖超の広々LDKは、ご家族の笑顔が集まる開放的な空間 ◇各居室もゆとりの5帖以上を確保し、プライベートな時間も快適に",
-    "preview_image_url": "./house_images/20133704.jpg",
-    "criteria_notes": [
-      "exact target station match: 三軒茶屋",
-      "best station preference: 7.0/10",
-      "size clears ideal threshold at 85.43 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 9500万円",
-      "walk time meets target at 12 min",
-      "built in 2009",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南西向き, 陽当り良好, 通風良好",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (50 days ago)"
-    ],
-    "score": 92.13
   },
   {
     "listing_id": "20737103",
@@ -225,49 +174,10 @@
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (50 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (52 days ago)"
     ],
     "score": 90.11
-  },
-  {
-    "listing_id": "20904587",
-    "source": "suumo",
-    "property_name": "",
-    "title": "本町３（西新宿五丁目駅） 1億1000万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20904587/",
-    "price_man": 11000.0,
-    "area_sqm": 76.63,
-    "land_area_sqm": 46.11,
-    "layout": "4LDK",
-    "walk_min": 2,
-    "built_year": 2007,
-    "first_seen_at": "2026-06-07T05:50:05.470639+00:00",
-    "address": "東京都渋谷区本町３-16-8",
-    "access_text": "都営大江戸線「西新宿五丁目」徒歩2分",
-    "exact_station_hits": [
-      "西新宿五丁目"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "1億1000万円、4LDK、土地面積46.11m 2 、建物面積76.63m 2 ※写真に誤り・問題がある場合は こちら ２沿線以上利用可",
-    "preview_image_url": "./house_images/20904587.jpg",
-    "criteria_notes": [
-      "exact target station match: 西新宿五丁目",
-      "best station preference: 6.5/10",
-      "size clears ideal threshold at 76.63 sqm",
-      "layout: 4LDK",
-      "price is within budget at 11000万円",
-      "walk time meets target at 2 min",
-      "built in 2007",
-      "dishwasher not explicitly confirmed",
-      "listing age: 3 days",
-      "first seen: 2026-06-07 (0 days ago)"
-    ],
-    "score": 85.61
   },
   {
     "listing_id": "20675569",
@@ -305,10 +215,49 @@
       "walk time meets target at 7 min",
       "built in 2011",
       "dishwasher mentioned in listing",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (50 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (52 days ago)"
     ],
     "score": 84.63
+  },
+  {
+    "listing_id": "20904587",
+    "source": "suumo",
+    "property_name": "",
+    "title": "本町３（西新宿五丁目駅） 1億1000万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20904587/",
+    "price_man": 11000.0,
+    "area_sqm": 76.63,
+    "land_area_sqm": 46.11,
+    "layout": "4LDK",
+    "walk_min": 2,
+    "built_year": 2007,
+    "first_seen_at": "2026-06-07T05:50:05.470639+00:00",
+    "address": "東京都渋谷区本町３-16-8",
+    "access_text": "都営大江戸線「西新宿五丁目」徒歩2分",
+    "exact_station_hits": [
+      "西新宿五丁目"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "1億1000万円、4LDK、土地面積46.11m 2 、建物面積76.63m 2 ※写真に誤り・問題がある場合は こちら ２沿線以上利用可",
+    "preview_image_url": "./house_images/20904587.jpg",
+    "criteria_notes": [
+      "exact target station match: 西新宿五丁目",
+      "best station preference: 6.5/10",
+      "size clears ideal threshold at 76.63 sqm",
+      "layout: 4LDK",
+      "price is within budget at 11000万円",
+      "walk time meets target at 2 min",
+      "built in 2007",
+      "dishwasher not explicitly confirmed",
+      "listing age: 5 days",
+      "first seen: 2026-06-07 (2 days ago)"
+    ],
+    "score": 84.61
   },
   {
     "listing_id": "20353813",
@@ -351,8 +300,8 @@
       "built in 2010",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
-      "listing age: 2 days",
-      "first seen: 2026-05-19 (19 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-05-19 (21 days ago)"
     ],
     "score": 81.73
   },
@@ -393,7 +342,7 @@
       "built in 2002",
       "dishwasher mentioned in listing",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (50 days ago)"
+      "first seen: 2026-04-18 (52 days ago)"
     ],
     "score": 77.69
   },
@@ -437,7 +386,7 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (50 days ago)"
+      "first seen: 2026-04-18 (52 days ago)"
     ],
     "score": 76.15
   },
@@ -487,7 +436,7 @@
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (19 days ago)"
+      "first seen: 2026-05-19 (21 days ago)"
     ],
     "score": 75.32
   },
@@ -532,7 +481,7 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好, 採光, 眺望良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (19 days ago)"
+      "first seen: 2026-05-19 (21 days ago)"
     ],
     "score": 74.77
   },
@@ -579,8 +528,8 @@
       "built in 2012",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 6 days",
-      "first seen: 2026-04-22 (46 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-22 (48 days ago)"
     ],
     "score": 73.86
   },
@@ -622,7 +571,7 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
       "listing age: 1 days",
-      "first seen: 2026-06-03 (4 days ago)"
+      "first seen: 2026-06-03 (6 days ago)"
     ],
     "score": 73.32
   },
@@ -630,7 +579,7 @@
     "listing_id": "20800111",
     "source": "suumo",
     "property_name": "",
-    "title": "◆静謐な文教・住宅地◆新規内装リノべ×外壁塗装◆延床面積８０．８９㎡",
+    "title": "◆３LDK+車庫付き◆新規内装リノべ×外壁塗装◆延床面積８０．８９㎡",
     "url": "https://suumo.jp/chukoikkodate/tokyo/sc_meguro/nc_20800111/",
     "price_man": 13800.0,
     "area_sqm": 80.89,
@@ -653,7 +602,7 @@
       "吹抜け"
     ],
     "feature_tags": [],
-    "detail_summary": "◆静謐な文教・住宅地 ◆新規内装リノべ×外壁塗装 ◆延床面積８０．８９m 2 ◆集まる文教エリア 渋谷中心地まで徒歩15分圏内。 京王井の頭線「駒場東大前」駅徒歩6分、「神泉」駅徒歩9分 山手通りもほど近く、車利用も至便。",
+    "detail_summary": "◆３LDK+車庫付き ◆新規内装リノべ×外壁塗装 ◆延床面積８０．８９m 2 ◆集まる文教エリア 渋谷中心地まで徒歩15分圏内。 京王井の頭線「駒場東大前」駅徒歩6分、「神泉」駅徒歩9分 山手通りもほど近く、車利用も至便。",
     "preview_image_url": "./house_images/20800111.jpg",
     "criteria_notes": [
       "exact target station match: 神泉",
@@ -666,9 +615,51 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 3 days",
-      "first seen: 2026-06-04 (3 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-06-04 (5 days ago)"
     ],
-    "score": 73.09
+    "score": 72.09
+  },
+  {
+    "listing_id": "20837428",
+    "source": "suumo",
+    "property_name": "",
+    "title": "池尻４（池尻大橋駅） 8280万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20837428/",
+    "price_man": 8280.0,
+    "area_sqm": 72.97,
+    "land_area_sqm": 46.19,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 12,
+    "built_year": 2005,
+    "first_seen_at": "2026-05-15T08:36:32.412435+00:00",
+    "address": "東京都世田谷区池尻４",
+    "access_text": "東急田園都市線「池尻大橋」徒歩12分",
+    "exact_station_hits": [
+      "池尻大橋"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "◆東急田園都市線「池尻大橋」駅　徒歩12分　◆閑静な住宅街に佇む3階建の戸建 【物件概要】 ☆土地面積：46.19m 2 （13.97坪） ※別途共有通路持分あり ☆建物面積:72.97m 2",
+    "preview_image_url": "./house_images/20837428.jpg",
+    "criteria_notes": [
+      "exact target station match: 池尻大橋",
+      "best station preference: 7.5/10",
+      "size clears ideal threshold at 72.97 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 8280万円",
+      "walk time meets target at 12 min",
+      "built in 2005",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 通風良好",
+      "listing age: 1 days",
+      "first seen: 2026-05-15 (25 days ago)"
+    ],
+    "score": 63.14
   }
 ]

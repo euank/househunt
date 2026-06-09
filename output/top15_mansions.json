@@ -43,8 +43,8 @@
       "built in 2003",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 2 days",
-      "first seen: 2026-06-02 (5 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-06-02 (7 days ago)"
     ],
     "score": 99.3
   },
@@ -103,7 +103,7 @@
       "walk time meets target at 4 min",
       "built in 2012",
       "dishwasher mentioned in listing",
-      "first seen: 2026-05-12 (26 days ago)"
+      "first seen: 2026-05-12 (28 days ago)"
     ],
     "score": 95.65
   },
@@ -111,7 +111,7 @@
     "listing_id": "21012854",
     "source": "suumo",
     "property_name": "フィールＭ西新宿",
-    "title": "「西新宿五丁目駅」歩1分のプレミアム住戸です。コンビニ徒歩1分/詳細資料あり",
+    "title": "新着【6/7】より内覧スタートしました！まずは資料請求からでもどうぞ！",
     "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21012854/",
     "price_man": 9780.0,
     "area_sqm": 65.62,
@@ -154,7 +154,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好, 角住戸",
       "listing age: 0 days",
-      "first seen: 2026-06-07 (0 days ago)"
+      "first seen: 2026-06-07 (2 days ago)"
     ],
     "score": 94.3
   },
@@ -197,8 +197,8 @@
       "walk time meets target at 8 min",
       "built in 2022",
       "dishwasher mentioned in listing",
-      "listing age: 4 days",
-      "first seen: 2026-04-18 (50 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (52 days ago)"
     ],
     "score": 89.31
   },
@@ -253,8 +253,8 @@
       "built in 2001",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 採光, 通風良好, 角住戸",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (50 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (52 days ago)"
     ],
     "score": 86.63
   },
@@ -301,8 +301,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
-      "listing age: 1 days",
-      "first seen: 2026-06-02 (5 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-06-02 (7 days ago)"
     ],
     "score": 81.81
   },
@@ -356,7 +356,7 @@
       "brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (50 days ago)"
+      "first seen: 2026-04-18 (52 days ago)"
     ],
     "score": 81.05
   },
@@ -406,7 +406,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
       "listing age: 0 days",
-      "first seen: 2026-05-26 (12 days ago)"
+      "first seen: 2026-05-26 (14 days ago)"
     ],
     "score": 80.66
   },
@@ -455,7 +455,7 @@
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (50 days ago)"
+      "first seen: 2026-04-18 (52 days ago)"
     ],
     "score": 78.29
   },
@@ -530,7 +530,7 @@
       "dishwasher mentioned in listing",
       "ceiling/window-height positives: 天井高",
       "basement / semi-basement indicators present",
-      "first seen: 2026-05-16 (22 days ago)"
+      "first seen: 2026-05-16 (24 days ago)"
     ],
     "score": 77.12
   },
@@ -575,8 +575,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
       "basement / semi-basement indicators present",
-      "listing age: 1 days",
-      "first seen: 2026-04-22 (46 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-04-22 (48 days ago)"
     ],
     "score": 76.43
   },
@@ -656,9 +656,67 @@
       "built in 2014",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き",
-      "first seen: 2026-04-27 (41 days ago)"
+      "first seen: 2026-04-27 (43 days ago)"
     ],
     "score": 76.2
+  },
+  {
+    "listing_id": "ken:2025105463",
+    "source": "ken",
+    "property_name": "グローリオ三軒茶屋",
+    "title": "グローリオ三軒茶屋  4階 2LDK+S",
+    "url": "https://www.kencorp.co.jp/housing/properties/167726/2025105463/",
+    "price_man": 14980.0,
+    "area_sqm": 90.85,
+    "land_area_sqm": null,
+    "layout": "2LDK+S",
+    "walk_min": 10,
+    "built_year": 2007,
+    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
+    "address": "東京都世田谷区三軒茶屋２",
+    "access_text": "田園都市線 三軒茶屋駅 徒歩10分ほか",
+    "exact_station_hits": [
+      "三軒茶屋"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食洗機"
+    ],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "LDK25帖以上",
+      "TVモニター付きインターホン",
+      "エアコン",
+      "エレベーター",
+      "オートロック",
+      "システムキッチン",
+      "バストイレ別",
+      "バルコニー",
+      "一部フローリング",
+      "大型犬相談",
+      "宅配ボックス",
+      "床暖房",
+      "浴室乾燥機",
+      "追焚",
+      "都市ガス",
+      "閑静な住宅街",
+      "食洗機"
+    ],
+    "detail_summary": "大型犬相談、 閑静な住宅街、 バルコニー、 床暖房、 LDK25帖以上、 一部フローリング エアコン、 浴室乾燥機、 追焚、 バストイレ別、 都市ガス、 食洗機、 システムキッチン エレベーター、 宅配ボックス、 オートロック、 TVモニター付きインターホン",
+    "preview_image_url": "./mansion_images/ken:2025105463.jpg",
+    "criteria_notes": [
+      "exact target station match: 三軒茶屋",
+      "best station preference: 7.0/10",
+      "size clears ideal threshold at 90.85 sqm",
+      "layout: 2LDK+S",
+      "price is within budget at 14980万円",
+      "walk time meets target at 10 min",
+      "built in 2007",
+      "dishwasher mentioned in listing",
+      "first seen: 2026-04-24 (46 days ago)"
+    ],
+    "score": 75.9
   },
   {
     "listing_id": "ken:2025095714",
@@ -703,7 +761,7 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 角住戸",
-      "first seen: 2026-04-24 (44 days ago)"
+      "first seen: 2026-04-24 (46 days ago)"
     ],
     "score": 74.96
   },
@@ -749,57 +807,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (50 days ago)"
+      "first seen: 2026-04-18 (52 days ago)"
     ],
     "score": 72.98
-  },
-  {
-    "listing_id": "ken:2024125886",
-    "source": "ken",
-    "property_name": "ファミールグラン代々木の杜",
-    "title": "ファミールグラン代々木の杜  4階 2LDK",
-    "url": "https://www.kencorp.co.jp/housing/properties/153543/2024125886/",
-    "price_man": 11490.0,
-    "area_sqm": 65.5,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 8,
-    "built_year": 2005,
-    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
-    "address": "東京都渋谷区初台２",
-    "access_text": "京王新線 初台駅 徒歩8分ほか",
-    "exact_station_hits": [
-      "代々木上原",
-      "初台"
-    ],
-    "nearby_station_hits": [
-      "参宮橋"
-    ],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "南西向き"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "エレベーター",
-      "オートロック",
-      "バルコニー",
-      "都市ガス"
-    ],
-    "detail_summary": "バルコニー 都市ガス エレベーター、 オートロック",
-    "preview_image_url": "./mansion_images/ken:2024125886.jpg",
-    "criteria_notes": [
-      "exact target station match: 代々木上原, 初台",
-      "best station preference: 9.0/10",
-      "size clears hard threshold at 65.50 sqm",
-      "layout: 2LDK",
-      "price is within budget at 11490万円",
-      "walk time meets target at 8 min",
-      "built in 2005",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 南西向き",
-      "first seen: 2026-04-24 (44 days ago)"
-    ],
-    "score": 70.22
   }
 ]
