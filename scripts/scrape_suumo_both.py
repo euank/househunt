@@ -371,6 +371,44 @@ def parse_walk_min(text: str | None) -> int | None:
     return min(values) if values else None
 
 
+def access_text_for_walk(record: dict) -> str:
+    overview = record.get("overview", {})
+    fields = [
+        record.get("access_text", ""),
+        overview.get("交通"),
+        overview.get("交通/駅徒歩*"),
+        overview.get("交通/駅徒歩"),
+    ]
+    return " ".join(field for field in fields if field)
+
+
+def walk_min_for_station(text: str, station_name: str) -> int | None:
+    if not text:
+        return None
+    pattern = rf"(?<![一-龥ぁ-んァ-ヶA-Za-z0-9]){re.escape(station_name)}(?:駅)?[^\d]{{0,20}}(?:徒歩|歩)(\d+)分"
+    values = [int(match) for match in re.findall(pattern, text)]
+    return min(values) if values else None
+
+
+def target_station_walk_options(record: dict) -> list[tuple[str, int]]:
+    exact, nearby = station_groups(record)
+    station_names = exact or nearby
+    text = access_text_for_walk(record)
+    options = []
+    for station_name in station_names:
+        walk_min = walk_min_for_station(text, station_name)
+        if walk_min is not None:
+            options.append((station_name, walk_min))
+    return sorted(options, key=lambda item: item[1])
+
+
+def target_walk_min(record: dict) -> int | None:
+    options = target_station_walk_options(record)
+    if options:
+        return options[0][1]
+    return record.get("walk_min")
+
+
 def normalize_layout(text: str | None) -> str:
     if not text:
         return ""
@@ -794,12 +832,16 @@ def build_notes(record: dict, config: PropertyConfig) -> list[str]:
             notes.append(f"price is within budget at {price_man:.0f}万円")
         else:
             notes.append(f"price is outside target budget at {price_man:.0f}万円")
-    walk = record.get("walk_min")
+    walk = target_walk_min(record)
     if walk is not None:
         if walk <= config.walk_target:
-            notes.append(f"walk time meets target at {walk} min")
+            notes.append(f"target station walk time meets target at {walk} min")
         else:
-            notes.append(f"walk time misses target at {walk} min")
+            notes.append(f"target station walk time misses target at {walk} min")
+        if record.get("walk_min") is not None and record.get("walk_min") != walk:
+            station_options = target_station_walk_options(record)
+            station_label = station_options[0][0] if station_options else "target station"
+            notes.append(f"nearest listed station is {record['walk_min']} min; scoring uses {station_label} at {walk} min")
     year = record.get("built_year")
     if year:
         if year >= 2000:
@@ -919,7 +961,7 @@ def score_listing(record: dict, config: PropertyConfig) -> float:
     score += area_score(record.get("area_sqm"))
     score += layout_score(record.get("layout", ""))
     score += price_score(record.get("price_man"))
-    score += walk_score(record.get("walk_min"), config)
+    score += walk_score(target_walk_min(record), config)
     score += year_score(record.get("built_year"))
     score += keyword_score(record)
     score += basement_score(record)
@@ -1364,6 +1406,7 @@ def render_report(candidates: list[dict], path: Path, config: PropertyConfig) ->
                 f"- Size: {record.get('area_sqm', 0):.2f} sqm",
                 f"- Layout: {record.get('layout') or 'n/a'}",
                 f"- Walk: {record.get('walk_min')} min",
+                f"- Target Walk: {target_walk_min(record)} min",
                 f"- Built: {record.get('built_year') or 'n/a'}",
                 f"- First Seen: {record.get('first_seen_at') or 'n/a'}",
                 f"- Strict Match: {'yes' if strict_match(record, config) else 'near miss'}",
@@ -1400,6 +1443,7 @@ def render_json(candidates: list[dict], path: Path) -> None:
                 "land_area_sqm": record.get("land_area_sqm"),
                 "layout": record.get("layout"),
                 "walk_min": record.get("walk_min"),
+                "target_walk_min": target_walk_min(record),
                 "built_year": record.get("built_year"),
                 "first_seen_at": record.get("first_seen_at"),
                 "address": record.get("address"),
@@ -1606,7 +1650,10 @@ def enrich_ken_details(session: requests.Session, listings: dict[str, dict], con
 
 def load_persisted_listings(conn: sqlite3.Connection, config: PropertyConfig) -> dict[str, dict]:
     table = config.db_table
-    rows = conn.execute(f"SELECT * FROM {table}")
+    latest_scraped_at = conn.execute(f"SELECT MAX(scraped_at) FROM {table}").fetchone()[0]
+    if not latest_scraped_at:
+        return {}
+    rows = conn.execute(f"SELECT * FROM {table} WHERE scraped_at = ?", (latest_scraped_at,))
     listings: dict[str, dict] = {}
     for row in rows:
         exact_hits = json.loads(row["exact_station_hits_json"] or "[]")
