@@ -653,11 +653,19 @@ def station_preference(station_name: str) -> float:
 def price_score(price_man: float | None) -> float:
     if not price_man:
         return -6
-    distance_kman = abs(price_man - IDEAL_PRICE_MAN) / 1000.0
-    raw_score = 10.5 - 1.1 * distance_kman - 0.35 * (distance_kman**2)
-    if IDEAL_PRICE_MAN < price_man < 13000:
-        soft_budget_relief = max(0.0, 1.0 - abs(price_man - 12000) / 1000.0) * 1.25
-        raw_score += soft_budget_relief
+    if price_man > IDEAL_PRICE_MAN:
+        over_kman = (price_man - IDEAL_PRICE_MAN) / 1000.0
+        if price_man <= 12000:
+            raw_score = 10.5 - 0.2 * over_kman
+        elif price_man <= 13000:
+            raw_score = 10.3 - 1.3 * ((price_man - 12000) / 1000.0)
+        elif price_man <= 14000:
+            raw_score = 9.0 - 5.0 * ((price_man - 13000) / 1000.0)
+        else:
+            raw_score = 4.0 - 3.5 * ((price_man - 14000) / 1000.0)
+    else:
+        distance_kman = abs(price_man - IDEAL_PRICE_MAN) / 1000.0
+        raw_score = 10.5 - 1.1 * distance_kman - 0.35 * (distance_kman**2)
     if TARGET_BUDGET_MIN_MAN <= price_man <= TARGET_BUDGET_MAX_MAN:
         return round(max(0.5, raw_score), 2)
     if 7000 <= price_man < TARGET_BUDGET_MIN_MAN or TARGET_BUDGET_MAX_MAN < price_man <= HARD_BUDGET_MAX_MAN:
@@ -713,14 +721,14 @@ def year_score(year: int | None) -> float:
         return -4
     age = max(0, today_local().year - year)
     if age <= 10:
-        # Gentle decay for recent buildings.
-        return round(13.0 - 0.2 * age, 2)
+        # Gentle decay for recent buildings, with a small preference for newer stock.
+        return round(13.0 - 0.3 * age, 2)
     if age <= 26:
-        # Drop from ~11 at age 10 toward ~2 by age 26.
+        # Drop from ~10 at age 10 toward ~1 by age 26.
         progress = (age - 10) / 16.0
-        return round(11.0 - 9.0 * (progress ** 1.15), 2)
+        return round(10.0 - 9.0 * (progress ** 1.1), 2)
     overage = age - 26
-    return round(max(-8.0, 2.0 - 0.65 * overage), 2)
+    return round(max(-8.0, 1.0 - 0.65 * overage), 2)
 
 
 def station_score(record: dict) -> float:

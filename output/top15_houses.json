@@ -10,6 +10,7 @@
     "land_area_sqm": 65.34,
     "layout": "3LDK",
     "walk_min": 12,
+    "target_walk_min": 12,
     "built_year": 2023,
     "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
     "address": "東京都世田谷区宮坂２",
@@ -19,7 +20,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -38,14 +39,14 @@
       "size clears ideal threshold at 83.42 sqm",
       "layout: 3LDK",
       "price is within budget at 9480万円",
-      "walk time meets target at 12 min",
+      "target station walk time meets target at 12 min",
       "built in 2023",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
       "listing age: 1 days",
       "first seen: 2026-06-03 (6 days ago)"
     ],
-    "score": 97.99
+    "score": 97.69
   },
   {
     "listing_id": "20902175",
@@ -58,6 +59,7 @@
     "land_area_sqm": 46.47,
     "layout": "2LDK+S（納戸）",
     "walk_min": 9,
+    "target_walk_min": 9,
     "built_year": 2021,
     "first_seen_at": "2026-05-22T08:35:18.319370+00:00",
     "address": "東京都新宿区北新宿１",
@@ -67,7 +69,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -84,14 +86,14 @@
       "size clears ideal threshold at 77.09 sqm",
       "layout: 2LDK+S（納戸）",
       "price is within budget at 9850万円",
-      "walk time meets target at 9 min",
+      "target station walk time meets target at 9 min",
       "built in 2021",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光, 通風良好",
       "listing age: 1 days",
       "first seen: 2026-05-22 (18 days ago)"
     ],
-    "score": 97.02
+    "score": 96.52
   },
   {
     "listing_id": "20387370",
@@ -104,6 +106,7 @@
     "land_area_sqm": 44.18,
     "layout": "3LDK",
     "walk_min": 5,
+    "target_walk_min": 5,
     "built_year": 2016,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都世田谷区池尻２",
@@ -114,7 +117,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -127,13 +130,13 @@
       "size clears ideal threshold at 70.39 sqm",
       "layout: 3LDK",
       "price is within budget at 9980万円",
-      "walk time meets target at 5 min",
+      "target station walk time meets target at 5 min",
       "built in 2016",
       "dishwasher mentioned in listing",
       "listing age: 1 days",
       "first seen: 2026-04-18 (52 days ago)"
     ],
-    "score": 94.53
+    "score": 93.53
   },
   {
     "listing_id": "20737103",
@@ -146,6 +149,7 @@
     "land_area_sqm": 81.04,
     "layout": "3LDK+S（納戸）",
     "walk_min": 10,
+    "target_walk_min": 10,
     "built_year": 2015,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都中野区中央４",
@@ -155,7 +159,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き"
@@ -170,14 +174,14 @@
       "size clears ideal threshold at 101.18 sqm",
       "layout: 3LDK+S（納戸）",
       "price is within budget at 11680万円",
-      "walk time meets target at 10 min",
+      "target station walk time meets target at 10 min",
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
       "listing age: 0 days",
       "first seen: 2026-04-18 (52 days ago)"
     ],
-    "score": 90.11
+    "score": 88.97
   },
   {
     "listing_id": "20675569",
@@ -190,6 +194,7 @@
     "land_area_sqm": 61.62,
     "layout": "3LDK",
     "walk_min": 7,
+    "target_walk_min": 7,
     "built_year": 2011,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都世田谷区三軒茶屋２",
@@ -199,7 +204,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -212,13 +217,13 @@
       "size clears ideal threshold at 102.70 sqm",
       "layout: 3LDK",
       "price is within budget at 13980万円",
-      "walk time meets target at 7 min",
+      "target station walk time meets target at 7 min",
       "built in 2011",
       "dishwasher mentioned in listing",
       "listing age: 2 days",
       "first seen: 2026-04-18 (52 days ago)"
     ],
-    "score": 84.63
+    "score": 83.48
   },
   {
     "listing_id": "20904587",
@@ -231,6 +236,7 @@
     "land_area_sqm": 46.11,
     "layout": "4LDK",
     "walk_min": 2,
+    "target_walk_min": 2,
     "built_year": 2007,
     "first_seen_at": "2026-06-07T05:50:05.470639+00:00",
     "address": "東京都渋谷区本町３-16-8",
@@ -251,13 +257,13 @@
       "size clears ideal threshold at 76.63 sqm",
       "layout: 4LDK",
       "price is within budget at 11000万円",
-      "walk time meets target at 2 min",
+      "target station walk time meets target at 2 min",
       "built in 2007",
       "dishwasher not explicitly confirmed",
       "listing age: 5 days",
       "first seen: 2026-06-07 (2 days ago)"
     ],
-    "score": 84.61
+    "score": 83.47
   },
   {
     "listing_id": "20353813",
@@ -270,6 +276,7 @@
     "land_area_sqm": 59.13,
     "layout": "2LDK",
     "walk_min": 2,
+    "target_walk_min": 2,
     "built_year": 2010,
     "first_seen_at": "2026-05-19T05:53:28.388255+00:00",
     "address": "東京都新宿区西新宿４",
@@ -296,14 +303,14 @@
       "size clears ideal threshold at 89.57 sqm",
       "layout: 2LDK",
       "price is within budget at 12800万円",
-      "walk time meets target at 2 min",
+      "target station walk time meets target at 2 min",
       "built in 2010",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
       "listing age: 1 days",
       "first seen: 2026-05-19 (21 days ago)"
     ],
-    "score": 81.73
+    "score": 82.2
   },
   {
     "listing_id": "20417719",
@@ -316,6 +323,7 @@
     "land_area_sqm": 67.11,
     "layout": "3LDK",
     "walk_min": 9,
+    "target_walk_min": 9,
     "built_year": 2002,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都世田谷区代田２",
@@ -325,7 +333,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -338,13 +346,13 @@
       "size clears ideal threshold at 88.69 sqm",
       "layout: 3LDK",
       "price is within budget at 13190万円",
-      "walk time meets target at 9 min",
+      "target station walk time meets target at 9 min",
       "built in 2002",
       "dishwasher mentioned in listing",
       "listing age: 1 days",
       "first seen: 2026-04-18 (52 days ago)"
     ],
-    "score": 77.69
+    "score": 78.28
   },
   {
     "listing_id": "20655736",
@@ -357,6 +365,7 @@
     "land_area_sqm": 52.99,
     "layout": "2LDK+S（納戸）",
     "walk_min": 6,
+    "target_walk_min": 6,
     "built_year": 2004,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都中野区中野５",
@@ -381,14 +390,60 @@
       "size clears ideal threshold at 86.17 sqm",
       "layout: 2LDK+S（納戸）",
       "price is within budget at 8780万円",
-      "walk time meets target at 6 min",
+      "target station walk time meets target at 6 min",
       "built in 2004",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好",
       "listing age: 1 days",
       "first seen: 2026-04-18 (52 days ago)"
     ],
-    "score": 76.15
+    "score": 75.05
+  },
+  {
+    "listing_id": "20878404",
+    "source": "suumo",
+    "property_name": "",
+    "title": "中野１（中野駅） 1億4980万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20878404/",
+    "price_man": 14980.0,
+    "area_sqm": 114.68,
+    "land_area_sqm": 92.06,
+    "layout": "3LDK+S（納戸）",
+    "walk_min": 10,
+    "target_walk_min": 10,
+    "built_year": 2024,
+    "first_seen_at": "2026-05-19T04:49:27.522007+00:00",
+    "address": "東京都中野区中野１",
+    "access_text": "ＪＲ中央線「中野」徒歩10分",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "陽当り良好",
+      "採光",
+      "眺望良好",
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "■三井のリハウス■ 南側接道、2024年6月築の3階建 ルーフバルコニー付 －物件のおすすめポイント－ ▼立地 JR中央線・総武線・東京メトロ東西線「中野」駅徒歩10分 再開発の進む中野駅を生活圏とする立地 ▼特徴",
+    "preview_image_url": "./house_images/20878404.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "best station preference: 6.5/10",
+      "size clears ideal threshold at 114.68 sqm",
+      "layout: 3LDK+S（納戸）",
+      "price is within budget at 14980万円",
+      "target station walk time meets target at 10 min",
+      "built in 2024",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 陽当り良好, 採光, 眺望良好, 通風良好",
+      "listing age: 1 days",
+      "first seen: 2026-05-19 (21 days ago)"
+    ],
+    "score": 74.56
   },
   {
     "listing_id": "78419001",
@@ -401,6 +456,7 @@
     "land_area_sqm": 45.51,
     "layout": "3LDK",
     "walk_min": 4,
+    "target_walk_min": 4,
     "built_year": 2011,
     "first_seen_at": "2026-05-19T05:53:28.388255+00:00",
     "address": "東京都渋谷区本町３",
@@ -430,7 +486,7 @@
       "size clears ideal threshold at 70.16 sqm",
       "layout: 3LDK",
       "price is within budget at 14800万円",
-      "walk time meets target at 4 min",
+      "target station walk time meets target at 4 min",
       "built in 2011",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
@@ -438,52 +494,7 @@
       "listing age: 1 days",
       "first seen: 2026-05-19 (21 days ago)"
     ],
-    "score": 75.32
-  },
-  {
-    "listing_id": "20878404",
-    "source": "suumo",
-    "property_name": "",
-    "title": "中野１（中野駅） 1億4980万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20878404/",
-    "price_man": 14980.0,
-    "area_sqm": 114.68,
-    "land_area_sqm": 92.06,
-    "layout": "3LDK+S（納戸）",
-    "walk_min": 10,
-    "built_year": 2024,
-    "first_seen_at": "2026-05-19T04:49:27.522007+00:00",
-    "address": "東京都中野区中野１",
-    "access_text": "ＪＲ中央線「中野」徒歩10分",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "陽当り良好",
-      "採光",
-      "眺望良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ 南側接道、2024年6月築の3階建 ルーフバルコニー付 －物件のおすすめポイント－ ▼立地 JR中央線・総武線・東京メトロ東西線「中野」駅徒歩10分 再開発の進む中野駅を生活圏とする立地 ▼特徴",
-    "preview_image_url": "./house_images/20878404.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "best station preference: 6.5/10",
-      "size clears ideal threshold at 114.68 sqm",
-      "layout: 3LDK+S（納戸）",
-      "price is within budget at 14980万円",
-      "walk time meets target at 10 min",
-      "built in 2024",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 陽当り良好, 採光, 眺望良好, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-05-19 (21 days ago)"
-    ],
-    "score": 74.77
+    "score": 74.11
   },
   {
     "listing_id": "20923873",
@@ -496,6 +507,7 @@
     "land_area_sqm": 81.27,
     "layout": "3LDK+S（納戸）",
     "walk_min": 11,
+    "target_walk_min": 11,
     "built_year": 2012,
     "first_seen_at": "2026-04-22T15:47:01.701300+00:00",
     "address": "東京都世田谷区下馬５",
@@ -524,14 +536,14 @@
       "size clears ideal threshold at 103.54 sqm",
       "layout: 3LDK+S（納戸）",
       "price is within budget at 14500万円",
-      "walk time meets target at 11 min",
+      "target station walk time meets target at 11 min",
       "built in 2012",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "listing age: 2 days",
       "first seen: 2026-04-22 (48 days ago)"
     ],
-    "score": 73.86
+    "score": 72.62
   },
   {
     "listing_id": "20612419",
@@ -544,6 +556,7 @@
     "land_area_sqm": 43.62,
     "layout": "3LDK",
     "walk_min": 10,
+    "target_walk_min": 10,
     "built_year": 2009,
     "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
     "address": "東京都渋谷区本町６",
@@ -566,14 +579,14 @@
       "size clears ideal threshold at 76.58 sqm",
       "layout: 3LDK",
       "price is within budget at 9500万円",
-      "walk time meets target at 10 min",
+      "target station walk time meets target at 10 min",
       "built in 2009",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
       "listing age: 1 days",
       "first seen: 2026-06-03 (6 days ago)"
     ],
-    "score": 73.32
+    "score": 72.17
   },
   {
     "listing_id": "20800111",
@@ -586,6 +599,7 @@
     "land_area_sqm": 70.08,
     "layout": "3LDK",
     "walk_min": 9,
+    "target_walk_min": 9,
     "built_year": 2003,
     "first_seen_at": "2026-06-04T14:52:32.651017+00:00",
     "address": "東京都目黒区駒場１-2－17",
@@ -610,7 +624,7 @@
       "size clears ideal threshold at 80.89 sqm",
       "layout: 3LDK",
       "price is within budget at 13800万円",
-      "walk time meets target at 9 min",
+      "target station walk time meets target at 9 min",
       "built in 2003",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
@@ -618,7 +632,7 @@
       "listing age: 1 days",
       "first seen: 2026-06-04 (5 days ago)"
     ],
-    "score": 72.09
+    "score": 71.34
   },
   {
     "listing_id": "20837428",
@@ -631,6 +645,7 @@
     "land_area_sqm": 46.19,
     "layout": "2LDK+S（納戸）",
     "walk_min": 12,
+    "target_walk_min": 12,
     "built_year": 2005,
     "first_seen_at": "2026-05-15T08:36:32.412435+00:00",
     "address": "東京都世田谷区池尻４",
@@ -653,13 +668,13 @@
       "size clears ideal threshold at 72.97 sqm",
       "layout: 2LDK+S（納戸）",
       "price is within budget at 8280万円",
-      "walk time meets target at 12 min",
+      "target station walk time meets target at 12 min",
       "built in 2005",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 通風良好",
       "listing age: 1 days",
       "first seen: 2026-05-15 (25 days ago)"
     ],
-    "score": 63.14
+    "score": 62.03
   }
 ]
