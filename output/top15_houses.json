@@ -20,7 +20,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き",
@@ -44,7 +44,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
       "listing age: 1 days",
-      "first seen: 2026-06-03 (6 days ago)"
+      "first seen: 2026-06-03 (7 days ago)"
     ],
     "score": 97.69
   },
@@ -69,7 +69,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -90,8 +90,8 @@
       "built in 2021",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-05-22 (18 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-05-22 (19 days ago)"
     ],
     "score": 96.52
   },
@@ -117,7 +117,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -133,8 +133,8 @@
       "target station walk time meets target at 5 min",
       "built in 2016",
       "dishwasher mentioned in listing",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (52 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (53 days ago)"
     ],
     "score": 93.53
   },
@@ -159,7 +159,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き"
@@ -178,8 +178,8 @@
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (52 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (53 days ago)"
     ],
     "score": 88.97
   },
@@ -204,7 +204,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食洗機"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -220,8 +220,8 @@
       "target station walk time meets target at 7 min",
       "built in 2011",
       "dishwasher mentioned in listing",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (52 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-04-18 (53 days ago)"
     ],
     "score": 83.48
   },
@@ -260,8 +260,8 @@
       "target station walk time meets target at 2 min",
       "built in 2007",
       "dishwasher not explicitly confirmed",
-      "listing age: 5 days",
-      "first seen: 2026-06-07 (2 days ago)"
+      "listing age: 6 days",
+      "first seen: 2026-06-07 (3 days ago)"
     ],
     "score": 83.47
   },
@@ -307,10 +307,56 @@
       "built in 2010",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
-      "listing age: 1 days",
-      "first seen: 2026-05-19 (21 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-05-19 (22 days ago)"
     ],
     "score": 82.2
+  },
+  {
+    "listing_id": "21033263",
+    "source": "suumo",
+    "property_name": "",
+    "title": "下馬１（祐天寺駅） 9500万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_21033263/",
+    "price_man": 9500.0,
+    "area_sqm": 85.53,
+    "land_area_sqm": 60.33,
+    "layout": "3LDK",
+    "walk_min": 11,
+    "target_walk_min": 11,
+    "built_year": 2006,
+    "first_seen_at": "2026-06-10T14:48:07.968370+00:00",
+    "address": "東京都世田谷区下馬１",
+    "access_text": "東急東横線「祐天寺」徒歩11分",
+    "exact_station_hits": [
+      "祐天寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "採光"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "世田谷区下馬1丁目！ルーフバルコニー付き3階建住宅 世田谷区下馬1丁目に佇む、ルーフバルコニー付きの3階建中古戸建。間取りは3LDK＋WIC＋クロークで、1階に約5.3帖洋室、3階に約4.1帖の洋室2部屋を配置。2階は家族が集まりやすいLDK空間となっており、水まわりと居住スペースを分けた使いやすい設計です。収納も充実し、都心生活にフィットする一邸です。 9500万円、3LDK、土地面積60.33m 2 、建物面積85.53m 2 玄関～1F廊下 16.5畳のリビング",
+    "preview_image_url": "./house_images/21033263.jpg",
+    "criteria_notes": [
+      "exact target station match: 祐天寺",
+      "best station preference: 4.5/10",
+      "size clears ideal threshold at 85.53 sqm",
+      "layout: 3LDK",
+      "price is within budget at 9500万円",
+      "target station walk time meets target at 11 min",
+      "built in 2006",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 採光",
+      "listing age: 0 days",
+      "first seen: 2026-06-10 (0 days ago)"
+    ],
+    "score": 80.71
   },
   {
     "listing_id": "20417719",
@@ -333,7 +379,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -350,54 +396,9 @@
       "built in 2002",
       "dishwasher mentioned in listing",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (52 days ago)"
+      "first seen: 2026-04-18 (53 days ago)"
     ],
     "score": 78.28
-  },
-  {
-    "listing_id": "20655736",
-    "source": "suumo",
-    "property_name": "",
-    "title": "中野５（中野駅） 8780万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_nakano/nc_20655736/",
-    "price_man": 8780.0,
-    "area_sqm": 86.17,
-    "land_area_sqm": 52.99,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 6,
-    "target_walk_min": 6,
-    "built_year": 2004,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都中野区中野５",
-    "access_text": "ＪＲ中央線「中野」徒歩6分",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "『中野』駅　徒歩６分／前面道路公道約４．６ｍ ■JR、東京メトロ東西線『中野』駅　徒歩６分 ■整形地 ■前面道路約４．６ｍ ■閑静な住宅街 ■屋上ルーフバルコニー ■現在空室 ■駐車場",
-    "preview_image_url": "./house_images/20655736.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "best station preference: 6.5/10",
-      "size clears ideal threshold at 86.17 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 8780万円",
-      "target station walk time meets target at 6 min",
-      "built in 2004",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 南向き, 陽当り良好, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (52 days ago)"
-    ],
-    "score": 75.05
   },
   {
     "listing_id": "20878404",
@@ -441,7 +442,7 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好, 採光, 眺望良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (21 days ago)"
+      "first seen: 2026-05-19 (22 days ago)"
     ],
     "score": 74.56
   },
@@ -492,7 +493,7 @@
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (21 days ago)"
+      "first seen: 2026-05-19 (22 days ago)"
     ],
     "score": 74.11
   },
@@ -540,53 +541,10 @@
       "built in 2012",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 2 days",
-      "first seen: 2026-04-22 (48 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-04-22 (49 days ago)"
     ],
     "score": 72.62
-  },
-  {
-    "listing_id": "20612419",
-    "source": "suumo",
-    "property_name": "",
-    "title": "本町６（初台駅） 9500万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20612419/",
-    "price_man": 9500.0,
-    "area_sqm": 76.58,
-    "land_area_sqm": 43.62,
-    "layout": "3LDK",
-    "walk_min": 10,
-    "target_walk_min": 10,
-    "built_year": 2009,
-    "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
-    "address": "東京都渋谷区本町６",
-    "access_text": "京王新線「初台」徒歩10分",
-    "exact_station_hits": [
-      "初台"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "採光"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ 北西・南西側が接道した住まい スーパーが徒歩1分の立地 －物件のおすすめポイント－ ▼立地 ・京王電鉄京王線「初台」徒歩10分 ▼特徴 ・全居室2面以上の採光が確保された間取り",
-    "preview_image_url": "./house_images/20612419.jpg",
-    "criteria_notes": [
-      "exact target station match: 初台",
-      "best station preference: 7.0/10",
-      "size clears ideal threshold at 76.58 sqm",
-      "layout: 3LDK",
-      "price is within budget at 9500万円",
-      "target station walk time meets target at 10 min",
-      "built in 2009",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 採光",
-      "listing age: 1 days",
-      "first seen: 2026-06-03 (6 days ago)"
-    ],
-    "score": 72.17
   },
   {
     "listing_id": "20800111",
@@ -629,10 +587,53 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 1 days",
-      "first seen: 2026-06-04 (5 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-06-04 (6 days ago)"
     ],
     "score": 71.34
+  },
+  {
+    "listing_id": "20612419",
+    "source": "suumo",
+    "property_name": "",
+    "title": "本町６（初台駅） 8900万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20612419/",
+    "price_man": 8900.0,
+    "area_sqm": 76.58,
+    "land_area_sqm": 43.62,
+    "layout": "3LDK",
+    "walk_min": 10,
+    "target_walk_min": 10,
+    "built_year": 2009,
+    "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
+    "address": "東京都渋谷区本町６",
+    "access_text": "京王新線「初台」徒歩10分",
+    "exact_station_hits": [
+      "初台"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "採光"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "■三井のリハウス■ 北西・南西側が接道した住まい スーパーが徒歩1分の立地 －物件のおすすめポイント－ ▼立地 ・京王電鉄京王線「初台」徒歩10分 ▼特徴 ・全居室2面以上の採光が確保された間取り",
+    "preview_image_url": "./house_images/20612419.jpg",
+    "criteria_notes": [
+      "exact target station match: 初台",
+      "best station preference: 7.0/10",
+      "size clears ideal threshold at 76.58 sqm",
+      "layout: 3LDK",
+      "price is within budget at 8900万円",
+      "target station walk time meets target at 10 min",
+      "built in 2009",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 採光",
+      "listing age: 1 days",
+      "first seen: 2026-06-03 (7 days ago)"
+    ],
+    "score": 70.76
   },
   {
     "listing_id": "20837428",
@@ -673,7 +674,7 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-05-15 (25 days ago)"
+      "first seen: 2026-05-15 (26 days ago)"
     ],
     "score": 62.03
   }
