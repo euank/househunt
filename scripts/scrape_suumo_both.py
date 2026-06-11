@@ -385,7 +385,11 @@ def access_text_for_walk(record: dict) -> str:
 def walk_min_for_station(text: str, station_name: str) -> int | None:
     if not text:
         return None
-    pattern = rf"(?<![一-龥ぁ-んァ-ヶA-Za-z0-9]){re.escape(station_name)}(?:駅)?[^\d]{{0,20}}(?:徒歩|歩)(\d+)分"
+    word_chars = r"一-龥ぁ-んァ-ヶA-Za-z0-9"
+    pattern = (
+        rf"(?<![{word_chars}]){re.escape(station_name)}(?:駅)?"
+        rf"(?![{word_chars}])[^\d]{{0,20}}(?:徒歩|歩)(\d+)分"
+    )
     values = [int(match) for match in re.findall(pattern, text)]
     return min(values) if values else None
 
@@ -407,6 +411,31 @@ def target_walk_min(record: dict) -> int | None:
     if options:
         return options[0][1]
     return record.get("walk_min")
+
+
+def add_station_hits_from_access(record: dict, access_text: str, source_url: str) -> None:
+    if not access_text:
+        return
+    existing = {
+        (hit["station_name"], hit["priority"])
+        for hit in record.get("station_hits", [])
+    }
+    for seed in SEEDS:
+        if walk_min_for_station(access_text, seed.name) is None:
+            continue
+        key = (seed.name, seed.priority)
+        if key in existing:
+            continue
+        record.setdefault("station_hits", []).append(
+            {
+                "station_name": seed.name,
+                "station_code": seed.code,
+                "priority": seed.priority,
+                "note": f"{seed.note}; matched in detail access",
+                "source_url": source_url,
+            }
+        )
+        existing.add(key)
 
 
 def normalize_layout(text: str | None) -> str:
@@ -616,7 +645,16 @@ def enrich_suumo_details(session: requests.Session, listings: dict[str, dict], c
         record["dishwasher_hits"] = [kw for kw in DISHWASHER_KEYWORDS if kw in page_text]
         record["brightness_hits"] = [kw for kw in BRIGHTNESS_KEYWORDS if kw in page_text]
         record["ceiling_hits"] = [kw for kw in CEILING_WINDOW_KEYWORDS if kw in page_text]
-        record["access_text"] = record.get("access_text") or overview.get("交通", "")
+        detail_access = overview.get("交通", "")
+        if detail_access:
+            record["access_text"] = detail_access
+            detail_walk = parse_walk_min(detail_access)
+            current_walk = record.get("walk_min")
+            if detail_walk is not None and (current_walk is None or detail_walk < current_walk):
+                record["walk_min"] = detail_walk
+            add_station_hits_from_access(record, detail_access, record["url"])
+        else:
+            record["access_text"] = record.get("access_text") or ""
         record["address"] = record.get("address") or overview.get("所在地", "")
         record["walk_min"] = record.get("walk_min") or parse_walk_min(record.get("access_text"))
         record["built_year"] = record.get("built_year") or parse_year(
@@ -1674,7 +1712,9 @@ def load_persisted_listings(conn: sqlite3.Connection, config: PropertyConfig) ->
             for name in nearby_hits
         ]
         dishwasher_hits = ["dishwasher"] if row["dishwasher"] else []
-        listings[row["listing_id"]] = {
+        overview = json.loads(row["overview_json"] or "{}")
+        access_text = overview.get("交通") or row["access_text"]
+        record = {
             "listing_id": row["listing_id"],
             "source": row["source"] or "suumo",
             "property_type": config.kind,
@@ -1682,7 +1722,7 @@ def load_persisted_listings(conn: sqlite3.Connection, config: PropertyConfig) ->
             "title": row["title"],
             "property_name": row["property_name"],
             "address": row["address"],
-            "access_text": row["access_text"],
+            "access_text": access_text,
             "price_man": row["price_man"],
             "area_sqm": row["area_sqm"],
             "land_area_sqm": row["land_area_sqm"] if "land_area_sqm" in row.keys() else None,
@@ -1694,7 +1734,7 @@ def load_persisted_listings(conn: sqlite3.Connection, config: PropertyConfig) ->
             "list_blurb": row["list_blurb"],
             "detail_summary": row["detail_summary"],
             "feature_tags": json.loads(row["feature_tags_json"] or "[]"),
-            "overview": json.loads(row["overview_json"] or "{}"),
+            "overview": overview,
             "station_hits": station_hits,
             "dishwasher_hits": dishwasher_hits,
             "brightness_hits": json.loads(row["brightness_hits_json"] or "[]"),
@@ -1705,6 +1745,11 @@ def load_persisted_listings(conn: sqlite3.Connection, config: PropertyConfig) ->
             "score": row["score"],
             "preview_image_url": "",
         }
+        access_walk = parse_walk_min(access_text)
+        if access_walk is not None and (record["walk_min"] is None or access_walk < record["walk_min"]):
+            record["walk_min"] = access_walk
+        add_station_hits_from_access(record, access_text, row["url"])
+        listings[row["listing_id"]] = record
     return listings
 
 
