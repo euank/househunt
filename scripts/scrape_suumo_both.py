@@ -549,7 +549,14 @@ def listing_prefilter(record: dict, config: PropertyConfig) -> bool:
     walk = record.get("walk_min") or 999
     year = record.get("built_year") or 0
     rooms = layout_room_count(record.get("layout") or "") or 0
-    return 8000 <= price <= HARD_BUDGET_MAX_MAN and area >= 60 and walk <= config.detail_prefilter_walk and year >= 1995 and rooms >= 2
+    return (
+        TARGET_BUDGET_MIN_MAN <= price
+        and not is_hard_budget_exceeded(price, config)
+        and area >= 60
+        and walk <= config.detail_prefilter_walk
+        and year >= 1995
+        and rooms >= 2
+    )
 
 
 def strict_match(record: dict, config: PropertyConfig) -> bool:
@@ -688,7 +695,15 @@ def station_preference(station_name: str) -> float:
     return max(MIN_STATION_PREFERENCE, min(MAX_STATION_PREFERENCE, preference))
 
 
-def price_score(price_man: float | None) -> float:
+def is_hard_budget_exceeded(price_man: float | None, config: PropertyConfig) -> bool:
+    if not price_man:
+        return False
+    if config.kind == "mansion":
+        return price_man >= HARD_BUDGET_MAX_MAN
+    return price_man > HARD_BUDGET_MAX_MAN
+
+
+def standard_price_score(price_man: float | None) -> float:
     if not price_man:
         return -6
     if price_man > IDEAL_PRICE_MAN:
@@ -709,6 +724,26 @@ def price_score(price_man: float | None) -> float:
     if 7000 <= price_man < TARGET_BUDGET_MIN_MAN or TARGET_BUDGET_MAX_MAN < price_man <= HARD_BUDGET_MAX_MAN:
         return round(max(-3.0, raw_score - 3.0), 2)
     return -8
+
+
+def mansion_price_score(price_man: float | None) -> float:
+    if not price_man:
+        return -6
+    if price_man >= HARD_BUDGET_MAX_MAN:
+        return -8
+    if price_man <= IDEAL_PRICE_MAN:
+        return standard_price_score(price_man)
+    if price_man <= 14000:
+        return 10.5
+    if price_man <= TARGET_BUDGET_MAX_MAN:
+        return round(10.5 - 5.5 * ((price_man - 14000) / 1000.0), 2)
+    return round(max(-3.0, 5.0 - 8.0 * ((price_man - TARGET_BUDGET_MAX_MAN) / 1000.0)), 2)
+
+
+def price_score(price_man: float | None, config: PropertyConfig) -> float:
+    if config.kind == "mansion":
+        return mansion_price_score(price_man)
+    return standard_price_score(price_man)
 
 
 def area_score(area_sqm: float | None) -> float:
@@ -994,7 +1029,7 @@ def score_listing(record: dict, config: PropertyConfig) -> float:
         record["score"] = -999.0
         return record["score"]
     price_man = record.get("price_man")
-    if price_man and price_man > HARD_BUDGET_MAX_MAN:
+    if is_hard_budget_exceeded(price_man, config):
         record["criteria_notes"] = build_notes(record, config)
         record["score"] = -999.0
         return record["score"]
@@ -1006,7 +1041,7 @@ def score_listing(record: dict, config: PropertyConfig) -> float:
     score += station_score(record)
     score += area_score(record.get("area_sqm"))
     score += layout_score(record.get("layout", ""))
-    score += price_score(record.get("price_man"))
+    score += price_score(record.get("price_man"), config)
     score += walk_score(target_walk_min(record), config)
     score += year_score(record.get("built_year"))
     score += keyword_score(record)
