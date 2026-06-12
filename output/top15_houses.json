@@ -9,12 +9,12 @@
     "area_sqm": 83.42,
     "land_area_sqm": 65.34,
     "layout": "3LDK",
-    "walk_min": 12,
+    "walk_min": 3,
     "target_walk_min": 12,
     "built_year": 2023,
     "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
     "address": "東京都世田谷区宮坂２",
-    "access_text": "小田急線「経堂」徒歩12分",
+    "access_text": "小田急線「豪徳寺」歩4分 [ 乗り換え案内 ] 小田急線「経堂」歩12分 [ 乗り換え案内 ] 東急世田谷線「山下」歩3分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "経堂"
     ],
@@ -40,13 +40,14 @@
       "layout: 3LDK",
       "price is within budget at 9480万円",
       "target station walk time meets target at 12 min",
+      "nearest listed station is 3 min; scoring uses 経堂 at 12 min",
       "built in 2023",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
       "listing age: 1 days",
-      "first seen: 2026-06-03 (7 days ago)"
+      "first seen: 2026-06-03 (9 days ago)"
     ],
-    "score": 97.69
+    "score": 96.69
   },
   {
     "listing_id": "20902175",
@@ -58,12 +59,12 @@
     "area_sqm": 77.09,
     "land_area_sqm": 46.47,
     "layout": "2LDK+S（納戸）",
-    "walk_min": 9,
+    "walk_min": 6,
     "target_walk_min": 9,
     "built_year": 2021,
     "first_seen_at": "2026-05-22T08:35:18.319370+00:00",
     "address": "東京都新宿区北新宿１",
-    "access_text": "東京メトロ丸ノ内線「新宿」徒歩9分",
+    "access_text": "ＪＲ総武線「大久保」歩6分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「新宿」歩9分 [ 乗り換え案内 ] ＪＲ山手線「新大久保」歩10分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "新宿"
     ],
@@ -87,11 +88,12 @@
       "layout: 2LDK+S（納戸）",
       "price is within budget at 9850万円",
       "target station walk time meets target at 9 min",
+      "nearest listed station is 6 min; scoring uses 新宿 at 9 min",
       "built in 2021",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光, 通風良好",
-      "listing age: 2 days",
-      "first seen: 2026-05-22 (19 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-05-22 (21 days ago)"
     ],
     "score": 96.52
   },
@@ -110,7 +112,7 @@
     "built_year": 2016,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都世田谷区池尻２",
-    "access_text": "東急田園都市線「池尻大橋」徒歩5分",
+    "access_text": "東急田園都市線「池尻大橋」歩5分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩14分 [ 乗り換え案内 ] 東急世田谷線「三軒茶屋」歩17分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "三軒茶屋",
       "池尻大橋"
@@ -133,8 +135,8 @@
       "target station walk time meets target at 5 min",
       "built in 2016",
       "dishwasher mentioned in listing",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (53 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (55 days ago)"
     ],
     "score": 93.53
   },
@@ -148,12 +150,12 @@
     "area_sqm": 101.18,
     "land_area_sqm": 81.04,
     "layout": "3LDK+S（納戸）",
-    "walk_min": 10,
+    "walk_min": 5,
     "target_walk_min": 10,
     "built_year": 2015,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都中野区中央４",
-    "access_text": "ＪＲ総武線「中野」徒歩10分",
+    "access_text": "ＪＲ総武線「中野」歩10分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「新中野」歩5分 [ 乗り換え案内 ] 東京メトロ東西線「中野」歩10分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "中野"
     ],
@@ -175,13 +177,62 @@
       "layout: 3LDK+S（納戸）",
       "price is within budget at 11680万円",
       "target station walk time meets target at 10 min",
+      "nearest listed station is 5 min; scoring uses 中野 at 10 min",
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (53 days ago)"
+      "first seen: 2026-04-18 (55 days ago)"
     ],
     "score": 88.97
+  },
+  {
+    "listing_id": "21033263",
+    "source": "suumo",
+    "property_name": "",
+    "title": "下馬１（祐天寺駅） 9500万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_21033263/",
+    "price_man": 9500.0,
+    "area_sqm": 85.53,
+    "land_area_sqm": 50.04,
+    "layout": "3LDK",
+    "walk_min": 11,
+    "target_walk_min": 11,
+    "built_year": 2006,
+    "first_seen_at": "2026-06-11T17:22:52.387708+00:00",
+    "address": "東京都世田谷区下馬１",
+    "access_text": "東急東横線「祐天寺」歩11分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩21分 [ 乗り換え案内 ] 東急田園都市線「池尻大橋」歩18分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "三軒茶屋",
+      "池尻大橋",
+      "祐天寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "採光"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "世田谷区下馬1丁目！ルーフバルコニー付き3階建住宅 世田谷区下馬1丁目に佇む、ルーフバルコニー付きの3階建中古戸建。間取りは3LDK＋WIC＋クロークで、1階に約5.3帖洋室、3階に約4.1帖の洋室2部屋を配置。2階は家族が集まりやすいLDK空間となっており、水まわりと居住スペースを分けた使いやすい設計です。収納も充実し、都心生活にフィットする一邸です。 9500万円、3LDK、土地面積50.04m 2 、建物面積85.53m 2 キッチン 16.5畳のリビング",
+    "preview_image_url": "./house_images/21033263.jpg",
+    "criteria_notes": [
+      "exact target station match: 三軒茶屋, 池尻大橋, 祐天寺",
+      "best station preference: 7.5/10",
+      "size clears ideal threshold at 85.53 sqm",
+      "layout: 3LDK",
+      "price is within budget at 9500万円",
+      "target station walk time meets target at 11 min",
+      "built in 2006",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 採光",
+      "listing age: 2 days",
+      "first seen: 2026-06-11 (1 days ago)"
+    ],
+    "score": 86.21
   },
   {
     "listing_id": "20675569",
@@ -193,12 +244,12 @@
     "area_sqm": 102.7,
     "land_area_sqm": 61.62,
     "layout": "3LDK",
-    "walk_min": 7,
+    "walk_min": 6,
     "target_walk_min": 7,
     "built_year": 2011,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都世田谷区三軒茶屋２",
-    "access_text": "東急田園都市線「三軒茶屋」徒歩7分",
+    "access_text": "東急田園都市線「三軒茶屋」歩7分 [ 乗り換え案内 ] 東急世田谷線「西太子堂」歩6分 [ 乗り換え案内 ] 東急世田谷線「三軒茶屋」歩8分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "三軒茶屋"
     ],
@@ -218,10 +269,11 @@
       "layout: 3LDK",
       "price is within budget at 13980万円",
       "target station walk time meets target at 7 min",
+      "nearest listed station is 6 min; scoring uses 三軒茶屋 at 7 min",
       "built in 2011",
       "dishwasher mentioned in listing",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (53 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-18 (55 days ago)"
     ],
     "score": 83.48
   },
@@ -240,7 +292,7 @@
     "built_year": 2007,
     "first_seen_at": "2026-06-07T05:50:05.470639+00:00",
     "address": "東京都渋谷区本町３-16-8",
-    "access_text": "都営大江戸線「西新宿五丁目」徒歩2分",
+    "access_text": "都営大江戸線「西新宿五丁目」歩2分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「中野坂上」歩10分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "西新宿五丁目"
     ],
@@ -260,10 +312,10 @@
       "target station walk time meets target at 2 min",
       "built in 2007",
       "dishwasher not explicitly confirmed",
-      "listing age: 6 days",
-      "first seen: 2026-06-07 (3 days ago)"
+      "listing age: 8 days",
+      "first seen: 2026-06-07 (5 days ago)"
     ],
-    "score": 83.47
+    "score": 82.47
   },
   {
     "listing_id": "20353813",
@@ -280,7 +332,7 @@
     "built_year": 2010,
     "first_seen_at": "2026-05-19T05:53:28.388255+00:00",
     "address": "東京都新宿区西新宿４",
-    "access_text": "都営大江戸線「西新宿五丁目」徒歩2分",
+    "access_text": "都営大江戸線「西新宿五丁目」歩2分 [ 乗り換え案内 ] 京王新線「初台」歩14分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「中野坂上」歩16分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "初台",
       "西新宿五丁目"
@@ -307,56 +359,10 @@
       "built in 2010",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
-      "listing age: 2 days",
-      "first seen: 2026-05-19 (22 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-05-19 (24 days ago)"
     ],
     "score": 82.2
-  },
-  {
-    "listing_id": "21033263",
-    "source": "suumo",
-    "property_name": "",
-    "title": "下馬１（祐天寺駅） 9500万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_21033263/",
-    "price_man": 9500.0,
-    "area_sqm": 85.53,
-    "land_area_sqm": 60.33,
-    "layout": "3LDK",
-    "walk_min": 11,
-    "target_walk_min": 11,
-    "built_year": 2006,
-    "first_seen_at": "2026-06-10T14:48:07.968370+00:00",
-    "address": "東京都世田谷区下馬１",
-    "access_text": "東急東横線「祐天寺」徒歩11分",
-    "exact_station_hits": [
-      "祐天寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "陽当り良好",
-      "採光"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "世田谷区下馬1丁目！ルーフバルコニー付き3階建住宅 世田谷区下馬1丁目に佇む、ルーフバルコニー付きの3階建中古戸建。間取りは3LDK＋WIC＋クロークで、1階に約5.3帖洋室、3階に約4.1帖の洋室2部屋を配置。2階は家族が集まりやすいLDK空間となっており、水まわりと居住スペースを分けた使いやすい設計です。収納も充実し、都心生活にフィットする一邸です。 9500万円、3LDK、土地面積60.33m 2 、建物面積85.53m 2 玄関～1F廊下 16.5畳のリビング",
-    "preview_image_url": "./house_images/21033263.jpg",
-    "criteria_notes": [
-      "exact target station match: 祐天寺",
-      "best station preference: 4.5/10",
-      "size clears ideal threshold at 85.53 sqm",
-      "layout: 3LDK",
-      "price is within budget at 9500万円",
-      "target station walk time meets target at 11 min",
-      "built in 2006",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 採光",
-      "listing age: 0 days",
-      "first seen: 2026-06-10 (0 days ago)"
-    ],
-    "score": 80.71
   },
   {
     "listing_id": "20417719",
@@ -368,12 +374,12 @@
     "area_sqm": 88.69,
     "land_area_sqm": 67.11,
     "layout": "3LDK",
-    "walk_min": 9,
+    "walk_min": 4,
     "target_walk_min": 9,
     "built_year": 2002,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都世田谷区代田２",
-    "access_text": "小田急線「下北沢」徒歩9分",
+    "access_text": "小田急線「世田谷代田」歩4分 [ 乗り換え案内 ] 小田急線「下北沢」歩9分 [ 乗り換え案内 ] 京王井の頭線「下北沢」歩9分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "下北沢"
     ],
@@ -393,12 +399,103 @@
       "layout: 3LDK",
       "price is within budget at 13190万円",
       "target station walk time meets target at 9 min",
+      "nearest listed station is 4 min; scoring uses 下北沢 at 9 min",
       "built in 2002",
       "dishwasher mentioned in listing",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (53 days ago)"
+      "first seen: 2026-04-18 (55 days ago)"
     ],
     "score": 78.28
+  },
+  {
+    "listing_id": "20645159",
+    "source": "suumo",
+    "property_name": "",
+    "title": "◆最寄り駅徒歩10分◆築3年の築浅戸建◆LDK超18帖の４LDK",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20645159/",
+    "price_man": 14600.0,
+    "area_sqm": 117.12,
+    "land_area_sqm": 77.49,
+    "layout": "4LDK",
+    "walk_min": 10,
+    "target_walk_min": 13,
+    "built_year": 2023,
+    "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
+    "address": "東京都世田谷区経堂３",
+    "access_text": "小田急線「千歳船橋」歩10分 [ 乗り換え案内 ] 小田急線「経堂」歩13分 [ 乗り換え案内 ] 東急世田谷線「松原」歩26分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "経堂"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "陽当り良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "◆最寄り駅徒歩10分 ◆築3年の築浅戸建 ◆LDK超18帖の４LDK お問合せの際は【ホームページ】を見てとお伝え頂くとスムーズです。 事前見学予約、また当日見学希望などもお気軽にお問い合わせ下さい。 （平日土日祝祭日いつでも） 中国語も対応可能！ 創業50年の実績と経験でお客様に喜んでいただけるように、お手伝いさせていたきます",
+    "preview_image_url": "./house_images/20645159.jpg",
+    "criteria_notes": [
+      "exact target station match: 経堂",
+      "best station preference: 5.5/10",
+      "size clears ideal threshold at 117.12 sqm",
+      "layout: 4LDK",
+      "price is within budget at 14600万円",
+      "target station walk time misses target at 13 min",
+      "nearest listed station is 10 min; scoring uses 経堂 at 13 min",
+      "built in 2023",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好",
+      "listing age: 4 days",
+      "first seen: 2026-06-03 (9 days ago)"
+    ],
+    "score": 77.15
+  },
+  {
+    "listing_id": "20245401",
+    "source": "suumo",
+    "property_name": "",
+    "title": "駒田東大前駅　徒歩6分その他2駅利用可閑静な住宅街好アクセス",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_meguro/nc_20245401/",
+    "price_man": 10450.0,
+    "area_sqm": 73.17,
+    "land_area_sqm": 60.17,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 6,
+    "target_walk_min": 14,
+    "built_year": 2002,
+    "first_seen_at": "2026-06-04T14:52:32.651017+00:00",
+    "address": "東京都目黒区駒場１-19-22",
+    "access_text": "京王井の頭線「駒場東大前」歩6分 [ 乗り換え案内 ] 京王井の頭線「神泉」歩14分 [ 乗り換え案内 ] 東急田園都市線「池尻大橋」歩14分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "池尻大橋",
+      "神泉"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "駒田東大前駅　徒歩6分 その他2駅利用可 閑静な住宅街 好アクセス 室内（2026年2月）撮影 室内（2026年2月）撮影 室内（2026年2月）撮影 現地（2026年2月）撮影",
+    "preview_image_url": "./house_images/20245401.jpg",
+    "criteria_notes": [
+      "exact target station match: 池尻大橋, 神泉",
+      "best station preference: 8.5/10",
+      "size clears ideal threshold at 73.17 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 10450万円",
+      "target station walk time misses target at 14 min",
+      "nearest listed station is 6 min; scoring uses 池尻大橋 at 14 min",
+      "built in 2002",
+      "dishwasher mentioned in listing",
+      "listing age: 4 days",
+      "first seen: 2026-06-04 (8 days ago)"
+    ],
+    "score": 76.27
   },
   {
     "listing_id": "20878404",
@@ -415,7 +512,7 @@
     "built_year": 2024,
     "first_seen_at": "2026-05-19T04:49:27.522007+00:00",
     "address": "東京都中野区中野１",
-    "access_text": "ＪＲ中央線「中野」徒歩10分",
+    "access_text": "ＪＲ中央線「中野」歩10分 [ 乗り換え案内 ] ＪＲ総武線「中野」歩10分 [ 乗り換え案内 ] 東京メトロ東西線「中野」歩10分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "中野"
     ],
@@ -442,7 +539,7 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好, 採光, 眺望良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (22 days ago)"
+      "first seen: 2026-05-19 (24 days ago)"
     ],
     "score": 74.56
   },
@@ -461,7 +558,7 @@
     "built_year": 2011,
     "first_seen_at": "2026-05-19T05:53:28.388255+00:00",
     "address": "東京都渋谷区本町３",
-    "access_text": "都営大江戸線「西新宿五丁目」徒歩4分",
+    "access_text": "都営大江戸線「西新宿五丁目」歩4分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "西新宿五丁目"
     ],
@@ -493,7 +590,7 @@
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (22 days ago)"
+      "first seen: 2026-05-19 (24 days ago)"
     ],
     "score": 74.11
   },
@@ -512,7 +609,7 @@
     "built_year": 2012,
     "first_seen_at": "2026-04-22T15:47:01.701300+00:00",
     "address": "東京都世田谷区下馬５",
-    "access_text": "東急東横線「祐天寺」徒歩11分",
+    "access_text": "東急東横線「祐天寺」歩11分 [ 乗り換え案内 ] 東急東横線「学芸大学」歩13分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩21分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "三軒茶屋",
       "学芸大学",
@@ -541,8 +638,8 @@
       "built in 2012",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 3 days",
-      "first seen: 2026-04-22 (49 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-22 (51 days ago)"
     ],
     "score": 72.62
   },
@@ -556,13 +653,14 @@
     "area_sqm": 80.89,
     "land_area_sqm": 70.08,
     "layout": "3LDK",
-    "walk_min": 9,
+    "walk_min": 6,
     "target_walk_min": 9,
     "built_year": 2003,
     "first_seen_at": "2026-06-04T14:52:32.651017+00:00",
     "address": "東京都目黒区駒場１-2－17",
-    "access_text": "京王井の頭線「神泉」徒歩9分",
+    "access_text": "京王井の頭線「駒場東大前」歩6分 [ 乗り換え案内 ] 京王井の頭線「神泉」歩9分 [ 乗り換え案内 ] 東急田園都市線「池尻大橋」歩10分 [ 乗り換え案内 ]",
     "exact_station_hits": [
+      "池尻大橋",
       "神泉"
     ],
     "nearby_station_hits": [],
@@ -577,105 +675,20 @@
     "detail_summary": "◆３LDK+車庫付き ◆新規内装リノべ×外壁塗装 ◆延床面積８０．８９m 2 ◆集まる文教エリア 渋谷中心地まで徒歩15分圏内。 京王井の頭線「駒場東大前」駅徒歩6分、「神泉」駅徒歩9分 山手通りもほど近く、車利用も至便。",
     "preview_image_url": "./house_images/20800111.jpg",
     "criteria_notes": [
-      "exact target station match: 神泉",
+      "exact target station match: 池尻大橋, 神泉",
       "best station preference: 8.5/10",
       "size clears ideal threshold at 80.89 sqm",
       "layout: 3LDK",
       "price is within budget at 13800万円",
       "target station walk time meets target at 9 min",
+      "nearest listed station is 6 min; scoring uses 神泉 at 9 min",
       "built in 2003",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 2 days",
-      "first seen: 2026-06-04 (6 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-06-04 (8 days ago)"
     ],
-    "score": 71.34
-  },
-  {
-    "listing_id": "20612419",
-    "source": "suumo",
-    "property_name": "",
-    "title": "本町６（初台駅） 8900万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20612419/",
-    "price_man": 8900.0,
-    "area_sqm": 76.58,
-    "land_area_sqm": 43.62,
-    "layout": "3LDK",
-    "walk_min": 10,
-    "target_walk_min": 10,
-    "built_year": 2009,
-    "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
-    "address": "東京都渋谷区本町６",
-    "access_text": "京王新線「初台」徒歩10分",
-    "exact_station_hits": [
-      "初台"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "採光"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ 北西・南西側が接道した住まい スーパーが徒歩1分の立地 －物件のおすすめポイント－ ▼立地 ・京王電鉄京王線「初台」徒歩10分 ▼特徴 ・全居室2面以上の採光が確保された間取り",
-    "preview_image_url": "./house_images/20612419.jpg",
-    "criteria_notes": [
-      "exact target station match: 初台",
-      "best station preference: 7.0/10",
-      "size clears ideal threshold at 76.58 sqm",
-      "layout: 3LDK",
-      "price is within budget at 8900万円",
-      "target station walk time meets target at 10 min",
-      "built in 2009",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 採光",
-      "listing age: 1 days",
-      "first seen: 2026-06-03 (7 days ago)"
-    ],
-    "score": 70.76
-  },
-  {
-    "listing_id": "20837428",
-    "source": "suumo",
-    "property_name": "",
-    "title": "池尻４（池尻大橋駅） 8280万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20837428/",
-    "price_man": 8280.0,
-    "area_sqm": 72.97,
-    "land_area_sqm": 46.19,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 12,
-    "target_walk_min": 12,
-    "built_year": 2005,
-    "first_seen_at": "2026-05-15T08:36:32.412435+00:00",
-    "address": "東京都世田谷区池尻４",
-    "access_text": "東急田園都市線「池尻大橋」徒歩12分",
-    "exact_station_hits": [
-      "池尻大橋"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "◆東急田園都市線「池尻大橋」駅　徒歩12分　◆閑静な住宅街に佇む3階建の戸建 【物件概要】 ☆土地面積：46.19m 2 （13.97坪） ※別途共有通路持分あり ☆建物面積:72.97m 2",
-    "preview_image_url": "./house_images/20837428.jpg",
-    "criteria_notes": [
-      "exact target station match: 池尻大橋",
-      "best station preference: 7.5/10",
-      "size clears ideal threshold at 72.97 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 8280万円",
-      "target station walk time meets target at 12 min",
-      "built in 2005",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-05-15 (26 days ago)"
-    ],
-    "score": 62.03
+    "score": 70.84
   }
 ]
