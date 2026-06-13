@@ -20,7 +20,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き",
@@ -44,8 +44,8 @@
       "built in 2003",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 7 days",
-      "first seen: 2026-06-02 (10 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-06-02 (11 days ago)"
     ],
     "score": 97.23
   },
@@ -70,7 +70,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機"
     ],
     "brightness_hits": [
       "南向き",
@@ -95,8 +96,8 @@
       "built in 2003",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好, 角住戸",
-      "listing age: 1 days",
-      "first seen: 2026-06-07 (5 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-06-07 (6 days ago)"
     ],
     "score": 92.23
   },
@@ -121,7 +122,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食洗機"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -140,8 +141,8 @@
       "target station walk time meets target at 8 min",
       "built in 2022",
       "dishwasher mentioned in listing",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (55 days ago)"
+      "listing age: 4 days",
+      "first seen: 2026-04-18 (56 days ago)"
     ],
     "score": 88.91
   },
@@ -168,7 +169,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機"
     ],
     "brightness_hits": [
       "南西向き",
@@ -198,9 +200,61 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 採光, 通風良好, 角住戸",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (55 days ago)"
+      "first seen: 2026-04-18 (56 days ago)"
     ],
     "score": 86.87
+  },
+  {
+    "listing_id": "20951608",
+    "source": "suumo",
+    "property_name": "【オークプレイス世田谷船橋】ペット可　３LDK＋WI…",
+    "title": "【ペット飼育可】◆３LDK+テラス+専用庭◆２０２４年フルリフォーム済",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_setagaya/nc_20951608/",
+    "price_man": 11000.0,
+    "area_sqm": 74.8,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 10,
+    "target_walk_min": 12,
+    "built_year": 2011,
+    "first_seen_at": "2026-06-03T14:50:53.661214+00:00",
+    "address": "東京都世田谷区船橋５",
+    "access_text": "小田急線「千歳船橋」歩10分 [ 乗り換え案内 ] 小田急線「経堂」歩12分 [ 乗り換え案内 ] 東急世田谷線「松原」歩23分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "経堂"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "南東向き",
+      "陽当り良好",
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "wallmate.co.jp",
+      "～",
+      "～弊社ホームページ～https:"
+    ],
+    "detail_summary": "【ペット飼育可】 ◆３LDK+テラス+専用庭 ◆２０２４年フルリフォーム済 ◆ハイグレードレジデンス ◆床暖房 ◆WIC ◆小田急線千歳船橋駅１０分 ◆経堂小学校１０分",
+    "preview_image_url": "./mansion_images/20951608.jpg",
+    "criteria_notes": [
+      "exact target station match: 経堂",
+      "best station preference: 5.5/10",
+      "size clears ideal threshold at 74.80 sqm",
+      "layout: 3LDK",
+      "price is within budget at 11000万円",
+      "target station walk time misses target at 12 min",
+      "nearest listed station is 10 min; scoring uses 経堂 at 12 min",
+      "built in 2011",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南東向き, 陽当り良好, 通風良好",
+      "listing age: 1 days",
+      "first seen: 2026-06-03 (10 days ago)"
+    ],
+    "score": 83.75
   },
   {
     "listing_id": "20855725",
@@ -224,7 +278,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機"
     ],
     "brightness_hits": [
       "通風良好"
@@ -245,8 +300,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
       "basement / semi-basement indicators present",
-      "listing age: 6 days",
-      "first seen: 2026-04-22 (51 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-22 (52 days ago)"
     ],
     "score": 83.48
   },
@@ -271,7 +326,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き"
@@ -296,8 +351,8 @@
       "built in 2023",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (55 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (56 days ago)"
     ],
     "score": 81.85
   },
@@ -322,7 +377,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -344,8 +400,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
-      "listing age: 2 days",
-      "first seen: 2026-06-02 (10 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-06-02 (11 days ago)"
     ],
     "score": 80.41
   },
@@ -370,7 +426,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -400,7 +456,7 @@
       "brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (55 days ago)"
+      "first seen: 2026-04-18 (56 days ago)"
     ],
     "score": 79.93
   },
@@ -425,7 +481,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食洗機"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -459,7 +515,7 @@
       "target station walk time meets target at 10 min",
       "built in 2007",
       "dishwasher mentioned in listing",
-      "first seen: 2026-04-24 (49 days ago)"
+      "first seen: 2026-04-24 (50 days ago)"
     ],
     "score": 79.29
   },
@@ -484,7 +540,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "通風良好"
@@ -497,7 +553,7 @@
       "www.ad-cast.info",
       "い"
     ],
-    "detail_summary": "新宿至近の好立地！2駅利用可能♪ 全居室収納＆広々WICでスッキリ！ ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◆大江戸線「西新宿五丁目」駅歩9分♪ ◇内覧予約受付中♪ ぜひ現地をご確認ください♪ ☆━━━…‥・　　━☆━　　・‥…━━━☆ 【豊富な未公開物件情報】",
+    "detail_summary": "新宿至近の好立地！2駅利用可能♪ 全居室収納＆広々WICでスッキリ！ ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◇丸ノ内線「中野新橋」駅徒歩８分、大江戸線も使えて都心への通勤通学がスムーズ！ ◆元気なお子様がいても階下への足音を気にせず過ごせる、安心の１階部分物件！ ◇Ｌ型対面式キッチンは作業がしやすく、会話を楽しみながら料理ができる間取り！ ◆キッチンやトイレ、エアコンなど、段階的にリフォームが実施された快適な住空間！ ◇内覧予約受付中♪",
     "preview_image_url": "./mansion_images/20927594.jpg",
     "criteria_notes": [
       "exact target station match: 西新宿五丁目",
@@ -510,8 +566,8 @@
       "built in 2007",
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
-      "listing age: 3 days",
-      "first seen: 2026-05-26 (17 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-05-26 (18 days ago)"
     ],
     "score": 79.02
   },
@@ -559,7 +615,7 @@
       "built in 2000",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 角住戸",
-      "first seen: 2026-04-24 (49 days ago)"
+      "first seen: 2026-04-24 (50 days ago)"
     ],
     "score": 77.49
   },
@@ -584,7 +640,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機"
     ],
     "brightness_hits": [
       "南向き",
@@ -608,7 +665,7 @@
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "basement / semi-basement indicators present",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (55 days ago)"
+      "first seen: 2026-04-18 (56 days ago)"
     ],
     "score": 77.14
   },
@@ -633,7 +690,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機"
     ],
     "brightness_hits": [
       "南向き",
@@ -654,7 +712,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (55 days ago)"
+      "first seen: 2026-04-18 (56 days ago)"
     ],
     "score": 76.71
   },
@@ -679,7 +737,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食洗機"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -715,57 +773,8 @@
       "nearest listed station is 4 min; scoring uses 下北沢 at 13 min",
       "built in 2012",
       "dishwasher mentioned in listing",
-      "first seen: 2026-05-12 (31 days ago)"
+      "first seen: 2026-05-12 (32 days ago)"
     ],
     "score": 76.3
-  },
-  {
-    "listing_id": "20950750",
-    "source": "suumo",
-    "property_name": "ヴィンテージ高円寺南",
-    "title": "≪当日内見予約可能≫タワマンよりドヤれる!?中野徒歩圏リノベ",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20950750/",
-    "price_man": 9780.0,
-    "area_sqm": 65.95,
-    "land_area_sqm": null,
-    "layout": "3LDK",
-    "walk_min": 4,
-    "target_walk_min": 12,
-    "built_year": 2003,
-    "first_seen_at": "2026-05-31T05:50:00.924704+00:00",
-    "address": "東京都杉並区高円寺南１",
-    "access_text": "東京メトロ丸ノ内線「東高円寺」歩4分 [ 乗り換え案内 ] ＪＲ中央線「中野」歩12分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "南西向き",
-      "陽当り良好",
-      "採光",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "≪当日内見予約可能≫ タワマンよりドヤれる!?中野徒歩圏リノベ ◆中野駅と東高円寺駅を使いこなせる立地は控えめに言って神ツッコミ不在の好ロケーションです ◆食洗機や浴室乾燥など「あって良かった」を擬人化したような充実設備で家事のHP消費を激減させます ◆大切なワンちゃんネコちゃんも大喜びのペット可物件なので休日のモフモフタイムがはかどります ◆お部屋の美しさは新築のフリができるレベルのフルリノベーション済みで急な来客にもドヤ顔で対応可能です ※生成AIによるイメージです。家具・小物は販売価格に含まれません。忙しい朝でも、しっかり家族が揃って食事をして頂けるゆとりある大きさのダイニングスペース。 ◆サンサンと◆差し込む太陽の光がこのリビングに笑いをもたらす。ソファの上のクッションがポカポカした暖気にぬくぬくと微睡んでいる。",
-    "preview_image_url": "./mansion_images/20950750.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "best station preference: 6.5/10",
-      "size clears hard threshold at 65.95 sqm",
-      "layout: 3LDK",
-      "price is within budget at 9780万円",
-      "target station walk time misses target at 12 min",
-      "nearest listed station is 4 min; scoring uses 中野 at 12 min",
-      "built in 2003",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南西向き, 陽当り良好, 採光, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-05-31 (12 days ago)"
-    ],
-    "score": 76.23
   }
 ]
