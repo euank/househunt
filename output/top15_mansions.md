@@ -1,6 +1,6 @@
 # Used Mansion shortlist
 
-Generated at: 2026-06-12T02:20:52.989427+09:00
+Generated at: 2026-06-12T13:09:48.547713+09:00
 
 ## 1. フィールM西新宿
 
@@ -64,7 +64,7 @@ Generated at: 2026-06-12T02:20:52.989427+09:00
 
 ## 4. ビバリーホームズ松濤
 
-- Score: 86.77
+- Score: 86.87
 - Source: suumo
 - URL: https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20531011/
 - Stations: 代々木公園, 渋谷, 神泉
@@ -104,7 +104,7 @@ Generated at: 2026-06-12T02:20:52.989427+09:00
 
 ## 6. オープンレジデンシア中野新井テラス
 
-- Score: 81.03
+- Score: 81.85
 - Source: suumo
 - URL: https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20723669/
 - Stations: 中野
@@ -162,7 +162,27 @@ Generated at: 2026-06-12T02:20:52.989427+09:00
 - Listing summary: □1F～3F部分のメゾネットタイプ□西向き角部屋・73.87m2 ◆2013年7月築 ◆複数路線利用可能 『中野』駅より徒歩6分・『新中野』駅より徒歩10分 ◆（株）オープンハウス・ディベロップメント旧分譲 ◆管理は管理会社に全部委託：日本ハウズイング株式会社（巡回） ◆オートロック・モニター付きインターホン ◆宅配ボックス
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears ideal threshold at 73.87 sqm; layout: 2LDK; price is within budget at 10380万円; target station walk time meets target at 6 min; built in 2013; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸; basement / semi-basement indicators present; listing age: 1 days; first seen: 2026-04-18 (55 days ago)
 
-## 9. クレストフォルム中野弥生町
+## 9. グローリオ三軒茶屋
+
+- Score: 79.29
+- Source: ken
+- URL: https://www.kencorp.co.jp/housing/properties/167726/2025105463/
+- Stations: 三軒茶屋
+- Price: 14980万円
+- Size: 90.85 sqm
+- Layout: 2LDK+S
+- Walk: 10 min
+- Target Walk: 10 min
+- Built: 2007
+- First Seen: 2026-04-24T16:24:45.109631+00:00
+- Strict Match: yes
+- Dishwasher: yes
+- Address: 東京都世田谷区三軒茶屋２
+- Access: 田園都市線 三軒茶屋駅 徒歩10分ほか
+- Listing summary: 大型犬相談、 閑静な住宅街、 バルコニー、 床暖房、 LDK25帖以上、 一部フローリング エアコン、 浴室乾燥機、 追焚、 バストイレ別、 都市ガス、 食洗機、 システムキッチン エレベーター、 宅配ボックス、 オートロック、 TVモニター付きインターホン
+- Notes: exact target station match: 三軒茶屋; best station preference: 7.0/10; size clears ideal threshold at 90.85 sqm; layout: 2LDK+S; price is within budget at 14980万円; target station walk time meets target at 10 min; built in 2007; dishwasher mentioned in listing; first seen: 2026-04-24 (49 days ago)
+
+## 10. クレストフォルム中野弥生町
 
 - Score: 79.02
 - Source: suumo
@@ -182,7 +202,27 @@ Generated at: 2026-06-12T02:20:52.989427+09:00
 - Listing summary: 新宿至近の好立地！2駅利用可能♪ 全居室収納＆広々WICでスッキリ！ ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◆大江戸線「西新宿五丁目」駅歩9分♪ ◇内覧予約受付中♪ ぜひ現地をご確認ください♪ ☆━━━…‥・　　━☆━　　・‥…━━━☆ 【豊富な未公開物件情報】
 - Notes: exact target station match: 西新宿五丁目; best station preference: 6.5/10; size clears hard threshold at 67.16 sqm; layout: 2LDK+S（納戸）; price is within budget at 9380万円; target station walk time meets target at 9 min; nearest listed station is 8 min; scoring uses 西新宿五丁目 at 9 min; built in 2007; dishwasher mentioned in listing; brightness/window positives: 通風良好; listing age: 3 days; first seen: 2026-05-26 (17 days ago)
 
-## 10. オープンレジデンス中野桃園町　Ｓ棟
+## 11. パルテール目黒青葉台
+
+- Score: 77.49
+- Source: ken
+- URL: https://www.kencorp.co.jp/housing/properties/122354/2025095714/
+- Stations: 渋谷, 神泉
+- Price: 12980万円
+- Size: 70.76 sqm
+- Layout: 2LDK
+- Walk: 5 min
+- Target Walk: 5 min
+- Built: 2000
+- First Seen: 2026-04-24T16:24:45.109631+00:00
+- Strict Match: yes
+- Dishwasher: not confirmed
+- Address: 東京都目黒区青葉台４
+- Access: 井の頭線 神泉駅 徒歩5分ほか
+- Listing summary: エレベーター、 宅配ボックス、 オートロック
+- Notes: exact target station match: 渋谷, 神泉; best station preference: 9.0/10; size clears ideal threshold at 70.76 sqm; layout: 2LDK; price is within budget at 12980万円; target station walk time meets target at 5 min; built in 2000; dishwasher not explicitly confirmed; brightness/window positives: 南向き, 角住戸; first seen: 2026-04-24 (49 days ago)
+
+## 12. オープンレジデンス中野桃園町　Ｓ棟
 
 - Score: 77.14
 - Source: suumo
@@ -202,7 +242,27 @@ Generated at: 2026-06-12T02:20:52.989427+09:00
 - Listing summary: ■三井のリハウス■ 南向きLDKは広々約19.4帖 閑静な住宅街に位置 －物件のおすすめポイント－ ▼立地 ・JR中央本線・中央・総武緩行線・東京メトロ東西線 「中野」駅　徒歩7分 ・東京メトロ丸ノ内線「新中野」駅　徒歩13分
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears ideal threshold at 72.68 sqm; layout: 2LDK; price is within budget at 10980万円; target station walk time meets target at 7 min; built in 2010; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好; basement / semi-basement indicators present; listing age: 1 days; first seen: 2026-04-18 (55 days ago)
 
-## 11. 羽根木の森レジデンス
+## 13. パークホームズ中野
+
+- Score: 76.71
+- Source: suumo
+- URL: https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20905924/
+- Stations: 中野
+- Price: 14780万円
+- Size: 66.33 sqm
+- Layout: 2LDK
+- Walk: 9 min
+- Target Walk: 9 min
+- Built: 2011
+- First Seen: 2026-04-18T16:47:14.209834+00:00
+- Strict Match: yes
+- Dishwasher: yes
+- Address: 東京都中野区新井２
+- Access: ＪＲ中央線「中野」歩9分 [ 乗り換え案内 ] ＪＲ総武線「中野」歩9分 [ 乗り換え案内 ] 東京メトロ東西線「中野」歩9分 [ 乗り換え案内 ]
+- Listing summary: ■三井のリハウス■ LDK約18.2帖は南向き 2026年3月リフォーム済 －物件のおすすめポイント－ ▼特徴 ・三井不動産レジデンシャル(株)旧分譲 ・玄関・居室・リビングの壁面にエコカラットを採用 ・会話が弾む対面式キッチン
+- Notes: exact target station match: 中野; best station preference: 6.5/10; size clears hard threshold at 66.33 sqm; layout: 2LDK; price is within budget at 14780万円; target station walk time meets target at 9 min; built in 2011; dishwasher mentioned in listing; brightness/window positives: 南向き, 採光; listing age: 1 days; first seen: 2026-04-18 (55 days ago)
+
+## 14. 羽根木の森レジデンス
 
 - Score: 76.3
 - Source: ken
@@ -222,7 +282,7 @@ Generated at: 2026-06-12T02:20:52.989427+09:00
 - Listing summary: バルコニー、 テラス、 床暖房、 LDK15帖以上 エアコン、 室内洗濯機置場、 浴室乾燥機、 追焚、 洗浄便座、 都市ガス、 ガスコンロ、 グリル付き、 食洗機、 システムキッチン、 カウンターキッチン トランクルーム、 駐輪場、 バイク置場
 - Notes: exact target station match: 下北沢; best station preference: 4.5/10; size clears ideal threshold at 81.82 sqm; layout: 2LDK+S; price is within budget at 9980万円; target station walk time misses target at 13 min; nearest listed station is 4 min; scoring uses 下北沢 at 13 min; built in 2012; dishwasher mentioned in listing; first seen: 2026-05-12 (31 days ago)
 
-## 12. ヴィンテージ高円寺南
+## 15. ヴィンテージ高円寺南
 
 - Score: 76.23
 - Source: suumo
@@ -241,63 +301,3 @@ Generated at: 2026-06-12T02:20:52.989427+09:00
 - Access: 東京メトロ丸ノ内線「東高円寺」歩4分 [ 乗り換え案内 ] ＪＲ中央線「中野」歩12分 [ 乗り換え案内 ]
 - Listing summary: ≪当日内見予約可能≫ タワマンよりドヤれる!?中野徒歩圏リノベ ◆中野駅と東高円寺駅を使いこなせる立地は控えめに言って神ツッコミ不在の好ロケーションです ◆食洗機や浴室乾燥など「あって良かった」を擬人化したような充実設備で家事のHP消費を激減させます ◆大切なワンちゃんネコちゃんも大喜びのペット可物件なので休日のモフモフタイムがはかどります ◆お部屋の美しさは新築のフリができるレベルのフルリノベーション済みで急な来客にもドヤ顔で対応可能です ※生成AIによるイメージです。家具・小物は販売価格に含まれません。忙しい朝でも、しっかり家族が揃って食事をして頂けるゆとりある大きさのダイニングスペース。 ◆サンサンと◆差し込む太陽の光がこのリビングに笑いをもたらす。ソファの上のクッションがポカポカした暖気にぬくぬくと微睡んでいる。
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears hard threshold at 65.95 sqm; layout: 3LDK; price is within budget at 9780万円; target station walk time misses target at 12 min; nearest listed station is 4 min; scoring uses 中野 at 12 min; built in 2003; dishwasher mentioned in listing; brightness/window positives: 南西向き, 陽当り良好, 採光, 通風良好; listing age: 1 days; first seen: 2026-05-31 (12 days ago)
-
-## 13. パルテール目黒青葉台
-
-- Score: 76.02
-- Source: ken
-- URL: https://www.kencorp.co.jp/housing/properties/122354/2025095714/
-- Stations: 渋谷, 神泉
-- Price: 12980万円
-- Size: 70.76 sqm
-- Layout: 2LDK
-- Walk: 5 min
-- Target Walk: 5 min
-- Built: 2000
-- First Seen: 2026-04-24T16:24:45.109631+00:00
-- Strict Match: yes
-- Dishwasher: not confirmed
-- Address: 東京都目黒区青葉台４
-- Access: 井の頭線 神泉駅 徒歩5分ほか
-- Listing summary: エレベーター、 宅配ボックス、 オートロック
-- Notes: exact target station match: 渋谷, 神泉; best station preference: 9.0/10; size clears ideal threshold at 70.76 sqm; layout: 2LDK; price is within budget at 12980万円; target station walk time meets target at 5 min; built in 2000; dishwasher not explicitly confirmed; brightness/window positives: 南向き, 角住戸; first seen: 2026-04-24 (49 days ago)
-
-## 14. グローリオ三軒茶屋
-
-- Score: 74.75
-- Source: ken
-- URL: https://www.kencorp.co.jp/housing/properties/167726/2025105463/
-- Stations: 三軒茶屋
-- Price: 14980万円
-- Size: 90.85 sqm
-- Layout: 2LDK+S
-- Walk: 10 min
-- Target Walk: 10 min
-- Built: 2007
-- First Seen: 2026-04-24T16:24:45.109631+00:00
-- Strict Match: yes
-- Dishwasher: yes
-- Address: 東京都世田谷区三軒茶屋２
-- Access: 田園都市線 三軒茶屋駅 徒歩10分ほか
-- Listing summary: 大型犬相談、 閑静な住宅街、 バルコニー、 床暖房、 LDK25帖以上、 一部フローリング エアコン、 浴室乾燥機、 追焚、 バストイレ別、 都市ガス、 食洗機、 システムキッチン エレベーター、 宅配ボックス、 オートロック、 TVモニター付きインターホン
-- Notes: exact target station match: 三軒茶屋; best station preference: 7.0/10; size clears ideal threshold at 90.85 sqm; layout: 2LDK+S; price is within budget at 14980万円; target station walk time meets target at 10 min; built in 2007; dishwasher mentioned in listing; first seen: 2026-04-24 (49 days ago)
-
-## 15. パークホームズ中野
-
-- Score: 71.77
-- Source: suumo
-- URL: https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20905924/
-- Stations: 中野
-- Price: 14780万円
-- Size: 66.33 sqm
-- Layout: 2LDK
-- Walk: 9 min
-- Target Walk: 9 min
-- Built: 2011
-- First Seen: 2026-04-18T16:47:14.209834+00:00
-- Strict Match: yes
-- Dishwasher: yes
-- Address: 東京都中野区新井２
-- Access: ＪＲ中央線「中野」歩9分 [ 乗り換え案内 ] ＪＲ総武線「中野」歩9分 [ 乗り換え案内 ] 東京メトロ東西線「中野」歩9分 [ 乗り換え案内 ]
-- Listing summary: ■三井のリハウス■ LDK約18.2帖は南向き 2026年3月リフォーム済 －物件のおすすめポイント－ ▼特徴 ・三井不動産レジデンシャル(株)旧分譲 ・玄関・居室・リビングの壁面にエコカラットを採用 ・会話が弾む対面式キッチン
-- Notes: exact target station match: 中野; best station preference: 6.5/10; size clears hard threshold at 66.33 sqm; layout: 2LDK; price is within budget at 14780万円; target station walk time meets target at 9 min; built in 2011; dishwasher mentioned in listing; brightness/window positives: 南向き, 採光; listing age: 1 days; first seen: 2026-04-18 (55 days ago)

@@ -20,7 +20,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -70,8 +70,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -122,7 +121,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -169,8 +168,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南西向き",
@@ -202,7 +200,7 @@
       "listing age: 1 days",
       "first seen: 2026-04-18 (55 days ago)"
     ],
-    "score": 86.77
+    "score": 86.87
   },
   {
     "listing_id": "20855725",
@@ -226,8 +224,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "通風良好"
@@ -274,7 +271,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き"
@@ -302,7 +299,7 @@
       "listing age: 3 days",
       "first seen: 2026-04-18 (55 days ago)"
     ],
-    "score": 81.03
+    "score": 81.85
   },
   {
     "listing_id": "78889838",
@@ -325,8 +322,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -374,7 +370,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -409,6 +405,65 @@
     "score": 79.93
   },
   {
+    "listing_id": "ken:2025105463",
+    "source": "ken",
+    "property_name": "グローリオ三軒茶屋",
+    "title": "グローリオ三軒茶屋  4階 2LDK+S",
+    "url": "https://www.kencorp.co.jp/housing/properties/167726/2025105463/",
+    "price_man": 14980.0,
+    "area_sqm": 90.85,
+    "land_area_sqm": null,
+    "layout": "2LDK+S",
+    "walk_min": 10,
+    "target_walk_min": 10,
+    "built_year": 2007,
+    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
+    "address": "東京都世田谷区三軒茶屋２",
+    "access_text": "田園都市線 三軒茶屋駅 徒歩10分ほか",
+    "exact_station_hits": [
+      "三軒茶屋"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "LDK25帖以上",
+      "TVモニター付きインターホン",
+      "エアコン",
+      "エレベーター",
+      "オートロック",
+      "システムキッチン",
+      "バストイレ別",
+      "バルコニー",
+      "一部フローリング",
+      "大型犬相談",
+      "宅配ボックス",
+      "床暖房",
+      "浴室乾燥機",
+      "追焚",
+      "都市ガス",
+      "閑静な住宅街",
+      "食洗機"
+    ],
+    "detail_summary": "大型犬相談、 閑静な住宅街、 バルコニー、 床暖房、 LDK25帖以上、 一部フローリング エアコン、 浴室乾燥機、 追焚、 バストイレ別、 都市ガス、 食洗機、 システムキッチン エレベーター、 宅配ボックス、 オートロック、 TVモニター付きインターホン",
+    "preview_image_url": "./mansion_images/ken:2025105463.jpg",
+    "criteria_notes": [
+      "exact target station match: 三軒茶屋",
+      "best station preference: 7.0/10",
+      "size clears ideal threshold at 90.85 sqm",
+      "layout: 2LDK+S",
+      "price is within budget at 14980万円",
+      "target station walk time meets target at 10 min",
+      "built in 2007",
+      "dishwasher mentioned in listing",
+      "first seen: 2026-04-24 (49 days ago)"
+    ],
+    "score": 79.29
+  },
+  {
     "listing_id": "20927594",
     "source": "suumo",
     "property_name": "クレストフォルム中野弥生町",
@@ -429,7 +484,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "通風良好"
@@ -461,6 +516,54 @@
     "score": 79.02
   },
   {
+    "listing_id": "ken:2025095714",
+    "source": "ken",
+    "property_name": "パルテール目黒青葉台",
+    "title": "パルテール目黒青葉台  6階 2LDK",
+    "url": "https://www.kencorp.co.jp/housing/properties/122354/2025095714/",
+    "price_man": 12980.0,
+    "area_sqm": 70.76,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 5,
+    "target_walk_min": 5,
+    "built_year": 2000,
+    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
+    "address": "東京都目黒区青葉台４",
+    "access_text": "井の頭線 神泉駅 徒歩5分ほか",
+    "exact_station_hits": [
+      "渋谷",
+      "神泉"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "南向き",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "エレベーター",
+      "オートロック",
+      "宅配ボックス"
+    ],
+    "detail_summary": "エレベーター、 宅配ボックス、 オートロック",
+    "preview_image_url": "./mansion_images/ken:2025095714.jpg",
+    "criteria_notes": [
+      "exact target station match: 渋谷, 神泉",
+      "best station preference: 9.0/10",
+      "size clears ideal threshold at 70.76 sqm",
+      "layout: 2LDK",
+      "price is within budget at 12980万円",
+      "target station walk time meets target at 5 min",
+      "built in 2000",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 南向き, 角住戸",
+      "first seen: 2026-04-24 (49 days ago)"
+    ],
+    "score": 77.49
+  },
+  {
     "listing_id": "20258656",
     "source": "suumo",
     "property_name": "オープンレジデンス中野桃園町　Ｓ棟",
@@ -481,8 +584,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -511,6 +613,52 @@
     "score": 77.14
   },
   {
+    "listing_id": "20905924",
+    "source": "suumo",
+    "property_name": "パークホームズ中野",
+    "title": "新井２（中野駅） 1億4780万円",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20905924/",
+    "price_man": 14780.0,
+    "area_sqm": 66.33,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 9,
+    "target_walk_min": 9,
+    "built_year": 2011,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都中野区新井２",
+    "access_text": "ＪＲ中央線「中野」歩9分 [ 乗り換え案内 ] ＪＲ総武線「中野」歩9分 [ 乗り換え案内 ] 東京メトロ東西線「中野」歩9分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "採光"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "■三井のリハウス■ LDK約18.2帖は南向き 2026年3月リフォーム済 －物件のおすすめポイント－ ▼特徴 ・三井不動産レジデンシャル(株)旧分譲 ・玄関・居室・リビングの壁面にエコカラットを採用 ・会話が弾む対面式キッチン",
+    "preview_image_url": "./mansion_images/20905924.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "best station preference: 6.5/10",
+      "size clears hard threshold at 66.33 sqm",
+      "layout: 2LDK",
+      "price is within budget at 14780万円",
+      "target station walk time meets target at 9 min",
+      "built in 2011",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 採光",
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (55 days ago)"
+    ],
+    "score": 76.71
+  },
+  {
     "listing_id": "ken:2026055364",
     "source": "ken",
     "property_name": "羽根木の森レジデンス",
@@ -531,7 +679,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -592,8 +740,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南西向き",
@@ -620,159 +767,5 @@
       "first seen: 2026-05-31 (12 days ago)"
     ],
     "score": 76.23
-  },
-  {
-    "listing_id": "ken:2025095714",
-    "source": "ken",
-    "property_name": "パルテール目黒青葉台",
-    "title": "パルテール目黒青葉台  6階 2LDK",
-    "url": "https://www.kencorp.co.jp/housing/properties/122354/2025095714/",
-    "price_man": 12980.0,
-    "area_sqm": 70.76,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 5,
-    "target_walk_min": 5,
-    "built_year": 2000,
-    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
-    "address": "東京都目黒区青葉台４",
-    "access_text": "井の頭線 神泉駅 徒歩5分ほか",
-    "exact_station_hits": [
-      "渋谷",
-      "神泉"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "南向き",
-      "角住戸"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "エレベーター",
-      "オートロック",
-      "宅配ボックス"
-    ],
-    "detail_summary": "エレベーター、 宅配ボックス、 オートロック",
-    "preview_image_url": "./mansion_images/ken:2025095714.jpg",
-    "criteria_notes": [
-      "exact target station match: 渋谷, 神泉",
-      "best station preference: 9.0/10",
-      "size clears ideal threshold at 70.76 sqm",
-      "layout: 2LDK",
-      "price is within budget at 12980万円",
-      "target station walk time meets target at 5 min",
-      "built in 2000",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 南向き, 角住戸",
-      "first seen: 2026-04-24 (49 days ago)"
-    ],
-    "score": 76.02
-  },
-  {
-    "listing_id": "ken:2025105463",
-    "source": "ken",
-    "property_name": "グローリオ三軒茶屋",
-    "title": "グローリオ三軒茶屋  4階 2LDK+S",
-    "url": "https://www.kencorp.co.jp/housing/properties/167726/2025105463/",
-    "price_man": 14980.0,
-    "area_sqm": 90.85,
-    "land_area_sqm": null,
-    "layout": "2LDK+S",
-    "walk_min": 10,
-    "target_walk_min": 10,
-    "built_year": 2007,
-    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
-    "address": "東京都世田谷区三軒茶屋２",
-    "access_text": "田園都市線 三軒茶屋駅 徒歩10分ほか",
-    "exact_station_hits": [
-      "三軒茶屋"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食洗機"
-    ],
-    "brightness_hits": [],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "LDK25帖以上",
-      "TVモニター付きインターホン",
-      "エアコン",
-      "エレベーター",
-      "オートロック",
-      "システムキッチン",
-      "バストイレ別",
-      "バルコニー",
-      "一部フローリング",
-      "大型犬相談",
-      "宅配ボックス",
-      "床暖房",
-      "浴室乾燥機",
-      "追焚",
-      "都市ガス",
-      "閑静な住宅街",
-      "食洗機"
-    ],
-    "detail_summary": "大型犬相談、 閑静な住宅街、 バルコニー、 床暖房、 LDK25帖以上、 一部フローリング エアコン、 浴室乾燥機、 追焚、 バストイレ別、 都市ガス、 食洗機、 システムキッチン エレベーター、 宅配ボックス、 オートロック、 TVモニター付きインターホン",
-    "preview_image_url": "./mansion_images/ken:2025105463.jpg",
-    "criteria_notes": [
-      "exact target station match: 三軒茶屋",
-      "best station preference: 7.0/10",
-      "size clears ideal threshold at 90.85 sqm",
-      "layout: 2LDK+S",
-      "price is within budget at 14980万円",
-      "target station walk time meets target at 10 min",
-      "built in 2007",
-      "dishwasher mentioned in listing",
-      "first seen: 2026-04-24 (49 days ago)"
-    ],
-    "score": 74.75
-  },
-  {
-    "listing_id": "20905924",
-    "source": "suumo",
-    "property_name": "パークホームズ中野",
-    "title": "新井２（中野駅） 1億4780万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20905924/",
-    "price_man": 14780.0,
-    "area_sqm": 66.33,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 9,
-    "target_walk_min": 9,
-    "built_year": 2011,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都中野区新井２",
-    "access_text": "ＪＲ中央線「中野」歩9分 [ 乗り換え案内 ] ＪＲ総武線「中野」歩9分 [ 乗り換え案内 ] 東京メトロ東西線「中野」歩9分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "採光"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ LDK約18.2帖は南向き 2026年3月リフォーム済 －物件のおすすめポイント－ ▼特徴 ・三井不動産レジデンシャル(株)旧分譲 ・玄関・居室・リビングの壁面にエコカラットを採用 ・会話が弾む対面式キッチン",
-    "preview_image_url": "./mansion_images/20905924.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "best station preference: 6.5/10",
-      "size clears hard threshold at 66.33 sqm",
-      "layout: 2LDK",
-      "price is within budget at 14780万円",
-      "target station walk time meets target at 9 min",
-      "built in 2011",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 採光",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (55 days ago)"
-    ],
-    "score": 71.77
   }
 ]

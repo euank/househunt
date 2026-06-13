@@ -567,7 +567,7 @@ def strict_match(record: dict, config: PropertyConfig) -> bool:
     layout = record.get("layout") or ""
     rooms = layout_room_count(layout) or 0
     return (
-        TARGET_BUDGET_MIN_MAN <= price <= TARGET_BUDGET_MAX_MAN
+        is_strict_budget_match(price, config)
         and area >= 65
         and walk <= config.walk_target
         and year >= 2000
@@ -701,6 +701,14 @@ def is_hard_budget_exceeded(price_man: float | None, config: PropertyConfig) -> 
     if config.kind == "mansion":
         return price_man >= HARD_BUDGET_MAX_MAN
     return price_man > HARD_BUDGET_MAX_MAN
+
+
+def is_strict_budget_match(price_man: float | None, config: PropertyConfig) -> bool:
+    if not price_man or price_man < TARGET_BUDGET_MIN_MAN:
+        return False
+    if config.kind == "mansion":
+        return not is_hard_budget_exceeded(price_man, config)
+    return price_man <= TARGET_BUDGET_MAX_MAN
 
 
 def standard_price_score(price_man: float | None) -> float:
