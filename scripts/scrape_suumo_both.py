@@ -966,7 +966,35 @@ def build_notes(record: dict, config: PropertyConfig) -> list[str]:
     return notes
 
 
+def unit_floor_level(record: dict) -> int | None:
+    overview = record.get("overview", {})
+    floor_text = overview.get("所在階", "") or overview.get("所在階/構造・階建", "")
+    if not floor_text:
+        return None
+    first_part = floor_text.split("/", 1)[0]
+    basement_match = re.search(r"(?:地下|B)\s*(\d+)\s*階", first_part, re.IGNORECASE)
+    if basement_match:
+        return -int(basement_match.group(1))
+    floor_match = re.search(r"(\d+)\s*階", first_part)
+    if floor_match:
+        return int(floor_match.group(1))
+    return None
+
+
 def is_basement_like(record: dict) -> bool:
+    floor_level = unit_floor_level(record)
+    if floor_level is not None:
+        if floor_level < 0:
+            return True
+        if floor_level > 0:
+            text_fields = [
+                record.get("title", ""),
+                record.get("property_name", ""),
+                record.get("detail_summary", ""),
+                record.get("list_blurb", ""),
+            ]
+            text = " ".join(field for field in text_fields if field)
+            return "半地下" in text or "メゾネット" in text
     fields = [
         record.get("title", ""),
         record.get("property_name", ""),
