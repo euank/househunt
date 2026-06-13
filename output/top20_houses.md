@@ -1,6 +1,6 @@
 # Used House shortlist
 
-Generated at: 2026-06-13T22:59:50.037108+09:00
+Generated at: 2026-06-13T23:10:35.498636+09:00
 
 ## 1. ― 周辺環境良好 × 宅配ボックス × 採光・通風◎ ―
 
@@ -316,3 +316,108 @@ Generated at: 2026-06-13T22:59:50.037108+09:00
 - Land Area: 43.62 sqm
 - Listing summary: ■三井のリハウス■ 北西・南西側が接道した住まい スーパーが徒歩1分の立地 －物件のおすすめポイント－ ▼立地 ・京王電鉄京王線「初台」徒歩10分 ▼特徴 ・全居室2面以上の採光が確保された間取り
 - Notes: exact target station match: 初台; best station preference: 7.0/10; size clears hard threshold at 65.81 sqm; layout: 3LDK; price is within budget at 8900万円; target station walk time meets target at 10 min; built in 2009; dishwasher not explicitly confirmed; brightness/window positives: 採光; listing age: 1 days; first seen: 2026-06-13 (0 days ago)
+
+## 16. ■緑豊かな清水池公園に隣接した3LDK住戸
+
+- Score: 63.07
+- Source: suumo
+- URL: https://suumo.jp/chukoikkodate/tokyo/sc_meguro/nc_20289435/
+- Stations: 学芸大学
+- Price: 8780万円
+- Size: 87.56 sqm
+- Layout: 3LDK
+- Walk: 2 min
+- Target Walk: 13 min
+- Built: 2010
+- First Seen: 2026-04-18T16:48:28.608776+00:00
+- Strict Match: yes
+- Dishwasher: not confirmed
+- Address: 東京都目黒区目黒本町２
+- Access: 東急東横線「学芸大学」歩13分 [ 乗り換え案内 ] 東急目黒線「武蔵小山」歩16分 [ 乗り換え案内 ] 東急バス「清水公園入口」歩2分
+- Land Area: 63.94 sqm
+- Listing summary: ■緑豊かな清水池公園に隣接した3LDK住戸 ■(株)東京組施工の注文住宅 ■駐車スペース有の旗竿地 ◆◆◆自社リノベーションブランドCue studioの設計施工も承ります◆◆◆ □□□バレッグスの特徴□□□ 東急沿線を中心に、城南エリアに特化した10店舗展開！！ 創業から30年を経て売買仲介・不動産仕入・賃貸仲介・賃貸管理・リノベーション・設計・施工と多角的に展開しております。 城南エリアの不動産オーナー様と長いお付き合いをして得られた情報を惜しみなく提供しております。
+- Notes: exact target station match: 学芸大学; best station preference: 5.6/10; size clears ideal threshold at 87.56 sqm; layout: 3LDK; price is within budget at 8780万円; target station walk time misses target at 13 min; nearest listed station is 2 min; scoring uses 学芸大学 at 13 min; built in 2010; dishwasher not explicitly confirmed; ceiling/window-height positives: 吹抜け; listing age: 0 days; first seen: 2026-04-18 (56 days ago)
+
+## 17. 池尻４（池尻大橋駅） 8280万円
+
+- Score: 62.53
+- Source: suumo
+- URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20837428/
+- Stations: 池ノ上, 池尻大橋
+- Price: 8280万円
+- Size: 72.97 sqm
+- Layout: 2LDK+S（納戸）
+- Walk: 11 min
+- Target Walk: 12 min
+- Built: 2005
+- First Seen: 2026-05-15T08:36:32.412435+00:00
+- Strict Match: yes
+- Dishwasher: not confirmed
+- Address: 東京都世田谷区池尻４
+- Access: 東急田園都市線「池尻大橋」歩12分 [ 乗り換え案内 ] 京王井の頭線「駒場東大前」歩11分 [ 乗り換え案内 ] 京王井の頭線「池ノ上」歩17分 [ 乗り換え案内 ]
+- Land Area: 46.19 sqm
+- Listing summary: ◆東急田園都市線「池尻大橋」駅　徒歩12分　◆閑静な住宅街に佇む3階建の戸建 【物件概要】 ☆土地面積：46.19m 2 （13.97坪） ※別途共有通路持分あり ☆建物面積:72.97m 2
+- Notes: exact target station match: 池ノ上, 池尻大橋; best station preference: 7.5/10; size clears ideal threshold at 72.97 sqm; layout: 2LDK+S（納戸）; price is within budget at 8280万円; target station walk time meets target at 12 min; nearest listed station is 11 min; scoring uses 池尻大橋 at 12 min; built in 2005; dishwasher not explicitly confirmed; brightness/window positives: 通風良好; listing age: 1 days; first seen: 2026-05-15 (29 days ago)
+
+## 18. 北沢１（下北沢駅） 1億5498万円
+
+- Score: 90.26
+- Source: suumo
+- URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20450508/
+- Stations: 下北沢, 代々木上原, 池ノ上
+- Price: 15498万円
+- Size: 99.04 sqm
+- Layout: 4LDK
+- Walk: 4 min
+- Target Walk: 4 min
+- Built: 2023
+- First Seen: 2026-04-18T16:48:28.608776+00:00
+- Strict Match: near miss
+- Dishwasher: yes
+- Address: 東京都世田谷区北沢１
+- Access: 小田急線「下北沢」歩10分 [ 乗り換え案内 ] 京王井の頭線「池ノ上」歩4分 [ 乗り換え案内 ] 東京メトロ千代田線「代々木上原」歩13分 [ 乗り換え案内 ]
+- Land Area: 62.12 sqm
+- Listing summary: ◆下北沢10分×２０２３年築◆ ３路線利用可能な高ポジション！ ・小田急線、井の頭線、千代田線の３路線利用可能♪ ・人気の下北沢まで徒歩１０分！ ・２０２３年築の築浅戸建♪ ・リフォーム済のため、いつでも内覧可能！ 下北沢10分、令和５年築の築浅戸建て♪ 内覧のご予約受付中です！
+- Notes: exact target station match: 下北沢, 代々木上原, 池ノ上; best station preference: 9.0/10; size clears ideal threshold at 99.04 sqm; layout: 4LDK; price is outside target budget at 15498万円; target station walk time meets target at 4 min; built in 2023; dishwasher mentioned in listing; listing age: 0 days; first seen: 2026-04-18 (56 days ago)
+
+## 19. 2012年12月築注文住宅・ルーフバルコニー、天井裏収納付き
+
+- Score: 87.81
+- Source: suumo
+- URL: https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78483844/
+- Stations: 代々木上原
+- Price: 15800万円
+- Size: 91.57 sqm
+- Layout: 2LDK+S（納戸）
+- Walk: 10 min
+- Target Walk: 11 min
+- Built: 2012
+- First Seen: 2026-04-18T16:48:28.608776+00:00
+- Strict Match: near miss
+- Dishwasher: yes
+- Address: 東京都渋谷区富ヶ谷２
+- Access: 小田急線「代々木八幡」歩10分 [ 乗り換え案内 ] 東京メトロ千代田線「代々木上原」歩11分 [ 乗り換え案内 ] 京王井の頭線「駒場東大前」歩14分 [ 乗り換え案内 ]
+- Land Area: 46.74 sqm
+- Listing summary: 2012年12月築注文住宅・ルーフバルコニー、天井裏収納付き ■南東・北東の角地に佇む注文住宅 ■容積率と高さを最大限に活かして設計されたこだわりの邸宅 ■約15.6帖のLDK、複数の窓から光が入り陽当り・眺望良好 ■キッチンカウンターとダイニングテーブルが一直線に繋がるよう、スキップフロア採用 ■床暖房(LD)、食器洗乾燥機、浴室乾燥機などの設備搭載 ■約10.8帖の洋室は引き戸で仕切ることが可能(工事要) ■車庫1台分有り(車種による制限有)
+- Notes: exact target station match: 代々木上原; best station preference: 9.0/10; size clears ideal threshold at 91.57 sqm; layout: 2LDK+S（納戸）; price is outside target budget at 15800万円; target station walk time meets target at 11 min; nearest listed station is 10 min; scoring uses 代々木上原 at 11 min; built in 2012; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 大きな窓; ceiling/window-height positives: 天井高, 吹抜け; listing age: 0 days; first seen: 2026-04-18 (56 days ago)
+
+## 20. 【3駅5路線利用可能な立地】希少性の高い代々木1丁目アドレスの築浅戸建です
+
+- Score: 86.43
+- Source: suumo
+- URL: https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20917020/
+- Stations: 代々木
+- Price: 15750万円
+- Size: 81.90 sqm
+- Layout: 3LDK
+- Walk: 5 min
+- Target Walk: 6 min
+- Built: 2019
+- First Seen: 2026-05-16T14:40:23.730086+00:00
+- Strict Match: near miss
+- Dishwasher: yes
+- Address: 東京都渋谷区代々木１
+- Access: ＪＲ山手線「代々木」歩6分 [ 乗り換え案内 ] 小田急線「南新宿」歩5分 [ 乗り換え案内 ] 東京メトロ副都心線「北参道」歩9分 [ 乗り換え案内 ]
+- Land Area: 44.54 sqm
+- Listing summary: 【3駅5路線利用可能な立地】希少性の高い代々木1丁目アドレスの築浅戸建です ■令和元年６ 月築の築浅戸建 ■南東・北東角地 ■3階洋室とルーフバルコニーからはドコモタワーを望めます ■周辺施設が充実しており、生活利便性の高いエリア ■明治神宮まで徒歩圏内 ■制震システムGVAを導入 ■リビングに床暖房有
+- Notes: exact target station match: 代々木; best station preference: 7.0/10; size clears ideal threshold at 81.90 sqm; layout: 3LDK; price is outside target budget at 15750万円; target station walk time meets target at 6 min; nearest listed station is 5 min; scoring uses 代々木 at 6 min; built in 2019; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好; listing age: 0 days; first seen: 2026-05-16 (28 days ago)

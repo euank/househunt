@@ -24,7 +24,7 @@ USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
 )
-SHORTLIST_LIMIT = 15
+SHORTLIST_LIMIT = 20
 TARGET_BUDGET_MIN_MAN = 8000
 TARGET_BUDGET_MAX_MAN = 15000
 HARD_BUDGET_MAX_MAN = 16000
@@ -102,8 +102,8 @@ MANSION = PropertyConfig(
     size_field="専有面積",
     walk_target=10,
     detail_prefilter_walk=12,
-    output_md="top15_mansions.md",
-    output_json="top15_mansions.json",
+    output_md="top20_mansions.md",
+    output_json="top20_mansions.json",
 )
 HOUSE = PropertyConfig(
     kind="house",
@@ -114,8 +114,8 @@ HOUSE = PropertyConfig(
     size_field="建物面積",
     walk_target=12,
     detail_prefilter_walk=14,
-    output_md="top15_houses.md",
-    output_json="top15_houses.json",
+    output_md="top20_houses.md",
+    output_json="top20_houses.json",
 )
 
 BRIGHTNESS_KEYWORDS = [

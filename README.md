@@ -21,8 +21,8 @@ nix-shell -p 'python313.withPackages (ps: [ ps.requests ps.beautifulsoup4 ])' sq
 This updates:
 
 - `data/suumo_listings.sqlite3`
-- `output/top15_mansions.*`
-- `output/top15_houses.*`
+- `output/top20_mansions.*`
+- `output/top20_houses.*`
 - `docs/data/*.json`
 - `docs/YYYY-MM-DD/data/*.json` for the current run date
 
