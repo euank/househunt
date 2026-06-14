@@ -546,14 +546,12 @@ def collect_suumo_listings(session: requests.Session, config: PropertyConfig) ->
 def listing_prefilter(record: dict, config: PropertyConfig) -> bool:
     price = record.get("price_man") or 0
     area = record.get("area_sqm") or 0
-    walk = record.get("walk_min") or 999
     year = record.get("built_year") or 0
     rooms = layout_room_count(record.get("layout") or "") or 0
     return (
         TARGET_BUDGET_MIN_MAN <= price
         and not is_hard_budget_exceeded(price, config)
         and area >= 60
-        and walk <= config.detail_prefilter_walk
         and year >= 1995
         and rooms >= 2
     )
