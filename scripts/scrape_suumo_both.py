@@ -1936,6 +1936,7 @@ def load_persisted_listings(conn: sqlite3.Connection, config: PropertyConfig) ->
         dishwasher_hits = ["dishwasher"] if row["dishwasher"] else []
         overview = json.loads(row["overview_json"] or "{}")
         access_text = overview.get("交通") or row["access_text"]
+        access_walk = parse_walk_min(access_text)
         record = {
             "listing_id": row["listing_id"],
             "source": row["source"] or "suumo",
@@ -1950,7 +1951,7 @@ def load_persisted_listings(conn: sqlite3.Connection, config: PropertyConfig) ->
             "land_area_sqm": row["land_area_sqm"] if "land_area_sqm" in row.keys() else None,
             "layout": row["layout"],
             "balcony_sqm": row["balcony_sqm"] if "balcony_sqm" in row.keys() else None,
-            "walk_min": row["walk_min"],
+            "walk_min": access_walk,
             "built_year": row["built_year"],
             "built_text": row["built_text"],
             "list_blurb": row["list_blurb"],
@@ -1967,9 +1968,6 @@ def load_persisted_listings(conn: sqlite3.Connection, config: PropertyConfig) ->
             "score": row["score"],
             "preview_image_url": "",
         }
-        access_walk = parse_walk_min(access_text)
-        if access_walk is not None and (record["walk_min"] is None or access_walk < record["walk_min"]):
-            record["walk_min"] = access_walk
         add_station_hits_from_access(record, access_text, row["url"])
         listings[row["listing_id"]] = record
     return listings

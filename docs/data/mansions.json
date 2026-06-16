@@ -307,7 +307,7 @@
     "area_sqm": 65.51,
     "land_area_sqm": null,
     "layout": "2LDK",
-    "walk_min": 2,
+    "walk_min": 4,
     "target_walk_min": 4,
     "built_year": 2024,
     "first_seen_at": "2026-04-22T15:45:58.724357+00:00",
@@ -335,7 +335,6 @@
       "layout: 2LDK",
       "price is within budget at 10180万円",
       "target station walk time meets target at 4 min",
-      "nearest listed station is 2 min; scoring uses 祐天寺 at 4 min",
       "built in 2024",
       "dishwasher mentioned in listing",
       "brightness/window positives: 通風良好",
@@ -800,66 +799,6 @@
     "score": 77.8
   },
   {
-    "listing_id": "ken:2025105463",
-    "source": "ken",
-    "property_name": "グローリオ三軒茶屋",
-    "title": "グローリオ三軒茶屋  4階 2LDK+S",
-    "url": "https://www.kencorp.co.jp/housing/properties/167726/2025105463/",
-    "price_man": 14980.0,
-    "area_sqm": 90.85,
-    "land_area_sqm": null,
-    "layout": "2LDK+S",
-    "walk_min": 10,
-    "target_walk_min": 11,
-    "built_year": 2007,
-    "first_seen_at": "2026-04-24T16:24:45.109631+00:00",
-    "address": "東京都世田谷区三軒茶屋２",
-    "access_text": "田園都市線 三軒茶屋駅 徒歩10分ほか",
-    "exact_station_hits": [
-      "三軒茶屋"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "LDK25帖以上",
-      "TVモニター付きインターホン",
-      "エアコン",
-      "エレベーター",
-      "オートロック",
-      "システムキッチン",
-      "バストイレ別",
-      "バルコニー",
-      "一部フローリング",
-      "大型犬相談",
-      "宅配ボックス",
-      "床暖房",
-      "浴室乾燥機",
-      "追焚",
-      "都市ガス",
-      "閑静な住宅街",
-      "食洗機"
-    ],
-    "detail_summary": "大型犬相談、 閑静な住宅街、 バルコニー、 床暖房、 LDK25帖以上、 一部フローリング エアコン、 浴室乾燥機、 追焚、 バストイレ別、 都市ガス、 食洗機、 システムキッチン エレベーター、 宅配ボックス、 オートロック、 TVモニター付きインターホン",
-    "preview_image_url": "./data/images/mansions/ken:2025105463.jpg",
-    "criteria_notes": [
-      "exact target station match: 三軒茶屋",
-      "best station preference: 7.0/10",
-      "size clears ideal threshold at 90.85 sqm",
-      "layout: 2LDK+S",
-      "price is within budget at 14980万円",
-      "target station walk time misses target at 11 min",
-      "nearest listed station is 10 min; scoring uses 三軒茶屋 at 11 min",
-      "built in 2007",
-      "dishwasher mentioned in listing",
-      "first seen: 2026-04-24 (53 days ago)"
-    ],
-    "score": 77.54
-  },
-  {
     "listing_id": "20992899",
     "source": "suumo",
     "property_name": "メゾンヴェール柏木",
@@ -1001,5 +940,54 @@
       "first seen: 2026-04-18 (59 days ago)"
     ],
     "score": 76.3
+  },
+  {
+    "listing_id": "20950750",
+    "source": "suumo",
+    "property_name": "ヴィンテージ高円寺南",
+    "title": "≪当日内見予約可能≫タワマンよりドヤれる!?中野徒歩圏リノベ",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20950750/",
+    "price_man": 9780.0,
+    "area_sqm": 65.95,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 4,
+    "target_walk_min": 12,
+    "built_year": 2003,
+    "first_seen_at": "2026-05-31T05:50:00.924704+00:00",
+    "address": "東京都杉並区高円寺南１",
+    "access_text": "東京メトロ丸ノ内線「東高円寺」歩4分 [ 乗り換え案内 ] ＪＲ中央線「中野」歩12分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "南西向き",
+      "陽当り良好",
+      "採光",
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "≪当日内見予約可能≫ タワマンよりドヤれる!?中野徒歩圏リノベ ◆中野駅と東高円寺駅を使いこなせる立地は控えめに言って神ツッコミ不在の好ロケーションです ◆食洗機や浴室乾燥など「あって良かった」を擬人化したような充実設備で家事のHP消費を激減させます ◆大切なワンちゃんネコちゃんも大喜びのペット可物件なので休日のモフモフタイムがはかどります ◆お部屋の美しさは新築のフリができるレベルのフルリノベーション済みで急な来客にもドヤ顔で対応可能です ※生成AIによるイメージです。家具・小物は販売価格に含まれません。忙しい朝でも、しっかり家族が揃って食事をして頂けるゆとりある大きさのダイニングスペース。 ◆サンサンと◆差し込む太陽の光がこのリビングに笑いをもたらす。ソファの上のクッションがポカポカした暖気にぬくぬくと微睡んでいる。",
+    "preview_image_url": "./data/images/mansions/20950750.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "best station preference: 6.5/10",
+      "size clears hard threshold at 65.95 sqm",
+      "layout: 3LDK",
+      "price is within budget at 9780万円",
+      "target station walk time misses target at 12 min",
+      "nearest listed station is 4 min; scoring uses 中野 at 12 min",
+      "built in 2003",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南西向き, 陽当り良好, 採光, 通風良好",
+      "listing age: 1 days",
+      "first seen: 2026-05-31 (16 days ago)"
+    ],
+    "score": 75.73
   }
 ]

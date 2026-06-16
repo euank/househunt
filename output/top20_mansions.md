@@ -1,6 +1,6 @@
 # Used Mansion shortlist
 
-Generated at: 2026-06-16T17:31:43.946874+09:00
+Generated at: 2026-06-16T17:40:22.973071+09:00
 
 ## 1. フィールM西新宿
 
@@ -131,7 +131,7 @@ Generated at: 2026-06-16T17:31:43.946874+09:00
 - Price: 10180万円
 - Size: 65.51 sqm
 - Layout: 2LDK
-- Walk: 2 min
+- Walk: 4 min
 - Target Walk: 4 min
 - Built: 2024
 - First Seen: 2026-04-22T15:45:58.724357+00:00
@@ -140,7 +140,7 @@ Generated at: 2026-06-16T17:31:43.946874+09:00
 - Address: 東京都目黒区五本木１
 - Access: 東急東横線「祐天寺」歩4分 [ 乗り換え案内 ] 東京メトロ日比谷線「中目黒」歩18分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」バス14分五本木一丁目歩2分 [ 乗り換え案内 ]
 - Listing summary: ＼令和6年6月築・築浅低層マンション／ 戸建感覚で過ごせるメゾネットタイプ ▽アクセス ・渋谷・中目黒へダイレクトアクセス！ オンとオフを軽快に切り替える立地◎ ・都会の真ん中であることを忘れるような、 穏やかで落ち着いた閑静な住宅地♪ ・東横線「祐天寺」駅 徒歩4分
-- Notes: exact target station match: 中目黒, 祐天寺; best station preference: 9.0/10; size clears hard threshold at 65.51 sqm; layout: 2LDK; price is within budget at 10180万円; target station walk time meets target at 4 min; nearest listed station is 2 min; scoring uses 祐天寺 at 4 min; built in 2024; dishwasher mentioned in listing; brightness/window positives: 通風良好; basement / semi-basement indicators present; listing age: 4 days; first seen: 2026-04-22 (55 days ago)
+- Notes: exact target station match: 中目黒, 祐天寺; best station preference: 9.0/10; size clears hard threshold at 65.51 sqm; layout: 2LDK; price is within budget at 10180万円; target station walk time meets target at 4 min; built in 2024; dishwasher mentioned in listing; brightness/window positives: 通風良好; basement / semi-basement indicators present; listing age: 4 days; first seen: 2026-04-22 (55 days ago)
 
 ## 8. プレシス参宮橋
 
@@ -322,27 +322,7 @@ Generated at: 2026-06-16T17:31:43.946874+09:00
 - Listing summary: ◆本日内覧可◆下北沢駅徒歩圏内・コンディション良好な一室 ※ペット飼育２匹まで可能 ※南向き開放感のある眺望 ※二路線二駅利用可能 ◆東宝ハウスクオリティでお客様をサポート 「家を買う、その先もずっと安心。」正直な情報＆未来設計でサポートします １）安心して物件検討ができるよう、良いところだけでなく、注意点も正直にお伝えしています。 ２）住宅ローンに関して、いくらまでの融資が可能か、いくらなら支払いなら安心なのか、
 - Notes: exact target station match: 下北沢, 池ノ上; best station preference: 4.5/10; size clears hard threshold at 67.71 sqm; layout: 3LDK; price is outside target budget at 15980万円; target station walk time meets target at 5 min; built in 2019; dishwasher mentioned in listing; brightness/window positives: 南向き; listing age: 2 days; first seen: 2026-05-05 (42 days ago)
 
-## 17. グローリオ三軒茶屋
-
-- Score: 77.54
-- Source: ken
-- URL: https://www.kencorp.co.jp/housing/properties/167726/2025105463/
-- Stations: 三軒茶屋
-- Price: 14980万円
-- Size: 90.85 sqm
-- Layout: 2LDK+S
-- Walk: 10 min
-- Target Walk: 11 min
-- Built: 2007
-- First Seen: 2026-04-24T16:24:45.109631+00:00
-- Strict Match: yes
-- Dishwasher: yes
-- Address: 東京都世田谷区三軒茶屋２
-- Access: 田園都市線 三軒茶屋駅 徒歩10分ほか
-- Listing summary: 大型犬相談、 閑静な住宅街、 バルコニー、 床暖房、 LDK25帖以上、 一部フローリング エアコン、 浴室乾燥機、 追焚、 バストイレ別、 都市ガス、 食洗機、 システムキッチン エレベーター、 宅配ボックス、 オートロック、 TVモニター付きインターホン
-- Notes: exact target station match: 三軒茶屋; best station preference: 7.0/10; size clears ideal threshold at 90.85 sqm; layout: 2LDK+S; price is within budget at 14980万円; target station walk time misses target at 11 min; nearest listed station is 10 min; scoring uses 三軒茶屋 at 11 min; built in 2007; dishwasher mentioned in listing; first seen: 2026-04-24 (53 days ago)
-
-## 18. メゾンヴェール柏木
+## 17. メゾンヴェール柏木
 
 - Score: 76.81
 - Source: suumo
@@ -362,7 +342,7 @@ Generated at: 2026-06-16T17:31:43.946874+09:00
 - Listing summary: ■複数路線利用可能な好立地 ■３方向にバルコニーあり！収納豊富な間取り □□　Report from Toho House Oji　□□ 【TOHO HOUSE CLUBでのアフターサービス】 ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc 購入前のタイミングは勿論、購入後のご不安につきましてもご相談可能です！
 - Notes: exact target station match: 新宿; best station preference: 8.0/10; size clears ideal threshold at 97.29 sqm; layout: 3LDK+2S（納戸）; price is outside target budget at 15980万円; target station walk time misses target at 11 min; nearest listed station is 5 min; scoring uses 新宿 at 11 min; built in 2004; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好; listing age: 1 days; first seen: 2026-06-07 (9 days ago)
 
-## 19. パークホームズ中野
+## 18. パークホームズ中野
 
 - Score: 76.71
 - Source: suumo
@@ -382,7 +362,7 @@ Generated at: 2026-06-16T17:31:43.946874+09:00
 - Listing summary: ■三井のリハウス■ LDK約18.2帖は南向き 2026年3月リフォーム済 －物件のおすすめポイント－ ▼特徴 ・三井不動産レジデンシャル(株)旧分譲 ・玄関・居室・リビングの壁面にエコカラットを採用 ・会話が弾む対面式キッチン
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears hard threshold at 66.33 sqm; layout: 2LDK; price is within budget at 14780万円; target station walk time meets target at 9 min; built in 2011; dishwasher mentioned in listing; brightness/window positives: 南向き, 採光; listing age: 1 days; first seen: 2026-04-18 (59 days ago)
 
-## 20. ジオ杉並松庵
+## 19. ジオ杉並松庵
 
 - Score: 76.3
 - Source: suumo
@@ -401,3 +381,23 @@ Generated at: 2026-06-16T17:31:43.946874+09:00
 - Access: 京王井の頭線「三鷹台」歩10分 [ 乗り換え案内 ] ＪＲ中央線「西荻窪」歩16分 [ 乗り換え案内 ] ＪＲ中央線「吉祥寺」歩20分 [ 乗り換え案内 ]
 - Listing summary: ■三井のリハウス■ テラス・ハナレ付の角住戸 WIC3箇所・SICを設置 －物件のおすすめポイント－ ▼立地 ・京王電鉄井の頭線「三鷹台」駅 徒歩10分 他 ・第一種低層住居専用地域の閑静な住宅街 ▼特徴
 - Notes: exact target station match: 吉祥寺; best station preference: 6.0/10; size clears ideal threshold at 82.78 sqm; layout: 3LDK; price is within budget at 12500万円; target station walk time misses target at 20 min; nearest listed station is 10 min; scoring uses 吉祥寺 at 20 min; built in 2022; dishwasher mentioned in listing; brightness/window positives: 採光, 角住戸; listing age: 1 days; first seen: 2026-04-18 (59 days ago)
+
+## 20. ヴィンテージ高円寺南
+
+- Score: 75.73
+- Source: suumo
+- URL: https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20950750/
+- Stations: 中野
+- Price: 9780万円
+- Size: 65.95 sqm
+- Layout: 3LDK
+- Walk: 4 min
+- Target Walk: 12 min
+- Built: 2003
+- First Seen: 2026-05-31T05:50:00.924704+00:00
+- Strict Match: yes
+- Dishwasher: yes
+- Address: 東京都杉並区高円寺南１
+- Access: 東京メトロ丸ノ内線「東高円寺」歩4分 [ 乗り換え案内 ] ＪＲ中央線「中野」歩12分 [ 乗り換え案内 ]
+- Listing summary: ≪当日内見予約可能≫ タワマンよりドヤれる!?中野徒歩圏リノベ ◆中野駅と東高円寺駅を使いこなせる立地は控えめに言って神ツッコミ不在の好ロケーションです ◆食洗機や浴室乾燥など「あって良かった」を擬人化したような充実設備で家事のHP消費を激減させます ◆大切なワンちゃんネコちゃんも大喜びのペット可物件なので休日のモフモフタイムがはかどります ◆お部屋の美しさは新築のフリができるレベルのフルリノベーション済みで急な来客にもドヤ顔で対応可能です ※生成AIによるイメージです。家具・小物は販売価格に含まれません。忙しい朝でも、しっかり家族が揃って食事をして頂けるゆとりある大きさのダイニングスペース。 ◆サンサンと◆差し込む太陽の光がこのリビングに笑いをもたらす。ソファの上のクッションがポカポカした暖気にぬくぬくと微睡んでいる。
+- Notes: exact target station match: 中野; best station preference: 6.5/10; size clears hard threshold at 65.95 sqm; layout: 3LDK; price is within budget at 9780万円; target station walk time misses target at 12 min; nearest listed station is 4 min; scoring uses 中野 at 12 min; built in 2003; dishwasher mentioned in listing; brightness/window positives: 南西向き, 陽当り良好, 採光, 通風良好; listing age: 1 days; first seen: 2026-05-31 (16 days ago)
