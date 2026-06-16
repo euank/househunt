@@ -4,9 +4,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import logging
+import multiprocessing as mp
 import shutil
 import re
 import sqlite3
+import tempfile
 import time
 from dataclasses import dataclass
 from datetime import datetime, date, timezone
@@ -18,6 +21,9 @@ import requests
 from bs4 import BeautifulSoup
 
 
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+LOGGER = logging.getLogger("househunt")
+
 SUUMO_BASE_URL = "https://suumo.jp"
 KEN_BASE_URL = "https://www.kencorp.co.jp"
 USER_AGENT = (
@@ -25,6 +31,7 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
 )
 SHORTLIST_LIMIT = 20
+KEN_REQUEST_SLEEP_S = 1.0
 TARGET_BUDGET_MIN_MAN = 8000
 TARGET_BUDGET_MAX_MAN = 15000
 HARD_BUDGET_MAX_MAN = 16000
@@ -303,22 +310,126 @@ def build_session() -> requests.Session:
     return session
 
 
-def fetch(session: requests.Session, url: str, *, sleep_s: float = 0.12) -> str:
+def _fetch_in_child(
+    queue: mp.Queue,
+    url: str,
+    headers: dict[str, str],
+    request_timeout_s: int,
+    output_path: str,
+) -> None:
+    try:
+        response = requests.get(url, headers=headers, timeout=request_timeout_s)
+        response.raise_for_status()
+        Path(output_path).write_bytes(response.content)
+        queue.put(("ok", response.encoding or response.apparent_encoding or "utf-8"))
+    except Exception as exc:  # noqa: BLE001
+        queue.put(("error", repr(exc)))
+
+
+def fetch_isolated(
+    session: requests.Session,
+    url: str,
+    *,
+    request_timeout_s: int,
+    wall_timeout_s: int,
+) -> str | None:
+    queue: mp.Queue = mp.Queue(maxsize=1)
+    with tempfile.NamedTemporaryFile(delete=False) as output:
+        output_path = output.name
+    try:
+        process = mp.Process(
+            target=_fetch_in_child,
+            args=(queue, url, dict(session.headers), request_timeout_s, output_path),
+        )
+        process.start()
+        process.join(wall_timeout_s)
+        if process.is_alive():
+            process.terminate()
+            process.join(5)
+            if process.is_alive():
+                process.kill()
+                process.join()
+            LOGGER.warning("fetch timed out; skipping request: %s", url)
+            return None
+        if queue.empty():
+            LOGGER.warning("fetch failed without response; skipping request: %s", url)
+            return None
+        status, payload = queue.get()
+        if status == "ok":
+            return Path(output_path).read_bytes().decode(payload, errors="replace")
+        LOGGER.warning("fetch failed in isolated worker; skipping request: %s: %s", url, payload)
+        return None
+    finally:
+        Path(output_path).unlink(missing_ok=True)
+
+
+def fetch(
+    session: requests.Session,
+    url: str,
+    *,
+    sleep_s: float = 0.12,
+    attempts: int = 5,
+    request_timeout_s: int = 30,
+    wall_timeout_s: int = 45,
+    isolated: bool = False,
+) -> str | None:
+    if isolated:
+        for attempt in range(attempts):
+            html = fetch_isolated(
+                session,
+                url,
+                request_timeout_s=request_timeout_s,
+                wall_timeout_s=wall_timeout_s,
+            )
+            if html is not None:
+                time.sleep(sleep_s)
+                return html
+            if attempt < attempts - 1:
+                LOGGER.warning(
+                    "isolated fetch failed, retrying (%s/%s): %s",
+                    attempt + 1,
+                    attempts,
+                    url,
+                )
+                time.sleep(0.5 * (attempt + 1))
+        LOGGER.warning("skipping isolated fetch after %s attempts: %s", attempts, url)
+        return None
+
     last_exc: Exception | None = None
-    for attempt in range(5):
+    for attempt in range(attempts):
         try:
-            response = session.get(url, timeout=30)
+            response = session.get(url, timeout=request_timeout_s)
             response.raise_for_status()
             time.sleep(sleep_s)
             return response.text
         except Exception as exc:  # noqa: BLE001
             last_exc = exc
+            if isinstance(exc, requests.Timeout):
+                LOGGER.warning("fetch timed out; skipping request: %s: %s", url, exc)
+                return None
+            LOGGER.warning(
+                "fetch failed, retrying (%s/%s): %s: %s",
+                attempt + 1,
+                attempts,
+                url,
+                exc,
+            )
             time.sleep(0.5 * (attempt + 1))
-    raise RuntimeError(f"failed to fetch {url}: {last_exc}") from last_exc
+    LOGGER.warning("skipping fetch after %s attempts: %s: %s", attempts, url, last_exc)
+    return None
 
 
-def soup_for(session: requests.Session, url: str) -> BeautifulSoup:
-    return BeautifulSoup(fetch(session, url), "html.parser")
+def soup_for(
+    session: requests.Session,
+    url: str,
+    *,
+    isolated: bool = False,
+    sleep_s: float = 0.12,
+) -> BeautifulSoup | None:
+    html = fetch(session, url, isolated=isolated, sleep_s=sleep_s)
+    if html is None:
+        return None
+    return BeautifulSoup(html, "html.parser")
 
 
 def parse_float(text: str | None) -> float | None:
@@ -477,6 +588,9 @@ def page_urls_for_seed(session: requests.Session, seed: StationSeed, config: Pro
     base_path = config.base_path.replace("/tokyo", f"/{seed.prefecture}", 1)
     base = f"{SUUMO_BASE_URL}/{base_path}/ek_{seed.code}/"
     first = soup_for(session, base)
+    if first is None:
+        LOGGER.warning("skipping SUUMO seed page: %s", base)
+        return []
     pages = {1}
     for anchor in first.select("a[href]"):
         href = anchor.get("href", "")
@@ -491,6 +605,9 @@ def collect_suumo_listings(session: requests.Session, config: PropertyConfig) ->
     for seed in SEEDS:
         for page_url in page_urls_for_seed(session, seed, config):
             soup = soup_for(session, page_url)
+            if soup is None:
+                LOGGER.warning("skipping SUUMO result page: %s", page_url)
+                continue
             for item in soup.select("div.property_unit"):
                 title_anchor = item.select_one("h2 a[href]")
                 if not title_anchor:
@@ -639,7 +756,10 @@ def enrich_suumo_details(session: requests.Session, listings: dict[str, dict], c
     for record in listings.values():
         if not listing_prefilter(record, config):
             continue
-        soup = soup_for(session, record["url"])
+        soup = soup_for(session, record["url"], isolated=True)
+        if soup is None:
+            LOGGER.warning("skipping SUUMO detail page: %s", record["url"])
+            continue
         page_text = soup.get_text(" ", strip=True)
         summary, tags = extract_detail_summary(soup)
         overview = extract_overview(soup)
@@ -1338,7 +1458,15 @@ def persist_houses(conn: sqlite3.Connection, listings: dict[str, dict]) -> None:
 
 
 def parse_ken_station_options(session: requests.Session) -> dict[str, list[dict[str, str]]]:
-    soup = soup_for(session, f"{KEN_BASE_URL}/housing/buy/search/line/")
+    soup = soup_for(
+        session,
+        f"{KEN_BASE_URL}/housing/buy/search/line/",
+        isolated=True,
+        sleep_s=KEN_REQUEST_SLEEP_S,
+    )
+    if soup is None:
+        LOGGER.warning("skipping KEN station option parsing")
+        return {}
     options: dict[str, list[dict[str, str]]] = {}
     current_line_name = ""
     for section in soup.select("#content__stations .bl-001_14"):
@@ -1372,8 +1500,29 @@ def collect_ken_listings(session: requests.Session, config: PropertyConfig) -> d
     collected: dict[str, dict] = {}
     for seed in SEEDS:
         for option in station_options.get(seed.name, []):
-            payload = fetch(session, ken_result_url(option["line_station"], config), sleep_s=0.05)
-            data = json.loads(payload)
+            payload = fetch(
+                session,
+                ken_result_url(option["line_station"], config),
+                sleep_s=KEN_REQUEST_SLEEP_S,
+                isolated=True,
+            )
+            if payload is None:
+                LOGGER.warning(
+                    "skipping KEN result API for station %s (%s)",
+                    seed.name,
+                    option["line_station"],
+                )
+                continue
+            try:
+                data = json.loads(payload)
+            except json.JSONDecodeError as exc:
+                LOGGER.warning(
+                    "skipping KEN result API with invalid JSON for station %s (%s): %s",
+                    seed.name,
+                    option["line_station"],
+                    exc,
+                )
+                continue
             for building in data.get("buildings", []):
                 for prop in building.get("properties", []):
                     listing_id = f"ken:{prop['code']}"
@@ -1735,9 +1884,14 @@ def publish_docs(
 
 def enrich_ken_details(session: requests.Session, listings: dict[str, dict], config: PropertyConfig) -> None:
     for record in listings.values():
-        try:
-            soup = soup_for(session, record["url"])
-        except Exception:  # noqa: BLE001
+        soup = soup_for(
+            session,
+            record["url"],
+            isolated=True,
+            sleep_s=KEN_REQUEST_SLEEP_S,
+        )
+        if soup is None:
+            LOGGER.warning("skipping KEN detail page: %s", record["url"])
             continue
         page_text = soup.get_text(" ", strip=True)
         overview = extract_overview(soup)
@@ -1826,9 +1980,14 @@ def hydrate_preview_urls(session: requests.Session, listings: list[dict]) -> Non
     for record in listings:
         if record.get("preview_image_url"):
             continue
-        try:
-            soup = soup_for(session, record["url"])
-        except Exception:  # noqa: BLE001
+        soup = soup_for(
+            session,
+            record["url"],
+            isolated=True,
+            sleep_s=KEN_REQUEST_SLEEP_S if KEN_BASE_URL in record["url"] else 0.12,
+        )
+        if soup is None:
+            LOGGER.warning("skipping preview URL hydration: %s", record["url"])
             continue
         record["preview_image_url"] = extract_preview_image_url(soup, record["url"])
 

@@ -47,8 +47,8 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
       "ceiling/window-height positives: 天井高",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (57 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (59 days ago)"
     ],
     "score": 112.42
   },
@@ -95,8 +95,8 @@
       "built in 2020",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 大きな窓",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (57 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (59 days ago)"
     ],
     "score": 105.64
   },
@@ -149,7 +149,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (57 days ago)"
+      "first seen: 2026-04-18 (59 days ago)"
     ],
     "score": 101.45
   },
@@ -199,10 +199,10 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光, 通風良好",
       "ceiling/window-height positives: 天井高",
-      "listing age: 3 days",
-      "first seen: 2026-05-15 (30 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-05-15 (32 days ago)"
     ],
-    "score": 101.45
+    "score": 100.95
   },
   {
     "listing_id": "21041123",
@@ -247,10 +247,10 @@
       "built in 2005",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-06-11 (3 days ago)"
+      "listing age: 0 days",
+      "first seen: 2026-06-11 (5 days ago)"
     ],
-    "score": 100.94
+    "score": 99.94
   },
   {
     "listing_id": "20162322",
@@ -298,8 +298,8 @@
       "built in 2018",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 通風良好",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (57 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-18 (59 days ago)"
     ],
     "score": 99.57
   },
@@ -345,10 +345,55 @@
       "built in 2020",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 通風良好",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (57 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-18 (59 days ago)"
     ],
     "score": 98.64
+  },
+  {
+    "listing_id": "20170973",
+    "source": "suumo",
+    "property_name": "ヴィークコート吉祥寺通り",
+    "title": "立野町（武蔵関駅） 8298万円",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nerima/nc_20170973/",
+    "price_man": 8298.0,
+    "area_sqm": 80.27,
+    "land_area_sqm": null,
+    "layout": "4LDK",
+    "walk_min": 2,
+    "target_walk_min": 2,
+    "built_year": 2018,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都練馬区立野町",
+    "access_text": "西武新宿線「武蔵関」歩17分 [ 乗り換え案内 ] ＪＲ中央線「吉祥寺」バス15分関町南二丁目歩2分 [ 乗り換え案内 ] 京王井の頭線「吉祥寺」バス15分関町南二丁目歩2分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "吉祥寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "【新規リフォーム物件　※室内一部（2025年10月下旬完了）】 ≪　おすすめポイント　≫ ・新規リフォーム物件　※室内一部　（2025年10月下旬完了予定） ・天井・壁クロス貼替（全室） ・エコカラット新設（リビング・ダイニング部分、玄関部分） ・姿見新設（玄関部分） ・洗面水栓交換 ・シャワーヘッド交換",
+    "preview_image_url": "./mansion_images/20170973.jpg",
+    "criteria_notes": [
+      "exact target station match: 吉祥寺",
+      "best station preference: 6.0/10",
+      "size clears ideal threshold at 80.27 sqm",
+      "layout: 4LDK",
+      "price is within budget at 8298万円",
+      "target station walk time meets target at 2 min",
+      "built in 2018",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 角住戸",
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (59 days ago)"
+    ],
+    "score": 98.07
   },
   {
     "listing_id": "20965706",
@@ -396,7 +441,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
       "listing age: 2 days",
-      "first seen: 2026-06-02 (12 days ago)"
+      "first seen: 2026-06-02 (14 days ago)"
     ],
     "score": 97.23
   },
@@ -446,7 +491,7 @@
       "brightness/window positives: 採光, 角住戸",
       "ceiling/window-height positives: ハイサッシ",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (57 days ago)"
+      "first seen: 2026-04-18 (59 days ago)"
     ],
     "score": 94.14
   },
@@ -492,8 +537,8 @@
       "built in 2022",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 角住戸",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (57 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (59 days ago)"
     ],
     "score": 91.91
   },
@@ -540,7 +585,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 陽当り良好",
       "listing age: 1 days",
-      "first seen: 2026-05-05 (40 days ago)"
+      "first seen: 2026-05-05 (42 days ago)"
     ],
     "score": 91.84
   },
@@ -589,7 +634,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (57 days ago)"
+      "first seen: 2026-04-18 (59 days ago)"
     ],
     "score": 91.14
   },
@@ -639,7 +684,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 陽当り良好, 採光, 眺望良好",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (26 days ago)"
+      "first seen: 2026-05-19 (28 days ago)"
     ],
     "score": 88.54
   },
@@ -685,8 +730,8 @@
       "built in 2002",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-06-13 (1 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-06-13 (3 days ago)"
     ],
     "score": 87.89
   },
@@ -733,58 +778,9 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好",
       "listing age: 0 days",
-      "first seen: 2026-04-29 (46 days ago)"
+      "first seen: 2026-04-29 (48 days ago)"
     ],
     "score": 87.6
-  },
-  {
-    "listing_id": "78682317",
-    "source": "suumo",
-    "property_name": "プレシス参宮橋",
-    "title": "■小田急小田原線『参宮橋』駅徒歩6分　■4階部分×南西向き",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_78682317/",
-    "price_man": 14480.0,
-    "area_sqm": 67.62,
-    "land_area_sqm": null,
-    "layout": "3LDK",
-    "walk_min": 6,
-    "target_walk_min": 7,
-    "built_year": 2015,
-    "first_seen_at": "2026-05-16T14:38:52.386204+00:00",
-    "address": "東京都渋谷区代々木４",
-    "access_text": "小田急線「参宮橋」歩6分 [ 乗り換え案内 ] 京王新線「初台」歩7分 [ 乗り換え案内 ] ＪＲ山手線「代々木」歩14分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "代々木",
-      "初台"
-    ],
-    "nearby_station_hits": [
-      "参宮橋"
-    ],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "南西向き"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■小田急小田原線『参宮橋』駅徒歩6分　■4階部分×南西向き ーお部屋ー ■所在階：4階部分（最上階） ■専有面積：約67.62m2 ■バルコニー面積：約8.52m2 ■方位：南西向き ■間取り：3LDK+3WIC ーマンションー",
-    "preview_image_url": "./mansion_images/78682317.jpg",
-    "criteria_notes": [
-      "exact target station match: 代々木, 初台",
-      "best station preference: 7.0/10",
-      "size clears hard threshold at 67.62 sqm",
-      "layout: 3LDK",
-      "price is within budget at 14480万円",
-      "target station walk time meets target at 7 min",
-      "nearest listed station is 6 min; scoring uses 初台 at 7 min",
-      "built in 2015",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南西向き",
-      "listing age: 0 days",
-      "first seen: 2026-05-16 (29 days ago)"
-    ],
-    "score": 87.4
   },
   {
     "listing_id": "21021270",
@@ -816,7 +812,7 @@
     ],
     "ceiling_hits": [],
     "feature_tags": [],
-    "detail_summary": "□室内リフォーム履歴有　□角部屋につき陽当・通風良好 100m2超のゆとりある3LDK＋SIC＋ファミリークローク こだわりあるリフォーム履歴、LD部分小上がりスペース 家族の様子が見えるカウンターキッチン 豊富な収納スペースを確保 井の頭恩賜公園を生活圏に置き緑を感じる住宅街 恵まれた住環境 ご見学希望・資料請求・ご質問は、",
+    "detail_summary": "□室内リフォーム履歴有　□角部屋につき陽当・通風良好 ●野村の仲介＋吉祥寺【専任媒介物件】 ●100m2超のゆとりある3LDK＋SIC＋ファミリークローク ●こだわりあるリフォーム履歴、LD部分小上がりスペース ●家族の様子が見えるカウンターキッチン ●豊富な収納スペースを確保 ●井の頭恩賜公園を生活圏に置き緑を感じる住宅街 ●恵まれた住環境",
     "preview_image_url": "./mansion_images/21021270.jpg",
     "criteria_notes": [
       "exact target station match: 吉祥寺",
@@ -829,7 +825,7 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-06-09 (5 days ago)"
+      "first seen: 2026-06-09 (7 days ago)"
     ],
     "score": 87.31
   },
@@ -887,7 +883,7 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南西向き, 採光, 通風良好, 角住戸",
       "listing age: 2 days",
-      "first seen: 2026-04-18 (57 days ago)"
+      "first seen: 2026-04-18 (59 days ago)"
     ],
     "score": 86.87
   },
@@ -933,7 +929,7 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 通風良好, 角住戸",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (57 days ago)"
+      "first seen: 2026-04-18 (59 days ago)"
     ],
     "score": 86.45
   },
@@ -987,9 +983,9 @@
       "brightness/window positives: 南向き, 南東向き, 陽当り良好, 採光",
       "ceiling/window-height positives: 天井高",
       "basement / semi-basement indicators present",
-      "listing age: 3 days",
-      "first seen: 2026-05-31 (14 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-05-31 (16 days ago)"
     ],
-    "score": 86.35
+    "score": 85.85
   }
 ]
