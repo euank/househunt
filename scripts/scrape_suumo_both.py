@@ -480,7 +480,7 @@ def parse_walk_min(text: str | None) -> int | None:
         return None
     values = [
         int(match.group(1))
-        for match in re.finditer(r"「[^」]+」(?:(?!バス|車|タクシー|自動車).){0,40}(?:徒歩|歩)(\d+)分", text)
+        for match in re.finditer(r"「[^」]+」(?:(?!「|バス|車|タクシー|自動車).){0,40}(?:徒歩|歩)(\d+)分", text)
     ]
     return min(values) if values else None
 
@@ -502,7 +502,7 @@ def walk_min_for_station(text: str, station_name: str) -> int | None:
     word_chars = r"一-龥ぁ-んァ-ヶA-Za-z0-9"
     pattern = (
         rf"(?<![{word_chars}]){re.escape(station_name)}(?:駅)?"
-        rf"(?![{word_chars}])(?:(?!バス|車|タクシー|自動車).){{0,40}}(?:徒歩|歩)(\d+)分"
+        rf"(?![{word_chars}])(?:(?!「|バス|車|タクシー|自動車).){{0,40}}(?:徒歩|歩)(\d+)分"
     )
     values = [int(match) for match in re.findall(pattern, text)]
     return min(values) if values else None
