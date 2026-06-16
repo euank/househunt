@@ -478,7 +478,10 @@ def parse_jp_date(text: str | None) -> date | None:
 def parse_walk_min(text: str | None) -> int | None:
     if not text:
         return None
-    values = [int(n) for n in re.findall(r"(?<!停)歩(\d+)分", text)]
+    values = [
+        int(match.group(1))
+        for match in re.finditer(r"「[^」]+」(?:(?!バス|車|タクシー|自動車).){0,40}(?:徒歩|歩)(\d+)分", text)
+    ]
     return min(values) if values else None
 
 
@@ -499,7 +502,7 @@ def walk_min_for_station(text: str, station_name: str) -> int | None:
     word_chars = r"一-龥ぁ-んァ-ヶA-Za-z0-9"
     pattern = (
         rf"(?<![{word_chars}]){re.escape(station_name)}(?:駅)?"
-        rf"(?![{word_chars}])[^\d]{{0,20}}(?:徒歩|歩)(\d+)分"
+        rf"(?![{word_chars}])(?:(?!バス|車|タクシー|自動車).){{0,40}}(?:徒歩|歩)(\d+)分"
     )
     values = [int(match) for match in re.findall(pattern, text)]
     return min(values) if values else None
@@ -521,7 +524,10 @@ def target_walk_min(record: dict) -> int | None:
     options = target_station_walk_options(record)
     if options:
         return options[0][1]
-    return record.get("walk_min")
+    exact, nearby = station_groups(record)
+    if exact or nearby:
+        return record.get("walk_min")
+    return None
 
 
 def add_station_hits_from_access(record: dict, access_text: str, source_url: str) -> None:
@@ -648,15 +654,16 @@ def collect_suumo_listings(session: requests.Session, config: PropertyConfig) ->
                 if candidate_walk is not None and (current_walk is None or candidate_walk < current_walk):
                     record["access_text"] = candidate_access
                     record["walk_min"] = candidate_walk
-                record["station_hits"].append(
-                    {
-                        "station_name": seed.name,
-                        "station_code": seed.code,
-                        "priority": seed.priority,
-                        "note": seed.note,
-                        "source_url": page_url,
-                    }
-                )
+                if walk_min_for_station(candidate_access, seed.name) is not None:
+                    record["station_hits"].append(
+                        {
+                            "station_name": seed.name,
+                            "station_code": seed.code,
+                            "priority": seed.priority,
+                            "note": seed.note,
+                            "source_url": page_url,
+                        }
+                    )
     return collected
 
 
@@ -1564,15 +1571,16 @@ def collect_ken_listings(session: requests.Session, config: PropertyConfig) -> d
                             "ceiling_hits": [],
                         },
                     )
-                    record["station_hits"].append(
-                        {
-                            "station_name": seed.name,
-                            "station_code": option["line_station"],
-                            "priority": seed.priority,
-                            "note": f"KEN {option['line_name']}",
-                            "source_url": ken_result_url(option["line_station"], config),
-                        }
-                    )
+                    if walk_min_for_station(record.get("access_text", ""), seed.name) is not None:
+                        record["station_hits"].append(
+                            {
+                                "station_name": seed.name,
+                                "station_code": option["line_station"],
+                                "priority": seed.priority,
+                                "note": f"KEN {option['line_name']}",
+                                "source_url": ken_result_url(option["line_station"], config),
+                            }
+                        )
     return collected
 
 
@@ -1925,15 +1933,6 @@ def load_persisted_listings(conn: sqlite3.Connection, config: PropertyConfig) ->
     rows = conn.execute(f"SELECT * FROM {table} WHERE scraped_at = ?", (latest_scraped_at,))
     listings: dict[str, dict] = {}
     for row in rows:
-        exact_hits = json.loads(row["exact_station_hits_json"] or "[]")
-        nearby_hits = json.loads(row["nearby_station_hits_json"] or "[]")
-        station_hits = [
-            {"station_name": name, "station_code": "", "priority": "exact", "note": "", "source_url": ""}
-            for name in exact_hits
-        ] + [
-            {"station_name": name, "station_code": "", "priority": "nearby", "note": "", "source_url": ""}
-            for name in nearby_hits
-        ]
         dishwasher_hits = ["dishwasher"] if row["dishwasher"] else []
         overview = json.loads(row["overview_json"] or "{}")
         access_text = overview.get("交通") or row["access_text"]
@@ -1958,7 +1957,7 @@ def load_persisted_listings(conn: sqlite3.Connection, config: PropertyConfig) ->
             "detail_summary": row["detail_summary"],
             "feature_tags": json.loads(row["feature_tags_json"] or "[]"),
             "overview": overview,
-            "station_hits": station_hits,
+            "station_hits": [],
             "dishwasher_hits": dishwasher_hits,
             "brightness_hits": json.loads(row["brightness_hits_json"] or "[]"),
             "ceiling_hits": json.loads(row["ceiling_hits_json"] or "[]"),

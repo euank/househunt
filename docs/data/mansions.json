@@ -1,593 +1,306 @@
 [
   {
-    "listing_id": "20552540",
+    "listing_id": "20917168",
     "source": "suumo",
-    "property_name": "グランシエロ吉祥寺",
-    "title": "牟礼４ 9480万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20552540/",
-    "price_man": 9480.0,
-    "area_sqm": 81.02,
+    "property_name": "パークタワー西新宿エムズポート",
+    "title": "◆空室◆西新宿駅へ4分のタワーマンション◆14階部分×南向き",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20917168/",
+    "price_man": 14990.0,
+    "area_sqm": 72.82,
     "land_area_sqm": null,
-    "layout": "3LDK+S（納戸）",
-    "walk_min": 1,
-    "target_walk_min": 1,
-    "built_year": 2024,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都三鷹市牟礼４",
-    "access_text": "ＪＲ中央線「吉祥寺」バス12分三鷹三中前歩1分 [ 乗り換え案内 ] ＪＲ中央線「三鷹」バス11分三鷹三中前歩1分 [ 乗り換え案内 ] 京王井の頭線「久我山」バス10分三鷹三中前歩1分 [ 乗り換え案内 ]",
+    "layout": "2LDK",
+    "walk_min": 4,
+    "target_walk_min": 4,
+    "built_year": 2013,
+    "first_seen_at": "2026-05-22T08:33:38.103146+00:00",
+    "address": "東京都新宿区西新宿８",
+    "access_text": "東京メトロ丸ノ内線「西新宿」歩4分 [ 乗り換え案内 ] 都営大江戸線「都庁前」歩10分 [ 乗り換え案内 ] ＪＲ山手線「新宿」歩14分 [ 乗り換え案内 ]",
     "exact_station_hits": [
-      "吉祥寺"
+      "新宿"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
-      "陽当り良好",
-      "採光",
-      "通風良好",
-      "角住戸",
-      "二面採光"
-    ],
-    "ceiling_hits": [
-      "天井高"
-    ],
-    "feature_tags": [],
-    "detail_summary": "令和6年8月築　築浅マンション！ 大切なペットと一緒に暮らせます！ ■リビング・洋室天井高2450mmの為開放感のある設計 ■コンビニ・スーパーまで徒歩圏内♪ ■下階がエントランスにつき、下の階に気にせずお住いになれます！ ■周辺スーパーやコンビニが近く、利便性の良い立地！ 広い脱衣所スペース！ 忙しい朝でも家族みんなで使用できます！",
-    "preview_image_url": "./data/images/mansions/20552540.jpg",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears ideal threshold at 81.02 sqm",
-      "layout: 3LDK+S（納戸）",
-      "price is within budget at 9480万円",
-      "target station walk time meets target at 1 min",
-      "built in 2024",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
-      "ceiling/window-height positives: 天井高",
-      "listing age: 2 days",
-      "first seen: 2026-04-18 (59 days ago)"
-    ],
-    "score": 112.42
-  },
-  {
-    "listing_id": "20504055",
-    "source": "suumo",
-    "property_name": "プラウドシティ吉祥寺",
-    "title": "築浅×プラウドシリーズ～閑静な住宅と過ごすゆったり吉祥寺ライフ～",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20504055/",
-    "price_man": 9680.0,
-    "area_sqm": 70.66,
-    "land_area_sqm": null,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 1,
-    "target_walk_min": 1,
-    "built_year": 2020,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都三鷹市下連雀５",
-    "access_text": "ＪＲ中央線「三鷹」バス10分プラウドシティ吉祥寺歩1分 [ 乗り換え案内 ] ＪＲ中央線「吉祥寺」バス12分プラウドシティ吉祥寺歩1分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
       "陽当り良好",
       "眺望良好",
       "通風良好",
-      "大きな窓"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "築浅×プラウドシリーズ ～閑静な住宅と過ごすゆったり吉祥寺ライフ～ ■ペット飼育可能！大切な家族と共にお過ごしください。 ■周辺には多くの飲食店や商業施設、井の頭公園など充実した環境がございます。 ■大規模レジデンスならではの安心感と閑静な住宅街につき、静かにお過ごしいただけます。 【３６５日　年中無休】 見学予約システムに対象日付が指定できない場合でも原則即日ご対応可能です。 定休日を設けない対応力でお客様の見たい知りたいを叶えます。",
-    "preview_image_url": "./data/images/mansions/20504055.jpg",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears ideal threshold at 70.66 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 9680万円",
-      "target station walk time meets target at 1 min",
-      "built in 2020",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 大きな窓",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (59 days ago)"
-    ],
-    "score": 105.64
-  },
-  {
-    "listing_id": "78490998",
-    "source": "suumo",
-    "property_name": "パークホームズ吉祥寺北グランヴィラ",
-    "title": "・別荘地のような自然豊かな敷地内　・三井不動産レジデンシャル(株)旧分譲",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nerima/nc_78490998/",
-    "price_man": 8980.0,
-    "area_sqm": 80.62,
-    "land_area_sqm": null,
-    "layout": "3LDK",
-    "walk_min": 2,
-    "target_walk_min": 2,
-    "built_year": 2018,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都練馬区関町南３",
-    "access_text": "ＪＲ中央線「吉祥寺」バス16分吉祥寺通り入口歩2分 [ 乗り換え案内 ] ＪＲ総武線「吉祥寺」バス16分吉祥寺通り入口歩2分 [ 乗り換え案内 ] 京王井の頭線「吉祥寺」バス16分吉祥寺通り入口歩2分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "洋室：約5.0帖（LD側）",
-      "洋室：約5.0帖（マンション共用廊下側）",
-      "照明機器具取付",
-      "空室時",
-      "配線、高所清掃の一次対応"
-    ],
-    "detail_summary": "・別荘地のような自然豊かな敷地内　・三井不動産レジデンシャル(株)旧分譲 ・南向き・テラス有り ・三井不動産レジデンシャル株式会社旧分譲マンション ・平成30年1月築、総戸数269戸のビッグコミュニティ ・ペット飼育可(規約による細則有) ・敷地内に保有施設・学童クラブ施設あり ・レンタルサイクル有り(30台・利用時間により有料) ・宅配ロッカー有り",
-    "preview_image_url": "./data/images/mansions/78490998.jpg",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears ideal threshold at 80.62 sqm",
-      "layout: 3LDK",
-      "price is within budget at 8980万円",
-      "target station walk time meets target at 2 min",
-      "built in 2018",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (59 days ago)"
-    ],
-    "score": 101.45
-  },
-  {
-    "listing_id": "20853963",
-    "source": "suumo",
-    "property_name": "【ペット2匹可・床暖房・専用庭39.23平米】パーク…",
-    "title": "立野町 9880万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nerima/nc_20853963/",
-    "price_man": 9880.0,
-    "area_sqm": 68.03,
-    "land_area_sqm": null,
-    "layout": "3LDK+S（納戸）",
-    "walk_min": 4,
-    "target_walk_min": 4,
-    "built_year": 2024,
-    "first_seen_at": "2026-05-15T08:35:24.163396+00:00",
-    "address": "東京都練馬区立野町30-9",
-    "access_text": "ＪＲ中央線「吉祥寺」バス14分東京三育小学校入口歩4分 [ 乗り換え案内 ] 西武新宿線「武蔵関」歩15分 [ 乗り換え案内 ] 西武新宿線「上石神井」歩19分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
-    ],
-    "brightness_hits": [
-      "陽当り良好",
-      "採光",
-      "通風良好"
+      "ワイドスパン"
     ],
     "ceiling_hits": [
       "天井高"
     ],
     "feature_tags": [],
-    "detail_summary": "ペット2匹可！床暖房・食洗機完備。テラス・専用庭付。小学校徒歩1分。 【ペット2匹飼育可×専用庭×設備充実】 ■床暖房、食洗機、浴室乾燥機、追焚機能完備 ■39.23平米の専用庭、スロップシンク付バルコニー ■小学校徒歩1分、中学校徒歩3分の充実した教育環境 ■オートロック、宅配ボックス、防犯カメラ完備 ■ウォークインクローゼットなど収納豊富 ■スーパーまで徒歩約4分で買い物便利",
-    "preview_image_url": "./data/images/mansions/20853963.jpg",
+    "detail_summary": "◆空室◆西新宿駅へ4分のタワーマンション◆14階部分×南向き ■新宿を生活圏とする自然豊かなタワーマンション ■全居室南向きのため陽当たり良好 ■2014年度グッドデザイン賞を受賞 ■最大天井高約2.65ｍ・幅約10ｍのワイドスパン住戸につき開放感あり ■LDKは約20帖の広々空間、LDに作り付けのテレビ台あり ■寒い時期に嬉しい床暖房付き(LD一部) ■キッチンはディスポーザーや浄水器、食器洗乾燥機など設備充実",
+    "preview_image_url": "./data/images/mansions/20917168.jpg",
     "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears hard threshold at 68.03 sqm",
-      "layout: 3LDK+S（納戸）",
-      "price is within budget at 9880万円",
+      "exact target station match: 新宿",
+      "best station preference: 8.0/10",
+      "size clears ideal threshold at 72.82 sqm",
+      "layout: 2LDK",
+      "price is within budget at 14990万円",
       "target station walk time meets target at 4 min",
-      "built in 2024",
+      "built in 2013",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 採光, 通風良好",
+      "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "ceiling/window-height positives: 天井高",
-      "listing age: 5 days",
-      "first seen: 2026-05-15 (32 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-05-22 (25 days ago)"
     ],
-    "score": 100.95
+    "score": 99.84
   },
   {
-    "listing_id": "21041123",
+    "listing_id": "21042667",
     "source": "suumo",
-    "property_name": "イオシス吉祥寺",
-    "title": "☆取引に関する費用欄ご確認下さい☆【希少な4LDK】×【新規リノベ済み】",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_21041123/",
-    "price_man": 8999.0,
-    "area_sqm": 86.85,
+    "property_name": "パークタワー西新宿エムズポート",
+    "title": "～杜の緑と静けさをまとう邸宅　都心にふさわしいラグジュアリーな存在～",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21042667/",
+    "price_man": 14990.0,
+    "area_sqm": 72.82,
     "land_area_sqm": null,
-    "layout": "4LDK",
-    "walk_min": 2,
-    "target_walk_min": 2,
-    "built_year": 2005,
+    "layout": "2LDK",
+    "walk_min": 4,
+    "target_walk_min": 4,
+    "built_year": 2013,
     "first_seen_at": "2026-06-11T17:20:51.659863+00:00",
-    "address": "東京都三鷹市下連雀５-５－１",
-    "access_text": "ＪＲ中央線「吉祥寺」バス20分NTTデータ前歩2分 [ 乗り換え案内 ] 京王井の頭線「三鷹台」歩35分 [ 乗り換え案内 ] 京王井の頭線「井の頭公園」歩31分 [ 乗り換え案内 ]",
+    "address": "東京都新宿区西新宿８-14-27",
+    "access_text": "東京メトロ丸ノ内線「西新宿」歩4分 [ 乗り換え案内 ] 都営大江戸線「都庁前」歩10分 [ 乗り換え案内 ] ＪＲ山手線「新宿」歩13分 [ 乗り換え案内 ]",
     "exact_station_hits": [
-      "吉祥寺"
+      "新宿"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
       "陽当り良好",
-      "日当たり良好",
-      "通風良好"
+      "眺望良好"
     ],
     "ceiling_hits": [],
     "feature_tags": [],
-    "detail_summary": "☆取引に関する費用欄ご確認下さい☆ 【希少な4LDK】×【新規リノベ済み】 ☆☆取引に関する費用欄ご確認下さい☆☆ ◇◇◇◇　 注目ポイント！　◇◇◇◇ ☆月額246138円・金利0.810％☆ ☆ボーナス0円・35年 ～～～～～≪recommended points≫～～～～～ ◇総戸数253世帯の大規模マンション！！",
-    "preview_image_url": "./data/images/mansions/21041123.jpg",
+    "detail_summary": "～杜の緑と静けさをまとう邸宅　都心にふさわしいラグジュアリーな存在～ ～ マンションについて ～ ・安心感のあるオートロックマンションです。 ・トリプルセキュリティで不審者の侵入を防ぎます。 ・大切なペットと一緒に暮らせるマンションです。 （細則有：犬猫は合わせて2匹まで、その他体長等に制限有） ・不在時にも荷物が受け取れる宅配ボックスあり。 ～ 充実の室内設備 ～",
+    "preview_image_url": "./data/images/mansions/21042667.jpg",
     "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears ideal threshold at 86.85 sqm",
-      "layout: 4LDK",
-      "price is within budget at 8999万円",
-      "target station walk time meets target at 2 min",
-      "built in 2005",
+      "exact target station match: 新宿",
+      "best station preference: 8.0/10",
+      "size clears ideal threshold at 72.82 sqm",
+      "layout: 2LDK",
+      "price is within budget at 14990万円",
+      "target station walk time meets target at 4 min",
+      "built in 2013",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 通風良好",
-      "listing age: 0 days",
+      "brightness/window positives: 南向き, 陽当り良好, 眺望良好",
+      "listing age: 5 days",
       "first seen: 2026-06-11 (5 days ago)"
     ],
-    "score": 99.94
+    "score": 96.34
   },
   {
-    "listing_id": "20162322",
+    "listing_id": "78764153",
     "source": "suumo",
-    "property_name": "ヴィークコート吉祥寺通り",
-    "title": "「善福寺公園」徒歩９分　家族と広々と過ごせる住環境です　資料だけでもどうぞ",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nerima/nc_20162322/",
-    "price_man": 8298.0,
-    "area_sqm": 80.27,
+    "property_name": "クレヴィア新中野",
+    "title": "本町６（新中野駅） 1億2480万円",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_78764153/",
+    "price_man": 12480.0,
+    "area_sqm": 65.17,
     "land_area_sqm": null,
-    "layout": "4LDK",
-    "walk_min": 2,
-    "target_walk_min": 2,
-    "built_year": 2018,
+    "layout": "3LDK",
+    "walk_min": 6,
+    "target_walk_min": 6,
+    "built_year": 2014,
     "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都練馬区立野町15-45",
-    "access_text": "ＪＲ総武線「吉祥寺」バス15分関町南二丁目歩2分 [ 乗り換え案内 ] 西武新宿線「武蔵関」歩17分 [ 乗り換え案内 ] 西武新宿線「上石神井」歩20分 [ 乗り換え案内 ]",
+    "address": "東京都中野区本町６",
+    "access_text": "東京メトロ丸ノ内線「新中野」歩6分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「東高円寺」歩6分 [ 乗り換え案内 ] ＪＲ中央線「中野」歩15分 [ 乗り換え案内 ]",
     "exact_station_hits": [
-      "吉祥寺"
+      "中野"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
+      "南向き",
       "陽当り良好",
-      "通風良好"
+      "眺望良好",
+      "通風良好",
+      "ワイドスパン",
+      "角住戸"
     ],
     "ceiling_hits": [],
     "feature_tags": [
-      "◇安心安全の2018年築",
-      "◇新宿線【武蔵関】17分",
-      "バスで【吉祥寺】直通!",
-      "住宅ローン減税対象!"
+      "■JR中央線",
+      "中央総武線・東京メトロ東西線「中野」駅 徒歩15分"
     ],
-    "detail_summary": "「善福寺公園」徒歩９分　家族と広々と過ごせる住環境です　資料だけでもどうぞ ～～～～～≪recommended points≫～～～～～ ◇ペット飼育可×戸建て感覚の専用庭付き! ◇専有面積80.27平米・開放的な角部屋4LDK! ◇防臭・調湿効果のあるエコカラット壁紙! ～～～～～～～～～～～～～～～～～～～～～～ ◆頭金0円から購入可!長期低金利50年ローン! ◆提携銀行多数、住宅ローンご相談下さい!",
-    "preview_image_url": "./data/images/mansions/20162322.jpg",
+    "detail_summary": "東京メトロ丸ノ内線 新中野「新中野」駅 徒歩6分 南・西角部屋 ■東京メトロ丸ノ内線 新中野「新中野」駅 徒歩6分 ■東京メトロ丸ノ内線 東高円寺「東高円寺」駅 徒歩6分 ◆2014年1月築 ◆5階住戸　南・西角部屋・65.17m2の3LDK ◆廊下が短く効率的な間取りです ◆2面バルコニー",
+    "preview_image_url": "./data/images/mansions/78764153.jpg",
     "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears ideal threshold at 80.27 sqm",
-      "layout: 4LDK",
-      "price is within budget at 8298万円",
-      "target station walk time meets target at 2 min",
-      "built in 2018",
+      "exact target station match: 中野",
+      "best station preference: 6.5/10",
+      "size clears hard threshold at 65.17 sqm",
+      "layout: 3LDK",
+      "price is within budget at 12480万円",
+      "target station walk time meets target at 6 min",
+      "built in 2014",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 通風良好",
-      "listing age: 5 days",
+      "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
+      "listing age: 1 days",
       "first seen: 2026-04-18 (59 days ago)"
     ],
-    "score": 99.57
+    "score": 96.27
   },
   {
-    "listing_id": "20468442",
+    "listing_id": "20965084",
     "source": "suumo",
-    "property_name": "プラウドシティ吉祥寺",
-    "title": "テラス付き住戸　2020年に野村不動産の分譲　詳しい資料送ります",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20468442/",
-    "price_man": 9680.0,
-    "area_sqm": 70.66,
+    "property_name": "東新宿レジデンシャルタワー",
+    "title": "◆新規リノベーション（2026年8月完成予定）◆『東新宿』駅直結",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20965084/",
+    "price_man": 14500.0,
+    "area_sqm": 69.69,
     "land_area_sqm": null,
     "layout": "2LDK",
     "walk_min": 1,
     "target_walk_min": 1,
-    "built_year": 2020,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都三鷹市下連雀５-1-1",
-    "access_text": "ＪＲ中央線「吉祥寺」バス12分プラウドシティ吉祥寺歩1分 [ 乗り換え案内 ] ＪＲ中央線「三鷹」バス10分プラウドシティ吉祥寺歩1分 [ 乗り換え案内 ] 京王井の頭線「三鷹台」歩24分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
-    ],
-    "brightness_hits": [
-      "陽当り良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "テラス付き住戸　2020年に野村不動産の分譲　詳しい資料送ります ～～～～～≪recommended points≫～～～～～ ◇「吉祥寺」駅までバス12分　バス停も目の前 ◇専有面積70.66m 2 ・広々とした2LDK＋納戸 ◇テラスと25.80m 2",
-    "preview_image_url": "./data/images/mansions/20468442.jpg",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears ideal threshold at 70.66 sqm",
-      "layout: 2LDK",
-      "price is within budget at 9680万円",
-      "target station walk time meets target at 1 min",
-      "built in 2020",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 通風良好",
-      "listing age: 5 days",
-      "first seen: 2026-04-18 (59 days ago)"
-    ],
-    "score": 98.64
-  },
-  {
-    "listing_id": "20170973",
-    "source": "suumo",
-    "property_name": "ヴィークコート吉祥寺通り",
-    "title": "立野町（武蔵関駅） 8298万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nerima/nc_20170973/",
-    "price_man": 8298.0,
-    "area_sqm": 80.27,
-    "land_area_sqm": null,
-    "layout": "4LDK",
-    "walk_min": 2,
-    "target_walk_min": 2,
-    "built_year": 2018,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都練馬区立野町",
-    "access_text": "西武新宿線「武蔵関」歩17分 [ 乗り換え案内 ] ＪＲ中央線「吉祥寺」バス15分関町南二丁目歩2分 [ 乗り換え案内 ] 京王井の頭線「吉祥寺」バス15分関町南二丁目歩2分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "角住戸"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "【新規リフォーム物件　※室内一部（2025年10月下旬完了）】 ≪　おすすめポイント　≫ ・新規リフォーム物件　※室内一部　（2025年10月下旬完了予定） ・天井・壁クロス貼替（全室） ・エコカラット新設（リビング・ダイニング部分、玄関部分） ・姿見新設（玄関部分） ・洗面水栓交換 ・シャワーヘッド交換",
-    "preview_image_url": "./data/images/mansions/20170973.jpg",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears ideal threshold at 80.27 sqm",
-      "layout: 4LDK",
-      "price is within budget at 8298万円",
-      "target station walk time meets target at 2 min",
-      "built in 2018",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 角住戸",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (59 days ago)"
-    ],
-    "score": 98.07
-  },
-  {
-    "listing_id": "20965706",
-    "source": "suumo",
-    "property_name": "フィールM西新宿",
-    "title": "【都会を軽やかに駆ける拠点。】",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20965706/",
-    "price_man": 9780.0,
-    "area_sqm": 65.62,
-    "land_area_sqm": null,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 1,
-    "target_walk_min": 1,
-    "built_year": 2003,
+    "built_year": 2001,
     "first_seen_at": "2026-06-02T00:55:10.240716+00:00",
-    "address": "東京都新宿区西新宿５",
-    "access_text": "都営大江戸線「西新宿五丁目」歩1分 [ 乗り換え案内 ] 都営大江戸線「都庁前」歩8分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「西新宿」歩11分 [ 乗り換え案内 ]",
+    "address": "東京都新宿区歌舞伎町２",
+    "access_text": "都営大江戸線「東新宿」歩1分 [ 乗り換え案内 ] 西武新宿線「西武新宿」歩9分 [ 乗り換え案内 ] ＪＲ山手線「新宿」歩14分 [ 乗り換え案内 ]",
     "exact_station_hits": [
-      "西新宿五丁目"
+      "新宿"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
       "陽当り良好",
-      "採光",
+      "眺望良好",
+      "通風良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "buy",
+      "haseko_renovation.html",
+      "https:",
+      "www.haseko-chukai.com",
+      "※作業が60分を超える場合は、10分毎に1650円",
+      "税込の延長料金が必要になります。"
+    ],
+    "detail_summary": "◆新規リノベーション（2026年8月完成予定） ◆『東新宿』駅直結 ◆長谷工グループ旧分譲・販売・施工・管理マンション ◆15階建て11階部分＆南東角住戸 ・安心のアフターサービス保証付き ・ペット飼育可（細則あり） ・長谷工コミュニティ・綜合警備保障による24時間有人管理 ・総戸数158戸のビッグコミュニティ",
+    "preview_image_url": "./data/images/mansions/20965084.jpg",
+    "criteria_notes": [
+      "exact target station match: 新宿",
+      "best station preference: 8.0/10",
+      "size clears hard threshold at 69.69 sqm",
+      "layout: 2LDK",
+      "price is within budget at 14500万円",
+      "target station walk time meets target at 1 min",
+      "built in 2001",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
+      "listing age: 0 days",
+      "first seen: 2026-06-02 (14 days ago)"
+    ],
+    "score": 92.87
+  },
+  {
+    "listing_id": "21061837",
+    "source": "suumo",
+    "property_name": "Ｂｒｉｌｌｉａ西荻窪",
+    "title": "隣り合う部屋のない独立性、風が抜け、陽当良好な4方角部屋",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_21061837/",
+    "price_man": 14990.0,
+    "area_sqm": 76.56,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 9,
+    "target_walk_min": 9,
+    "built_year": 2012,
+    "first_seen_at": "2026-06-14T09:40:32.382333+00:00",
+    "address": "東京都杉並区西荻南２-5-15",
+    "access_text": "ＪＲ総武線「西荻窪」歩9分 [ 乗り換え案内 ] 京王井の頭線「久我山」歩18分 [ 乗り換え案内 ] ＪＲ総武線「吉祥寺」歩24分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "吉祥寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "陽当り良好",
       "眺望良好",
       "通風良好",
       "角住戸"
     ],
     "ceiling_hits": [],
     "feature_tags": [],
-    "detail_summary": "【都会を軽やかに駆ける拠点。】 □□　A  very  COOL  every  LIFE  !　□□ ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc まずはお気軽に現地をご覧下さいませ。物件の詳細について、ご見学希望のお客様は下記番号までお気軽にご連絡下さい。 お問い合わせ専用フリーダイヤル ：０１２０－１３５－００４ ※当物件の一部画像を抜粋しています。",
-    "preview_image_url": "./data/images/mansions/20965706.jpg",
+    "detail_summary": "隣り合う部屋のない独立性、風が抜け、陽当良好な4方角部屋 【お部屋について】 ●6階部分の4方角部屋／陽当・通風・眺望良好 ●3面バルコニー／南側バルコニーは奥行２ｍあり ●玄関前に0.65m 2 のトランクルームあり ●ユニットバスは浴室乾燥機付",
+    "preview_image_url": "./data/images/mansions/21061837.jpg",
     "criteria_notes": [
-      "exact target station match: 西新宿五丁目",
-      "best station preference: 6.5/10",
-      "size clears hard threshold at 65.62 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 9780万円",
-      "target station walk time meets target at 1 min",
-      "built in 2003",
+      "exact target station match: 吉祥寺",
+      "best station preference: 6.0/10",
+      "size clears ideal threshold at 76.56 sqm",
+      "layout: 3LDK",
+      "price is within budget at 14990万円",
+      "target station walk time meets target at 9 min",
+      "built in 2012",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
+      "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
       "listing age: 2 days",
-      "first seen: 2026-06-02 (14 days ago)"
+      "first seen: 2026-06-14 (2 days ago)"
     ],
-    "score": 97.23
+    "score": 91.84
   },
   {
-    "listing_id": "20410424",
+    "listing_id": "78550563",
     "source": "suumo",
-    "property_name": "パークハウス吉祥寺トリニファイ",
-    "title": "下連雀５ 8480万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20410424/",
-    "price_man": 8480.0,
-    "area_sqm": 73.54,
+    "property_name": "ジオ杉並松庵",
+    "title": "松庵１（三鷹台駅） 1億2500万円",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_78550563/",
+    "price_man": 12500.0,
+    "area_sqm": 82.78,
     "land_area_sqm": null,
     "layout": "3LDK",
-    "walk_min": 1,
-    "target_walk_min": 1,
-    "built_year": 2006,
+    "walk_min": 10,
+    "target_walk_min": 10,
+    "built_year": 2022,
     "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都三鷹市下連雀５",
-    "access_text": "ＪＲ中央線「吉祥寺」バス13分下連雀五丁目歩1分 [ 乗り換え案内 ] ＪＲ中央線「三鷹」バス9分下連雀五丁目歩1分 [ 乗り換え案内 ]",
+    "address": "東京都杉並区松庵１",
+    "access_text": "京王井の頭線「三鷹台」歩10分 [ 乗り換え案内 ] ＪＲ中央線「西荻窪」歩16分 [ 乗り換え案内 ] ＪＲ中央線「吉祥寺」歩20分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "吉祥寺"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "採光",
       "角住戸"
     ],
-    "ceiling_hits": [
-      "ハイサッシ"
-    ],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ 三菱地所の「パークハウス」 最上階角部屋の4面採光！ ■ おすすめポイント ■ ○ 三菱地所（株）旧分譲の「パークハウス」シリーズ ○ WEST COURT最上階角部屋 ○ 左右、上階に隣接がない独立住戸で、プライベートなお部屋 ○ 東・西・南・北に4つのバルコニー",
-    "preview_image_url": "./data/images/mansions/20410424.jpg",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears ideal threshold at 73.54 sqm",
-      "layout: 3LDK",
-      "price is within budget at 8480万円",
-      "target station walk time meets target at 1 min",
-      "built in 2006",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 採光, 角住戸",
-      "ceiling/window-height positives: ハイサッシ",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (59 days ago)"
-    ],
-    "score": 94.14
-  },
-  {
-    "listing_id": "20710996",
-    "source": "suumo",
-    "property_name": "オープンレジデンシア吉祥寺本町",
-    "title": "吉祥寺駅徒歩8分、築3年の築浅。ペット可＆設備充実の3LDKで理想の暮らしを。",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20710996/",
-    "price_man": 9990.0,
-    "area_sqm": 70.74,
-    "land_area_sqm": null,
-    "layout": "3LDK",
-    "walk_min": 8,
-    "target_walk_min": 8,
-    "built_year": 2022,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都武蔵野市吉祥寺本町２",
-    "access_text": "ＪＲ中央線「吉祥寺」歩8分 [ 乗り換え案内 ] 京王井の頭線「井の頭公園」歩20分 [ 乗り換え案内 ] ＪＲ中央線「三鷹」歩24分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "角住戸"
-    ],
     "ceiling_hits": [],
     "feature_tags": [],
-    "detail_summary": "吉祥寺駅徒歩8分、築3年の築浅。ペット可＆設備充実の3LDKで理想の暮らしを。 ■■ＯＮＯＹＡの【３６５リノベ】にお任せ下さい■■ ３６５リノベでは物件さがし＋定額リノベーションで 立地・間取り・内装・インテリアをまとめてご提案♪ 家賃並の支払いで自分らしい暮らしが、 スタイルも価格も含めて丸ごと叶います。 ■■住宅ローン相談会随時受付中■■ 住宅ローンの審査が不安！他の借入があっても借入できるの？",
-    "preview_image_url": "./data/images/mansions/20710996.jpg",
+    "detail_summary": "■三井のリハウス■ テラス・ハナレ付の角住戸 WIC3箇所・SICを設置 －物件のおすすめポイント－ ▼立地 ・京王電鉄井の頭線「三鷹台」駅 徒歩10分 他 ・第一種低層住居専用地域の閑静な住宅街 ▼特徴",
+    "preview_image_url": "./data/images/mansions/78550563.jpg",
     "criteria_notes": [
       "exact target station match: 吉祥寺",
       "best station preference: 6.0/10",
-      "size clears ideal threshold at 70.74 sqm",
+      "size clears ideal threshold at 82.78 sqm",
       "layout: 3LDK",
-      "price is within budget at 9990万円",
-      "target station walk time meets target at 8 min",
+      "price is within budget at 12500万円",
+      "target station walk time meets target at 10 min",
       "built in 2022",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 角住戸",
+      "brightness/window positives: 採光, 角住戸",
       "listing age: 1 days",
       "first seen: 2026-04-18 (59 days ago)"
     ],
-    "score": 91.91
-  },
-  {
-    "listing_id": "20764724",
-    "source": "suumo",
-    "property_name": "ＢｒｉｌｌｉａＣｉｔｙ石神井台",
-    "title": "石神井台４（上石神井駅） 8180万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nerima/nc_20764724/",
-    "price_man": 8180.0,
-    "area_sqm": 77.82,
-    "land_area_sqm": null,
-    "layout": "4LDK",
-    "walk_min": 6,
-    "target_walk_min": 6,
-    "built_year": 2017,
-    "first_seen_at": "2026-05-05T03:07:19.090282+00:00",
-    "address": "東京都練馬区石神井台４",
-    "access_text": "西武新宿線「上石神井」歩10分 [ 乗り換え案内 ] 西武池袋線「石神井公園」バス16分あたご橋歩6分 [ 乗り換え案内 ] ＪＲ中央線「吉祥寺」バス21分あたご橋歩6分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
-    ],
-    "brightness_hits": [
-      "南西向き",
-      "陽当り良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ (株)長谷工コーポレーション設計・施工 南西向きの住戸 －物件のおすすめポイント－ ▼立地 ・西武新宿線「上石神井」徒歩10分 他 ▼特徴 ・2017年6月築",
-    "preview_image_url": "./data/images/mansions/20764724.jpg",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears ideal threshold at 77.82 sqm",
-      "layout: 4LDK",
-      "price is within budget at 8180万円",
-      "target station walk time meets target at 6 min",
-      "built in 2017",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南西向き, 陽当り良好",
-      "listing age: 1 days",
-      "first seen: 2026-05-05 (42 days ago)"
-    ],
-    "score": 91.84
+    "score": 91.76
   },
   {
     "listing_id": "20258656",
@@ -610,8 +323,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -639,6 +351,247 @@
     "score": 91.14
   },
   {
+    "listing_id": "20950750",
+    "source": "suumo",
+    "property_name": "ヴィンテージ高円寺南",
+    "title": "≪当日内見予約可能≫タワマンよりドヤれる!?中野徒歩圏リノベ",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20950750/",
+    "price_man": 9780.0,
+    "area_sqm": 65.95,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 4,
+    "target_walk_min": 4,
+    "built_year": 2003,
+    "first_seen_at": "2026-05-31T05:50:00.924704+00:00",
+    "address": "東京都杉並区高円寺南１",
+    "access_text": "東京メトロ丸ノ内線「東高円寺」歩4分 [ 乗り換え案内 ] ＪＲ中央線「中野」歩12分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "南西向き",
+      "陽当り良好",
+      "採光",
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "≪当日内見予約可能≫ タワマンよりドヤれる!?中野徒歩圏リノベ ◆中野駅と東高円寺駅を使いこなせる立地は控えめに言って神ツッコミ不在の好ロケーションです ◆食洗機や浴室乾燥など「あって良かった」を擬人化したような充実設備で家事のHP消費を激減させます ◆大切なワンちゃんネコちゃんも大喜びのペット可物件なので休日のモフモフタイムがはかどります ◆お部屋の美しさは新築のフリができるレベルのフルリノベーション済みで急な来客にもドヤ顔で対応可能です ※生成AIによるイメージです。家具・小物は販売価格に含まれません。忙しい朝でも、しっかり家族が揃って食事をして頂けるゆとりある大きさのダイニングスペース。 ◆サンサンと◆差し込む太陽の光がこのリビングに笑いをもたらす。ソファの上のクッションがポカポカした暖気にぬくぬくと微睡んでいる。",
+    "preview_image_url": "./data/images/mansions/20950750.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "best station preference: 6.5/10",
+      "size clears hard threshold at 65.95 sqm",
+      "layout: 3LDK",
+      "price is within budget at 9780万円",
+      "target station walk time meets target at 4 min",
+      "built in 2003",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南西向き, 陽当り良好, 採光, 通風良好",
+      "listing age: 1 days",
+      "first seen: 2026-05-31 (16 days ago)"
+    ],
+    "score": 90.95
+  },
+  {
+    "listing_id": "20353620",
+    "source": "suumo",
+    "property_name": "オープンレジデンシア吉祥寺本町",
+    "title": "【吉祥寺本町アドレス】ミストサウナ・食洗機・床暖房完備/駅徒歩8分",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20353620/",
+    "price_man": 9990.0,
+    "area_sqm": 70.74,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 8,
+    "target_walk_min": 8,
+    "built_year": 2022,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都武蔵野市吉祥寺本町２",
+    "access_text": "ＪＲ中央線「吉祥寺」歩8分 [ 乗り換え案内 ] ＪＲ総武線「吉祥寺」歩8分 [ 乗り換え案内 ] 京王井の頭線「吉祥寺」歩8分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "吉祥寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "【吉祥寺本町アドレス】ミストサウナ・食洗機・床暖房完備",
+      "駅徒歩8分"
+    ],
+    "detail_summary": "《殖産ベストの４つのおすすめのくらしポイント！》 ■吉祥寺エリアの落ち着きと利便性が融合した理想的な町並み ■築4年と新しく、暮らしのトレンドにマッチした住宅設備 ■階下に住戸がないので、子供が走り回っても安心です ■東急百貨店や吉祥寺パルコまで徒歩5分。暮らしやすい立地 ▼地域に根づいて30年の実績▼ 城西エリアを中心に限定されたエリアで営業してきました。 紹介する物件以上に、これからお住いになる地域の、",
+    "preview_image_url": "./data/images/mansions/20353620.jpg",
+    "criteria_notes": [
+      "exact target station match: 吉祥寺",
+      "best station preference: 6.0/10",
+      "size clears ideal threshold at 70.74 sqm",
+      "layout: 3LDK",
+      "price is within budget at 9990万円",
+      "target station walk time meets target at 8 min",
+      "built in 2022",
+      "dishwasher mentioned in listing",
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (59 days ago)"
+    ],
+    "score": 88.91
+  },
+  {
+    "listing_id": "20476590",
+    "source": "suumo",
+    "property_name": "アトラスタワー西新宿",
+    "title": "西新宿６（西新宿駅） 1億4980万円",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20476590/",
+    "price_man": 14980.0,
+    "area_sqm": 73.6,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 8,
+    "target_walk_min": 8,
+    "built_year": 2006,
+    "first_seen_at": "2026-05-19T05:51:52.385780+00:00",
+    "address": "東京都新宿区西新宿６",
+    "access_text": "東京メトロ丸ノ内線「西新宿」歩8分 [ 乗り換え案内 ] 都営大江戸線「都庁前」歩12分 [ 乗り換え案内 ] ＪＲ山手線「新宿」歩18分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "新宿"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "採光",
+      "眺望良好",
+      "通風良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "■三井のリハウス■ 眺望・通風良好な角住戸 旭化成ホームズ(株)旧分譲 －物件のおすすめポイント－ ▼特徴 ・2面採光設計のLDKは約16.5帖 ・全居室に収納有、玄関にSIC有 ・24時間有人管理",
+    "preview_image_url": "./data/images/mansions/20476590.jpg",
+    "criteria_notes": [
+      "exact target station match: 新宿",
+      "best station preference: 8.0/10",
+      "size clears ideal threshold at 73.60 sqm",
+      "layout: 3LDK",
+      "price is within budget at 14980万円",
+      "target station walk time meets target at 8 min",
+      "built in 2006",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 採光, 眺望良好, 通風良好",
+      "listing age: 1 days",
+      "first seen: 2026-05-19 (28 days ago)"
+    ],
+    "score": 88.82
+  },
+  {
+    "listing_id": "21020988",
+    "source": "suumo",
+    "property_name": "セントラルレジデンス新宿シティタワー",
+    "title": "新宿駅徒歩9分　スーパーが一階に　共用部も充実のタワーレジデンス",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21020988/",
+    "price_man": 13980.0,
+    "area_sqm": 67.05,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 5,
+    "target_walk_min": 5,
+    "built_year": 2001,
+    "first_seen_at": "2026-05-19T05:51:52.385780+00:00",
+    "address": "東京都新宿区西新宿７-7-19",
+    "access_text": "ＪＲ山手線「新宿」歩9分 [ 乗り換え案内 ] ＪＲ中央線「大久保」歩5分 [ 乗り換え案内 ] 西武新宿線「西武新宿」歩5分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "新宿"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "眺望良好",
+      "通風良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "新宿駅徒歩9分　スーパーが一階に　共用部も充実のタワーレジデンス ～～～～～≪recommended points≫～～～～～ ◇山手線【新宿駅】徒歩9分!豊かさ漂う小滝橋通り! ◇12階角部屋！視界が開けるパノラマビュー！ ◇コンシェルジュあり!ホテルライクな空間がお迎え! ◇パーティラウンジ・ゲストルームもあります! ◇リフォーム履歴もあります！室内もキレイです！ ◇1階にスーパー！日々の買い物も困りません！",
+    "preview_image_url": "./data/images/mansions/21020988.jpg",
+    "criteria_notes": [
+      "exact target station match: 新宿",
+      "best station preference: 8.0/10",
+      "size clears hard threshold at 67.05 sqm",
+      "layout: 2LDK",
+      "price is within budget at 13980万円",
+      "target station walk time meets target at 5 min",
+      "built in 2001",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 角住戸",
+      "listing age: 1 days",
+      "first seen: 2026-05-19 (28 days ago)"
+    ],
+    "score": 88.61
+  },
+  {
+    "listing_id": "21043077",
+    "source": "suumo",
+    "property_name": "メゾンヴェール柏木",
+    "title": "○当日ご案内可！頭金ゼロでも安心！最適プランをご提案します○リノベ済♪",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21043077/",
+    "price_man": 15980.0,
+    "area_sqm": 97.29,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 5,
+    "target_walk_min": 5,
+    "built_year": 2004,
+    "first_seen_at": "2026-06-03T13:21:12.882705+00:00",
+    "address": "東京都新宿区北新宿１-13-26",
+    "access_text": "ＪＲ中央線「大久保」歩5分 [ 乗り換え案内 ] ＪＲ山手線「新大久保」歩10分 [ 乗り換え案内 ] ＪＲ山手線「新宿」歩15分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "新宿"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "南東向き",
+      "陽当り良好",
+      "眺望良好",
+      "通風良好",
+      "ワイドスパン",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "○当日ご案内可！頭金ゼロでも安心！最適プランをご提案します○リノベ済♪ ●３ＬＤＫ、角部屋、広々９７．２９m 2 、LDK約２０帖●新宿駅徒歩圏内● ●４階、南東向き、陽当り・眺望・通風良好● ●大切なペットと暮らせる”ペット可”物件（細則あり）● ●ウォークインクロゼット、ファミリークロゼット● ●頭金ゼロ・月々家賃並みで叶うマイホーム購入計画●",
+    "preview_image_url": "./data/images/mansions/21043077.jpg",
+    "criteria_notes": [
+      "exact target station match: 新宿",
+      "best station preference: 8.0/10",
+      "size clears ideal threshold at 97.29 sqm",
+      "layout: 3LDK",
+      "price is outside target budget at 15980万円",
+      "target station walk time meets target at 5 min",
+      "built in 2004",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 南東向き, 陽当り良好, 眺望良好",
+      "listing age: 5 days",
+      "first seen: 2026-06-03 (13 days ago)"
+    ],
+    "score": 88.59
+  },
+  {
     "listing_id": "20580875",
     "source": "suumo",
     "property_name": "シティタワー新宿新都心",
@@ -660,7 +613,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南西向き",
@@ -689,120 +642,28 @@
     "score": 88.54
   },
   {
-    "listing_id": "21061324",
+    "listing_id": "20992899",
     "source": "suumo",
-    "property_name": "石神井公園ピアレス",
-    "title": "■急行停車駅「石神井公園」駅目の前！■３３階最上階☆■小学校徒歩５分♪",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nerima/nc_21061324/",
+    "property_name": "メゾンヴェール柏木",
+    "title": "■複数路線利用可能な好立地■３方向にバルコニーあり！収納豊富な間取り",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20992899/",
     "price_man": 15980.0,
-    "area_sqm": 104.25,
+    "area_sqm": 97.29,
     "land_area_sqm": null,
-    "layout": "3LDK",
-    "walk_min": 1,
-    "target_walk_min": 1,
-    "built_year": 2002,
-    "first_seen_at": "2026-06-13T13:57:50.675550+00:00",
-    "address": "東京都練馬区石神井町２",
-    "access_text": "西武池袋線「石神井公園」歩2分 [ 乗り換え案内 ] ＪＲ総武線「吉祥寺」バス35分石神井公園駅北口歩1分 [ 乗り換え案内 ] ＪＲ総武線「荻窪」バス32分石神井公園駅北口歩1分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "陽当り良好",
-      "眺望良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■急行停車駅「石神井公園」駅目の前！ ■３３階最上階☆ ■小学校徒歩５分♪ ・。.。・☆・。. ・。.。・☆・。. ・。.。 ■家族が集う広ゆとりある２３.５帖のＬＤＫ☆ ■広々リビングを見渡せるオープンキッチン ～カップボード新設☆ ■パントリー",
-    "preview_image_url": "./data/images/mansions/21061324.jpg",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears ideal threshold at 104.25 sqm",
-      "layout: 3LDK",
-      "price is outside target budget at 15980万円",
-      "target station walk time meets target at 1 min",
-      "built in 2002",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 3 days",
-      "first seen: 2026-06-13 (3 days ago)"
-    ],
-    "score": 87.89
-  },
-  {
-    "listing_id": "20751785",
-    "source": "suumo",
-    "property_name": "グランツオーベル中野",
-    "title": "住宅街に佇む低層レジデンス×中野駅5分×ペット飼育可能×3LDK＋WIC",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20751785/",
-    "price_man": 15480.0,
-    "area_sqm": 66.29,
-    "land_area_sqm": null,
-    "layout": "3LDK",
+    "layout": "3LDK+2S（納戸）",
     "walk_min": 5,
     "target_walk_min": 5,
-    "built_year": 2020,
-    "first_seen_at": "2026-04-29T08:25:24.850141+00:00",
-    "address": "東京都中野区中野５",
-    "access_text": "ＪＲ中央線「中野」歩5分 [ 乗り換え案内 ] 西武新宿線「新井薬師前」歩18分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「新中野」歩20分 [ 乗り換え案内 ]",
+    "built_year": 2004,
+    "first_seen_at": "2026-06-07T05:48:08.323137+00:00",
+    "address": "東京都新宿区北新宿１",
+    "access_text": "ＪＲ総武線「大久保」歩5分 [ 乗り換え案内 ] ＪＲ山手線「新大久保」歩10分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「新宿」歩11分 [ 乗り換え案内 ]",
     "exact_station_hits": [
-      "中野"
+      "新宿"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "住宅街に佇む低層レジデンス×中野駅5分×ペット飼育可能×3LDK＋WIC ～　売主様から当社が直接お預かりしている専任物件です　～ ●中野駅徒歩5分、住宅街に佇む低層レジデンス ●ペット飼育可能（但し飼育細則等あり） ●2020年築、築年数が新しいマンション ●リビングに床暖房 ●ウォークインクローゼット等収納スペース豊富 ●スーパー、コンビニ、ドラッグストア、至近で買物便利",
-    "preview_image_url": "./data/images/mansions/20751785.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "best station preference: 6.5/10",
-      "size clears hard threshold at 66.29 sqm",
-      "layout: 3LDK",
-      "price is outside target budget at 15480万円",
-      "target station walk time meets target at 5 min",
-      "built in 2020",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 通風良好",
-      "listing age: 0 days",
-      "first seen: 2026-04-29 (48 days ago)"
-    ],
-    "score": 87.6
-  },
-  {
-    "listing_id": "21021270",
-    "source": "suumo",
-    "property_name": "日神パレステージ井の頭公園 西館",
-    "title": "牟礼４ 9030万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_21021270/",
-    "price_man": 9030.0,
-    "area_sqm": 112.9,
-    "land_area_sqm": null,
-    "layout": "3LDK",
-    "walk_min": 2,
-    "target_walk_min": 2,
-    "built_year": 2003,
-    "first_seen_at": "2026-06-09T09:44:10.100830+00:00",
-    "address": "東京都三鷹市牟礼４",
-    "access_text": "ＪＲ中央線「吉祥寺」バス12分プラウドシティ吉祥寺歩2分 [ 乗り換え案内 ] ＪＲ中央線「三鷹」バス10分プラウドシティ吉祥寺歩2分 [ 乗り換え案内 ] 京王井の頭線「吉祥寺」バス12分プラウドシティ吉祥寺歩2分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
     "brightness_hits": [
       "南向き",
       "陽当り良好",
@@ -812,22 +673,162 @@
     ],
     "ceiling_hits": [],
     "feature_tags": [],
-    "detail_summary": "□室内リフォーム履歴有　□角部屋につき陽当・通風良好 ●野村の仲介＋吉祥寺【専任媒介物件】 ●100m2超のゆとりある3LDK＋SIC＋ファミリークローク ●こだわりあるリフォーム履歴、LD部分小上がりスペース ●家族の様子が見えるカウンターキッチン ●豊富な収納スペースを確保 ●井の頭恩賜公園を生活圏に置き緑を感じる住宅街 ●恵まれた住環境",
-    "preview_image_url": "./data/images/mansions/21021270.jpg",
+    "detail_summary": "■複数路線利用可能な好立地 ■３方向にバルコニーあり！収納豊富な間取り □□　Report from Toho House Oji　□□ 【TOHO HOUSE CLUBでのアフターサービス】 ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc 購入前のタイミングは勿論、購入後のご不安につきましてもご相談可能です！",
+    "preview_image_url": "./data/images/mansions/20992899.jpg",
+    "criteria_notes": [
+      "exact target station match: 新宿",
+      "best station preference: 8.0/10",
+      "size clears ideal threshold at 97.29 sqm",
+      "layout: 3LDK+2S（納戸）",
+      "price is outside target budget at 15980万円",
+      "target station walk time meets target at 5 min",
+      "built in 2004",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
+      "listing age: 1 days",
+      "first seen: 2026-06-07 (9 days ago)"
+    ],
+    "score": 88.09
+  },
+  {
+    "listing_id": "21014744",
+    "source": "suumo",
+    "property_name": "シティテラス中野",
+    "title": "中野６（東中野駅） 1億4500万円",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_21014744/",
+    "price_man": 14500.0,
+    "area_sqm": 70.1,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 9,
+    "target_walk_min": 9,
+    "built_year": 2022,
+    "first_seen_at": "2026-06-07T05:48:08.323137+00:00",
+    "address": "東京都中野区中野６",
+    "access_text": "都営大江戸線「東中野」歩9分 [ 乗り換え案内 ] ＪＲ中央線「東中野」歩9分 [ 乗り換え案内 ] ＪＲ中央線「中野」歩16分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "【築浅】×【住友不動産（株）旧分譲】×【複数駅・複数路線利用可能な好立地】 ● 全洋室5帖以上確保した3LDK ● 各洋室の収納や2つのウォークインクローゼットによる豊富な収納力 ● 埃をたてることなくお部屋を暖める床暖房 ● お子様の様子を見ながら料理ができる対面カウンターキッチン ● 1418サイズのゆとりある浴室 ● 埃をたてることなくお部屋を暖める床暖房（LD部分） ● スタイリッシュな木目調ルーバーを採用した共用廊下",
+    "preview_image_url": "./data/images/mansions/21014744.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "best station preference: 6.5/10",
+      "size clears ideal threshold at 70.10 sqm",
+      "layout: 3LDK",
+      "price is within budget at 14500万円",
+      "target station walk time meets target at 9 min",
+      "built in 2022",
+      "dishwasher mentioned in listing",
+      "listing age: 1 days",
+      "first seen: 2026-06-07 (9 days ago)"
+    ],
+    "score": 87.55
+  },
+  {
+    "listing_id": "20503725",
+    "source": "suumo",
+    "property_name": "プラネスーペリア御殿山　井の頭公園",
+    "title": "御殿山２（三鷹駅） 1億4900万円",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_20503725/",
+    "price_man": 14900.0,
+    "area_sqm": 71.78,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 9,
+    "target_walk_min": 9,
+    "built_year": 2014,
+    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
+    "address": "東京都武蔵野市御殿山２",
+    "access_text": "ＪＲ中央線「三鷹」歩9分 [ 乗り換え案内 ] ＪＲ中央線「吉祥寺」歩16分 [ 乗り換え案内 ] ＪＲ総武線「三鷹」歩9分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "吉祥寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "南東向き",
+      "陽当り良好",
+      "採光"
+    ],
+    "ceiling_hits": [
+      "天井高"
+    ],
+    "feature_tags": [],
+    "detail_summary": "「武蔵野市御殿山」アドレスの低層マンション ■南東向きのため採光良好です ■LDは横型で開口部を広く確保しているため、お部屋全体に日が届きやすいです ■LDの天井高は約2.5mあり、立体的な開放感がございます ■LD部分にTES温水式床暖房を設置 ■キッチンはリビングを見渡せるカウンター式 浄水器、食洗機、ディスポーザー（生ごみ粉砕機）を装備 ■洗面台の3面鏡は、曇り止めヒーター付",
+    "preview_image_url": "./data/images/mansions/20503725.jpg",
     "criteria_notes": [
       "exact target station match: 吉祥寺",
       "best station preference: 6.0/10",
-      "size clears ideal threshold at 112.90 sqm",
+      "size clears ideal threshold at 71.78 sqm",
       "layout: 3LDK",
-      "price is within budget at 9030万円",
-      "target station walk time meets target at 2 min",
-      "built in 2003",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
+      "price is within budget at 14900万円",
+      "target station walk time meets target at 9 min",
+      "built in 2014",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南東向き, 陽当り良好, 採光",
+      "ceiling/window-height positives: 天井高",
       "listing age: 1 days",
-      "first seen: 2026-06-09 (7 days ago)"
+      "first seen: 2026-04-18 (59 days ago)"
     ],
-    "score": 87.31
+    "score": 87.39
+  },
+  {
+    "listing_id": "20991202",
+    "source": "suumo",
+    "property_name": "ピアレージュ三鷹",
+    "title": "三鷹駅徒歩5分、ペット飼育可。3方採光面のある3LDKの新規リノベ",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20991202/",
+    "price_man": 9980.0,
+    "area_sqm": 69.95,
+    "land_area_sqm": null,
+    "layout": "3LDK",
+    "walk_min": 5,
+    "target_walk_min": 5,
+    "built_year": 2000,
+    "first_seen_at": "2026-06-04T14:50:39.642015+00:00",
+    "address": "東京都三鷹市下連雀３",
+    "access_text": "ＪＲ中央線「三鷹」歩5分 [ 乗り換え案内 ] ＪＲ中央線「武蔵境」歩24分 [ 乗り換え案内 ] ＪＲ中央線「吉祥寺」歩28分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "吉祥寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "採光",
+      "通風良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "三鷹駅徒歩5分、ペット飼育可。3方採光面のある3LDKの新規リノベ ◆JR中央線・総武中央線「三鷹」駅徒歩5分 通勤や買物に便利な駅近マンション ◆専有面積69.95m2、2階部分の3LDK ◆ペット飼育可 ◆ファミリーマート徒歩1分、東急ストア徒歩3分 ◆新規内装リノベーション物件 食洗機、浴室乾燥機、追い焚き、全室エアコン新規設置",
+    "preview_image_url": "./data/images/mansions/20991202.jpg",
+    "criteria_notes": [
+      "exact target station match: 吉祥寺",
+      "best station preference: 6.0/10",
+      "size clears hard threshold at 69.95 sqm",
+      "layout: 3LDK",
+      "price is within budget at 9980万円",
+      "target station walk time meets target at 5 min",
+      "built in 2000",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸",
+      "listing age: 5 days",
+      "first seen: 2026-06-04 (12 days ago)"
+    ],
+    "score": 87.0
   },
   {
     "listing_id": "20531011",
@@ -852,8 +853,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南西向き",
@@ -888,104 +888,104 @@
     "score": 86.87
   },
   {
-    "listing_id": "76552356",
+    "listing_id": "20990267",
     "source": "suumo",
-    "property_name": "武蔵野ガレリア　ルーチェテラッツァ",
-    "title": "緑町２（三鷹駅） 9980万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_musashino/nc_76552356/",
-    "price_man": 9980.0,
-    "area_sqm": 100.57,
+    "property_name": "デュオ井の頭公園",
+    "title": "≪最上階・角部屋≫広々としたルーフバルコニーと抜けた眺望が魅力のプレミアム",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_mitaka/nc_20990267/",
+    "price_man": 8998.0,
+    "area_sqm": 81.3,
     "land_area_sqm": null,
     "layout": "3LDK",
-    "walk_min": 2,
-    "target_walk_min": 2,
-    "built_year": 2004,
-    "first_seen_at": "2026-04-18T16:47:14.209834+00:00",
-    "address": "東京都武蔵野市緑町２",
-    "access_text": "ＪＲ中央線「三鷹」歩23分 [ 乗り換え案内 ] ＪＲ中央線「吉祥寺」バス13分武蔵野住宅歩2分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "通風良好",
-      "角住戸"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■三井のリハウス■ ７階部分 南東・南西角住戸 専有面積１００．５７平米 ■おすすめポイント 〇全２棟で構成される武蔵野ガレリア 〇総戸数267戸のビッグコミュニティ 〇ダイニング床暖房 〇約１．８帖の納戸、ウォークインクローゼット等収納充実",
-    "preview_image_url": "./data/images/mansions/76552356.jpg",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears ideal threshold at 100.57 sqm",
-      "layout: 3LDK",
-      "price is within budget at 9980万円",
-      "target station walk time meets target at 2 min",
-      "built in 2004",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 南向き, 陽当り良好, 通風良好, 角住戸",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (59 days ago)"
-    ],
-    "score": 86.45
-  },
-  {
-    "listing_id": "20943248",
-    "source": "suumo",
-    "property_name": "【専用P付き・ペット可・メゾネット】 ラ・アトレ杉並…",
-    "title": "松庵１（三鷹台駅） 8700万円",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20943248/",
-    "price_man": 8700.0,
-    "area_sqm": 106.38,
-    "land_area_sqm": null,
-    "layout": "3LDK",
-    "walk_min": 3,
-    "target_walk_min": 3,
-    "built_year": 2002,
-    "first_seen_at": "2026-05-31T05:50:00.924704+00:00",
-    "address": "東京都杉並区松庵１-10-24",
-    "access_text": "京王井の頭線「三鷹台」歩7分 [ 乗り換え案内 ] 京王井の頭線「井の頭公園」バス5分松庵一丁目西歩3分 [ 乗り換え案内 ] 京王井の頭線「吉祥寺」バス9分松庵一丁目西歩3分 [ 乗り換え案内 ]",
+    "walk_min": 9,
+    "target_walk_min": 9,
+    "built_year": 2003,
+    "first_seen_at": "2026-05-26T13:38:14.292457+00:00",
+    "address": "東京都三鷹市牟礼２-10-1",
+    "access_text": "京王井の頭線「三鷹台」歩9分 [ 乗り換え案内 ] 京王井の頭線「井の頭公園」歩15分 [ 乗り換え案内 ] ＪＲ中央線「吉祥寺」歩24分 [ 乗り換え案内 ]",
     "exact_station_hits": [
       "吉祥寺"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
-      "南東向き",
       "陽当り良好",
       "採光",
       "眺望良好",
-      "通風良好"
+      "通風良好",
+      "角住戸"
     ],
-    "ceiling_hits": [
-      "天井高"
-    ],
+    "ceiling_hits": [],
     "feature_tags": [],
-    "detail_summary": "専用無料P付×メゾネット×ペット可！「三鷹台」駅徒歩7分の南東向き住戸 ■メゾネット×デザイナーズ LDK18畳以上、天井高2.5m以上の開放的な住空間。南東・南向きの2面採光で陽当り・通風・眺望良好。屋上テラス付。 ◆専用駐車場無料でご利用できます。 ■ペット飼育可（小型犬・猫） 大切なペットと一緒に暮らせる仕様。バルコニー・屋上水栓やスロップシンクも完備。 ■駅徒歩7分の平坦地＆充実設備 京王井の頭線「三鷹台」駅徒歩7分。食洗機、浴室暖房乾燥機、追焚機能、カウンターキッチン、ウォークインクローゼット2箇所など、日々の暮らしを支える実用設備が充実しています。スーパーまで徒歩約4分の利便性も魅力。",
-    "preview_image_url": "./data/images/mansions/20943248.jpg",
+    "detail_summary": "≪最上階・角部屋≫広々としたルーフバルコニーと抜けた眺望が魅力のプレミアム ～～～～～≪recommended points≫～～～～～ ◇最上階！約21m 2 のルーフバルコニー付きです ◇《81.3m 2 の3LDK》三方角部屋で明るいお部屋",
+    "preview_image_url": "./data/images/mansions/20990267.jpg",
     "criteria_notes": [
       "exact target station match: 吉祥寺",
       "best station preference: 6.0/10",
-      "size clears ideal threshold at 106.38 sqm",
+      "size clears ideal threshold at 81.30 sqm",
       "layout: 3LDK",
-      "price is within budget at 8700万円",
-      "target station walk time meets target at 3 min",
-      "built in 2002",
+      "price is within budget at 8998万円",
+      "target station walk time meets target at 9 min",
+      "built in 2003",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 南東向き, 陽当り良好, 採光",
-      "ceiling/window-height positives: 天井高",
-      "basement / semi-basement indicators present",
+      "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
       "listing age: 5 days",
-      "first seen: 2026-05-31 (16 days ago)"
+      "first seen: 2026-05-26 (21 days ago)"
     ],
-    "score": 85.85
+    "score": 86.48
+  },
+  {
+    "listing_id": "20965706",
+    "source": "suumo",
+    "property_name": "フィールM西新宿",
+    "title": "【都会を軽やかに駆ける拠点。】",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20965706/",
+    "price_man": 9780.0,
+    "area_sqm": 65.62,
+    "land_area_sqm": null,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 1,
+    "target_walk_min": 8,
+    "built_year": 2003,
+    "first_seen_at": "2026-06-02T00:55:10.240716+00:00",
+    "address": "東京都新宿区西新宿５",
+    "access_text": "都営大江戸線「西新宿五丁目」歩1分 [ 乗り換え案内 ] 都営大江戸線「都庁前」歩8分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「西新宿」歩11分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "西新宿五丁目"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "陽当り良好",
+      "採光",
+      "眺望良好",
+      "通風良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "【都会を軽やかに駆ける拠点。】 □□　A  very  COOL  every  LIFE  !　□□ ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc まずはお気軽に現地をご覧下さいませ。物件の詳細について、ご見学希望のお客様は下記番号までお気軽にご連絡下さい。 お問い合わせ専用フリーダイヤル ：０１２０－１３５－００４ ※当物件の一部画像を抜粋しています。",
+    "preview_image_url": "./data/images/mansions/20965706.jpg",
+    "criteria_notes": [
+      "exact target station match: 西新宿五丁目",
+      "best station preference: 6.5/10",
+      "size clears hard threshold at 65.62 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 9780万円",
+      "target station walk time meets target at 8 min",
+      "nearest listed station is 1 min; scoring uses 西新宿五丁目 at 8 min",
+      "built in 2003",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
+      "listing age: 2 days",
+      "first seen: 2026-06-02 (14 days ago)"
+    ],
+    "score": 86.31
   }
 ]
