@@ -21,7 +21,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -42,10 +43,58 @@
       "built in 2016",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (59 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-04-18 (61 days ago)"
     ],
-    "score": 101.03
+    "score": 100.03
+  },
+  {
+    "listing_id": "20902175",
+    "source": "suumo",
+    "property_name": "北新宿一丁目",
+    "title": "■複数路線利用可能な好立地■雨の日も安心のビルトインガレージ付き戸建て",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shinjuku/nc_20902175/",
+    "price_man": 9850.0,
+    "area_sqm": 77.09,
+    "land_area_sqm": 46.47,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 6,
+    "target_walk_min": 9,
+    "built_year": 2021,
+    "first_seen_at": "2026-05-22T08:35:18.319370+00:00",
+    "address": "東京都新宿区北新宿１",
+    "access_text": "ＪＲ総武線「大久保」歩6分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「新宿」歩9分 [ 乗り換え案内 ] ＪＲ山手線「新大久保」歩10分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "新宿"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "採光",
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "■複数路線利用可能な好立地 ■雨の日も安心のビルトインガレージ付き戸建て □□　Report from Toho House Oji　□□ 【TOHO HOUSE CLUBでのアフターサービス】 ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc 購入前のタイミングは勿論、購入後のご不安につきましてもご相談可能です！",
+    "preview_image_url": "./house_images/20902175.jpg",
+    "criteria_notes": [
+      "exact target station match: 新宿",
+      "best station preference: 8.0/10",
+      "size clears ideal threshold at 77.09 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 9850万円",
+      "target station walk time meets target at 9 min",
+      "nearest listed station is 6 min; scoring uses 新宿 at 9 min",
+      "built in 2021",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 採光, 通風良好",
+      "listing age: 3 days",
+      "first seen: 2026-05-22 (27 days ago)"
+    ],
+    "score": 96.52
   },
   {
     "listing_id": "20749207",
@@ -68,7 +117,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き",
@@ -92,58 +141,10 @@
       "built in 2023",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 0 days",
-      "first seen: 2026-06-03 (13 days ago)"
-    ],
-    "score": 96.69
-  },
-  {
-    "listing_id": "20902175",
-    "source": "suumo",
-    "property_name": "北新宿一丁目",
-    "title": "■複数路線利用可能な好立地■雨の日も安心のビルトインガレージ付き戸建て",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shinjuku/nc_20902175/",
-    "price_man": 9850.0,
-    "area_sqm": 77.09,
-    "land_area_sqm": 46.47,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 6,
-    "target_walk_min": 9,
-    "built_year": 2021,
-    "first_seen_at": "2026-05-22T08:35:18.319370+00:00",
-    "address": "東京都新宿区北新宿１",
-    "access_text": "ＪＲ総武線「大久保」歩6分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「新宿」歩9分 [ 乗り換え案内 ] ＪＲ山手線「新大久保」歩10分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "新宿"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "陽当り良好",
-      "採光",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■複数路線利用可能な好立地 ■雨の日も安心のビルトインガレージ付き戸建て □□　Report from Toho House Oji　□□ 【TOHO HOUSE CLUBでのアフターサービス】 ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc 購入前のタイミングは勿論、購入後のご不安につきましてもご相談可能です！",
-    "preview_image_url": "./house_images/20902175.jpg",
-    "criteria_notes": [
-      "exact target station match: 新宿",
-      "best station preference: 8.0/10",
-      "size clears ideal threshold at 77.09 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 9850万円",
-      "target station walk time meets target at 9 min",
-      "nearest listed station is 6 min; scoring uses 新宿 at 9 min",
-      "built in 2021",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 採光, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-05-22 (25 days ago)"
+      "first seen: 2026-06-03 (15 days ago)"
     ],
-    "score": 96.52
+    "score": 96.19
   },
   {
     "listing_id": "20737103",
@@ -166,7 +167,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き"
@@ -186,10 +187,10 @@
       "built in 2015",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (59 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-04-18 (61 days ago)"
     ],
-    "score": 88.97
+    "score": 87.97
   },
   {
     "listing_id": "20034127",
@@ -212,7 +213,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "採光",
@@ -233,10 +234,10 @@
       "built in 2016",
       "dishwasher mentioned in listing",
       "brightness/window positives: 採光, 通風良好",
-      "listing age: 4 days",
-      "first seen: 2026-04-18 (59 days ago)"
+      "listing age: 6 days",
+      "first seen: 2026-04-18 (61 days ago)"
     ],
-    "score": 88.04
+    "score": 87.04
   },
   {
     "listing_id": "21033263",
@@ -261,7 +262,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -281,8 +282,8 @@
       "built in 2006",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好, 採光",
-      "listing age: 6 days",
-      "first seen: 2026-06-11 (5 days ago)"
+      "listing age: 2 days",
+      "first seen: 2026-06-11 (7 days ago)"
     ],
     "score": 85.21
   },
@@ -307,7 +308,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き",
@@ -335,9 +336,9 @@
       "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 採光",
       "ceiling/window-height positives: 天井高",
       "listing age: 1 days",
-      "first seen: 2026-04-18 (59 days ago)"
+      "first seen: 2026-04-18 (61 days ago)"
     ],
-    "score": 85.1
+    "score": 84.1
   },
   {
     "listing_id": "20675569",
@@ -360,7 +361,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食洗機"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -377,10 +378,10 @@
       "nearest listed station is 6 min; scoring uses 三軒茶屋 at 7 min",
       "built in 2011",
       "dishwasher mentioned in listing",
-      "listing age: 3 days",
-      "first seen: 2026-04-18 (59 days ago)"
+      "listing age: 5 days",
+      "first seen: 2026-04-18 (61 days ago)"
     ],
-    "score": 83.48
+    "score": 82.48
   },
   {
     "listing_id": "20353813",
@@ -424,8 +425,8 @@
       "built in 2010",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 採光",
-      "listing age: 0 days",
-      "first seen: 2026-05-19 (28 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-05-19 (30 days ago)"
     ],
     "score": 82.2
   },
@@ -464,53 +465,10 @@
       "target station walk time meets target at 2 min",
       "built in 2007",
       "dishwasher not explicitly confirmed",
-      "listing age: 4 days",
-      "first seen: 2026-06-07 (9 days ago)"
+      "listing age: 6 days",
+      "first seen: 2026-06-07 (11 days ago)"
     ],
     "score": 82.11
-  },
-  {
-    "listing_id": "78854348",
-    "source": "suumo",
-    "property_name": "戸建 杉並区高円寺南５丁目",
-    "title": "■３ＬＤＫ＋ロフト　建物面積129.73㎡■約１9.4帖のＬＤＫ",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_78854348/",
-    "price_man": 9230.0,
-    "area_sqm": 129.73,
-    "land_area_sqm": 73.76,
-    "layout": "3LDK",
-    "walk_min": 9,
-    "target_walk_min": 15,
-    "built_year": 2023,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都杉並区高円寺南５",
-    "access_text": "ＪＲ中央線「高円寺」歩9分 [ 乗り換え案内 ] ＪＲ総武線「中野」歩15分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■３ＬＤＫ＋ロフト　建物面積129.73m 2 ■約１9.4帖のＬＤＫ ■ロフト、パントリー、SICなど収納豊富な間取 ■LDには床暖房設置済み ■車庫あり（車種制限あり） ■トイレ2か所あり ■対面式カウンターキッチン（食洗機あり）",
-    "preview_image_url": "./house_images/78854348.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "best station preference: 6.5/10",
-      "size clears ideal threshold at 129.73 sqm",
-      "layout: 3LDK",
-      "price is within budget at 9230万円",
-      "target station walk time misses target at 15 min",
-      "nearest listed station is 9 min; scoring uses 中野 at 15 min",
-      "built in 2023",
-      "dishwasher mentioned in listing",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (59 days ago)"
-    ],
-    "score": 77.81
   },
   {
     "listing_id": "20542091",
@@ -533,7 +491,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き",
@@ -556,10 +514,54 @@
       "built in 2019",
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 採光, 眺望良好, 通風良好",
-      "listing age: 4 days",
-      "first seen: 2026-06-07 (9 days ago)"
+      "listing age: 6 days",
+      "first seen: 2026-06-07 (11 days ago)"
     ],
     "score": 77.75
+  },
+  {
+    "listing_id": "78854348",
+    "source": "suumo",
+    "property_name": "戸建 杉並区高円寺南５丁目",
+    "title": "■３ＬＤＫ＋ロフト　建物面積129.73㎡■約１9.4帖のＬＤＫ",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_78854348/",
+    "price_man": 9230.0,
+    "area_sqm": 129.73,
+    "land_area_sqm": 73.76,
+    "layout": "3LDK",
+    "walk_min": 9,
+    "target_walk_min": 15,
+    "built_year": 2023,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都杉並区高円寺南５",
+    "access_text": "ＪＲ中央線「高円寺」歩9分 [ 乗り換え案内 ] ＪＲ総武線「中野」歩15分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機",
+      "食洗機"
+    ],
+    "brightness_hits": [],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "■３ＬＤＫ＋ロフト　建物面積129.73m 2 ■約１9.4帖のＬＤＫ ■ロフト、パントリー、SICなど収納豊富な間取 ■LDには床暖房設置済み ■車庫あり（車種制限あり） ■トイレ2か所あり ■対面式カウンターキッチン（食洗機あり）",
+    "preview_image_url": "./house_images/78854348.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "best station preference: 6.5/10",
+      "size clears ideal threshold at 129.73 sqm",
+      "layout: 3LDK",
+      "price is within budget at 9230万円",
+      "target station walk time misses target at 15 min",
+      "nearest listed station is 9 min; scoring uses 中野 at 15 min",
+      "built in 2023",
+      "dishwasher mentioned in listing",
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (61 days ago)"
+    ],
+    "score": 76.81
   },
   {
     "listing_id": "20645159",
@@ -582,7 +584,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "陽当り良好"
@@ -602,10 +604,10 @@
       "built in 2023",
       "dishwasher mentioned in listing",
       "brightness/window positives: 陽当り良好",
-      "listing age: 1 days",
-      "first seen: 2026-06-03 (13 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-06-03 (15 days ago)"
     ],
-    "score": 77.15
+    "score": 76.65
   },
   {
     "listing_id": "20245401",
@@ -629,7 +631,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -646,8 +648,8 @@
       "nearest listed station is 6 min; scoring uses 池尻大橋 at 14 min",
       "built in 2002",
       "dishwasher mentioned in listing",
-      "listing age: 1 days",
-      "first seen: 2026-06-04 (12 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-06-04 (14 days ago)"
     ],
     "score": 76.27
   },
@@ -672,7 +674,8 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機",
+      "食洗機"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -699,7 +702,7 @@
       "brightness/window positives: 陽当り良好, 採光, 通風良好",
       "ceiling/window-height positives: 天井高, 吹抜け",
       "listing age: 1 days",
-      "first seen: 2026-04-27 (50 days ago)"
+      "first seen: 2026-04-27 (52 days ago)"
     ],
     "score": 75.02
   },
@@ -745,7 +748,7 @@
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 陽当り良好, 採光, 眺望良好, 通風良好",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (28 days ago)"
+      "first seen: 2026-05-19 (30 days ago)"
     ],
     "score": 74.56
   },
@@ -796,7 +799,7 @@
       "brightness/window positives: 採光",
       "ceiling/window-height positives: 吹抜け",
       "listing age: 1 days",
-      "first seen: 2026-05-19 (28 days ago)"
+      "first seen: 2026-05-19 (30 days ago)"
     ],
     "score": 74.11
   },
@@ -821,7 +824,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "dishwasher"
+      "食器洗乾燥機"
     ],
     "brightness_hits": [
       "南向き",
@@ -856,59 +859,10 @@
       "dishwasher mentioned in listing",
       "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
       "ceiling/window-height positives: 吹抜け",
-      "listing age: 2 days",
-      "first seen: 2026-06-03 (13 days ago)"
+      "listing age: 1 days",
+      "first seen: 2026-06-03 (15 days ago)"
     ],
-    "score": 74.09
-  },
-  {
-    "listing_id": "78288936",
-    "source": "suumo",
-    "property_name": "渋谷区幡ヶ谷　築浅戸建",
-    "title": "◆内覧可能◆室内リフォーム完成しました◆",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78288936/",
-    "price_man": 8980.0,
-    "area_sqm": 68.48,
-    "land_area_sqm": 55.27,
-    "layout": "3LDK",
-    "walk_min": 8,
-    "target_walk_min": 17,
-    "built_year": 2019,
-    "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
-    "address": "東京都渋谷区幡ヶ谷３",
-    "access_text": "京王新線「幡ヶ谷」歩8分 [ 乗り換え案内 ] 京王新線「初台」歩17分 [ 乗り換え案内 ] 京王線「笹塚」歩20分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "初台"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "陽当り良好",
-      "採光",
-      "通風良好",
-      "大きな窓"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "◆内覧可能◆室内リフォーム完成しました◆ 【３６５日　年中無休】 原則即日ご対応(夜間除く) 他に無い対応力でお客様の見たい知りたいを叶えます。 【住宅ローンに強い！】 常時20行以上の金融機関と取引有り。 お客様に合わせて適切なプランをご提案させて頂きます。 【コロナ対策　実施中】",
-    "preview_image_url": "./house_images/78288936.jpg",
-    "criteria_notes": [
-      "exact target station match: 初台",
-      "best station preference: 7.0/10",
-      "size clears hard threshold at 68.48 sqm",
-      "layout: 3LDK",
-      "price is within budget at 8980万円",
-      "target station walk time misses target at 17 min",
-      "nearest listed station is 8 min; scoring uses 初台 at 17 min",
-      "built in 2019",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 採光, 通風良好, 大きな窓",
-      "listing age: 3 days",
-      "first seen: 2026-06-03 (13 days ago)"
-    ],
-    "score": 72.75
+    "score": 73.59
   },
   {
     "listing_id": "20923873",
@@ -954,9 +908,59 @@
       "built in 2012",
       "dishwasher not explicitly confirmed",
       "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-22 (55 days ago)"
+      "listing age: 3 days",
+      "first seen: 2026-04-22 (57 days ago)"
     ],
     "score": 72.62
+  },
+  {
+    "listing_id": "78288936",
+    "source": "suumo",
+    "property_name": "渋谷区幡ヶ谷　築浅戸建",
+    "title": "◆内覧可能◆室内リフォーム完成しました◆",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78288936/",
+    "price_man": 8980.0,
+    "area_sqm": 68.48,
+    "land_area_sqm": 55.27,
+    "layout": "3LDK",
+    "walk_min": 8,
+    "target_walk_min": 17,
+    "built_year": 2019,
+    "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
+    "address": "東京都渋谷区幡ヶ谷３",
+    "access_text": "京王新線「幡ヶ谷」歩8分 [ 乗り換え案内 ] 京王新線「初台」歩17分 [ 乗り換え案内 ] 京王線「笹塚」歩20分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "初台"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "食器洗乾燥機",
+      "食器洗浄乾燥機"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "採光",
+      "通風良好",
+      "大きな窓"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "◆内覧可能◆室内リフォーム完成しました◆ 【３６５日　年中無休】 原則即日ご対応(夜間除く) 他に無い対応力でお客様の見たい知りたいを叶えます。 【住宅ローンに強い！】 常時20行以上の金融機関と取引有り。 お客様に合わせて適切なプランをご提案させて頂きます。 【コロナ対策　実施中】",
+    "preview_image_url": "./house_images/78288936.jpg",
+    "criteria_notes": [
+      "exact target station match: 初台",
+      "best station preference: 7.0/10",
+      "size clears hard threshold at 68.48 sqm",
+      "layout: 3LDK",
+      "price is within budget at 8980万円",
+      "target station walk time misses target at 17 min",
+      "nearest listed station is 8 min; scoring uses 初台 at 17 min",
+      "built in 2019",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 採光, 通風良好, 大きな窓",
+      "listing age: 5 days",
+      "first seen: 2026-06-03 (15 days ago)"
+    ],
+    "score": 72.25
   }
 ]
