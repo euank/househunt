@@ -1,10 +1,10 @@
 [
   {
-    "listing_id": "21073613",
+    "listing_id": "21046526",
     "source": "suumo",
-    "property_name": "",
-    "title": "池尻小学校　通学域≪南向き・陽当たりの良い立地・渋谷まで一駅≫",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_21073613/",
+    "property_name": "世田谷区池尻２丁目",
+    "title": "都市型住宅 その一つの極み～珠玉の住環境を愉しむ暮らし～",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_21046526/",
     "price_man": 9980.0,
     "area_sqm": 70.39,
     "land_area_sqm": 57.49,
@@ -14,88 +14,38 @@
     "built_year": 2016,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
     "address": "東京都世田谷区池尻２",
-    "access_text": "東急田園都市線「池尻大橋」歩5分 [ 乗り換え案内 ] 京王井の頭線「駒場東大前」歩21分 [ 乗り換え案内 ] 東京メトロ日比谷線「中目黒」歩24分 [ 乗り換え案内 ]",
+    "access_text": "東急田園都市線「池尻大橋」歩5分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩14分 [ 乗り換え案内 ] ＪＲ山手線「渋谷」バス7分三宿歩2分 [ 乗り換え案内 ]",
     "exact_station_hits": [
-      "中目黒",
+      "三軒茶屋",
       "池尻大橋"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [
-      "南向き",
       "陽当り良好",
       "採光",
       "通風良好"
     ],
     "ceiling_hits": [],
     "feature_tags": [],
-    "detail_summary": "池尻小学校　通学域≪南向き・陽当たりの良い立地・渋谷まで一駅≫ 【池尻大橋駅5分】3階建3LDK　延床70m 2 ・３-４名の家族向けに設計された邸宅 ≪住宅設備≫ 生活のしやすい設備（床暖房・食洗機・浴室乾燥）も揃っています。 ≪リビング≫ ＬＤＫ　１４帖／窓が南・東・北の3方向にあり日当たりや風通しも良い。",
-    "preview_image_url": "./house_images/21073613.jpg",
+    "detail_summary": "都市型住宅 その一つの極み ～珠玉の住環境を愉しむ暮らし～ 最寄りとなる池尻大橋駅まで、僅か徒歩５分 三軒茶屋という街の魅力を日常の生活圏に収め、自転車で渋谷にも颯爽と駆け出せる そんな、都市生活の醍醐味を骨の髄まで味わい尽くす、羨望のロケーションがここにあります 至近にある神社の厳かな空気と世田谷公園の潤いが、住環境に極上の柔らかさを添える この恵まれた地に相応しいのは、ミニマルな美しさを宿した都市型住宅。敷地面積を極限まで活かし、不足のない絶妙なサイズ感、凝縮感を体現した2016年築 全３居室と１４帖超のＬＤＫには、溢れるばかりの光が舞い込みます",
+    "preview_image_url": "./house_images/21046526.jpg",
     "criteria_notes": [
-      "exact target station match: 中目黒, 池尻大橋",
-      "best station preference: 9.0/10",
+      "exact target station match: 三軒茶屋, 池尻大橋",
+      "best station preference: 8.0/10",
       "size clears ideal threshold at 70.39 sqm",
       "layout: 3LDK",
       "price is within budget at 9980万円",
       "target station walk time meets target at 5 min",
       "built in 2016",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
-      "listing age: 4 days",
+      "brightness/window positives: 陽当り良好, 採光, 通風良好",
+      "listing age: 1 days",
       "first seen: 2026-04-18 (62 days ago)"
     ],
     "score": 100.78
-  },
-  {
-    "listing_id": "20902175",
-    "source": "suumo",
-    "property_name": "",
-    "title": "■複数路線利用可能な好立地■雨の日も安心のビルトインガレージ付き戸建て",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shinjuku/nc_20902175/",
-    "price_man": 9850.0,
-    "area_sqm": 77.09,
-    "land_area_sqm": 46.47,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 6,
-    "target_walk_min": 9,
-    "built_year": 2021,
-    "first_seen_at": "2026-05-22T08:35:18.319370+00:00",
-    "address": "東京都新宿区北新宿１",
-    "access_text": "ＪＲ総武線「大久保」歩6分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「新宿」歩9分 [ 乗り換え案内 ] ＪＲ山手線「新大久保」歩10分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "新宿"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "陽当り良好",
-      "採光",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "■複数路線利用可能な好立地 ■雨の日も安心のビルトインガレージ付き戸建て □□　Report from Toho House Oji　□□ 【TOHO HOUSE CLUBでのアフターサービス】 ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc 購入前のタイミングは勿論、購入後のご不安につきましてもご相談可能です！",
-    "preview_image_url": "./house_images/20902175.jpg",
-    "criteria_notes": [
-      "exact target station match: 新宿",
-      "best station preference: 8.0/10",
-      "size clears ideal threshold at 77.09 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 9850万円",
-      "target station walk time meets target at 9 min",
-      "nearest listed station is 6 min; scoring uses 新宿 at 9 min",
-      "built in 2021",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 採光, 通風良好",
-      "listing age: 0 days",
-      "first seen: 2026-05-22 (28 days ago)"
-    ],
-    "score": 96.52
   },
   {
     "listing_id": "20749207",
@@ -118,7 +68,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -148,6 +98,54 @@
     "score": 96.19
   },
   {
+    "listing_id": "20902175",
+    "source": "suumo",
+    "property_name": "",
+    "title": "■複数路線利用可能な好立地■雨の日も安心のビルトインガレージ付き戸建て",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shinjuku/nc_20902175/",
+    "price_man": 9850.0,
+    "area_sqm": 77.09,
+    "land_area_sqm": 46.47,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 6,
+    "target_walk_min": 9,
+    "built_year": 2021,
+    "first_seen_at": "2026-05-22T08:35:18.319370+00:00",
+    "address": "東京都新宿区北新宿１",
+    "access_text": "ＪＲ総武線「大久保」歩6分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「新宿」歩9分 [ 乗り換え案内 ] ＪＲ山手線「新大久保」歩10分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "新宿"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "採光",
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "■複数路線利用可能な好立地 ■雨の日も安心のビルトインガレージ付き戸建て □□　Report from Toho House Oji　□□ 【TOHO HOUSE CLUBでのアフターサービス】 ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc 購入前のタイミングは勿論、購入後のご不安につきましてもご相談可能です！",
+    "preview_image_url": "./house_images/20902175.jpg",
+    "criteria_notes": [
+      "exact target station match: 新宿",
+      "best station preference: 5.5/10",
+      "size clears ideal threshold at 77.09 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 9850万円",
+      "target station walk time meets target at 9 min",
+      "nearest listed station is 6 min; scoring uses 新宿 at 9 min",
+      "built in 2021",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 採光, 通風良好",
+      "listing age: 0 days",
+      "first seen: 2026-05-22 (28 days ago)"
+    ],
+    "score": 92.77
+  },
+  {
     "listing_id": "20737103",
     "source": "suumo",
     "property_name": "",
@@ -168,7 +166,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き"
@@ -214,7 +212,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "採光",
@@ -261,9 +259,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機",
-      "食器洗浄乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -296,6 +292,59 @@
     "score": 86.87
   },
   {
+    "listing_id": "20998814",
+    "source": "suumo",
+    "property_name": "上馬1丁目戸建　～心地の良い陽が差し込む注文住宅～",
+    "title": "☆シャッターガレージ付きの注文住宅！☆広々と明るいLDKが魅力的！",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20998814/",
+    "price_man": 13980.0,
+    "area_sqm": 117.91,
+    "land_area_sqm": 76.42,
+    "layout": "3LDK+S（納戸）",
+    "walk_min": 9,
+    "target_walk_min": 15,
+    "built_year": 2021,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都世田谷区上馬１",
+    "access_text": "東急田園都市線「駒沢大学」歩9分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩15分 [ 乗り換え案内 ] 東急世田谷線「西太子堂」歩16分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "三軒茶屋"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "陽当り良好",
+      "日当たり良好",
+      "採光",
+      "通風良好"
+    ],
+    "ceiling_hits": [
+      "天井高"
+    ],
+    "feature_tags": [],
+    "detail_summary": "☆シャッターガレージ付きの注文住宅！ ☆広々と明るいLDKが魅力的！ ～おすすめポイント～ 〇窓が多く、陽当たり良好 〇LDKとタタミコーナーを合わせると26.9帖 〇嬉しいガス乾燥機付き 〇3階居室の天井も高く開放的 ※当物件の一部画像を抜粋しています。",
+    "preview_image_url": "./house_images/20998814.jpg",
+    "criteria_notes": [
+      "exact target station match: 三軒茶屋",
+      "best station preference: 8.0/10",
+      "size clears ideal threshold at 117.91 sqm",
+      "layout: 3LDK+S（納戸）",
+      "price is within budget at 13980万円",
+      "target station walk time misses target at 15 min",
+      "nearest listed station is 9 min; scoring uses 三軒茶屋 at 15 min",
+      "built in 2021",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 採光",
+      "ceiling/window-height positives: 天井高",
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (62 days ago)"
+    ],
+    "score": 85.6
+  },
+  {
     "listing_id": "21033263",
     "source": "suumo",
     "property_name": "",
@@ -318,7 +367,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "陽当り良好",
@@ -330,7 +379,7 @@
     "preview_image_url": "./house_images/21033263.jpg",
     "criteria_notes": [
       "exact target station match: 三軒茶屋, 池尻大橋, 祐天寺",
-      "best station preference: 7.5/10",
+      "best station preference: 8.0/10",
       "size clears ideal threshold at 85.53 sqm",
       "layout: 3LDK",
       "price is within budget at 9500万円",
@@ -341,60 +390,7 @@
       "listing age: 0 days",
       "first seen: 2026-06-11 (8 days ago)"
     ],
-    "score": 84.21
-  },
-  {
-    "listing_id": "20998814",
-    "source": "suumo",
-    "property_name": "上馬1丁目戸建　～心地の良い陽が差し込む注文住宅～",
-    "title": "☆シャッターガレージ付きの注文住宅！☆広々と明るいLDKが魅力的！",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20998814/",
-    "price_man": 13980.0,
-    "area_sqm": 117.91,
-    "land_area_sqm": 76.42,
-    "layout": "3LDK+S（納戸）",
-    "walk_min": 9,
-    "target_walk_min": 15,
-    "built_year": 2021,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都世田谷区上馬１",
-    "access_text": "東急田園都市線「駒沢大学」歩9分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩15分 [ 乗り換え案内 ] 東急世田谷線「西太子堂」歩16分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "三軒茶屋"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "日当たり良好",
-      "採光",
-      "通風良好"
-    ],
-    "ceiling_hits": [
-      "天井高"
-    ],
-    "feature_tags": [],
-    "detail_summary": "☆シャッターガレージ付きの注文住宅！ ☆広々と明るいLDKが魅力的！ ～おすすめポイント～ 〇窓が多く、陽当たり良好 〇LDKとタタミコーナーを合わせると26.9帖 〇嬉しいガス乾燥機付き 〇3階居室の天井も高く開放的 ※当物件の一部画像を抜粋しています。",
-    "preview_image_url": "./house_images/20998814.jpg",
-    "criteria_notes": [
-      "exact target station match: 三軒茶屋",
-      "best station preference: 7.0/10",
-      "size clears ideal threshold at 117.91 sqm",
-      "layout: 3LDK+S（納戸）",
-      "price is within budget at 13980万円",
-      "target station walk time misses target at 15 min",
-      "nearest listed station is 9 min; scoring uses 三軒茶屋 at 15 min",
-      "built in 2021",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 採光",
-      "ceiling/window-height positives: 天井高",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (62 days ago)"
-    ],
-    "score": 84.1
+    "score": 84.96
   },
   {
     "listing_id": "20675569",
@@ -417,7 +413,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食洗機"
+      "dishwasher"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -426,7 +422,7 @@
     "preview_image_url": "./house_images/20675569.jpg",
     "criteria_notes": [
       "exact target station match: 三軒茶屋",
-      "best station preference: 7.0/10",
+      "best station preference: 8.0/10",
       "size clears ideal threshold at 102.70 sqm",
       "layout: 3LDK",
       "price is within budget at 13980万円",
@@ -437,7 +433,7 @@
       "listing age: 0 days",
       "first seen: 2026-04-18 (62 days ago)"
     ],
-    "score": 82.48
+    "score": 83.98
   },
   {
     "listing_id": "20904587",
@@ -547,7 +543,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -596,7 +592,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "陽当り良好"
@@ -622,6 +618,58 @@
     "score": 76.65
   },
   {
+    "listing_id": "20549155",
+    "source": "suumo",
+    "property_name": "世田谷区上馬5丁目 中古戸建",
+    "title": "プライバシーに配慮したバルコニーテラス！広々とした吹き抜けのあるLDK♪",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20549155/",
+    "price_man": 14800.0,
+    "area_sqm": 105.98,
+    "land_area_sqm": 80.49,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 7,
+    "target_walk_min": 17,
+    "built_year": 2017,
+    "first_seen_at": "2026-04-27T15:21:30.014609+00:00",
+    "address": "東京都世田谷区上馬５",
+    "access_text": "東急世田谷線「松陰神社前」歩7分 [ 乗り換え案内 ] 東急田園都市線「駒沢大学」歩12分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩17分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "三軒茶屋"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "採光",
+      "通風良好"
+    ],
+    "ceiling_hits": [
+      "天井高",
+      "吹抜け"
+    ],
+    "feature_tags": [],
+    "detail_summary": "プライバシーに配慮したバルコニーテラス！ 広々とした吹き抜けのあるLDK♪ ～充実した仕様設備～ ◇オールステンレスの大型アイランドキッチン ◇サンワカンパニー1620サイズのバスルーム ◇サンワカンパニーW1200洗面台 ◇食洗機・浄水器付き ◇スティックリモコンタイプタンクレストイレ",
+    "preview_image_url": "./house_images/20549155.jpg",
+    "criteria_notes": [
+      "exact target station match: 三軒茶屋",
+      "best station preference: 8.0/10",
+      "size clears ideal threshold at 105.98 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 14800万円",
+      "target station walk time misses target at 17 min",
+      "nearest listed station is 7 min; scoring uses 三軒茶屋 at 17 min",
+      "built in 2017",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 採光, 通風良好",
+      "ceiling/window-height positives: 天井高, 吹抜け",
+      "listing age: 1 days",
+      "first seen: 2026-04-27 (53 days ago)"
+    ],
+    "score": 76.52
+  },
+  {
     "listing_id": "20245401",
     "source": "suumo",
     "property_name": "",
@@ -643,7 +691,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [],
     "ceiling_hits": [],
@@ -666,57 +714,53 @@
     "score": 75.77
   },
   {
-    "listing_id": "20549155",
+    "listing_id": "20923873",
     "source": "suumo",
-    "property_name": "世田谷区上馬5丁目 中古戸建",
-    "title": "プライバシーに配慮したバルコニーテラス！広々とした吹き抜けのあるLDK♪",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20549155/",
-    "price_man": 14800.0,
-    "area_sqm": 105.98,
-    "land_area_sqm": 80.49,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 7,
-    "target_walk_min": 17,
-    "built_year": 2017,
-    "first_seen_at": "2026-04-27T15:21:30.014609+00:00",
-    "address": "東京都世田谷区上馬５",
-    "access_text": "東急世田谷線「松陰神社前」歩7分 [ 乗り換え案内 ] 東急田園都市線「駒沢大学」歩12分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩17分 [ 乗り換え案内 ]",
+    "property_name": "",
+    "title": "－ベルクハウス施工－光と開放感を纏う邸宅売主様との条件交渉お任せください",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20923873/",
+    "price_man": 14500.0,
+    "area_sqm": 103.54,
+    "land_area_sqm": 81.27,
+    "layout": "3LDK+S（納戸）",
+    "walk_min": 11,
+    "target_walk_min": 11,
+    "built_year": 2012,
+    "first_seen_at": "2026-04-22T15:47:01.701300+00:00",
+    "address": "東京都世田谷区下馬５",
+    "access_text": "東急東横線「祐天寺」歩11分 [ 乗り換え案内 ] 東急東横線「学芸大学」歩13分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩21分 [ 乗り換え案内 ]",
     "exact_station_hits": [
-      "三軒茶屋"
+      "三軒茶屋",
+      "学芸大学",
+      "祐天寺"
     ],
     "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食洗機"
-    ],
+    "dishwasher_hits": [],
     "brightness_hits": [
+      "南向き",
       "陽当り良好",
-      "採光",
-      "通風良好"
+      "眺望良好",
+      "通風良好",
+      "大きな窓"
     ],
-    "ceiling_hits": [
-      "天井高",
-      "吹抜け"
-    ],
+    "ceiling_hits": [],
     "feature_tags": [],
-    "detail_summary": "プライバシーに配慮したバルコニーテラス！ 広々とした吹き抜けのあるLDK♪ ～充実した仕様設備～ ◇オールステンレスの大型アイランドキッチン ◇サンワカンパニー1620サイズのバスルーム ◇サンワカンパニーW1200洗面台 ◇食洗機・浄水器付き ◇スティックリモコンタイプタンクレストイレ",
-    "preview_image_url": "./house_images/20549155.jpg",
+    "detail_summary": "－ベルクハウス施工－光と開放感を纏う邸宅 売主様との条件交渉お任せください 約17.7帖の大型空間は、 シアタールームやシミュレーションゴルフなど多彩な用途に対応。 専用バーカウンターも備え、 ライフスタイルに合わせて4LDKへの変更も検討可能な自由度の高い住まいです。 ≪弊社ランディックス桜新町本店は創業50年≫ 世田谷区・目黒区・大田区・品川区・渋谷区・港区をはじめとした城南エリア、",
+    "preview_image_url": "./house_images/20923873.jpg",
     "criteria_notes": [
-      "exact target station match: 三軒茶屋",
-      "best station preference: 7.0/10",
-      "size clears ideal threshold at 105.98 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 14800万円",
-      "target station walk time misses target at 17 min",
-      "nearest listed station is 7 min; scoring uses 三軒茶屋 at 17 min",
-      "built in 2017",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 採光, 通風良好",
-      "ceiling/window-height positives: 天井高, 吹抜け",
-      "listing age: 1 days",
-      "first seen: 2026-04-27 (53 days ago)"
+      "exact target station match: 三軒茶屋, 学芸大学, 祐天寺",
+      "best station preference: 8.0/10",
+      "size clears ideal threshold at 103.54 sqm",
+      "layout: 3LDK+S（納戸）",
+      "price is within budget at 14500万円",
+      "target station walk time meets target at 11 min",
+      "built in 2012",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
+      "listing age: 0 days",
+      "first seen: 2026-04-22 (58 days ago)"
     ],
-    "score": 75.02
+    "score": 74.12
   },
   {
     "listing_id": "20878404",
@@ -836,7 +880,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "南向き",
@@ -877,55 +921,6 @@
     "score": 73.59
   },
   {
-    "listing_id": "20923873",
-    "source": "suumo",
-    "property_name": "",
-    "title": "－ベルクハウス施工－光と開放感を纏う邸宅売主様との条件交渉お任せください",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20923873/",
-    "price_man": 14500.0,
-    "area_sqm": 103.54,
-    "land_area_sqm": 81.27,
-    "layout": "3LDK+S（納戸）",
-    "walk_min": 11,
-    "target_walk_min": 11,
-    "built_year": 2012,
-    "first_seen_at": "2026-04-22T15:47:01.701300+00:00",
-    "address": "東京都世田谷区下馬５",
-    "access_text": "東急東横線「祐天寺」歩11分 [ 乗り換え案内 ] 東急東横線「学芸大学」歩13分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩21分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "三軒茶屋",
-      "学芸大学",
-      "祐天寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "眺望良好",
-      "通風良好",
-      "大きな窓"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "－ベルクハウス施工－光と開放感を纏う邸宅 売主様との条件交渉お任せください 約17.7帖の大型空間は、 シアタールームやシミュレーションゴルフなど多彩な用途に対応。 専用バーカウンターも備え、 ライフスタイルに合わせて4LDKへの変更も検討可能な自由度の高い住まいです。 ≪弊社ランディックス桜新町本店は創業50年≫ 世田谷区・目黒区・大田区・品川区・渋谷区・港区をはじめとした城南エリア、",
-    "preview_image_url": "./house_images/20923873.jpg",
-    "criteria_notes": [
-      "exact target station match: 三軒茶屋, 学芸大学, 祐天寺",
-      "best station preference: 7.0/10",
-      "size clears ideal threshold at 103.54 sqm",
-      "layout: 3LDK+S（納戸）",
-      "price is within budget at 14500万円",
-      "target station walk time meets target at 11 min",
-      "built in 2012",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好",
-      "listing age: 0 days",
-      "first seen: 2026-04-22 (58 days ago)"
-    ],
-    "score": 72.62
-  },
-  {
     "listing_id": "78288936",
     "source": "suumo",
     "property_name": "渋谷区幡ヶ谷　築浅戸建",
@@ -946,8 +941,7 @@
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
-      "食器洗乾燥機",
-      "食器洗浄乾燥機"
+      "dishwasher"
     ],
     "brightness_hits": [
       "陽当り良好",

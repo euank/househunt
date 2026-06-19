@@ -1,13 +1,13 @@
 # Used House shortlist
 
-Generated at: 2026-06-19T16:53:45.243362+09:00
+Generated at: 2026-06-19T17:20:07.431678+09:00
 
-## 1. 池尻小学校　通学域≪南向き・陽当たりの良い立地・渋谷まで一駅≫
+## 1. 世田谷区池尻２丁目
 
 - Score: 100.78
 - Source: suumo
-- URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_21073613/
-- Stations: 中目黒, 池尻大橋
+- URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_21046526/
+- Stations: 三軒茶屋, 池尻大橋
 - Price: 9980万円
 - Size: 70.39 sqm
 - Layout: 3LDK
@@ -18,33 +18,12 @@ Generated at: 2026-06-19T16:53:45.243362+09:00
 - Strict Match: yes
 - Dishwasher: yes
 - Address: 東京都世田谷区池尻２
-- Access: 東急田園都市線「池尻大橋」歩5分 [ 乗り換え案内 ] 京王井の頭線「駒場東大前」歩21分 [ 乗り換え案内 ] 東京メトロ日比谷線「中目黒」歩24分 [ 乗り換え案内 ]
+- Access: 東急田園都市線「池尻大橋」歩5分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩14分 [ 乗り換え案内 ] ＪＲ山手線「渋谷」バス7分三宿歩2分 [ 乗り換え案内 ]
 - Land Area: 57.49 sqm
-- Listing summary: 池尻小学校　通学域≪南向き・陽当たりの良い立地・渋谷まで一駅≫ 【池尻大橋駅5分】3階建3LDK　延床70m 2 ・３-４名の家族向けに設計された邸宅 ≪住宅設備≫ 生活のしやすい設備（床暖房・食洗機・浴室乾燥）も揃っています。 ≪リビング≫ ＬＤＫ　１４帖／窓が南・東・北の3方向にあり日当たりや風通しも良い。
-- Notes: exact target station match: 中目黒, 池尻大橋; best station preference: 9.0/10; size clears ideal threshold at 70.39 sqm; layout: 3LDK; price is within budget at 9980万円; target station walk time meets target at 5 min; built in 2016; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好; listing age: 4 days; first seen: 2026-04-18 (62 days ago)
+- Listing summary: 都市型住宅 その一つの極み ～珠玉の住環境を愉しむ暮らし～ 最寄りとなる池尻大橋駅まで、僅か徒歩５分 三軒茶屋という街の魅力を日常の生活圏に収め、自転車で渋谷にも颯爽と駆け出せる そんな、都市生活の醍醐味を骨の髄まで味わい尽くす、羨望のロケーションがここにあります 至近にある神社の厳かな空気と世田谷公園の潤いが、住環境に極上の柔らかさを添える この恵まれた地に相応しいのは、ミニマルな美しさを宿した都市型住宅。敷地面積を極限まで活かし、不足のない絶妙なサイズ感、凝縮感を体現した2016年築 全３居室と１４帖超のＬＤＫには、溢れるばかりの光が舞い込みます
+- Notes: exact target station match: 三軒茶屋, 池尻大橋; best station preference: 8.0/10; size clears ideal threshold at 70.39 sqm; layout: 3LDK; price is within budget at 9980万円; target station walk time meets target at 5 min; built in 2016; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好; listing age: 1 days; first seen: 2026-04-18 (62 days ago)
 
-## 2. ■複数路線利用可能な好立地■雨の日も安心のビルトインガレージ付き戸建て
-
-- Score: 96.52
-- Source: suumo
-- URL: https://suumo.jp/chukoikkodate/tokyo/sc_shinjuku/nc_20902175/
-- Stations: 新宿
-- Price: 9850万円
-- Size: 77.09 sqm
-- Layout: 2LDK+S（納戸）
-- Walk: 6 min
-- Target Walk: 9 min
-- Built: 2021
-- First Seen: 2026-05-22T08:35:18.319370+00:00
-- Strict Match: yes
-- Dishwasher: yes
-- Address: 東京都新宿区北新宿１
-- Access: ＪＲ総武線「大久保」歩6分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「新宿」歩9分 [ 乗り換え案内 ] ＪＲ山手線「新大久保」歩10分 [ 乗り換え案内 ]
-- Land Area: 46.47 sqm
-- Listing summary: ■複数路線利用可能な好立地 ■雨の日も安心のビルトインガレージ付き戸建て □□　Report from Toho House Oji　□□ 【TOHO HOUSE CLUBでのアフターサービス】 ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc 購入前のタイミングは勿論、購入後のご不安につきましてもご相談可能です！
-- Notes: exact target station match: 新宿; best station preference: 8.0/10; size clears ideal threshold at 77.09 sqm; layout: 2LDK+S（納戸）; price is within budget at 9850万円; target station walk time meets target at 9 min; nearest listed station is 6 min; scoring uses 新宿 at 9 min; built in 2021; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好; listing age: 0 days; first seen: 2026-05-22 (28 days ago)
-
-## 3. 宮坂２丁目～築浅の注文住宅～
+## 2. 宮坂２丁目～築浅の注文住宅～
 
 - Score: 96.19
 - Source: suumo
@@ -64,6 +43,27 @@ Generated at: 2026-06-19T16:53:45.243362+09:00
 - Land Area: 65.34 sqm
 - Listing summary: ◇◆築浅戸建◇◆小田急線「豪徳寺」駅徒歩4分の利便性！！ ■2路線3駅利用可能 ■家事導線の整った間取り ■食器手洗い乾燥機・浄水器 ■電動シャッター ■ワークスペース ■充実の収納力 実際に仕様や住環境の良さをご覧くださいませ。
 - Notes: exact target station match: 経堂; best station preference: 5.5/10; size clears ideal threshold at 83.42 sqm; layout: 3LDK; price is within budget at 9480万円; target station walk time meets target at 12 min; nearest listed station is 3 min; scoring uses 経堂 at 12 min; built in 2023; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好; listing age: 1 days; first seen: 2026-06-03 (16 days ago)
+
+## 3. ■複数路線利用可能な好立地■雨の日も安心のビルトインガレージ付き戸建て
+
+- Score: 92.77
+- Source: suumo
+- URL: https://suumo.jp/chukoikkodate/tokyo/sc_shinjuku/nc_20902175/
+- Stations: 新宿
+- Price: 9850万円
+- Size: 77.09 sqm
+- Layout: 2LDK+S（納戸）
+- Walk: 6 min
+- Target Walk: 9 min
+- Built: 2021
+- First Seen: 2026-05-22T08:35:18.319370+00:00
+- Strict Match: yes
+- Dishwasher: yes
+- Address: 東京都新宿区北新宿１
+- Access: ＪＲ総武線「大久保」歩6分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「新宿」歩9分 [ 乗り換え案内 ] ＪＲ山手線「新大久保」歩10分 [ 乗り換え案内 ]
+- Land Area: 46.47 sqm
+- Listing summary: ■複数路線利用可能な好立地 ■雨の日も安心のビルトインガレージ付き戸建て □□　Report from Toho House Oji　□□ 【TOHO HOUSE CLUBでのアフターサービス】 ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc 購入前のタイミングは勿論、購入後のご不安につきましてもご相談可能です！
+- Notes: exact target station match: 新宿; best station preference: 5.5/10; size clears ideal threshold at 77.09 sqm; layout: 2LDK+S（納戸）; price is within budget at 9850万円; target station walk time meets target at 9 min; nearest listed station is 6 min; scoring uses 新宿 at 9 min; built in 2021; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好; listing age: 0 days; first seen: 2026-05-22 (28 days ago)
 
 ## 4. 中野駅徒歩10分、新中野駅徒歩5分の好立地戸建
 
@@ -128,30 +128,9 @@ Generated at: 2026-06-19T16:53:45.243362+09:00
 - Listing summary: ≪当日内見予約可能≫ 「歩くたび、好きになる街。帰るたび、惹かれる家。」 ◆広さという名の、豊かさ。建物面積120m 2 超がもたらすのは、家族一人ひとりの時間と空間を大切にできる、ゆとりに満ちた日常です。 ◆高円寺も、中野も、普段使いする贅沢。中央線「高円寺」駅徒歩9分、「中野」駅徒歩15分。二つの街のカルチャーと利便性を自在に楽しむ、アクティブな暮らしが始まります。 ◆空と繋がるプライベートな空間、ルーフバルコニー。読書やティータイム、星空観賞など、暮らしの楽しみを無限に広げてくれる、もう一つのリビングです。 ◆約24帖の広さを誇るLDKは、この家の中心。2つのロフトやシューズインクロークなど、豊富な収納がすっきりとした美しい暮らしを叶えます。
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears ideal threshold at 129.73 sqm; layout: 3LDK; price is within budget at 9480万円; target station walk time misses target at 15 min; nearest listed station is 9 min; scoring uses 中野 at 15 min; built in 2023; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好; ceiling/window-height positives: 吹抜け; listing age: 1 days; first seen: 2026-04-18 (62 days ago)
 
-## 7. 下馬１（祐天寺駅） 9500万円
+## 7. 上馬1丁目戸建　～心地の良い陽が差し込む注文住宅～
 
-- Score: 84.21
-- Source: suumo
-- URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_21033263/
-- Stations: 三軒茶屋, 池尻大橋, 祐天寺
-- Price: 9500万円
-- Size: 85.53 sqm
-- Layout: 3LDK
-- Walk: 11 min
-- Target Walk: 11 min
-- Built: 2006
-- First Seen: 2026-06-11T17:22:52.387708+00:00
-- Strict Match: yes
-- Dishwasher: yes
-- Address: 東京都世田谷区下馬１
-- Access: 東急東横線「祐天寺」歩11分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩21分 [ 乗り換え案内 ] 東急田園都市線「池尻大橋」歩18分 [ 乗り換え案内 ]
-- Land Area: 50.04 sqm
-- Listing summary: 世田谷区下馬1丁目！ルーフバルコニー付き3階建住宅 世田谷区下馬1丁目に佇む、ルーフバルコニー付きの3階建中古戸建。間取りは3LDK＋WIC＋クロークで、1階に約5.3帖洋室、3階に約4.1帖の洋室2部屋を配置。2階は家族が集まりやすいLDK空間となっており、水まわりと居住スペースを分けた使いやすい設計です。収納も充実し、都心生活にフィットする一邸です。 9500万円、3LDK、土地面積50.04m 2 、建物面積85.53m 2 キッチン 16.5畳のリビング
-- Notes: exact target station match: 三軒茶屋, 池尻大橋, 祐天寺; best station preference: 7.5/10; size clears ideal threshold at 85.53 sqm; layout: 3LDK; price is within budget at 9500万円; target station walk time meets target at 11 min; built in 2006; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光; listing age: 0 days; first seen: 2026-06-11 (8 days ago)
-
-## 8. 上馬1丁目戸建　～心地の良い陽が差し込む注文住宅～
-
-- Score: 84.1
+- Score: 85.6
 - Source: suumo
 - URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20998814/
 - Stations: 三軒茶屋
@@ -168,11 +147,32 @@ Generated at: 2026-06-19T16:53:45.243362+09:00
 - Access: 東急田園都市線「駒沢大学」歩9分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩15分 [ 乗り換え案内 ] 東急世田谷線「西太子堂」歩16分 [ 乗り換え案内 ]
 - Land Area: 76.42 sqm
 - Listing summary: ☆シャッターガレージ付きの注文住宅！ ☆広々と明るいLDKが魅力的！ ～おすすめポイント～ 〇窓が多く、陽当たり良好 〇LDKとタタミコーナーを合わせると26.9帖 〇嬉しいガス乾燥機付き 〇3階居室の天井も高く開放的 ※当物件の一部画像を抜粋しています。
-- Notes: exact target station match: 三軒茶屋; best station preference: 7.0/10; size clears ideal threshold at 117.91 sqm; layout: 3LDK+S（納戸）; price is within budget at 13980万円; target station walk time misses target at 15 min; nearest listed station is 9 min; scoring uses 三軒茶屋 at 15 min; built in 2021; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 採光; ceiling/window-height positives: 天井高; listing age: 0 days; first seen: 2026-04-18 (62 days ago)
+- Notes: exact target station match: 三軒茶屋; best station preference: 8.0/10; size clears ideal threshold at 117.91 sqm; layout: 3LDK+S（納戸）; price is within budget at 13980万円; target station walk time misses target at 15 min; nearest listed station is 9 min; scoring uses 三軒茶屋 at 15 min; built in 2021; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 採光; ceiling/window-height positives: 天井高; listing age: 0 days; first seen: 2026-04-18 (62 days ago)
+
+## 8. 下馬１（祐天寺駅） 9500万円
+
+- Score: 84.96
+- Source: suumo
+- URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_21033263/
+- Stations: 三軒茶屋, 池尻大橋, 祐天寺
+- Price: 9500万円
+- Size: 85.53 sqm
+- Layout: 3LDK
+- Walk: 11 min
+- Target Walk: 11 min
+- Built: 2006
+- First Seen: 2026-06-11T17:22:52.387708+00:00
+- Strict Match: yes
+- Dishwasher: yes
+- Address: 東京都世田谷区下馬１
+- Access: 東急東横線「祐天寺」歩11分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩21分 [ 乗り換え案内 ] 東急田園都市線「池尻大橋」歩18分 [ 乗り換え案内 ]
+- Land Area: 50.04 sqm
+- Listing summary: 世田谷区下馬1丁目！ルーフバルコニー付き3階建住宅 世田谷区下馬1丁目に佇む、ルーフバルコニー付きの3階建中古戸建。間取りは3LDK＋WIC＋クロークで、1階に約5.3帖洋室、3階に約4.1帖の洋室2部屋を配置。2階は家族が集まりやすいLDK空間となっており、水まわりと居住スペースを分けた使いやすい設計です。収納も充実し、都心生活にフィットする一邸です。 9500万円、3LDK、土地面積50.04m 2 、建物面積85.53m 2 キッチン 16.5畳のリビング
+- Notes: exact target station match: 三軒茶屋, 池尻大橋, 祐天寺; best station preference: 8.0/10; size clears ideal threshold at 85.53 sqm; layout: 3LDK; price is within budget at 9500万円; target station walk time meets target at 11 min; built in 2006; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光; listing age: 0 days; first seen: 2026-06-11 (8 days ago)
 
 ## 9. 憧れの街をわが家に。利便性と心地よさが交差する、3階建ての住まい
 
-- Score: 82.48
+- Score: 83.98
 - Source: suumo
 - URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20675569/
 - Stations: 三軒茶屋
@@ -189,7 +189,7 @@ Generated at: 2026-06-19T16:53:45.243362+09:00
 - Access: 東急田園都市線「三軒茶屋」歩7分 [ 乗り換え案内 ] 東急世田谷線「西太子堂」歩6分 [ 乗り換え案内 ] 東急世田谷線「三軒茶屋」歩8分 [ 乗り換え案内 ]
 - Land Area: 61.62 sqm
 - Listing summary: 憧れの街をわが家に。利便性と心地よさが交差する、3階建ての住まい 「ただいま」が、もっと楽しみになる場所に ～スタッフが見つけた、この物件の住みたいポイント～ ■元カフェの店舗スペースがある暮らし。 ■東急ホームズ施工！こだわり3LDK。 ■小屋裏収納も完備。 ▼この街と歩んで、30年▼ 私たちがご紹介したいのは、家そのものだけでなく、
-- Notes: exact target station match: 三軒茶屋; best station preference: 7.0/10; size clears ideal threshold at 102.70 sqm; layout: 3LDK; price is within budget at 13980万円; target station walk time meets target at 7 min; nearest listed station is 6 min; scoring uses 三軒茶屋 at 7 min; built in 2011; dishwasher mentioned in listing; listing age: 0 days; first seen: 2026-04-18 (62 days ago)
+- Notes: exact target station match: 三軒茶屋; best station preference: 8.0/10; size clears ideal threshold at 102.70 sqm; layout: 3LDK; price is within budget at 13980万円; target station walk time meets target at 7 min; nearest listed station is 6 min; scoring uses 三軒茶屋 at 7 min; built in 2011; dishwasher mentioned in listing; listing age: 0 days; first seen: 2026-04-18 (62 days ago)
 
 ## 10. 本町３（西新宿五丁目駅） 1億700万円
 
@@ -275,7 +275,28 @@ Generated at: 2026-06-19T16:53:45.243362+09:00
 - Listing summary: ◆最寄り駅徒歩10分 ◆築3年の築浅戸建 ◆LDK超18帖の４LDK お問合せの際は【ホームページ】を見てとお伝え頂くとスムーズです。 事前見学予約、また当日見学希望などもお気軽にお問い合わせ下さい。 （平日土日祝祭日いつでも） 中国語も対応可能！ 創業50年の実績と経験でお客様に喜んでいただけるように、お手伝いさせていたきます
 - Notes: exact target station match: 経堂; best station preference: 5.5/10; size clears ideal threshold at 117.12 sqm; layout: 4LDK; price is within budget at 14600万円; target station walk time misses target at 13 min; nearest listed station is 10 min; scoring uses 経堂 at 13 min; built in 2023; dishwasher mentioned in listing; brightness/window positives: 陽当り良好; listing age: 1 days; first seen: 2026-06-03 (16 days ago)
 
-## 14. 駒田東大前駅　徒歩6分その他2駅利用可閑静な住宅街好アクセス
+## 14. 世田谷区上馬5丁目 中古戸建
+
+- Score: 76.52
+- Source: suumo
+- URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20549155/
+- Stations: 三軒茶屋
+- Price: 14800万円
+- Size: 105.98 sqm
+- Layout: 2LDK+S（納戸）
+- Walk: 7 min
+- Target Walk: 17 min
+- Built: 2017
+- First Seen: 2026-04-27T15:21:30.014609+00:00
+- Strict Match: yes
+- Dishwasher: yes
+- Address: 東京都世田谷区上馬５
+- Access: 東急世田谷線「松陰神社前」歩7分 [ 乗り換え案内 ] 東急田園都市線「駒沢大学」歩12分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩17分 [ 乗り換え案内 ]
+- Land Area: 80.49 sqm
+- Listing summary: プライバシーに配慮したバルコニーテラス！ 広々とした吹き抜けのあるLDK♪ ～充実した仕様設備～ ◇オールステンレスの大型アイランドキッチン ◇サンワカンパニー1620サイズのバスルーム ◇サンワカンパニーW1200洗面台 ◇食洗機・浄水器付き ◇スティックリモコンタイプタンクレストイレ
+- Notes: exact target station match: 三軒茶屋; best station preference: 8.0/10; size clears ideal threshold at 105.98 sqm; layout: 2LDK+S（納戸）; price is within budget at 14800万円; target station walk time misses target at 17 min; nearest listed station is 7 min; scoring uses 三軒茶屋 at 17 min; built in 2017; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好; ceiling/window-height positives: 天井高, 吹抜け; listing age: 1 days; first seen: 2026-04-27 (53 days ago)
+
+## 15. 駒田東大前駅　徒歩6分その他2駅利用可閑静な住宅街好アクセス
 
 - Score: 75.77
 - Source: suumo
@@ -296,28 +317,28 @@ Generated at: 2026-06-19T16:53:45.243362+09:00
 - Listing summary: 駒田東大前駅　徒歩6分 その他2駅利用可 閑静な住宅街 好アクセス 室内（2026年2月）撮影 室内（2026年2月）撮影 室内（2026年2月）撮影 現地（2026年2月）撮影
 - Notes: exact target station match: 池尻大橋, 神泉; best station preference: 8.5/10; size clears ideal threshold at 73.17 sqm; layout: 2LDK+S（納戸）; price is within budget at 10450万円; target station walk time misses target at 14 min; nearest listed station is 6 min; scoring uses 池尻大橋 at 14 min; built in 2002; dishwasher mentioned in listing; listing age: 4 days; first seen: 2026-06-04 (15 days ago)
 
-## 15. 世田谷区上馬5丁目 中古戸建
+## 16. －ベルクハウス施工－光と開放感を纏う邸宅売主様との条件交渉お任せください
 
-- Score: 75.02
+- Score: 74.12
 - Source: suumo
-- URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20549155/
-- Stations: 三軒茶屋
-- Price: 14800万円
-- Size: 105.98 sqm
-- Layout: 2LDK+S（納戸）
-- Walk: 7 min
-- Target Walk: 17 min
-- Built: 2017
-- First Seen: 2026-04-27T15:21:30.014609+00:00
+- URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20923873/
+- Stations: 三軒茶屋, 学芸大学, 祐天寺
+- Price: 14500万円
+- Size: 103.54 sqm
+- Layout: 3LDK+S（納戸）
+- Walk: 11 min
+- Target Walk: 11 min
+- Built: 2012
+- First Seen: 2026-04-22T15:47:01.701300+00:00
 - Strict Match: yes
-- Dishwasher: yes
-- Address: 東京都世田谷区上馬５
-- Access: 東急世田谷線「松陰神社前」歩7分 [ 乗り換え案内 ] 東急田園都市線「駒沢大学」歩12分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩17分 [ 乗り換え案内 ]
-- Land Area: 80.49 sqm
-- Listing summary: プライバシーに配慮したバルコニーテラス！ 広々とした吹き抜けのあるLDK♪ ～充実した仕様設備～ ◇オールステンレスの大型アイランドキッチン ◇サンワカンパニー1620サイズのバスルーム ◇サンワカンパニーW1200洗面台 ◇食洗機・浄水器付き ◇スティックリモコンタイプタンクレストイレ
-- Notes: exact target station match: 三軒茶屋; best station preference: 7.0/10; size clears ideal threshold at 105.98 sqm; layout: 2LDK+S（納戸）; price is within budget at 14800万円; target station walk time misses target at 17 min; nearest listed station is 7 min; scoring uses 三軒茶屋 at 17 min; built in 2017; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好; ceiling/window-height positives: 天井高, 吹抜け; listing age: 1 days; first seen: 2026-04-27 (53 days ago)
+- Dishwasher: not confirmed
+- Address: 東京都世田谷区下馬５
+- Access: 東急東横線「祐天寺」歩11分 [ 乗り換え案内 ] 東急東横線「学芸大学」歩13分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩21分 [ 乗り換え案内 ]
+- Land Area: 81.27 sqm
+- Listing summary: －ベルクハウス施工－光と開放感を纏う邸宅 売主様との条件交渉お任せください 約17.7帖の大型空間は、 シアタールームやシミュレーションゴルフなど多彩な用途に対応。 専用バーカウンターも備え、 ライフスタイルに合わせて4LDKへの変更も検討可能な自由度の高い住まいです。 ≪弊社ランディックス桜新町本店は創業50年≫ 世田谷区・目黒区・大田区・品川区・渋谷区・港区をはじめとした城南エリア、
+- Notes: exact target station match: 三軒茶屋, 学芸大学, 祐天寺; best station preference: 8.0/10; size clears ideal threshold at 103.54 sqm; layout: 3LDK+S（納戸）; price is within budget at 14500万円; target station walk time meets target at 11 min; built in 2012; dishwasher not explicitly confirmed; brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好; listing age: 0 days; first seen: 2026-04-22 (58 days ago)
 
-## 16. 中野１（中野駅） 1億4980万円
+## 17. 中野１（中野駅） 1億4980万円
 
 - Score: 74.06
 - Source: suumo
@@ -338,7 +359,7 @@ Generated at: 2026-06-19T16:53:45.243362+09:00
 - Listing summary: ■三井のリハウス■ 南側接道、2024年6月築の3階建 ルーフバルコニー付 －物件のおすすめポイント－ ▼立地 JR中央線・総武線・東京メトロ東西線「中野」駅徒歩10分 再開発の進む中野駅を生活圏とする立地 ▼特徴
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears ideal threshold at 114.68 sqm; layout: 3LDK+S（納戸）; price is within budget at 14980万円; target station walk time meets target at 10 min; built in 2024; dishwasher not explicitly confirmed; brightness/window positives: 陽当り良好, 採光, 眺望良好, 通風良好; listing age: 1 days; first seen: 2026-05-19 (31 days ago)
 
-## 17. 本町３（西新宿五丁目駅） 1億4800万円
+## 18. 本町３（西新宿五丁目駅） 1億4800万円
 
 - Score: 73.61
 - Source: suumo
@@ -359,7 +380,7 @@ Generated at: 2026-06-19T16:53:45.243362+09:00
 - Listing summary: 西新宿五丁目駅徒歩4分！RC造駒田建築設計事務所施工のオフィス兼用住宅 ◆アクセス ・都営大江戸線『西新宿五丁目』駅まで徒歩4分、 京王新線『初台』駅まで徒歩13分。 ◆施工・構造 ・2011年10月築、鉄筋コンクリート造3階建て。 ・耐震性能向上のため、杭打ち工事済みです。 ・建物の対角線上を斜めに横切る形で間仕切りを配置。
 - Notes: exact target station match: 西新宿五丁目; best station preference: 6.5/10; size clears ideal threshold at 70.16 sqm; layout: 3LDK; price is within budget at 14800万円; target station walk time meets target at 4 min; built in 2011; dishwasher not explicitly confirmed; brightness/window positives: 採光; ceiling/window-height positives: 吹抜け; listing age: 1 days; first seen: 2026-05-19 (31 days ago)
 
-## 18. ◇全居室南向き&2面以上採光◇約3.0帖のロフト付き◎1台駐車可(車種による)
+## 19. ◇全居室南向き&2面以上採光◇約3.0帖のロフト付き◎1台駐車可(車種による)
 
 - Score: 73.59
 - Source: suumo
@@ -379,27 +400,6 @@ Generated at: 2026-06-19T16:53:45.243362+09:00
 - Land Area: 82.64 sqm
 - Listing summary: ◇全居室南向き&2面以上採光◇約3.0帖のロフト付き◎1台駐車可(車種による) ■□━━「世田谷区上北沢一丁目」のオススメPOINT━━□■ ■京王線「桜上水」駅まで徒歩12分。 ■2023年9月築、木造2階建「2LDK+S(納戸)」。 ■外からの視線が気になりにくい、2階リビング。 ■対面式キッチンでご家族との会話が弾みます。 ■バルコニーは南向き！洗濯物もよく乾きそうです。 ■LDK上部に約3.0帖のロフト有り。
 - Notes: exact target station match: 経堂; best station preference: 5.5/10; size clears hard threshold at 66.28 sqm; layout: 2LDK+S（納戸）; price is within budget at 8180万円; target station walk time misses target at 21 min; nearest listed station is 12 min; scoring uses 経堂 at 21 min; built in 2023; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好; ceiling/window-height positives: 吹抜け; listing age: 0 days; first seen: 2026-06-03 (16 days ago)
-
-## 19. －ベルクハウス施工－光と開放感を纏う邸宅売主様との条件交渉お任せください
-
-- Score: 72.62
-- Source: suumo
-- URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20923873/
-- Stations: 三軒茶屋, 学芸大学, 祐天寺
-- Price: 14500万円
-- Size: 103.54 sqm
-- Layout: 3LDK+S（納戸）
-- Walk: 11 min
-- Target Walk: 11 min
-- Built: 2012
-- First Seen: 2026-04-22T15:47:01.701300+00:00
-- Strict Match: yes
-- Dishwasher: not confirmed
-- Address: 東京都世田谷区下馬５
-- Access: 東急東横線「祐天寺」歩11分 [ 乗り換え案内 ] 東急東横線「学芸大学」歩13分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩21分 [ 乗り換え案内 ]
-- Land Area: 81.27 sqm
-- Listing summary: －ベルクハウス施工－光と開放感を纏う邸宅 売主様との条件交渉お任せください 約17.7帖の大型空間は、 シアタールームやシミュレーションゴルフなど多彩な用途に対応。 専用バーカウンターも備え、 ライフスタイルに合わせて4LDKへの変更も検討可能な自由度の高い住まいです。 ≪弊社ランディックス桜新町本店は創業50年≫ 世田谷区・目黒区・大田区・品川区・渋谷区・港区をはじめとした城南エリア、
-- Notes: exact target station match: 三軒茶屋, 学芸大学, 祐天寺; best station preference: 7.0/10; size clears ideal threshold at 103.54 sqm; layout: 3LDK+S（納戸）; price is within budget at 14500万円; target station walk time meets target at 11 min; built in 2012; dishwasher not explicitly confirmed; brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好; listing age: 0 days; first seen: 2026-04-22 (58 days ago)
 
 ## 20. 渋谷区幡ヶ谷　築浅戸建
 
