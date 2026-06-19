@@ -1,6 +1,6 @@
 # Used House shortlist
 
-Generated at: 2026-06-19T17:20:07.431678+09:00
+Generated at: 2026-06-19T17:52:09.762033+09:00
 
 ## 1. 世田谷区池尻２丁目
 
@@ -191,28 +191,7 @@ Generated at: 2026-06-19T17:20:07.431678+09:00
 - Listing summary: 憧れの街をわが家に。利便性と心地よさが交差する、3階建ての住まい 「ただいま」が、もっと楽しみになる場所に ～スタッフが見つけた、この物件の住みたいポイント～ ■元カフェの店舗スペースがある暮らし。 ■東急ホームズ施工！こだわり3LDK。 ■小屋裏収納も完備。 ▼この街と歩んで、30年▼ 私たちがご紹介したいのは、家そのものだけでなく、
 - Notes: exact target station match: 三軒茶屋; best station preference: 8.0/10; size clears ideal threshold at 102.70 sqm; layout: 3LDK; price is within budget at 13980万円; target station walk time meets target at 7 min; nearest listed station is 6 min; scoring uses 三軒茶屋 at 7 min; built in 2011; dishwasher mentioned in listing; listing age: 0 days; first seen: 2026-04-18 (62 days ago)
 
-## 10. 本町３（西新宿五丁目駅） 1億700万円
-
-- Score: 82.11
-- Source: suumo
-- URL: https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20904587/
-- Stations: 西新宿五丁目
-- Price: 10700万円
-- Size: 76.63 sqm
-- Layout: 4LDK
-- Walk: 2 min
-- Target Walk: 2 min
-- Built: 2007
-- First Seen: 2026-06-07T05:50:05.470639+00:00
-- Strict Match: yes
-- Dishwasher: not confirmed
-- Address: 東京都渋谷区本町３-16-8
-- Access: 都営大江戸線「西新宿五丁目」歩2分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「中野坂上」歩10分 [ 乗り換え案内 ]
-- Land Area: 46.11 sqm
-- Listing summary: 1億700万円、4LDK、土地面積46.11m 2 、建物面積76.63m 2 ※写真に誤り・問題がある場合は こちら ２沿線以上利用可
-- Notes: exact target station match: 西新宿五丁目; best station preference: 6.5/10; size clears ideal threshold at 76.63 sqm; layout: 4LDK; price is within budget at 10700万円; target station walk time meets target at 2 min; built in 2007; dishwasher not explicitly confirmed; listing age: 7 days; first seen: 2026-06-07 (12 days ago)
-
-## 11. 新宿区西新宿４丁目　中古戸建
+## 10. 新宿区西新宿４丁目　中古戸建
 
 - Score: 81.7
 - Source: suumo
@@ -233,7 +212,7 @@ Generated at: 2026-06-19T17:20:07.431678+09:00
 - Listing summary: 駅徒歩2分！新宿区の注文戸建でシティライクな暮らし♪ ◇◇都営大江戸線「西新宿五丁目」駅　徒歩2分◇◇ 新宿まで乗車４分でアクセス良好！ 専有面積　89.57m 2 3Fの洋室は壁で区切れるようになっているので、LDK＋3部屋として使用できます！ ■小学校徒歩10分以内で安心！ ■スーパー・コンビニも近く、買い物にも便利です！
 - Notes: exact target station match: 初台, 西新宿五丁目; best station preference: 7.0/10; size clears ideal threshold at 89.57 sqm; layout: 2LDK; price is within budget at 12800万円; target station walk time meets target at 2 min; built in 2010; dishwasher not explicitly confirmed; brightness/window positives: 採光; listing age: 1 days; first seen: 2026-05-19 (31 days ago)
 
-## 12. 【当社売主】2025年10月リフォーム済駐車場付戸建♪ルーフバルコニ―♪
+## 11. 【当社売主】2025年10月リフォーム済駐車場付戸建♪ルーフバルコニ―♪
 
 - Score: 77.75
 - Source: suumo
@@ -253,6 +232,27 @@ Generated at: 2026-06-19T17:20:07.431678+09:00
 - Land Area: 55.27 sqm
 - Listing summary: 【当社売主】2025年10月リフォーム済 駐車場付戸建♪ルーフバルコニ―♪ ◆当社が売主なので初期費用を抑えられます ◆2025年10月新規リフォーム済 ◆2019年築の3階建の戸建はハイルーフも停められる駐車スペース付き ◆京王新線「幡ヶ谷駅」徒歩8分の好立地 ◆眺望良好のルーフトップバルコニ―♪ ◆四面採光で陽光、通風良好
 - Notes: exact target station match: 初台; best station preference: 7.0/10; size clears hard threshold at 68.48 sqm; layout: 3LDK; price is within budget at 8980万円; target station walk time misses target at 15 min; nearest listed station is 8 min; scoring uses 初台 at 15 min; built in 2019; dishwasher mentioned in listing; brightness/window positives: 南向き, 採光, 眺望良好, 通風良好; listing age: 0 days; first seen: 2026-06-07 (12 days ago)
+
+## 12. 本町３（西新宿五丁目駅） 1億700万円
+
+- Score: 77.61
+- Source: suumo
+- URL: https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20904587/
+- Stations: 西新宿五丁目
+- Price: 10700万円
+- Size: 76.63 sqm
+- Layout: 4LDK
+- Walk: 2 min
+- Target Walk: 2 min
+- Built: 2007
+- First Seen: 2026-06-07T05:50:05.470639+00:00
+- Strict Match: yes
+- Dishwasher: not confirmed
+- Address: 東京都渋谷区本町３-16-8
+- Access: 都営大江戸線「西新宿五丁目」歩2分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「中野坂上」歩10分 [ 乗り換え案内 ]
+- Land Area: 46.11 sqm
+- Listing summary: 1億700万円、4LDK、土地面積46.11m 2 、建物面積76.63m 2 ※写真に誤り・問題がある場合は こちら ２沿線以上利用可
+- Notes: exact target station match: 西新宿五丁目; best station preference: 3.5/10; size clears ideal threshold at 76.63 sqm; layout: 4LDK; price is within budget at 10700万円; target station walk time meets target at 2 min; built in 2007; dishwasher not explicitly confirmed; listing age: 7 days; first seen: 2026-06-07 (12 days ago)
 
 ## 13. ◆最寄り駅徒歩10分◆築3年の築浅戸建◆LDK超18帖の４LDK
 
@@ -359,28 +359,7 @@ Generated at: 2026-06-19T17:20:07.431678+09:00
 - Listing summary: ■三井のリハウス■ 南側接道、2024年6月築の3階建 ルーフバルコニー付 －物件のおすすめポイント－ ▼立地 JR中央線・総武線・東京メトロ東西線「中野」駅徒歩10分 再開発の進む中野駅を生活圏とする立地 ▼特徴
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears ideal threshold at 114.68 sqm; layout: 3LDK+S（納戸）; price is within budget at 14980万円; target station walk time meets target at 10 min; built in 2024; dishwasher not explicitly confirmed; brightness/window positives: 陽当り良好, 採光, 眺望良好, 通風良好; listing age: 1 days; first seen: 2026-05-19 (31 days ago)
 
-## 18. 本町３（西新宿五丁目駅） 1億4800万円
-
-- Score: 73.61
-- Source: suumo
-- URL: https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78419001/
-- Stations: 西新宿五丁目
-- Price: 14800万円
-- Size: 70.16 sqm
-- Layout: 3LDK
-- Walk: 4 min
-- Target Walk: 4 min
-- Built: 2011
-- First Seen: 2026-05-19T05:53:28.388255+00:00
-- Strict Match: yes
-- Dishwasher: not confirmed
-- Address: 東京都渋谷区本町３
-- Access: 都営大江戸線「西新宿五丁目」歩4分 [ 乗り換え案内 ]
-- Land Area: 45.51 sqm
-- Listing summary: 西新宿五丁目駅徒歩4分！RC造駒田建築設計事務所施工のオフィス兼用住宅 ◆アクセス ・都営大江戸線『西新宿五丁目』駅まで徒歩4分、 京王新線『初台』駅まで徒歩13分。 ◆施工・構造 ・2011年10月築、鉄筋コンクリート造3階建て。 ・耐震性能向上のため、杭打ち工事済みです。 ・建物の対角線上を斜めに横切る形で間仕切りを配置。
-- Notes: exact target station match: 西新宿五丁目; best station preference: 6.5/10; size clears ideal threshold at 70.16 sqm; layout: 3LDK; price is within budget at 14800万円; target station walk time meets target at 4 min; built in 2011; dishwasher not explicitly confirmed; brightness/window positives: 採光; ceiling/window-height positives: 吹抜け; listing age: 1 days; first seen: 2026-05-19 (31 days ago)
-
-## 19. ◇全居室南向き&2面以上採光◇約3.0帖のロフト付き◎1台駐車可(車種による)
+## 18. ◇全居室南向き&2面以上採光◇約3.0帖のロフト付き◎1台駐車可(車種による)
 
 - Score: 73.59
 - Source: suumo
@@ -401,7 +380,7 @@ Generated at: 2026-06-19T17:20:07.431678+09:00
 - Listing summary: ◇全居室南向き&2面以上採光◇約3.0帖のロフト付き◎1台駐車可(車種による) ■□━━「世田谷区上北沢一丁目」のオススメPOINT━━□■ ■京王線「桜上水」駅まで徒歩12分。 ■2023年9月築、木造2階建「2LDK+S(納戸)」。 ■外からの視線が気になりにくい、2階リビング。 ■対面式キッチンでご家族との会話が弾みます。 ■バルコニーは南向き！洗濯物もよく乾きそうです。 ■LDK上部に約3.0帖のロフト有り。
 - Notes: exact target station match: 経堂; best station preference: 5.5/10; size clears hard threshold at 66.28 sqm; layout: 2LDK+S（納戸）; price is within budget at 8180万円; target station walk time misses target at 21 min; nearest listed station is 12 min; scoring uses 経堂 at 21 min; built in 2023; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好; ceiling/window-height positives: 吹抜け; listing age: 0 days; first seen: 2026-06-03 (16 days ago)
 
-## 20. 渋谷区幡ヶ谷　築浅戸建
+## 19. 渋谷区幡ヶ谷　築浅戸建
 
 - Score: 72.25
 - Source: suumo
@@ -421,3 +400,24 @@ Generated at: 2026-06-19T17:20:07.431678+09:00
 - Land Area: 55.27 sqm
 - Listing summary: ◆内覧可能◆室内リフォーム完成しました◆ 【３６５日　年中無休】 原則即日ご対応(夜間除く) 他に無い対応力でお客様の見たい知りたいを叶えます。 【住宅ローンに強い！】 常時20行以上の金融機関と取引有り。 お客様に合わせて適切なプランをご提案させて頂きます。 【コロナ対策　実施中】
 - Notes: exact target station match: 初台; best station preference: 7.0/10; size clears hard threshold at 68.48 sqm; layout: 3LDK; price is within budget at 8980万円; target station walk time misses target at 17 min; nearest listed station is 8 min; scoring uses 初台 at 17 min; built in 2019; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好, 大きな窓; listing age: 6 days; first seen: 2026-06-03 (16 days ago)
+
+## 20. プラウドシーズン世田谷経堂　光彩の邸
+
+- Score: 71.9
+- Source: suumo
+- URL: https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20969428/
+- Stations: 経堂
+- Price: 14500万円
+- Size: 96.34 sqm
+- Layout: 4LDK
+- Walk: 7 min
+- Target Walk: 14 min
+- Built: 2016
+- First Seen: 2026-06-19T07:53:42.366690+00:00
+- Strict Match: yes
+- Dishwasher: not confirmed
+- Address: 東京都世田谷区赤堤３
+- Access: 小田急線「経堂」歩14分 [ 乗り換え案内 ] 東急世田谷線「松原」歩7分 [ 乗り換え案内 ] 京王線「下高井戸」歩14分 [ 乗り換え案内 ]
+- Land Area: 98.01 sqm
+- Listing summary: 閑静な住環境に位置する野村不動産旧分譲「プラウドシーズン」ハイスペック戸建 【野村の仲介＋専任媒介物件】 当社に仲介をお任せいただいた場合、 設備・建物のアフターサポート引継ぎが可能です。 ●認定保証中古制度、あんしん設備・建物補修(アフターサポート） ●リビング天井高2.5m、WIC、キッチン床下収納、小屋裏収納（4.4畳） ●野村不動産インテリアによる室内仕様（DK収納棚、エコカラット等） ●生活動線の良い1階LDK
+- Notes: exact target station match: 経堂; best station preference: 5.5/10; size clears ideal threshold at 96.34 sqm; layout: 4LDK; price is within budget at 14500万円; target station walk time misses target at 14 min; nearest listed station is 7 min; scoring uses 経堂 at 14 min; built in 2016; dishwasher not explicitly confirmed; brightness/window positives: 陽当り良好; ceiling/window-height positives: 天井高; listing age: 1 days; first seen: 2026-06-19 (0 days ago)

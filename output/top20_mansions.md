@@ -1,10 +1,10 @@
 # Used Mansion shortlist
 
-Generated at: 2026-06-19T17:19:59.042177+09:00
+Generated at: 2026-06-19T17:51:59.937567+09:00
 
 ## 1. フィールM西新宿
 
-- Score: 96.73
+- Score: 92.23
 - Source: suumo
 - URL: https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20965706/
 - Stations: 西新宿五丁目
@@ -20,29 +20,9 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Address: 東京都新宿区西新宿５
 - Access: 都営大江戸線「西新宿五丁目」歩1分 [ 乗り換え案内 ] 都営大江戸線「都庁前」歩8分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「西新宿」歩11分 [ 乗り換え案内 ]
 - Listing summary: 【都会を軽やかに駆ける拠点。】 □□　A  very  COOL  every  LIFE  !　□□ ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc まずはお気軽に現地をご覧下さいませ。物件の詳細について、ご見学希望のお客様は下記番号までお気軽にご連絡下さい。 お問い合わせ専用フリーダイヤル ：０１２０－１３５－００４ ※当物件の一部画像を抜粋しています。
-- Notes: exact target station match: 西新宿五丁目; best station preference: 6.5/10; size clears hard threshold at 65.62 sqm; layout: 2LDK+S（納戸）; price is within budget at 9780万円; target station walk time meets target at 1 min; built in 2003; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好; listing age: 1 days; first seen: 2026-06-02 (17 days ago)
+- Notes: exact target station match: 西新宿五丁目; best station preference: 3.5/10; size clears hard threshold at 65.62 sqm; layout: 2LDK+S（納戸）; price is within budget at 9780万円; target station walk time meets target at 1 min; built in 2003; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好; listing age: 1 days; first seen: 2026-06-02 (17 days ago)
 
-## 2. フィールＭ西新宿
-
-- Score: 91.23
-- Source: suumo
-- URL: https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21085770/
-- Stations: 西新宿五丁目
-- Price: 9780万円
-- Size: 65.62 sqm
-- Layout: 2LDK
-- Walk: 1 min
-- Target Walk: 1 min
-- Built: 2003
-- First Seen: 2026-06-07T05:48:08.323137+00:00
-- Strict Match: yes
-- Dishwasher: yes
-- Address: 東京都新宿区西新宿５-24-14
-- Access: 都営大江戸線「西新宿五丁目」歩1分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「西新宿」歩13分 [ 乗り換え案内 ] 都営大江戸線「都庁前」歩12分 [ 乗り換え案内 ]
-- Listing summary: ～～～～～≪recommended points≫～～～～～ ◇都営大江戸線「西新宿五丁目」駅徒歩1分！ ◇専有面積65.62m 2 、収納も豊富にそろえた2LDK！ ◇広々とした16.8畳のリビングで、家族もゲストもゆったり！ ◇角部屋につき、陽当たり・通風ともに良好です。 ◇安心の「新耐震基準（2000年基準）」マンション！
-- Notes: exact target station match: 西新宿五丁目; best station preference: 6.5/10; size clears hard threshold at 65.62 sqm; layout: 2LDK; price is within budget at 9780万円; target station walk time meets target at 1 min; built in 2003; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 通風良好, 角住戸; listing age: 3 days; first seen: 2026-06-07 (12 days ago)
-
-## 3. オープンレジデンシア吉祥寺本町
+## 2. オープンレジデンシア吉祥寺本町
 
 - Score: 90.91
 - Source: suumo
@@ -62,7 +42,7 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Listing summary: 吉祥寺駅徒歩8分、築3年の築浅。ペット可＆設備充実の3LDKで理想の暮らしを。 ■■ＯＮＯＹＡの【３６５リノベ】にお任せ下さい■■ ３６５リノベでは物件さがし＋定額リノベーションで 立地・間取り・内装・インテリアをまとめてご提案♪ 家賃並の支払いで自分らしい暮らしが、 スタイルも価格も含めて丸ごと叶います。 ■■住宅ローン相談会随時受付中■■ 住宅ローンの審査が不安！他の借入があっても借入できるの？
 - Notes: exact target station match: 吉祥寺; best station preference: 6.0/10; size clears ideal threshold at 70.74 sqm; layout: 3LDK; price is within budget at 9990万円; target station walk time meets target at 8 min; built in 2022; dishwasher mentioned in listing; brightness/window positives: 南向き, 角住戸; listing age: 1 days; first seen: 2026-04-18 (62 days ago)
 
-## 4. オープンレジデンス中野桃園町　Ｓ棟
+## 3. オープンレジデンス中野桃園町　Ｓ棟
 
 - Score: 90.14
 - Source: suumo
@@ -82,7 +62,7 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Listing summary: ■三井のリハウス■ 南向きLDKは広々約19.4帖 閑静な住宅街に位置 －物件のおすすめポイント－ ▼立地 ・JR中央本線・中央・総武緩行線・東京メトロ東西線 「中野」駅　徒歩7分 ・東京メトロ丸ノ内線「新中野」駅　徒歩13分
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears ideal threshold at 72.68 sqm; layout: 2LDK; price is within budget at 10980万円; target station walk time meets target at 7 min; built in 2010; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好; listing age: 1 days; first seen: 2026-04-18 (62 days ago)
 
-## 5. パークタワー西新宿エムズポート
+## 4. パークタワー西新宿エムズポート
 
 - Score: 89.84
 - Source: suumo
@@ -102,7 +82,7 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Listing summary: ～邸宅としての誇り。パークタワーという、揺るぎない選択。～ □□　Report from Toho House Oji　□□ 【TOHO HOUSE CLUBでのアフターサービス】 ご購入後の「おウチ」と「お金」のご相談窓口をご用意しております！ ・金利上昇時のリスクヘッジ、借換え相談、繰上返済のタイミング、各種保険の見直し・・・etc ・おウチの設備保証や定期点検、駆け付けサービス・・・etc 購入前のタイミングは勿論、購入後のご不安につきましてもご相談可能です！ まずはお気軽に現地をご覧下さいませ。物件の詳細について、ご見学希望のお客様は下記番号までお気軽にご連絡下さい。
 - Notes: exact target station match: 新宿; best station preference: 5.5/10; size clears ideal threshold at 74.64 sqm; layout: 3LDK+3S（納戸）; price is outside target budget at 15900万円; target station walk time meets target at 4 min; built in 2013; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好; listing age: 0 days; first seen: 2026-05-19 (31 days ago)
 
-## 6. グランツオーベル中野
+## 5. グランツオーベル中野
 
 - Score: 87.6
 - Source: suumo
@@ -122,27 +102,27 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Listing summary: 住宅街に佇む低層レジデンス×中野駅5分×ペット飼育可能×3LDK＋WIC ～　売主様から当社が直接お預かりしている専任物件です　～ ●中野駅徒歩5分、住宅街に佇む低層レジデンス ●ペット飼育可能（但し飼育細則等あり） ●2020年築、築年数が新しいマンション ●リビングに床暖房 ●ウォークインクローゼット等収納スペース豊富 ●スーパー、コンビニ、ドラッグストア、至近で買物便利
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears hard threshold at 66.29 sqm; layout: 3LDK; price is outside target budget at 15480万円; target station walk time meets target at 5 min; built in 2020; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 通風良好; listing age: 3 days; first seen: 2026-04-29 (51 days ago)
 
-## 7. シティタワー新宿新都心
+## 6. フィールＭ西新宿
 
-- Score: 85.79
+- Score: 86.73
 - Source: suumo
-- URL: https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20580875/
-- Stations: 新宿, 西新宿五丁目
-- Price: 15500万円
-- Size: 67.15 sqm
+- URL: https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21085770/
+- Stations: 西新宿五丁目
+- Price: 9780万円
+- Size: 65.62 sqm
 - Layout: 2LDK
-- Walk: 2 min
-- Target Walk: 2 min
-- Built: 2005
-- First Seen: 2026-05-19T05:51:52.385780+00:00
+- Walk: 1 min
+- Target Walk: 1 min
+- Built: 2003
+- First Seen: 2026-06-07T05:48:08.323137+00:00
 - Strict Match: yes
 - Dishwasher: yes
-- Address: 東京都新宿区西新宿４
-- Access: 都営大江戸線「西新宿五丁目」歩2分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「西新宿」歩11分 [ 乗り換え案内 ] ＪＲ山手線「新宿」歩17分 [ 乗り換え案内 ]
-- Listing summary: ～22階、南西向き角部屋2LDK、新規内装リフォーム住戸～ ━━━━━━━━━━━━━━━━━━━━━━━ ◆36階建22階部分　南西向き角住戸 ◆各居室5帖以上の2LDK ◆間取り：2LDK＋WIC ◆浴室は1418サイズ ◆LDKは約16.8帖 ◆全居室が採光が取れており明るい室内です
-- Notes: exact target station match: 新宿, 西新宿五丁目; best station preference: 6.5/10; size clears hard threshold at 67.15 sqm; layout: 2LDK; price is outside target budget at 15500万円; target station walk time meets target at 2 min; built in 2005; dishwasher mentioned in listing; brightness/window positives: 南西向き, 陽当り良好, 採光, 眺望良好; listing age: 1 days; first seen: 2026-05-19 (31 days ago)
+- Address: 東京都新宿区西新宿５-24-14
+- Access: 都営大江戸線「西新宿五丁目」歩1分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「西新宿」歩13分 [ 乗り換え案内 ] 都営大江戸線「都庁前」歩12分 [ 乗り換え案内 ]
+- Listing summary: ～～～～～≪recommended points≫～～～～～ ◇都営大江戸線「西新宿五丁目」駅徒歩1分！ ◇専有面積65.62m 2 、収納も豊富にそろえた2LDK！ ◇広々とした16.8畳のリビングで、家族もゲストもゆったり！ ◇角部屋につき、陽当たり・通風ともに良好です。 ◇安心の「新耐震基準（2000年基準）」マンション！
+- Notes: exact target station match: 西新宿五丁目; best station preference: 3.5/10; size clears hard threshold at 65.62 sqm; layout: 2LDK; price is within budget at 9780万円; target station walk time meets target at 1 min; built in 2003; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 通風良好, 角住戸; listing age: 3 days; first seen: 2026-06-07 (12 days ago)
 
-## 8. オープンレジデンス祐天寺
+## 7. オープンレジデンス祐天寺
 
 - Score: 84.62
 - Source: suumo
@@ -161,6 +141,26 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Access: 東急東横線「祐天寺」歩4分 [ 乗り換え案内 ] 東京メトロ日比谷線「中目黒」歩18分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」バス14分五本木一丁目歩2分 [ 乗り換え案内 ]
 - Listing summary: ＼令和6年6月築・築浅低層マンション／ 戸建感覚で過ごせるメゾネットタイプ ▽アクセス ・渋谷・中目黒へダイレクトアクセス！ オンとオフを軽快に切り替える立地◎ ・都会の真ん中であることを忘れるような、 穏やかで落ち着いた閑静な住宅地♪ ・東横線「祐天寺」駅 徒歩4分
 - Notes: exact target station match: 中目黒, 祐天寺; best station preference: 9.0/10; size clears hard threshold at 65.51 sqm; layout: 2LDK; price is within budget at 11000万円; target station walk time meets target at 4 min; built in 2024; dishwasher mentioned in listing; brightness/window positives: 通風良好; basement / semi-basement indicators present; listing age: 1 days; first seen: 2026-04-22 (58 days ago)
+
+## 8. シティタワー新宿新都心
+
+- Score: 84.29
+- Source: suumo
+- URL: https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20580875/
+- Stations: 新宿, 西新宿五丁目
+- Price: 15500万円
+- Size: 67.15 sqm
+- Layout: 2LDK
+- Walk: 2 min
+- Target Walk: 2 min
+- Built: 2005
+- First Seen: 2026-05-19T05:51:52.385780+00:00
+- Strict Match: yes
+- Dishwasher: yes
+- Address: 東京都新宿区西新宿４
+- Access: 都営大江戸線「西新宿五丁目」歩2分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「西新宿」歩11分 [ 乗り換え案内 ] ＪＲ山手線「新宿」歩17分 [ 乗り換え案内 ]
+- Listing summary: ～22階、南西向き角部屋2LDK、新規内装リフォーム住戸～ ━━━━━━━━━━━━━━━━━━━━━━━ ◆36階建22階部分　南西向き角住戸 ◆各居室5帖以上の2LDK ◆間取り：2LDK＋WIC ◆浴室は1418サイズ ◆LDKは約16.8帖 ◆全居室が採光が取れており明るい室内です
+- Notes: exact target station match: 新宿, 西新宿五丁目; best station preference: 5.5/10; size clears hard threshold at 67.15 sqm; layout: 2LDK; price is outside target budget at 15500万円; target station walk time meets target at 2 min; built in 2005; dishwasher mentioned in listing; brightness/window positives: 南西向き, 陽当り良好, 採光, 眺望良好; listing age: 1 days; first seen: 2026-05-19 (31 days ago)
 
 ## 9. オープンレジデンシア代沢二丁目
 
@@ -242,27 +242,7 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Listing summary: 【写真より現地で実感】 手数料50％割引対象物件 充実設備収納豊富な間取り 【敷地のポイント】 ●一方通行につき車通り少なく閑静な住宅地 【建物のポイント】 ●外からの視線を感じにくく、プライベート感のある居住空間 ●同フロアに駐輪場・ゴミ置き場があり、日常動線がスムーズ ●会話がはずむ対面式オープンキッチン ●家事がはかどる大きめの食洗機
 - Notes: exact target station match: 吉祥寺; best station preference: 6.0/10; size clears ideal threshold at 70.74 sqm; layout: 3LDK; price is within budget at 9990万円; target station walk time meets target at 8 min; built in 2022; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 通風良好, 角住戸; basement / semi-basement indicators present; listing age: 4 days; first seen: 2026-06-02 (17 days ago)
 
-## 13. クレストフォルム中野弥生町
-
-- Score: 79.02
-- Source: suumo
-- URL: https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20927594/
-- Stations: 西新宿五丁目
-- Price: 9380万円
-- Size: 67.16 sqm
-- Layout: 2LDK+S（納戸）
-- Walk: 8 min
-- Target Walk: 9 min
-- Built: 2007
-- First Seen: 2026-05-26T13:38:14.292457+00:00
-- Strict Match: yes
-- Dishwasher: yes
-- Address: 東京都中野区弥生町１
-- Access: 東京メトロ丸ノ内線「中野新橋」歩8分 [ 乗り換え案内 ] 都営大江戸線「西新宿五丁目」歩9分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「中野坂上」歩15分 [ 乗り換え案内 ]
-- Listing summary: 新宿至近の好立地！2駅利用可能♪ 全居室収納＆広々WICでスッキリ！ ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◇丸ノ内線「中野新橋」駅徒歩８分、大江戸線も使えて都心への通勤通学がスムーズ！ ◆元気なお子様がいても階下への足音を気にせず過ごせる、安心の１階部分物件！ ◇Ｌ型対面式キッチンは作業がしやすく、会話を楽しみながら料理ができる間取り！ ◆キッチンやトイレ、エアコンなど、段階的にリフォームが実施された快適な住空間！ ◇内覧予約受付中♪
-- Notes: exact target station match: 西新宿五丁目; best station preference: 6.5/10; size clears hard threshold at 67.16 sqm; layout: 2LDK+S（納戸）; price is within budget at 9380万円; target station walk time meets target at 9 min; nearest listed station is 8 min; scoring uses 西新宿五丁目 at 9 min; built in 2007; dishwasher mentioned in listing; brightness/window positives: 通風良好; listing age: 0 days; first seen: 2026-05-26 (24 days ago)
-
-## 14. オープンレジデンス中野
+## 13. オープンレジデンス中野
 
 - Score: 78.93
 - Source: suumo
@@ -282,7 +262,7 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Listing summary: □1F～3F部分のメゾネットタイプ□西向き角部屋・73.87m2 ◆2013年7月築 ◆複数路線利用可能 『中野』駅より徒歩6分・『新中野』駅より徒歩10分 ◆（株）オープンハウス・ディベロップメント旧分譲 ◆管理は管理会社に全部委託：日本ハウズイング株式会社（巡回） ◆オートロック・モニター付きインターホン ◆宅配ボックス
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears ideal threshold at 73.87 sqm; layout: 2LDK; price is within budget at 10380万円; target station walk time meets target at 6 min; built in 2013; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸; basement / semi-basement indicators present; listing age: 1 days; first seen: 2026-04-18 (62 days ago)
 
-## 15. クレヴィア新中野
+## 14. クレヴィア新中野
 
 - Score: 76.84
 - Source: suumo
@@ -302,7 +282,7 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Listing summary: 東京メトロ丸ノ内線 新中野「新中野」駅 徒歩6分 南・西角部屋 ■東京メトロ丸ノ内線 新中野「新中野」駅 徒歩6分 ■東京メトロ丸ノ内線 東高円寺「東高円寺」駅 徒歩6分 ◆2014年1月築 ◆5階住戸　南・西角部屋・65.17m2の3LDK ◆廊下が短く効率的な間取りです ◆2面バルコニー
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears hard threshold at 65.17 sqm; layout: 3LDK; price is within budget at 12480万円; target station walk time misses target at 15 min; nearest listed station is 6 min; scoring uses 中野 at 15 min; built in 2014; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好; listing age: 1 days; first seen: 2026-04-18 (62 days ago)
 
-## 16. ローレルコート杉並松庵
+## 15. ローレルコート杉並松庵
 
 - Score: 76.8
 - Source: suumo
@@ -322,7 +302,7 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Listing summary: 朝、カーテンを開けるのが楽しみになる。30m 2 の庭がお部屋の延長にあります。 ◆角部屋ならではの三面採光。1階であることを忘れるほどの明るさと風通しです。 ◆ベビーカーやゴルフバッグもSICに直行。この収納力が、生活感を消してくれます。 ◆空室にて即内見可。室内クリーニング済みで状態は良いです。 ◆おかげさまで【スーモ 口コミ件数　6000件以上（東宝ハウスグループ全社）】 ■お問合せはお気軽にどうぞ。
 - Notes: exact target station match: 吉祥寺; best station preference: 6.0/10; size clears ideal threshold at 70.80 sqm; layout: 3LDK; price is within budget at 12490万円; target station walk time misses target at 18 min; nearest listed station is 10 min; scoring uses 吉祥寺 at 18 min; built in 2017; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好; listing age: 1 days; first seen: 2026-04-18 (62 days ago)
 
-## 17. セントラルレジデンス新宿シティタワー
+## 16. セントラルレジデンス新宿シティタワー
 
 - Score: 76.62
 - Source: suumo
@@ -342,7 +322,7 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Listing summary: 新宿駅徒歩9分　スーパーが一階に　共用部も充実のタワーレジデンス ～～～～～≪recommended points≫～～～～～ ◇山手線【新宿駅】徒歩9分!豊かさ漂う小滝橋通り! ◇12階角部屋！視界が開けるパノラマビュー！ ◇コンシェルジュあり!ホテルライクな空間がお迎え! ◇パーティラウンジ・ゲストルームもあります! ◇リフォーム履歴もあります！室内もキレイです！ ◇1階にスーパー！日々の買い物も困りません！
 - Notes: exact target station match: 新宿; best station preference: 5.5/10; size clears hard threshold at 67.05 sqm; layout: 2LDK; price is within budget at 13980万円; target station walk time meets target at 9 min; nearest listed station is 5 min; scoring uses 新宿 at 9 min; built in 2001; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 角住戸; listing age: 1 days; first seen: 2026-05-19 (31 days ago)
 
-## 18. ヴィンテージ高円寺南
+## 17. ヴィンテージ高円寺南
 
 - Score: 75.73
 - Source: suumo
@@ -362,7 +342,7 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Listing summary: ≪当日内見予約可能≫ タワマンよりドヤれる!?中野徒歩圏リノベ ◆中野駅と東高円寺駅を使いこなせる立地は控えめに言って神ツッコミ不在の好ロケーションです ◆食洗機や浴室乾燥など「あって良かった」を擬人化したような充実設備で家事のHP消費を激減させます ◆大切なワンちゃんネコちゃんも大喜びのペット可物件なので休日のモフモフタイムがはかどります ◆お部屋の美しさは新築のフリができるレベルのフルリノベーション済みで急な来客にもドヤ顔で対応可能です ※生成AIによるイメージです。家具・小物は販売価格に含まれません。忙しい朝でも、しっかり家族が揃って食事をして頂けるゆとりある大きさのダイニングスペース。 ◆サンサンと◆差し込む太陽の光がこのリビングに笑いをもたらす。ソファの上のクッションがポカポカした暖気にぬくぬくと微睡んでいる。
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears hard threshold at 65.95 sqm; layout: 3LDK; price is within budget at 9780万円; target station walk time misses target at 12 min; nearest listed station is 4 min; scoring uses 中野 at 12 min; built in 2003; dishwasher mentioned in listing; brightness/window positives: 南西向き, 陽当り良好, 採光, 通風良好; listing age: 1 days; first seen: 2026-05-31 (19 days ago)
 
-## 19. ジオ杉並松庵
+## 18. ジオ杉並松庵
 
 - Score: 75.3
 - Source: suumo
@@ -382,7 +362,7 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Listing summary: ■三井のリハウス■ テラス・ハナレ付の角住戸 WIC3箇所・SICを設置 －物件のおすすめポイント－ ▼立地 ・京王電鉄井の頭線「三鷹台」駅 徒歩10分 他 ・第一種低層住居専用地域の閑静な住宅街 ▼特徴
 - Notes: exact target station match: 吉祥寺; best station preference: 6.0/10; size clears ideal threshold at 82.78 sqm; layout: 3LDK; price is within budget at 12500万円; target station walk time misses target at 20 min; nearest listed station is 10 min; scoring uses 吉祥寺 at 20 min; built in 2022; dishwasher mentioned in listing; brightness/window positives: 採光, 角住戸; listing age: 1 days; first seen: 2026-04-18 (62 days ago)
 
-## 20. シティハウス中野テラス 5階
+## 19. シティハウス中野テラス 5階
 
 - Score: 74.79
 - Source: suumo
@@ -401,3 +381,23 @@ Generated at: 2026-06-19T17:19:59.042177+09:00
 - Access: ＪＲ中央線「中野」歩14分 [ 乗り換え案内 ] 西武新宿線「沼袋」歩6分 [ 乗り換え案内 ] 西武新宿線「新井薬師前」歩10分 [ 乗り換え案内 ]
 - Listing summary: 【南東向き5階・開放感ある眺望】住友不動産が手掛けるシティハウスシリーズ 【7月上旬より内覧開始予定】 ・事前の内見予約を受付中です。 【ペットと暮らせる住まい】 ・ペット飼育可能（細則あり） ・公園が身近でお散歩コースも充実 【安心のセキュリティ】 ・ダブルオートロックシステム採用
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears ideal threshold at 70.01 sqm; layout: 3LDK; price is within budget at 10700万円; target station walk time misses target at 14 min; nearest listed station is 6 min; scoring uses 中野 at 14 min; built in 2019; dishwasher not explicitly confirmed; brightness/window positives: 南向き, 南東向き, 陽当り良好, 眺望良好; listing age: 1 days; first seen: 2026-06-14 (5 days ago)
+
+## 20. クレストフォルム中野弥生町
+
+- Score: 74.52
+- Source: suumo
+- URL: https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20927594/
+- Stations: 西新宿五丁目
+- Price: 9380万円
+- Size: 67.16 sqm
+- Layout: 2LDK+S（納戸）
+- Walk: 8 min
+- Target Walk: 9 min
+- Built: 2007
+- First Seen: 2026-05-26T13:38:14.292457+00:00
+- Strict Match: yes
+- Dishwasher: yes
+- Address: 東京都中野区弥生町１
+- Access: 東京メトロ丸ノ内線「中野新橋」歩8分 [ 乗り換え案内 ] 都営大江戸線「西新宿五丁目」歩9分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「中野坂上」歩15分 [ 乗り換え案内 ]
+- Listing summary: 新宿至近の好立地！2駅利用可能♪ 全居室収納＆広々WICでスッキリ！ ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◇丸ノ内線「中野新橋」駅徒歩８分、大江戸線も使えて都心への通勤通学がスムーズ！ ◆元気なお子様がいても階下への足音を気にせず過ごせる、安心の１階部分物件！ ◇Ｌ型対面式キッチンは作業がしやすく、会話を楽しみながら料理ができる間取り！ ◆キッチンやトイレ、エアコンなど、段階的にリフォームが実施された快適な住空間！ ◇内覧予約受付中♪
+- Notes: exact target station match: 西新宿五丁目; best station preference: 3.5/10; size clears hard threshold at 67.16 sqm; layout: 2LDK+S（納戸）; price is within budget at 9380万円; target station walk time meets target at 9 min; nearest listed station is 8 min; scoring uses 西新宿五丁目 at 9 min; built in 2007; dishwasher mentioned in listing; brightness/window positives: 通風良好; listing age: 0 days; first seen: 2026-05-26 (24 days ago)

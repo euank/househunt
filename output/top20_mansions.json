@@ -36,7 +36,7 @@
     "preview_image_url": "./mansion_images/20965706.jpg",
     "criteria_notes": [
       "exact target station match: 西新宿五丁目",
-      "best station preference: 6.5/10",
+      "best station preference: 3.5/10",
       "size clears hard threshold at 65.62 sqm",
       "layout: 2LDK+S（納戸）",
       "price is within budget at 9780万円",
@@ -47,58 +47,7 @@
       "listing age: 1 days",
       "first seen: 2026-06-02 (17 days ago)"
     ],
-    "score": 96.73
-  },
-  {
-    "listing_id": "21085770",
-    "source": "suumo",
-    "property_name": "フィールＭ西新宿",
-    "title": "「西新宿五丁目駅」歩1分のプレミアム住戸です。コンビニ徒歩1分/詳細資料あり",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21085770/",
-    "price_man": 9780.0,
-    "area_sqm": 65.62,
-    "land_area_sqm": null,
-    "layout": "2LDK",
-    "walk_min": 1,
-    "target_walk_min": 1,
-    "built_year": 2003,
-    "first_seen_at": "2026-06-07T05:48:08.323137+00:00",
-    "address": "東京都新宿区西新宿５-24-14",
-    "access_text": "都営大江戸線「西新宿五丁目」歩1分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「西新宿」歩13分 [ 乗り換え案内 ] 都営大江戸線「都庁前」歩12分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "西新宿五丁目"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "通風良好",
-      "角住戸"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "「西新宿五丁目駅」歩1分のプレミアム住戸です。コンビニ徒歩1分",
-      "詳細資料あり"
-    ],
-    "detail_summary": "～～～～～≪recommended points≫～～～～～ ◇都営大江戸線「西新宿五丁目」駅徒歩1分！ ◇専有面積65.62m 2 、収納も豊富にそろえた2LDK！ ◇広々とした16.8畳のリビングで、家族もゲストもゆったり！ ◇角部屋につき、陽当たり・通風ともに良好です。 ◇安心の「新耐震基準（2000年基準）」マンション！",
-    "preview_image_url": "./mansion_images/21085770.jpg",
-    "criteria_notes": [
-      "exact target station match: 西新宿五丁目",
-      "best station preference: 6.5/10",
-      "size clears hard threshold at 65.62 sqm",
-      "layout: 2LDK",
-      "price is within budget at 9780万円",
-      "target station walk time meets target at 1 min",
-      "built in 2003",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 通風良好, 角住戸",
-      "listing age: 3 days",
-      "first seen: 2026-06-07 (12 days ago)"
-    ],
-    "score": 91.23
+    "score": 92.23
   },
   {
     "listing_id": "20710996",
@@ -292,23 +241,22 @@
     "score": 87.6
   },
   {
-    "listing_id": "20580875",
+    "listing_id": "21085770",
     "source": "suumo",
-    "property_name": "シティタワー新宿新都心",
-    "title": "～22階、南西向き角部屋2LDK、新規内装リフォーム住戸～",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20580875/",
-    "price_man": 15500.0,
-    "area_sqm": 67.15,
+    "property_name": "フィールＭ西新宿",
+    "title": "「西新宿五丁目駅」歩1分のプレミアム住戸です。コンビニ徒歩1分/詳細資料あり",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_21085770/",
+    "price_man": 9780.0,
+    "area_sqm": 65.62,
     "land_area_sqm": null,
     "layout": "2LDK",
-    "walk_min": 2,
-    "target_walk_min": 2,
-    "built_year": 2005,
-    "first_seen_at": "2026-05-19T05:51:52.385780+00:00",
-    "address": "東京都新宿区西新宿４",
-    "access_text": "都営大江戸線「西新宿五丁目」歩2分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「西新宿」歩11分 [ 乗り換え案内 ] ＪＲ山手線「新宿」歩17分 [ 乗り換え案内 ]",
+    "walk_min": 1,
+    "target_walk_min": 1,
+    "built_year": 2003,
+    "first_seen_at": "2026-06-07T05:48:08.323137+00:00",
+    "address": "東京都新宿区西新宿５-24-14",
+    "access_text": "都営大江戸線「西新宿五丁目」歩1分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「西新宿」歩13分 [ 乗り換え案内 ] 都営大江戸線「都庁前」歩12分 [ 乗り換え案内 ]",
     "exact_station_hits": [
-      "新宿",
       "西新宿五丁目"
     ],
     "nearby_station_hits": [],
@@ -316,30 +264,32 @@
       "dishwasher"
     ],
     "brightness_hits": [
-      "南西向き",
+      "南向き",
       "陽当り良好",
-      "採光",
-      "眺望良好",
+      "通風良好",
       "角住戸"
     ],
     "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "～22階、南西向き角部屋2LDK、新規内装リフォーム住戸～ ━━━━━━━━━━━━━━━━━━━━━━━ ◆36階建22階部分　南西向き角住戸 ◆各居室5帖以上の2LDK ◆間取り：2LDK＋WIC ◆浴室は1418サイズ ◆LDKは約16.8帖 ◆全居室が採光が取れており明るい室内です",
-    "preview_image_url": "./mansion_images/20580875.jpg",
-    "criteria_notes": [
-      "exact target station match: 新宿, 西新宿五丁目",
-      "best station preference: 6.5/10",
-      "size clears hard threshold at 67.15 sqm",
-      "layout: 2LDK",
-      "price is outside target budget at 15500万円",
-      "target station walk time meets target at 2 min",
-      "built in 2005",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南西向き, 陽当り良好, 採光, 眺望良好",
-      "listing age: 1 days",
-      "first seen: 2026-05-19 (31 days ago)"
+    "feature_tags": [
+      "「西新宿五丁目駅」歩1分のプレミアム住戸です。コンビニ徒歩1分",
+      "詳細資料あり"
     ],
-    "score": 85.79
+    "detail_summary": "～～～～～≪recommended points≫～～～～～ ◇都営大江戸線「西新宿五丁目」駅徒歩1分！ ◇専有面積65.62m 2 、収納も豊富にそろえた2LDK！ ◇広々とした16.8畳のリビングで、家族もゲストもゆったり！ ◇角部屋につき、陽当たり・通風ともに良好です。 ◇安心の「新耐震基準（2000年基準）」マンション！",
+    "preview_image_url": "./mansion_images/21085770.jpg",
+    "criteria_notes": [
+      "exact target station match: 西新宿五丁目",
+      "best station preference: 3.5/10",
+      "size clears hard threshold at 65.62 sqm",
+      "layout: 2LDK",
+      "price is within budget at 9780万円",
+      "target station walk time meets target at 1 min",
+      "built in 2003",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 陽当り良好, 通風良好, 角住戸",
+      "listing age: 3 days",
+      "first seen: 2026-06-07 (12 days ago)"
+    ],
+    "score": 86.73
   },
   {
     "listing_id": "20855725",
@@ -387,6 +337,56 @@
       "first seen: 2026-04-22 (58 days ago)"
     ],
     "score": 84.62
+  },
+  {
+    "listing_id": "20580875",
+    "source": "suumo",
+    "property_name": "シティタワー新宿新都心",
+    "title": "～22階、南西向き角部屋2LDK、新規内装リフォーム住戸～",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_20580875/",
+    "price_man": 15500.0,
+    "area_sqm": 67.15,
+    "land_area_sqm": null,
+    "layout": "2LDK",
+    "walk_min": 2,
+    "target_walk_min": 2,
+    "built_year": 2005,
+    "first_seen_at": "2026-05-19T05:51:52.385780+00:00",
+    "address": "東京都新宿区西新宿４",
+    "access_text": "都営大江戸線「西新宿五丁目」歩2分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「西新宿」歩11分 [ 乗り換え案内 ] ＪＲ山手線「新宿」歩17分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "新宿",
+      "西新宿五丁目"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "南西向き",
+      "陽当り良好",
+      "採光",
+      "眺望良好",
+      "角住戸"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "～22階、南西向き角部屋2LDK、新規内装リフォーム住戸～ ━━━━━━━━━━━━━━━━━━━━━━━ ◆36階建22階部分　南西向き角住戸 ◆各居室5帖以上の2LDK ◆間取り：2LDK＋WIC ◆浴室は1418サイズ ◆LDKは約16.8帖 ◆全居室が採光が取れており明るい室内です",
+    "preview_image_url": "./mansion_images/20580875.jpg",
+    "criteria_notes": [
+      "exact target station match: 新宿, 西新宿五丁目",
+      "best station preference: 5.5/10",
+      "size clears hard threshold at 67.15 sqm",
+      "layout: 2LDK",
+      "price is outside target budget at 15500万円",
+      "target station walk time meets target at 2 min",
+      "built in 2005",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南西向き, 陽当り良好, 採光, 眺望良好",
+      "listing age: 1 days",
+      "first seen: 2026-05-19 (31 days ago)"
+    ],
+    "score": 84.29
   },
   {
     "listing_id": "20778064",
@@ -582,58 +582,6 @@
       "first seen: 2026-06-02 (17 days ago)"
     ],
     "score": 79.91
-  },
-  {
-    "listing_id": "20927594",
-    "source": "suumo",
-    "property_name": "クレストフォルム中野弥生町",
-    "title": "新宿至近の好立地！2駅利用可能♪全居室収納＆広々WICでスッキリ！",
-    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20927594/",
-    "price_man": 9380.0,
-    "area_sqm": 67.16,
-    "land_area_sqm": null,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 8,
-    "target_walk_min": 9,
-    "built_year": 2007,
-    "first_seen_at": "2026-05-26T13:38:14.292457+00:00",
-    "address": "東京都中野区弥生町１",
-    "access_text": "東京メトロ丸ノ内線「中野新橋」歩8分 [ 乗り換え案内 ] 都営大江戸線「西新宿五丁目」歩9分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「中野坂上」歩15分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "西新宿五丁目"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [
-      "https:",
-      "lifeplan",
-      "loan",
-      "www.ad-cast.info",
-      "い"
-    ],
-    "detail_summary": "新宿至近の好立地！2駅利用可能♪ 全居室収納＆広々WICでスッキリ！ ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◇丸ノ内線「中野新橋」駅徒歩８分、大江戸線も使えて都心への通勤通学がスムーズ！ ◆元気なお子様がいても階下への足音を気にせず過ごせる、安心の１階部分物件！ ◇Ｌ型対面式キッチンは作業がしやすく、会話を楽しみながら料理ができる間取り！ ◆キッチンやトイレ、エアコンなど、段階的にリフォームが実施された快適な住空間！ ◇内覧予約受付中♪",
-    "preview_image_url": "./mansion_images/20927594.jpg",
-    "criteria_notes": [
-      "exact target station match: 西新宿五丁目",
-      "best station preference: 6.5/10",
-      "size clears hard threshold at 67.16 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 9380万円",
-      "target station walk time meets target at 9 min",
-      "nearest listed station is 8 min; scoring uses 西新宿五丁目 at 9 min",
-      "built in 2007",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 通風良好",
-      "listing age: 0 days",
-      "first seen: 2026-05-26 (24 days ago)"
-    ],
-    "score": 79.02
   },
   {
     "listing_id": "78779520",
@@ -989,5 +937,57 @@
       "first seen: 2026-06-14 (5 days ago)"
     ],
     "score": 74.79
+  },
+  {
+    "listing_id": "20927594",
+    "source": "suumo",
+    "property_name": "クレストフォルム中野弥生町",
+    "title": "新宿至近の好立地！2駅利用可能♪全居室収納＆広々WICでスッキリ！",
+    "url": "https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_20927594/",
+    "price_man": 9380.0,
+    "area_sqm": 67.16,
+    "land_area_sqm": null,
+    "layout": "2LDK+S（納戸）",
+    "walk_min": 8,
+    "target_walk_min": 9,
+    "built_year": 2007,
+    "first_seen_at": "2026-05-26T13:38:14.292457+00:00",
+    "address": "東京都中野区弥生町１",
+    "access_text": "東京メトロ丸ノ内線「中野新橋」歩8分 [ 乗り換え案内 ] 都営大江戸線「西新宿五丁目」歩9分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「中野坂上」歩15分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "西新宿五丁目"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [
+      "https:",
+      "lifeplan",
+      "loan",
+      "www.ad-cast.info",
+      "い"
+    ],
+    "detail_summary": "新宿至近の好立地！2駅利用可能♪ 全居室収納＆広々WICでスッキリ！ ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◇丸ノ内線「中野新橋」駅徒歩８分、大江戸線も使えて都心への通勤通学がスムーズ！ ◆元気なお子様がいても階下への足音を気にせず過ごせる、安心の１階部分物件！ ◇Ｌ型対面式キッチンは作業がしやすく、会話を楽しみながら料理ができる間取り！ ◆キッチンやトイレ、エアコンなど、段階的にリフォームが実施された快適な住空間！ ◇内覧予約受付中♪",
+    "preview_image_url": "./mansion_images/20927594.jpg",
+    "criteria_notes": [
+      "exact target station match: 西新宿五丁目",
+      "best station preference: 3.5/10",
+      "size clears hard threshold at 67.16 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is within budget at 9380万円",
+      "target station walk time meets target at 9 min",
+      "nearest listed station is 8 min; scoring uses 西新宿五丁目 at 9 min",
+      "built in 2007",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 通風良好",
+      "listing age: 0 days",
+      "first seen: 2026-05-26 (24 days ago)"
+    ],
+    "score": 74.52
   }
 ]
