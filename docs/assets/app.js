@@ -67,10 +67,14 @@ const renderListing = (record, index) => {
     createStat("Price", `${fmtNumber(record.price_man)}万円`),
     createStat("Size", `${fmtNumber(record.area_sqm)} sqm`),
     createStat("Layout", record.layout || "n/a"),
-    createStat("Walk", record.walk_min == null ? "n/a" : `${record.walk_min} min`),
+    createStat("Target Walk", record.target_walk_min == null ? "n/a" : `${record.target_walk_min} min`),
     createStat("Built", record.built_year ?? "n/a"),
     createStat("Stations", (record.exact_station_hits || []).join(", ") || (record.nearby_station_hits || []).join(", ") || "n/a"),
   );
+
+  if (record.nearest_walk_min != null && record.nearest_walk_min !== record.target_walk_min) {
+    stats.append(createStat("Nearest Walk", `${record.nearest_walk_min} min`));
+  }
 
   if (record.land_area_sqm != null) {
     stats.append(createStat("Land", `${fmtNumber(record.land_area_sqm)} sqm`));

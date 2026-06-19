@@ -526,7 +526,7 @@ def target_walk_min(record: dict) -> int | None:
         return options[0][1]
     exact, nearby = station_groups(record)
     if exact or nearby:
-        return record.get("walk_min")
+        return None
     return None
 
 
@@ -684,7 +684,7 @@ def listing_prefilter(record: dict, config: PropertyConfig) -> bool:
 def strict_match(record: dict, config: PropertyConfig) -> bool:
     price = record.get("price_man") or 0
     area = record.get("area_sqm") or 0
-    walk = record.get("walk_min") or 999
+    walk = target_walk_min(record) or 999
     year = record.get("built_year") or 0
     layout = record.get("layout") or ""
     rooms = layout_room_count(layout) or 0
@@ -1656,6 +1656,10 @@ def top_candidates(listings: Iterable[dict], limit: int = SHORTLIST_LIMIT, *, de
     return picked
 
 
+def format_walk(value: int | None) -> str:
+    return "n/a" if value is None else f"{value} min"
+
+
 def render_report(candidates: list[dict], path: Path, config: PropertyConfig) -> None:
     lines = [
         f"# {config.label.title()} shortlist",
@@ -1677,8 +1681,8 @@ def render_report(candidates: list[dict], path: Path, config: PropertyConfig) ->
                 f"- Price: {record.get('price_man', 0):.0f}万円",
                 f"- Size: {record.get('area_sqm', 0):.2f} sqm",
                 f"- Layout: {record.get('layout') or 'n/a'}",
-                f"- Walk: {record.get('walk_min')} min",
-                f"- Target Walk: {target_walk_min(record)} min",
+                f"- Nearest Walk: {format_walk(record.get('walk_min'))}",
+                f"- Target Station Walk: {format_walk(target_walk_min(record))}",
                 f"- Built: {record.get('built_year') or 'n/a'}",
                 f"- First Seen: {record.get('first_seen_at') or 'n/a'}",
                 f"- Strict Match: {'yes' if strict_match(record, config) else 'near miss'}",
@@ -1714,7 +1718,7 @@ def render_json(candidates: list[dict], path: Path) -> None:
                 "area_sqm": record.get("area_sqm"),
                 "land_area_sqm": record.get("land_area_sqm"),
                 "layout": record.get("layout"),
-                "walk_min": record.get("walk_min"),
+                "nearest_walk_min": record.get("walk_min"),
                 "target_walk_min": target_walk_min(record),
                 "built_year": record.get("built_year"),
                 "first_seen_at": record.get("first_seen_at"),

@@ -1,6 +1,6 @@
 # Used Mansion shortlist
 
-Generated at: 2026-06-19T17:51:59.937567+09:00
+Generated at: 2026-06-19T20:15:54.196193+09:00
 
 ## 1. フィールM西新宿
 
@@ -11,8 +11,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 9780万円
 - Size: 65.62 sqm
 - Layout: 2LDK+S（納戸）
-- Walk: 1 min
-- Target Walk: 1 min
+- Nearest Walk: 1 min
+- Target Station Walk: 1 min
 - Built: 2003
 - First Seen: 2026-06-02T00:55:10.240716+00:00
 - Strict Match: yes
@@ -31,8 +31,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 9990万円
 - Size: 70.74 sqm
 - Layout: 3LDK
-- Walk: 8 min
-- Target Walk: 8 min
+- Nearest Walk: 8 min
+- Target Station Walk: 8 min
 - Built: 2022
 - First Seen: 2026-04-18T16:47:14.209834+00:00
 - Strict Match: yes
@@ -51,8 +51,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 10980万円
 - Size: 72.68 sqm
 - Layout: 2LDK
-- Walk: 7 min
-- Target Walk: 7 min
+- Nearest Walk: 7 min
+- Target Station Walk: 7 min
 - Built: 2010
 - First Seen: 2026-04-18T16:47:14.209834+00:00
 - Strict Match: yes
@@ -71,8 +71,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 15900万円
 - Size: 74.64 sqm
 - Layout: 3LDK+3S（納戸）
-- Walk: 4 min
-- Target Walk: 4 min
+- Nearest Walk: 4 min
+- Target Station Walk: 4 min
 - Built: 2013
 - First Seen: 2026-05-19T05:51:52.385780+00:00
 - Strict Match: yes
@@ -91,8 +91,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 15480万円
 - Size: 66.29 sqm
 - Layout: 3LDK
-- Walk: 5 min
-- Target Walk: 5 min
+- Nearest Walk: 5 min
+- Target Station Walk: 5 min
 - Built: 2020
 - First Seen: 2026-04-29T08:25:24.850141+00:00
 - Strict Match: yes
@@ -111,8 +111,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 9780万円
 - Size: 65.62 sqm
 - Layout: 2LDK
-- Walk: 1 min
-- Target Walk: 1 min
+- Nearest Walk: 1 min
+- Target Station Walk: 1 min
 - Built: 2003
 - First Seen: 2026-06-07T05:48:08.323137+00:00
 - Strict Match: yes
@@ -131,8 +131,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 11000万円
 - Size: 65.51 sqm
 - Layout: 2LDK
-- Walk: 4 min
-- Target Walk: 4 min
+- Nearest Walk: 4 min
+- Target Station Walk: 4 min
 - Built: 2024
 - First Seen: 2026-04-22T15:45:58.724357+00:00
 - Strict Match: yes
@@ -151,8 +151,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 15500万円
 - Size: 67.15 sqm
 - Layout: 2LDK
-- Walk: 2 min
-- Target Walk: 2 min
+- Nearest Walk: 2 min
+- Target Station Walk: 2 min
 - Built: 2005
 - First Seen: 2026-05-19T05:51:52.385780+00:00
 - Strict Match: yes
@@ -171,8 +171,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 15980万円
 - Size: 67.71 sqm
 - Layout: 3LDK
-- Walk: 5 min
-- Target Walk: 5 min
+- Nearest Walk: 5 min
+- Target Station Walk: 5 min
 - Built: 2019
 - First Seen: 2026-05-05T03:07:19.090282+00:00
 - Strict Match: yes
@@ -191,8 +191,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 14490万円
 - Size: 65.62 sqm
 - Layout: 2LDK
-- Walk: 7 min
-- Target Walk: 8 min
+- Nearest Walk: 7 min
+- Target Station Walk: 8 min
 - Built: 2015
 - First Seen: 2026-05-16T14:38:52.386204+00:00
 - Strict Match: yes
@@ -211,8 +211,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 14780万円
 - Size: 66.33 sqm
 - Layout: 2LDK
-- Walk: 9 min
-- Target Walk: 9 min
+- Nearest Walk: 9 min
+- Target Station Walk: 9 min
 - Built: 2011
 - First Seen: 2026-04-18T16:47:14.209834+00:00
 - Strict Match: yes
@@ -231,8 +231,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 9990万円
 - Size: 70.74 sqm
 - Layout: 3LDK
-- Walk: 8 min
-- Target Walk: 8 min
+- Nearest Walk: 8 min
+- Target Station Walk: 8 min
 - Built: 2022
 - First Seen: 2026-06-02T00:55:10.240716+00:00
 - Strict Match: yes
@@ -251,8 +251,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 10380万円
 - Size: 73.87 sqm
 - Layout: 2LDK
-- Walk: 6 min
-- Target Walk: 6 min
+- Nearest Walk: 6 min
+- Target Station Walk: 6 min
 - Built: 2013
 - First Seen: 2026-04-18T16:47:14.209834+00:00
 - Strict Match: yes
@@ -262,47 +262,7 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Listing summary: □1F～3F部分のメゾネットタイプ□西向き角部屋・73.87m2 ◆2013年7月築 ◆複数路線利用可能 『中野』駅より徒歩6分・『新中野』駅より徒歩10分 ◆（株）オープンハウス・ディベロップメント旧分譲 ◆管理は管理会社に全部委託：日本ハウズイング株式会社（巡回） ◆オートロック・モニター付きインターホン ◆宅配ボックス
 - Notes: exact target station match: 中野; best station preference: 6.5/10; size clears ideal threshold at 73.87 sqm; layout: 2LDK; price is within budget at 10380万円; target station walk time meets target at 6 min; built in 2013; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 採光, 通風良好, 角住戸; basement / semi-basement indicators present; listing age: 1 days; first seen: 2026-04-18 (62 days ago)
 
-## 14. クレヴィア新中野
-
-- Score: 76.84
-- Source: suumo
-- URL: https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_78764153/
-- Stations: 中野
-- Price: 12480万円
-- Size: 65.17 sqm
-- Layout: 3LDK
-- Walk: 6 min
-- Target Walk: 15 min
-- Built: 2014
-- First Seen: 2026-04-18T16:47:14.209834+00:00
-- Strict Match: yes
-- Dishwasher: yes
-- Address: 東京都中野区本町６
-- Access: 東京メトロ丸ノ内線「新中野」歩6分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「東高円寺」歩6分 [ 乗り換え案内 ] ＪＲ中央線「中野」歩15分 [ 乗り換え案内 ]
-- Listing summary: 東京メトロ丸ノ内線 新中野「新中野」駅 徒歩6分 南・西角部屋 ■東京メトロ丸ノ内線 新中野「新中野」駅 徒歩6分 ■東京メトロ丸ノ内線 東高円寺「東高円寺」駅 徒歩6分 ◆2014年1月築 ◆5階住戸　南・西角部屋・65.17m2の3LDK ◆廊下が短く効率的な間取りです ◆2面バルコニー
-- Notes: exact target station match: 中野; best station preference: 6.5/10; size clears hard threshold at 65.17 sqm; layout: 3LDK; price is within budget at 12480万円; target station walk time misses target at 15 min; nearest listed station is 6 min; scoring uses 中野 at 15 min; built in 2014; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 眺望良好, 通風良好; listing age: 1 days; first seen: 2026-04-18 (62 days ago)
-
-## 15. ローレルコート杉並松庵
-
-- Score: 76.8
-- Source: suumo
-- URL: https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20971165/
-- Stations: 吉祥寺
-- Price: 12490万円
-- Size: 70.80 sqm
-- Layout: 3LDK
-- Walk: 10 min
-- Target Walk: 18 min
-- Built: 2017
-- First Seen: 2026-04-18T16:47:14.209834+00:00
-- Strict Match: yes
-- Dishwasher: yes
-- Address: 東京都杉並区松庵２
-- Access: ＪＲ中央線「西荻窪」歩10分 [ 乗り換え案内 ] ＪＲ中央線「吉祥寺」歩18分 [ 乗り換え案内 ] 京王井の頭線「吉祥寺」歩18分 [ 乗り換え案内 ]
-- Listing summary: 朝、カーテンを開けるのが楽しみになる。30m 2 の庭がお部屋の延長にあります。 ◆角部屋ならではの三面採光。1階であることを忘れるほどの明るさと風通しです。 ◆ベビーカーやゴルフバッグもSICに直行。この収納力が、生活感を消してくれます。 ◆空室にて即内見可。室内クリーニング済みで状態は良いです。 ◆おかげさまで【スーモ 口コミ件数　6000件以上（東宝ハウスグループ全社）】 ■お問合せはお気軽にどうぞ。
-- Notes: exact target station match: 吉祥寺; best station preference: 6.0/10; size clears ideal threshold at 70.80 sqm; layout: 3LDK; price is within budget at 12490万円; target station walk time misses target at 18 min; nearest listed station is 10 min; scoring uses 吉祥寺 at 18 min; built in 2017; dishwasher mentioned in listing; brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好; listing age: 1 days; first seen: 2026-04-18 (62 days ago)
-
-## 16. セントラルレジデンス新宿シティタワー
+## 14. セントラルレジデンス新宿シティタワー
 
 - Score: 76.62
 - Source: suumo
@@ -311,8 +271,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 13980万円
 - Size: 67.05 sqm
 - Layout: 2LDK
-- Walk: 5 min
-- Target Walk: 9 min
+- Nearest Walk: 5 min
+- Target Station Walk: 9 min
 - Built: 2001
 - First Seen: 2026-05-19T05:51:52.385780+00:00
 - Strict Match: yes
@@ -322,67 +282,7 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Listing summary: 新宿駅徒歩9分　スーパーが一階に　共用部も充実のタワーレジデンス ～～～～～≪recommended points≫～～～～～ ◇山手線【新宿駅】徒歩9分!豊かさ漂う小滝橋通り! ◇12階角部屋！視界が開けるパノラマビュー！ ◇コンシェルジュあり!ホテルライクな空間がお迎え! ◇パーティラウンジ・ゲストルームもあります! ◇リフォーム履歴もあります！室内もキレイです！ ◇1階にスーパー！日々の買い物も困りません！
 - Notes: exact target station match: 新宿; best station preference: 5.5/10; size clears hard threshold at 67.05 sqm; layout: 2LDK; price is within budget at 13980万円; target station walk time meets target at 9 min; nearest listed station is 5 min; scoring uses 新宿 at 9 min; built in 2001; dishwasher mentioned in listing; brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 角住戸; listing age: 1 days; first seen: 2026-05-19 (31 days ago)
 
-## 17. ヴィンテージ高円寺南
-
-- Score: 75.73
-- Source: suumo
-- URL: https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_20950750/
-- Stations: 中野
-- Price: 9780万円
-- Size: 65.95 sqm
-- Layout: 3LDK
-- Walk: 4 min
-- Target Walk: 12 min
-- Built: 2003
-- First Seen: 2026-05-31T05:50:00.924704+00:00
-- Strict Match: yes
-- Dishwasher: yes
-- Address: 東京都杉並区高円寺南１
-- Access: 東京メトロ丸ノ内線「東高円寺」歩4分 [ 乗り換え案内 ] ＪＲ中央線「中野」歩12分 [ 乗り換え案内 ]
-- Listing summary: ≪当日内見予約可能≫ タワマンよりドヤれる!?中野徒歩圏リノベ ◆中野駅と東高円寺駅を使いこなせる立地は控えめに言って神ツッコミ不在の好ロケーションです ◆食洗機や浴室乾燥など「あって良かった」を擬人化したような充実設備で家事のHP消費を激減させます ◆大切なワンちゃんネコちゃんも大喜びのペット可物件なので休日のモフモフタイムがはかどります ◆お部屋の美しさは新築のフリができるレベルのフルリノベーション済みで急な来客にもドヤ顔で対応可能です ※生成AIによるイメージです。家具・小物は販売価格に含まれません。忙しい朝でも、しっかり家族が揃って食事をして頂けるゆとりある大きさのダイニングスペース。 ◆サンサンと◆差し込む太陽の光がこのリビングに笑いをもたらす。ソファの上のクッションがポカポカした暖気にぬくぬくと微睡んでいる。
-- Notes: exact target station match: 中野; best station preference: 6.5/10; size clears hard threshold at 65.95 sqm; layout: 3LDK; price is within budget at 9780万円; target station walk time misses target at 12 min; nearest listed station is 4 min; scoring uses 中野 at 12 min; built in 2003; dishwasher mentioned in listing; brightness/window positives: 南西向き, 陽当り良好, 採光, 通風良好; listing age: 1 days; first seen: 2026-05-31 (19 days ago)
-
-## 18. ジオ杉並松庵
-
-- Score: 75.3
-- Source: suumo
-- URL: https://suumo.jp/ms/chuko/tokyo/sc_suginami/nc_78550563/
-- Stations: 吉祥寺
-- Price: 12500万円
-- Size: 82.78 sqm
-- Layout: 3LDK
-- Walk: 10 min
-- Target Walk: 20 min
-- Built: 2022
-- First Seen: 2026-04-18T16:47:14.209834+00:00
-- Strict Match: yes
-- Dishwasher: yes
-- Address: 東京都杉並区松庵１
-- Access: 京王井の頭線「三鷹台」歩10分 [ 乗り換え案内 ] ＪＲ中央線「西荻窪」歩16分 [ 乗り換え案内 ] ＪＲ中央線「吉祥寺」歩20分 [ 乗り換え案内 ]
-- Listing summary: ■三井のリハウス■ テラス・ハナレ付の角住戸 WIC3箇所・SICを設置 －物件のおすすめポイント－ ▼立地 ・京王電鉄井の頭線「三鷹台」駅 徒歩10分 他 ・第一種低層住居専用地域の閑静な住宅街 ▼特徴
-- Notes: exact target station match: 吉祥寺; best station preference: 6.0/10; size clears ideal threshold at 82.78 sqm; layout: 3LDK; price is within budget at 12500万円; target station walk time misses target at 20 min; nearest listed station is 10 min; scoring uses 吉祥寺 at 20 min; built in 2022; dishwasher mentioned in listing; brightness/window positives: 採光, 角住戸; listing age: 1 days; first seen: 2026-04-18 (62 days ago)
-
-## 19. シティハウス中野テラス 5階
-
-- Score: 74.79
-- Source: suumo
-- URL: https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_21067715/
-- Stations: 中野
-- Price: 10700万円
-- Size: 70.01 sqm
-- Layout: 3LDK
-- Walk: 6 min
-- Target Walk: 14 min
-- Built: 2019
-- First Seen: 2026-06-14T09:40:32.382333+00:00
-- Strict Match: yes
-- Dishwasher: not confirmed
-- Address: 東京都中野区新井４
-- Access: ＪＲ中央線「中野」歩14分 [ 乗り換え案内 ] 西武新宿線「沼袋」歩6分 [ 乗り換え案内 ] 西武新宿線「新井薬師前」歩10分 [ 乗り換え案内 ]
-- Listing summary: 【南東向き5階・開放感ある眺望】住友不動産が手掛けるシティハウスシリーズ 【7月上旬より内覧開始予定】 ・事前の内見予約を受付中です。 【ペットと暮らせる住まい】 ・ペット飼育可能（細則あり） ・公園が身近でお散歩コースも充実 【安心のセキュリティ】 ・ダブルオートロックシステム採用
-- Notes: exact target station match: 中野; best station preference: 6.5/10; size clears ideal threshold at 70.01 sqm; layout: 3LDK; price is within budget at 10700万円; target station walk time misses target at 14 min; nearest listed station is 6 min; scoring uses 中野 at 14 min; built in 2019; dishwasher not explicitly confirmed; brightness/window positives: 南向き, 南東向き, 陽当り良好, 眺望良好; listing age: 1 days; first seen: 2026-06-14 (5 days ago)
-
-## 20. クレストフォルム中野弥生町
+## 15. クレストフォルム中野弥生町
 
 - Score: 74.52
 - Source: suumo
@@ -391,8 +291,8 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Price: 9380万円
 - Size: 67.16 sqm
 - Layout: 2LDK+S（納戸）
-- Walk: 8 min
-- Target Walk: 9 min
+- Nearest Walk: 8 min
+- Target Station Walk: 9 min
 - Built: 2007
 - First Seen: 2026-05-26T13:38:14.292457+00:00
 - Strict Match: yes
@@ -401,3 +301,103 @@ Generated at: 2026-06-19T17:51:59.937567+09:00
 - Access: 東京メトロ丸ノ内線「中野新橋」歩8分 [ 乗り換え案内 ] 都営大江戸線「西新宿五丁目」歩9分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「中野坂上」歩15分 [ 乗り換え案内 ]
 - Listing summary: 新宿至近の好立地！2駅利用可能♪ 全居室収納＆広々WICでスッキリ！ ☆━━━…‥・　物件の特徴　・‥…━━━☆ ◇丸ノ内線「中野新橋」駅徒歩８分、大江戸線も使えて都心への通勤通学がスムーズ！ ◆元気なお子様がいても階下への足音を気にせず過ごせる、安心の１階部分物件！ ◇Ｌ型対面式キッチンは作業がしやすく、会話を楽しみながら料理ができる間取り！ ◆キッチンやトイレ、エアコンなど、段階的にリフォームが実施された快適な住空間！ ◇内覧予約受付中♪
 - Notes: exact target station match: 西新宿五丁目; best station preference: 3.5/10; size clears hard threshold at 67.16 sqm; layout: 2LDK+S（納戸）; price is within budget at 9380万円; target station walk time meets target at 9 min; nearest listed station is 8 min; scoring uses 西新宿五丁目 at 9 min; built in 2007; dishwasher mentioned in listing; brightness/window positives: 通風良好; listing age: 0 days; first seen: 2026-05-26 (24 days ago)
+
+## 16. セントラルレジデンス新宿シティタワー
+
+- Score: 63.62
+- Source: suumo
+- URL: https://suumo.jp/ms/chuko/tokyo/sc_shinjuku/nc_76897434/
+- Stations: 新宿
+- Price: 13980万円
+- Size: 67.05 sqm
+- Layout: 2LDK
+- Nearest Walk: 5 min
+- Target Station Walk: 9 min
+- Built: 2001
+- First Seen: 2026-05-19T05:51:52.385780+00:00
+- Strict Match: yes
+- Dishwasher: not confirmed
+- Address: 東京都新宿区西新宿７
+- Access: ＪＲ中央線「大久保」歩5分 [ 乗り換え案内 ] 西武新宿線「西武新宿」歩5分 [ 乗り換え案内 ] ＪＲ山手線「新宿」歩9分 [ 乗り換え案内 ]
+- Listing summary: ■12階角住戸のため日照・眺望・通風良好 ■リフォーム履歴あり ・2017年8月クロス全室張替、キッチン交換、給湯器交換 ・2023年2月トイレ交換 ■開放的なパノラマビューウィンドウ、トランクルーム専用使用権付（有償） ■ペット飼育可（細則あり） ■充実の共用部（コンシェルジュサービス、パーティラウンジ、ゲストスイート、各階ゴミステーション） ■建物一階にはオリンピック新宿百人町店あり
+- Notes: exact target station match: 新宿; best station preference: 5.5/10; size clears hard threshold at 67.05 sqm; layout: 2LDK; price is within budget at 13980万円; target station walk time meets target at 9 min; nearest listed station is 5 min; scoring uses 新宿 at 9 min; built in 2001; dishwasher not explicitly confirmed; brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 角住戸; listing age: 2 days; first seen: 2026-05-19 (31 days ago)
+
+## 17. セボン中野
+
+- Score: 60.02
+- Source: suumo
+- URL: https://suumo.jp/ms/chuko/tokyo/sc_nakano/nc_21079464/
+- Stations: 中野
+- Price: 10380万円
+- Size: 92.84 sqm
+- Layout: 2LDK+S（納戸）
+- Nearest Walk: 9 min
+- Target Station Walk: 9 min
+- Built: 2003
+- First Seen: 2026-06-16T05:44:50.976139+00:00
+- Strict Match: yes
+- Dishwasher: not confirmed
+- Address: 東京都中野区中野５
+- Access: ＪＲ中央線「中野」歩9分 [ 乗り換え案内 ] 西武新宿線「新井薬師前」歩13分 [ 乗り換え案内 ]
+- Listing summary: ◇◆メゾネットタイプのマンションです♪◆◇ ～ページ編集中です～ 随時、更新してまいります！ 2LDK+S（納戸）、価格1億380万円、専有面積92.84m 2 、バルコニー面積3.31m 2 ※写真に誤り・問題がある場合は
+- Notes: exact target station match: 中野; best station preference: 6.5/10; size clears ideal threshold at 92.84 sqm; layout: 2LDK+S（納戸）; price is within budget at 10380万円; target station walk time meets target at 9 min; built in 2003; dishwasher not explicitly confirmed; brightness/window positives: 角住戸; basement / semi-basement indicators present; listing age: 3 days; first seen: 2026-06-16 (3 days ago)
+
+## 18. アルス目黒祐天寺
+
+- Score: 51.15
+- Source: ken
+- URL: https://www.kencorp.co.jp/housing/properties/136736/2026056017/
+- Stations: 祐天寺
+- Price: 15800万円
+- Size: 71.20 sqm
+- Layout: 3LDK
+- Nearest Walk: n/a
+- Target Station Walk: 10 min
+- Built: 2003
+- First Seen: 2026-05-31T05:50:00.924704+00:00
+- Strict Match: yes
+- Dishwasher: not confirmed
+- Address: 東京都目黒区中町２
+- Access: 東横線 祐天寺駅 徒歩12分ほか
+- Listing summary: オートロック、 SECOM
+- Notes: exact target station match: 祐天寺; best station preference: 4.5/10; size clears ideal threshold at 71.20 sqm; layout: 3LDK; price is outside target budget at 15800万円; target station walk time meets target at 10 min; built in 2003; dishwasher not explicitly confirmed; first seen: 2026-05-31 (19 days ago)
+
+## 19. グランドステージ初台
+
+- Score: 88.42
+- Source: suumo
+- URL: https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_20680281/
+- Stations: 初台, 西新宿五丁目
+- Price: 11800万円
+- Size: 75.17 sqm
+- Layout: 2LDK
+- Nearest Walk: 4 min
+- Target Station Walk: 4 min
+- Built: 1998
+- First Seen: 2026-06-07T05:48:08.323137+00:00
+- Strict Match: near miss
+- Dishwasher: yes
+- Address: 東京都渋谷区本町３
+- Access: 都営大江戸線「西新宿五丁目」歩4分 [ 乗り換え案内 ] 都営大江戸線「中野坂上」歩12分 [ 乗り換え案内 ] 京王新線「初台」歩14分 [ 乗り換え案内 ]
+- Listing summary: ～渋谷区アドレス～ ○西新宿五丁目駅より徒歩4分！ 〇複数路線利用可能！ ■2025年12月大規模修繕工事済み！ ■室内フルリノベーション物件！ ＜リフォーム内容＞ 〇システムキッチン 〇ユニットバス
+- Notes: exact target station match: 初台, 西新宿五丁目; best station preference: 7.0/10; size clears ideal threshold at 75.17 sqm; layout: 2LDK; price is within budget at 11800万円; target station walk time meets target at 4 min; older build year: 1998; dishwasher mentioned in listing; listing age: 0 days; first seen: 2026-06-07 (12 days ago)
+
+## 20. オープンレジデンシア初台
+
+- Score: 88.22
+- Source: suumo
+- URL: https://suumo.jp/ms/chuko/tokyo/sc_shibuya/nc_21064105/
+- Stations: 初台
+- Price: 13800万円
+- Size: 60.05 sqm
+- Layout: 2LDK
+- Nearest Walk: 4 min
+- Target Station Walk: 4 min
+- Built: 2016
+- First Seen: 2026-06-18T01:42:05.596745+00:00
+- Strict Match: near miss
+- Dishwasher: yes
+- Address: 東京都渋谷区初台１
+- Access: 京王新線「初台」歩4分 [ 乗り換え案内 ] 小田急線「参宮橋」歩12分 [ 乗り換え案内 ] 京王新線「幡ヶ谷」歩13分 [ 乗り換え案内 ]
+- Listing summary: ＼24時間内覧予約可／駅徒歩4分！南向き16.9畳LDK！ペット相談可！ ～ペットや家族と都心ながら静けさと安心感のある住環境～ ◇京王線「初台」駅 徒歩4分の好立地 ◇第一種低層住居専用地域の閑静な住宅街 ◇南西向きで陽当たり良好 ◇ペット飼育相談可能(規約あり) ◇オートロック・宅配ボックス等共用設備も充実 ◇スーパーやドラッグストアが揃い、日々の買い物も便利
+- Notes: exact target station match: 初台; best station preference: 7.0/10; size is below target at 60.05 sqm; layout: 2LDK; price is within budget at 13800万円; target station walk time meets target at 4 min; built in 2016; dishwasher mentioned in listing; brightness/window positives: 南向き, 南西向き; listing age: 2 days; first seen: 2026-06-18 (1 days ago)

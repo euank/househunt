@@ -9,7 +9,7 @@
     "area_sqm": 70.39,
     "land_area_sqm": 57.49,
     "layout": "3LDK",
-    "walk_min": 5,
+    "nearest_walk_min": 5,
     "target_walk_min": 5,
     "built_year": 2016,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
@@ -57,7 +57,7 @@
     "area_sqm": 83.42,
     "land_area_sqm": 65.34,
     "layout": "3LDK",
-    "walk_min": 3,
+    "nearest_walk_min": 3,
     "target_walk_min": 12,
     "built_year": 2023,
     "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
@@ -107,7 +107,7 @@
     "area_sqm": 77.09,
     "land_area_sqm": 46.47,
     "layout": "2LDK+S（納戸）",
-    "walk_min": 6,
+    "nearest_walk_min": 6,
     "target_walk_min": 9,
     "built_year": 2021,
     "first_seen_at": "2026-05-22T08:35:18.319370+00:00",
@@ -155,7 +155,7 @@
     "area_sqm": 101.18,
     "land_area_sqm": 81.04,
     "layout": "3LDK+S（納戸）",
-    "walk_min": 5,
+    "nearest_walk_min": 5,
     "target_walk_min": 10,
     "built_year": 2015,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
@@ -192,159 +192,6 @@
     "score": 87.97
   },
   {
-    "listing_id": "20034127",
-    "source": "suumo",
-    "property_name": "",
-    "title": "吉祥寺南町４（吉祥寺駅） 1億2600万円",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_musashino/nc_20034127/",
-    "price_man": 12600.0,
-    "area_sqm": 82.6,
-    "land_area_sqm": 120.41,
-    "layout": "3LDK",
-    "walk_min": 11,
-    "target_walk_min": 15,
-    "built_year": 2016,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都武蔵野市吉祥寺南町４",
-    "access_text": "ＪＲ中央線「吉祥寺」歩15分 [ 乗り換え案内 ] 京王井の頭線「三鷹台」歩11分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "吉祥寺"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "採光",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "2016年　積水ハウス施工　車庫2台 室内綺麗です　是非ご覧ください 現地（2026年2月）撮影 現地2（2026年2月）撮影 現地3（2026年2月）撮影 室内（2026年2月）撮影 室内（2026年2月）撮影 ※写真に誤り・問題がある場合は",
-    "preview_image_url": "./house_images/20034127.jpg",
-    "criteria_notes": [
-      "exact target station match: 吉祥寺",
-      "best station preference: 6.0/10",
-      "size clears ideal threshold at 82.60 sqm",
-      "layout: 3LDK",
-      "price is within budget at 12600万円",
-      "target station walk time misses target at 15 min",
-      "nearest listed station is 11 min; scoring uses 吉祥寺 at 15 min",
-      "built in 2016",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 採光, 通風良好",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (62 days ago)"
-    ],
-    "score": 87.04
-  },
-  {
-    "listing_id": "78575136",
-    "source": "suumo",
-    "property_name": "杉並区高円寺南５丁目 戸建て",
-    "title": "≪当日内見予約可能≫「歩くたび、好きになる街。帰るたび、惹かれる家。」",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_78575136/",
-    "price_man": 9480.0,
-    "area_sqm": 129.73,
-    "land_area_sqm": 75.34,
-    "layout": "3LDK",
-    "walk_min": 9,
-    "target_walk_min": 15,
-    "built_year": 2023,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都杉並区高円寺南５",
-    "access_text": "ＪＲ中央線「高円寺」歩9分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「東高円寺」歩12分 [ 乗り換え案内 ] ＪＲ中央線「中野」歩15分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "中野"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "採光",
-      "眺望良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [
-      "吹抜け"
-    ],
-    "feature_tags": [],
-    "detail_summary": "≪当日内見予約可能≫ 「歩くたび、好きになる街。帰るたび、惹かれる家。」 ◆広さという名の、豊かさ。建物面積120m 2 超がもたらすのは、家族一人ひとりの時間と空間を大切にできる、ゆとりに満ちた日常です。 ◆高円寺も、中野も、普段使いする贅沢。中央線「高円寺」駅徒歩9分、「中野」駅徒歩15分。二つの街のカルチャーと利便性を自在に楽しむ、アクティブな暮らしが始まります。 ◆空と繋がるプライベートな空間、ルーフバルコニー。読書やティータイム、星空観賞など、暮らしの楽しみを無限に広げてくれる、もう一つのリビングです。 ◆約24帖の広さを誇るLDKは、この家の中心。2つのロフトやシューズインクロークなど、豊富な収納がすっきりとした美しい暮らしを叶えます。",
-    "preview_image_url": "./house_images/78575136.jpg",
-    "criteria_notes": [
-      "exact target station match: 中野",
-      "best station preference: 6.5/10",
-      "size clears ideal threshold at 129.73 sqm",
-      "layout: 3LDK",
-      "price is within budget at 9480万円",
-      "target station walk time misses target at 15 min",
-      "nearest listed station is 9 min; scoring uses 中野 at 15 min",
-      "built in 2023",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
-      "ceiling/window-height positives: 吹抜け",
-      "listing age: 1 days",
-      "first seen: 2026-04-18 (62 days ago)"
-    ],
-    "score": 86.87
-  },
-  {
-    "listing_id": "20998814",
-    "source": "suumo",
-    "property_name": "上馬1丁目戸建　～心地の良い陽が差し込む注文住宅～",
-    "title": "☆シャッターガレージ付きの注文住宅！☆広々と明るいLDKが魅力的！",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20998814/",
-    "price_man": 13980.0,
-    "area_sqm": 117.91,
-    "land_area_sqm": 76.42,
-    "layout": "3LDK+S（納戸）",
-    "walk_min": 9,
-    "target_walk_min": 15,
-    "built_year": 2021,
-    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
-    "address": "東京都世田谷区上馬１",
-    "access_text": "東急田園都市線「駒沢大学」歩9分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩15分 [ 乗り換え案内 ] 東急世田谷線「西太子堂」歩16分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "三軒茶屋"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "陽当り良好",
-      "日当たり良好",
-      "採光",
-      "通風良好"
-    ],
-    "ceiling_hits": [
-      "天井高"
-    ],
-    "feature_tags": [],
-    "detail_summary": "☆シャッターガレージ付きの注文住宅！ ☆広々と明るいLDKが魅力的！ ～おすすめポイント～ 〇窓が多く、陽当たり良好 〇LDKとタタミコーナーを合わせると26.9帖 〇嬉しいガス乾燥機付き 〇3階居室の天井も高く開放的 ※当物件の一部画像を抜粋しています。",
-    "preview_image_url": "./house_images/20998814.jpg",
-    "criteria_notes": [
-      "exact target station match: 三軒茶屋",
-      "best station preference: 8.0/10",
-      "size clears ideal threshold at 117.91 sqm",
-      "layout: 3LDK+S（納戸）",
-      "price is within budget at 13980万円",
-      "target station walk time misses target at 15 min",
-      "nearest listed station is 9 min; scoring uses 三軒茶屋 at 15 min",
-      "built in 2021",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 採光",
-      "ceiling/window-height positives: 天井高",
-      "listing age: 0 days",
-      "first seen: 2026-04-18 (62 days ago)"
-    ],
-    "score": 85.6
-  },
-  {
     "listing_id": "21033263",
     "source": "suumo",
     "property_name": "",
@@ -354,7 +201,7 @@
     "area_sqm": 85.53,
     "land_area_sqm": 50.04,
     "layout": "3LDK",
-    "walk_min": 11,
+    "nearest_walk_min": 11,
     "target_walk_min": 11,
     "built_year": 2006,
     "first_seen_at": "2026-06-11T17:22:52.387708+00:00",
@@ -402,7 +249,7 @@
     "area_sqm": 102.7,
     "land_area_sqm": 61.62,
     "layout": "3LDK",
-    "walk_min": 6,
+    "nearest_walk_min": 6,
     "target_walk_min": 7,
     "built_year": 2011,
     "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
@@ -445,7 +292,7 @@
     "area_sqm": 89.57,
     "land_area_sqm": 59.13,
     "layout": "2LDK",
-    "walk_min": 2,
+    "nearest_walk_min": 2,
     "target_walk_min": 2,
     "built_year": 2010,
     "first_seen_at": "2026-05-19T05:53:28.388255+00:00",
@@ -483,55 +330,6 @@
     "score": 81.7
   },
   {
-    "listing_id": "20542091",
-    "source": "suumo",
-    "property_name": "",
-    "title": "【当社売主】2025年10月リフォーム済駐車場付戸建♪ルーフバルコニ―♪",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20542091/",
-    "price_man": 8980.0,
-    "area_sqm": 68.48,
-    "land_area_sqm": 55.27,
-    "layout": "3LDK",
-    "walk_min": 8,
-    "target_walk_min": 15,
-    "built_year": 2019,
-    "first_seen_at": "2026-06-07T05:50:05.470639+00:00",
-    "address": "東京都渋谷区幡ヶ谷３-8-2",
-    "access_text": "京王新線「幡ヶ谷」歩8分 [ 乗り換え案内 ] 京王新線「初台」歩15分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「中野新橋」歩18分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "初台"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "南向き",
-      "採光",
-      "眺望良好",
-      "通風良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "【当社売主】2025年10月リフォーム済 駐車場付戸建♪ルーフバルコニ―♪ ◆当社が売主なので初期費用を抑えられます ◆2025年10月新規リフォーム済 ◆2019年築の3階建の戸建はハイルーフも停められる駐車スペース付き ◆京王新線「幡ヶ谷駅」徒歩8分の好立地 ◆眺望良好のルーフトップバルコニ―♪ ◆四面採光で陽光、通風良好",
-    "preview_image_url": "./house_images/20542091.jpg",
-    "criteria_notes": [
-      "exact target station match: 初台",
-      "best station preference: 7.0/10",
-      "size clears hard threshold at 68.48 sqm",
-      "layout: 3LDK",
-      "price is within budget at 8980万円",
-      "target station walk time misses target at 15 min",
-      "nearest listed station is 8 min; scoring uses 初台 at 15 min",
-      "built in 2019",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 採光, 眺望良好, 通風良好",
-      "listing age: 0 days",
-      "first seen: 2026-06-07 (12 days ago)"
-    ],
-    "score": 77.75
-  },
-  {
     "listing_id": "20904587",
     "source": "suumo",
     "property_name": "",
@@ -541,7 +339,7 @@
     "area_sqm": 76.63,
     "land_area_sqm": 46.11,
     "layout": "4LDK",
-    "walk_min": 2,
+    "nearest_walk_min": 2,
     "target_walk_min": 2,
     "built_year": 2007,
     "first_seen_at": "2026-06-07T05:50:05.470639+00:00",
@@ -572,148 +370,6 @@
     "score": 77.61
   },
   {
-    "listing_id": "20645159",
-    "source": "suumo",
-    "property_name": "",
-    "title": "◆最寄り駅徒歩10分◆築3年の築浅戸建◆LDK超18帖の４LDK",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20645159/",
-    "price_man": 14600.0,
-    "area_sqm": 117.12,
-    "land_area_sqm": 77.49,
-    "layout": "4LDK",
-    "walk_min": 10,
-    "target_walk_min": 13,
-    "built_year": 2023,
-    "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
-    "address": "東京都世田谷区経堂３",
-    "access_text": "小田急線「千歳船橋」歩10分 [ 乗り換え案内 ] 小田急線「経堂」歩13分 [ 乗り換え案内 ] 東急世田谷線「松原」歩26分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "経堂"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "陽当り良好"
-    ],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "◆最寄り駅徒歩10分 ◆築3年の築浅戸建 ◆LDK超18帖の４LDK お問合せの際は【ホームページ】を見てとお伝え頂くとスムーズです。 事前見学予約、また当日見学希望などもお気軽にお問い合わせ下さい。 （平日土日祝祭日いつでも） 中国語も対応可能！ 創業50年の実績と経験でお客様に喜んでいただけるように、お手伝いさせていたきます",
-    "preview_image_url": "./house_images/20645159.jpg",
-    "criteria_notes": [
-      "exact target station match: 経堂",
-      "best station preference: 5.5/10",
-      "size clears ideal threshold at 117.12 sqm",
-      "layout: 4LDK",
-      "price is within budget at 14600万円",
-      "target station walk time misses target at 13 min",
-      "nearest listed station is 10 min; scoring uses 経堂 at 13 min",
-      "built in 2023",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好",
-      "listing age: 1 days",
-      "first seen: 2026-06-03 (16 days ago)"
-    ],
-    "score": 76.65
-  },
-  {
-    "listing_id": "20549155",
-    "source": "suumo",
-    "property_name": "世田谷区上馬5丁目 中古戸建",
-    "title": "プライバシーに配慮したバルコニーテラス！広々とした吹き抜けのあるLDK♪",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20549155/",
-    "price_man": 14800.0,
-    "area_sqm": 105.98,
-    "land_area_sqm": 80.49,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 7,
-    "target_walk_min": 17,
-    "built_year": 2017,
-    "first_seen_at": "2026-04-27T15:21:30.014609+00:00",
-    "address": "東京都世田谷区上馬５",
-    "access_text": "東急世田谷線「松陰神社前」歩7分 [ 乗り換え案内 ] 東急田園都市線「駒沢大学」歩12分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩17分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "三軒茶屋"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [
-      "陽当り良好",
-      "採光",
-      "通風良好"
-    ],
-    "ceiling_hits": [
-      "天井高",
-      "吹抜け"
-    ],
-    "feature_tags": [],
-    "detail_summary": "プライバシーに配慮したバルコニーテラス！ 広々とした吹き抜けのあるLDK♪ ～充実した仕様設備～ ◇オールステンレスの大型アイランドキッチン ◇サンワカンパニー1620サイズのバスルーム ◇サンワカンパニーW1200洗面台 ◇食洗機・浄水器付き ◇スティックリモコンタイプタンクレストイレ",
-    "preview_image_url": "./house_images/20549155.jpg",
-    "criteria_notes": [
-      "exact target station match: 三軒茶屋",
-      "best station preference: 8.0/10",
-      "size clears ideal threshold at 105.98 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 14800万円",
-      "target station walk time misses target at 17 min",
-      "nearest listed station is 7 min; scoring uses 三軒茶屋 at 17 min",
-      "built in 2017",
-      "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 採光, 通風良好",
-      "ceiling/window-height positives: 天井高, 吹抜け",
-      "listing age: 1 days",
-      "first seen: 2026-04-27 (53 days ago)"
-    ],
-    "score": 76.52
-  },
-  {
-    "listing_id": "20245401",
-    "source": "suumo",
-    "property_name": "",
-    "title": "駒田東大前駅　徒歩6分その他2駅利用可閑静な住宅街好アクセス",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_meguro/nc_20245401/",
-    "price_man": 10450.0,
-    "area_sqm": 73.17,
-    "land_area_sqm": 60.17,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 6,
-    "target_walk_min": 14,
-    "built_year": 2002,
-    "first_seen_at": "2026-06-04T14:52:32.651017+00:00",
-    "address": "東京都目黒区駒場１-19-22",
-    "access_text": "京王井の頭線「駒場東大前」歩6分 [ 乗り換え案内 ] 京王井の頭線「神泉」歩14分 [ 乗り換え案内 ] 東急田園都市線「池尻大橋」歩14分 [ 乗り換え案内 ]",
-    "exact_station_hits": [
-      "池尻大橋",
-      "神泉"
-    ],
-    "nearby_station_hits": [],
-    "dishwasher_hits": [
-      "dishwasher"
-    ],
-    "brightness_hits": [],
-    "ceiling_hits": [],
-    "feature_tags": [],
-    "detail_summary": "駒田東大前駅　徒歩6分 その他2駅利用可 閑静な住宅街 好アクセス 室内（2026年2月）撮影 室内（2026年2月）撮影 室内（2026年2月）撮影 現地（2026年2月）撮影",
-    "preview_image_url": "./house_images/20245401.jpg",
-    "criteria_notes": [
-      "exact target station match: 池尻大橋, 神泉",
-      "best station preference: 8.5/10",
-      "size clears ideal threshold at 73.17 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 10450万円",
-      "target station walk time misses target at 14 min",
-      "nearest listed station is 6 min; scoring uses 池尻大橋 at 14 min",
-      "built in 2002",
-      "dishwasher mentioned in listing",
-      "listing age: 4 days",
-      "first seen: 2026-06-04 (15 days ago)"
-    ],
-    "score": 75.77
-  },
-  {
     "listing_id": "20923873",
     "source": "suumo",
     "property_name": "",
@@ -723,7 +379,7 @@
     "area_sqm": 103.54,
     "land_area_sqm": 81.27,
     "layout": "3LDK+S（納戸）",
-    "walk_min": 11,
+    "nearest_walk_min": 11,
     "target_walk_min": 11,
     "built_year": 2012,
     "first_seen_at": "2026-04-22T15:47:01.701300+00:00",
@@ -772,7 +428,7 @@
     "area_sqm": 114.68,
     "land_area_sqm": 92.06,
     "layout": "3LDK+S（納戸）",
-    "walk_min": 10,
+    "nearest_walk_min": 10,
     "target_walk_min": 10,
     "built_year": 2024,
     "first_seen_at": "2026-05-19T04:49:27.522007+00:00",
@@ -809,23 +465,166 @@
     "score": 74.06
   },
   {
-    "listing_id": "20132353",
+    "listing_id": "20800111",
     "source": "suumo",
     "property_name": "",
-    "title": "◇全居室南向き&2面以上採光◇約3.0帖のロフト付き◎1台駐車可(車種による)",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20132353/",
-    "price_man": 8180.0,
-    "area_sqm": 66.28,
-    "land_area_sqm": 82.64,
-    "layout": "2LDK+S（納戸）",
-    "walk_min": 12,
-    "target_walk_min": 21,
-    "built_year": 2023,
-    "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
-    "address": "東京都世田谷区上北沢１",
-    "access_text": "京王線「桜上水」歩12分 [ 乗り換え案内 ] 京王線「上北沢」歩14分 [ 乗り換え案内 ] 小田急線「経堂」歩21分 [ 乗り換え案内 ]",
+    "title": "◆３LDK+車庫付き◆新規内装リノべ×外壁塗装◆延床面積８０．８９㎡",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_meguro/nc_20800111/",
+    "price_man": 13800.0,
+    "area_sqm": 80.89,
+    "land_area_sqm": 70.08,
+    "layout": "3LDK",
+    "nearest_walk_min": 6,
+    "target_walk_min": 9,
+    "built_year": 2003,
+    "first_seen_at": "2026-06-04T14:52:32.651017+00:00",
+    "address": "東京都目黒区駒場１-2－17",
+    "access_text": "京王井の頭線「駒場東大前」歩6分 [ 乗り換え案内 ] 京王井の頭線「神泉」歩9分 [ 乗り換え案内 ] 東急田園都市線「池尻大橋」歩10分 [ 乗り換え案内 ]",
     "exact_station_hits": [
-      "経堂"
+      "池尻大橋",
+      "神泉"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "採光"
+    ],
+    "ceiling_hits": [
+      "吹抜け"
+    ],
+    "feature_tags": [],
+    "detail_summary": "◆３LDK+車庫付き ◆新規内装リノべ×外壁塗装 ◆延床面積８０．８９m 2 ◆集まる文教エリア 渋谷中心地まで徒歩15分圏内。 京王井の頭線「駒場東大前」駅徒歩6分、「神泉」駅徒歩9分 山手通りもほど近く、車利用も至便。",
+    "preview_image_url": "./house_images/20800111.jpg",
+    "criteria_notes": [
+      "exact target station match: 池尻大橋, 神泉",
+      "best station preference: 8.5/10",
+      "size clears ideal threshold at 80.89 sqm",
+      "layout: 3LDK",
+      "price is within budget at 13800万円",
+      "target station walk time meets target at 9 min",
+      "nearest listed station is 6 min; scoring uses 神泉 at 9 min",
+      "built in 2003",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 採光",
+      "ceiling/window-height positives: 吹抜け",
+      "listing age: 1 days",
+      "first seen: 2026-06-04 (15 days ago)"
+    ],
+    "score": 70.34
+  },
+  {
+    "listing_id": "78419001",
+    "source": "suumo",
+    "property_name": "",
+    "title": "本町３（西新宿五丁目駅） 1億4800万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78419001/",
+    "price_man": 14800.0,
+    "area_sqm": 70.16,
+    "land_area_sqm": 45.51,
+    "layout": "3LDK",
+    "nearest_walk_min": 4,
+    "target_walk_min": 4,
+    "built_year": 2011,
+    "first_seen_at": "2026-05-19T05:53:28.388255+00:00",
+    "address": "東京都渋谷区本町３",
+    "access_text": "都営大江戸線「西新宿五丁目」歩4分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "西新宿五丁目"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "採光"
+    ],
+    "ceiling_hits": [
+      "吹抜け"
+    ],
+    "feature_tags": [
+      "3階に配置することで、住宅兼オフィスとして使用可能。買主様のニーズに合わせた用途変更が可能です。",
+      "・水回りを2階",
+      "洗面室",
+      "浴室"
+    ],
+    "detail_summary": "西新宿五丁目駅徒歩4分！RC造駒田建築設計事務所施工のオフィス兼用住宅 ◆アクセス ・都営大江戸線『西新宿五丁目』駅まで徒歩4分、 京王新線『初台』駅まで徒歩13分。 ◆施工・構造 ・2011年10月築、鉄筋コンクリート造3階建て。 ・耐震性能向上のため、杭打ち工事済みです。 ・建物の対角線上を斜めに横切る形で間仕切りを配置。",
+    "preview_image_url": "./house_images/78419001.jpg",
+    "criteria_notes": [
+      "exact target station match: 西新宿五丁目",
+      "best station preference: 3.5/10",
+      "size clears ideal threshold at 70.16 sqm",
+      "layout: 3LDK",
+      "price is within budget at 14800万円",
+      "target station walk time meets target at 4 min",
+      "built in 2011",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 採光",
+      "ceiling/window-height positives: 吹抜け",
+      "listing age: 1 days",
+      "first seen: 2026-05-19 (31 days ago)"
+    ],
+    "score": 69.11
+  },
+  {
+    "listing_id": "20612419",
+    "source": "suumo",
+    "property_name": "",
+    "title": "本町６（初台駅） 8900万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20612419/",
+    "price_man": 8900.0,
+    "area_sqm": 65.81,
+    "land_area_sqm": 43.62,
+    "layout": "3LDK",
+    "nearest_walk_min": 10,
+    "target_walk_min": 10,
+    "built_year": 2009,
+    "first_seen_at": "2026-06-13T13:59:49.541724+00:00",
+    "address": "東京都渋谷区本町６",
+    "access_text": "京王新線「初台」歩10分 [ 乗り換え案内 ] 京王新線「幡ヶ谷」歩13分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "初台"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [],
+    "brightness_hits": [
+      "採光"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "■三井のリハウス■ 北西・南西側が接道した住まい スーパーが徒歩1分の立地 －物件のおすすめポイント－ ▼立地 ・京王電鉄京王線「初台」徒歩10分 ▼特徴 ・全居室2面以上の採光が確保された間取り",
+    "preview_image_url": "./house_images/20612419.jpg",
+    "criteria_notes": [
+      "exact target station match: 初台",
+      "best station preference: 7.0/10",
+      "size clears hard threshold at 65.81 sqm",
+      "layout: 3LDK",
+      "price is within budget at 8900万円",
+      "target station walk time meets target at 10 min",
+      "built in 2009",
+      "dishwasher not explicitly confirmed",
+      "brightness/window positives: 採光",
+      "listing age: 1 days",
+      "first seen: 2026-06-13 (6 days ago)"
+    ],
+    "score": 64.76
+  },
+  {
+    "listing_id": "78313912",
+    "source": "suumo",
+    "property_name": "",
+    "title": "２４時間ネット予約可能/２０２３年築浅/大幅価格改定/リフォーム済でキレイ",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_78313912/",
+    "price_man": 15498.0,
+    "area_sqm": 99.04,
+    "land_area_sqm": 62.12,
+    "layout": "2LDK+2S（納戸）",
+    "nearest_walk_min": 4,
+    "target_walk_min": 4,
+    "built_year": 2023,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都世田谷区北沢１",
+    "access_text": "京王井の頭線「池ノ上」歩4分 [ 乗り換え案内 ] 小田急線「下北沢」歩10分 [ 乗り換え案内 ] 小田急線「東北沢」歩5分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "下北沢",
+      "池ノ上"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
@@ -835,58 +634,210 @@
       "南向き",
       "陽当り良好",
       "採光",
-      "通風良好"
+      "眺望良好",
+      "通風良好",
+      "大きな窓"
     ],
     "ceiling_hits": [
       "吹抜け"
     ],
     "feature_tags": [
-      "2026年4月撮影",
-      "LDKに約3.0帖の洋室が隣接。間の引き戸を開放し、一体で使うことも可能です。ライフスタイルやシーンに合わせて、フレキシブルにお使いいただけます。",
-      "【LDK",
-      "インテリアを引き立てる、シンプルでスタイリッシュなキッチン。スライド式の収納が備わっており、大きめの鍋やフライパンなどもすっきりと片付きます。",
-      "ホワイトカラーでまとめられ、清潔感のある玄関スペース。土間部分はタイルが採用されており、日々のお手入れもスムーズに行えます。",
-      "京王線「桜上水」駅まで徒歩12分、「上北沢」駅まで徒歩14分。2023年9月築！木造2階建「2LDK+S(納戸)」の住まい。1台駐車可能です(車種による)。",
-      "生活のメインスペースとなるLDKは2階に配置されています。外からの視線が気になりにくく、ゆったりと寛げます。",
-      "約15.5帖】"
+      "リフォーム済でキレイ",
+      "大幅価格改定",
+      "２０２３年築浅",
+      "２４時間ネット予約可能"
     ],
-    "detail_summary": "◇全居室南向き&2面以上採光◇約3.0帖のロフト付き◎1台駐車可(車種による) ■□━━「世田谷区上北沢一丁目」のオススメPOINT━━□■ ■京王線「桜上水」駅まで徒歩12分。 ■2023年9月築、木造2階建「2LDK+S(納戸)」。 ■外からの視線が気になりにくい、2階リビング。 ■対面式キッチンでご家族との会話が弾みます。 ■バルコニーは南向き！洗濯物もよく乾きそうです。 ■LDK上部に約3.0帖のロフト有り。",
-    "preview_image_url": "./house_images/20132353.jpg",
+    "detail_summary": "【交通】 ・京王井の頭線「池ノ上駅」徒歩４分　急行停車駅 ～「渋谷駅」最短５分、「吉祥寺」直通 ・井の頭線・小田原線「下北沢」駅徒歩１０分 ～「新宿」駅まで最短７分直通 【ＰＯＩＮＴ】 ・大切なお車を守るビルトインガレージ♪ ・開放感ある、吹抜けのエントランス♪",
+    "preview_image_url": "./house_images/78313912.jpg",
     "criteria_notes": [
-      "exact target station match: 経堂",
-      "best station preference: 5.5/10",
-      "size clears hard threshold at 66.28 sqm",
-      "layout: 2LDK+S（納戸）",
-      "price is within budget at 8180万円",
-      "target station walk time misses target at 21 min",
-      "nearest listed station is 12 min; scoring uses 経堂 at 21 min",
+      "exact target station match: 下北沢, 池ノ上",
+      "best station preference: 8.5/10",
+      "size clears ideal threshold at 99.04 sqm",
+      "layout: 2LDK+2S（納戸）",
+      "price is outside target budget at 15498万円",
+      "target station walk time meets target at 4 min",
       "built in 2023",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 南向き, 陽当り良好, 採光, 通風良好",
+      "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
       "ceiling/window-height positives: 吹抜け",
       "listing age: 0 days",
-      "first seen: 2026-06-03 (16 days ago)"
+      "first seen: 2026-04-18 (62 days ago)"
     ],
-    "score": 73.59
+    "score": 95.01
   },
   {
-    "listing_id": "78288936",
+    "listing_id": "20034127",
     "source": "suumo",
-    "property_name": "渋谷区幡ヶ谷　築浅戸建",
-    "title": "◆内覧可能◆室内リフォーム完成しました◆",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78288936/",
-    "price_man": 8980.0,
-    "area_sqm": 68.48,
-    "land_area_sqm": 55.27,
+    "property_name": "",
+    "title": "吉祥寺南町４（吉祥寺駅） 1億2600万円",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_musashino/nc_20034127/",
+    "price_man": 12600.0,
+    "area_sqm": 82.6,
+    "land_area_sqm": 120.41,
     "layout": "3LDK",
-    "walk_min": 8,
-    "target_walk_min": 17,
-    "built_year": 2019,
-    "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
-    "address": "東京都渋谷区幡ヶ谷３",
-    "access_text": "京王新線「幡ヶ谷」歩8分 [ 乗り換え案内 ] 京王新線「初台」歩17分 [ 乗り換え案内 ] 京王線「笹塚」歩20分 [ 乗り換え案内 ]",
+    "nearest_walk_min": 11,
+    "target_walk_min": 15,
+    "built_year": 2016,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都武蔵野市吉祥寺南町４",
+    "access_text": "ＪＲ中央線「吉祥寺」歩15分 [ 乗り換え案内 ] 京王井の頭線「三鷹台」歩11分 [ 乗り換え案内 ]",
     "exact_station_hits": [
-      "初台"
+      "吉祥寺"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "採光",
+      "通風良好"
+    ],
+    "ceiling_hits": [],
+    "feature_tags": [],
+    "detail_summary": "2016年　積水ハウス施工　車庫2台 室内綺麗です　是非ご覧ください 現地（2026年2月）撮影 現地2（2026年2月）撮影 現地3（2026年2月）撮影 室内（2026年2月）撮影 室内（2026年2月）撮影 ※写真に誤り・問題がある場合は",
+    "preview_image_url": "./house_images/20034127.jpg",
+    "criteria_notes": [
+      "exact target station match: 吉祥寺",
+      "best station preference: 6.0/10",
+      "size clears ideal threshold at 82.60 sqm",
+      "layout: 3LDK",
+      "price is within budget at 12600万円",
+      "target station walk time misses target at 15 min",
+      "nearest listed station is 11 min; scoring uses 吉祥寺 at 15 min",
+      "built in 2016",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 採光, 通風良好",
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (62 days ago)"
+    ],
+    "score": 87.04
+  },
+  {
+    "listing_id": "78575136",
+    "source": "suumo",
+    "property_name": "杉並区高円寺南５丁目 戸建て",
+    "title": "≪当日内見予約可能≫「歩くたび、好きになる街。帰るたび、惹かれる家。」",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_suginami/nc_78575136/",
+    "price_man": 9480.0,
+    "area_sqm": 129.73,
+    "land_area_sqm": 75.34,
+    "layout": "3LDK",
+    "nearest_walk_min": 9,
+    "target_walk_min": 15,
+    "built_year": 2023,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都杉並区高円寺南５",
+    "access_text": "ＪＲ中央線「高円寺」歩9分 [ 乗り換え案内 ] 東京メトロ丸ノ内線「東高円寺」歩12分 [ 乗り換え案内 ] ＪＲ中央線「中野」歩15分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "中野"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "南向き",
+      "陽当り良好",
+      "採光",
+      "眺望良好",
+      "通風良好"
+    ],
+    "ceiling_hits": [
+      "吹抜け"
+    ],
+    "feature_tags": [],
+    "detail_summary": "≪当日内見予約可能≫ 「歩くたび、好きになる街。帰るたび、惹かれる家。」 ◆広さという名の、豊かさ。建物面積120m 2 超がもたらすのは、家族一人ひとりの時間と空間を大切にできる、ゆとりに満ちた日常です。 ◆高円寺も、中野も、普段使いする贅沢。中央線「高円寺」駅徒歩9分、「中野」駅徒歩15分。二つの街のカルチャーと利便性を自在に楽しむ、アクティブな暮らしが始まります。 ◆空と繋がるプライベートな空間、ルーフバルコニー。読書やティータイム、星空観賞など、暮らしの楽しみを無限に広げてくれる、もう一つのリビングです。 ◆約24帖の広さを誇るLDKは、この家の中心。2つのロフトやシューズインクロークなど、豊富な収納がすっきりとした美しい暮らしを叶えます。",
+    "preview_image_url": "./house_images/78575136.jpg",
+    "criteria_notes": [
+      "exact target station match: 中野",
+      "best station preference: 6.5/10",
+      "size clears ideal threshold at 129.73 sqm",
+      "layout: 3LDK",
+      "price is within budget at 9480万円",
+      "target station walk time misses target at 15 min",
+      "nearest listed station is 9 min; scoring uses 中野 at 15 min",
+      "built in 2023",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 陽当り良好, 採光, 眺望良好",
+      "ceiling/window-height positives: 吹抜け",
+      "listing age: 1 days",
+      "first seen: 2026-04-18 (62 days ago)"
+    ],
+    "score": 86.87
+  },
+  {
+    "listing_id": "78483844",
+    "source": "suumo",
+    "property_name": "",
+    "title": "2012年12月築注文住宅・ルーフバルコニー、天井裏収納付き",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_78483844/",
+    "price_man": 15800.0,
+    "area_sqm": 91.57,
+    "land_area_sqm": 46.74,
+    "layout": "2LDK+S（納戸）",
+    "nearest_walk_min": 10,
+    "target_walk_min": 11,
+    "built_year": 2012,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都渋谷区富ヶ谷２",
+    "access_text": "小田急線「代々木八幡」歩10分 [ 乗り換え案内 ] 東京メトロ千代田線「代々木上原」歩11分 [ 乗り換え案内 ] 京王井の頭線「駒場東大前」歩14分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "代々木上原"
+    ],
+    "nearby_station_hits": [
+      "代々木八幡"
+    ],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "陽当り良好",
+      "眺望良好",
+      "通風良好",
+      "大きな窓"
+    ],
+    "ceiling_hits": [
+      "天井高",
+      "吹抜け"
+    ],
+    "feature_tags": [],
+    "detail_summary": "2012年12月築注文住宅・ルーフバルコニー、天井裏収納付き ■南東・北東の角地に佇む注文住宅 ■容積率と高さを最大限に活かして設計されたこだわりの邸宅 ■約15.6帖のLDK、複数の窓から光が入り陽当り・眺望良好 ■キッチンカウンターとダイニングテーブルが一直線に繋がるよう、スキップフロア採用 ■床暖房(LD)、食器洗乾燥機、浴室乾燥機などの設備搭載 ■約10.8帖の洋室は引き戸で仕切ることが可能(工事要) ■車庫1台分有り(車種による制限有)",
+    "preview_image_url": "./house_images/78483844.jpg",
+    "criteria_notes": [
+      "exact target station match: 代々木上原",
+      "best station preference: 9.0/10",
+      "size clears ideal threshold at 91.57 sqm",
+      "layout: 2LDK+S（納戸）",
+      "price is outside target budget at 15800万円",
+      "target station walk time meets target at 11 min",
+      "nearest listed station is 10 min; scoring uses 代々木上原 at 11 min",
+      "built in 2012",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 陽当り良好, 眺望良好, 通風良好, 大きな窓",
+      "ceiling/window-height positives: 天井高, 吹抜け",
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (62 days ago)"
+    ],
+    "score": 86.81
+  },
+  {
+    "listing_id": "20917020",
+    "source": "suumo",
+    "property_name": "",
+    "title": "【3駅5路線利用可能な立地】希少性の高い代々木1丁目アドレスの築浅戸建です",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_shibuya/nc_20917020/",
+    "price_man": 15750.0,
+    "area_sqm": 81.9,
+    "land_area_sqm": 44.54,
+    "layout": "3LDK",
+    "nearest_walk_min": 5,
+    "target_walk_min": 6,
+    "built_year": 2019,
+    "first_seen_at": "2026-05-16T14:40:23.730086+00:00",
+    "address": "東京都渋谷区代々木１",
+    "access_text": "ＪＲ山手線「代々木」歩6分 [ 乗り換え案内 ] 小田急線「南新宿」歩5分 [ 乗り換え案内 ] 東京メトロ副都心線「北参道」歩9分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "代々木"
     ],
     "nearby_station_hits": [],
     "dishwasher_hits": [
@@ -895,74 +846,134 @@
     "brightness_hits": [
       "陽当り良好",
       "採光",
-      "通風良好",
-      "大きな窓"
+      "通風良好"
     ],
     "ceiling_hits": [],
     "feature_tags": [],
-    "detail_summary": "◆内覧可能◆室内リフォーム完成しました◆ 【３６５日　年中無休】 原則即日ご対応(夜間除く) 他に無い対応力でお客様の見たい知りたいを叶えます。 【住宅ローンに強い！】 常時20行以上の金融機関と取引有り。 お客様に合わせて適切なプランをご提案させて頂きます。 【コロナ対策　実施中】",
-    "preview_image_url": "./house_images/78288936.jpg",
+    "detail_summary": "【3駅5路線利用可能な立地】希少性の高い代々木1丁目アドレスの築浅戸建です ■令和元年６ 月築の築浅戸建 ■南東・北東角地 ■3階洋室とルーフバルコニーからはドコモタワーを望めます ■周辺施設が充実しており、生活利便性の高いエリア ■明治神宮まで徒歩圏内 ■制震システムGVAを導入 ■リビングに床暖房有",
+    "preview_image_url": "",
     "criteria_notes": [
-      "exact target station match: 初台",
+      "exact target station match: 代々木",
       "best station preference: 7.0/10",
-      "size clears hard threshold at 68.48 sqm",
+      "size clears ideal threshold at 81.90 sqm",
       "layout: 3LDK",
-      "price is within budget at 8980万円",
-      "target station walk time misses target at 17 min",
-      "nearest listed station is 8 min; scoring uses 初台 at 17 min",
+      "price is outside target budget at 15750万円",
+      "target station walk time meets target at 6 min",
+      "nearest listed station is 5 min; scoring uses 代々木 at 6 min",
       "built in 2019",
       "dishwasher mentioned in listing",
-      "brightness/window positives: 陽当り良好, 採光, 通風良好, 大きな窓",
-      "listing age: 6 days",
-      "first seen: 2026-06-03 (16 days ago)"
+      "brightness/window positives: 陽当り良好, 採光, 通風良好",
+      "listing age: 0 days",
+      "first seen: 2026-05-16 (34 days ago)"
     ],
-    "score": 72.25
+    "score": 85.93
   },
   {
-    "listing_id": "20969428",
+    "listing_id": "20998814",
     "source": "suumo",
-    "property_name": "プラウドシーズン世田谷経堂　光彩の邸",
-    "title": "閑静な住環境に位置する野村不動産旧分譲「プラウドシーズン」ハイスペック戸建",
-    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20969428/",
-    "price_man": 14500.0,
-    "area_sqm": 96.34,
-    "land_area_sqm": 98.01,
-    "layout": "4LDK",
-    "walk_min": 7,
-    "target_walk_min": 14,
-    "built_year": 2016,
-    "first_seen_at": "2026-06-19T07:53:42.366690+00:00",
-    "address": "東京都世田谷区赤堤３",
-    "access_text": "小田急線「経堂」歩14分 [ 乗り換え案内 ] 東急世田谷線「松原」歩7分 [ 乗り換え案内 ] 京王線「下高井戸」歩14分 [ 乗り換え案内 ]",
+    "property_name": "上馬1丁目戸建　～心地の良い陽が差し込む注文住宅～",
+    "title": "☆シャッターガレージ付きの注文住宅！☆広々と明るいLDKが魅力的！",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20998814/",
+    "price_man": 13980.0,
+    "area_sqm": 117.91,
+    "land_area_sqm": 76.42,
+    "layout": "3LDK+S（納戸）",
+    "nearest_walk_min": 9,
+    "target_walk_min": 15,
+    "built_year": 2021,
+    "first_seen_at": "2026-04-18T16:48:28.608776+00:00",
+    "address": "東京都世田谷区上馬１",
+    "access_text": "東急田園都市線「駒沢大学」歩9分 [ 乗り換え案内 ] 東急田園都市線「三軒茶屋」歩15分 [ 乗り換え案内 ] 東急世田谷線「西太子堂」歩16分 [ 乗り換え案内 ]",
     "exact_station_hits": [
-      "経堂"
+      "三軒茶屋"
     ],
     "nearby_station_hits": [],
-    "dishwasher_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
     "brightness_hits": [
-      "陽当り良好"
+      "南向き",
+      "陽当り良好",
+      "日当たり良好",
+      "採光",
+      "通風良好"
     ],
     "ceiling_hits": [
       "天井高"
     ],
     "feature_tags": [],
-    "detail_summary": "閑静な住環境に位置する野村不動産旧分譲「プラウドシーズン」ハイスペック戸建 【野村の仲介＋専任媒介物件】 当社に仲介をお任せいただいた場合、 設備・建物のアフターサポート引継ぎが可能です。 ●認定保証中古制度、あんしん設備・建物補修(アフターサポート） ●リビング天井高2.5m、WIC、キッチン床下収納、小屋裏収納（4.4畳） ●野村不動産インテリアによる室内仕様（DK収納棚、エコカラット等） ●生活動線の良い1階LDK",
-    "preview_image_url": "./house_images/20969428.jpg",
+    "detail_summary": "☆シャッターガレージ付きの注文住宅！ ☆広々と明るいLDKが魅力的！ ～おすすめポイント～ 〇窓が多く、陽当たり良好 〇LDKとタタミコーナーを合わせると26.9帖 〇嬉しいガス乾燥機付き 〇3階居室の天井も高く開放的 ※当物件の一部画像を抜粋しています。",
+    "preview_image_url": "./house_images/20998814.jpg",
+    "criteria_notes": [
+      "exact target station match: 三軒茶屋",
+      "best station preference: 8.0/10",
+      "size clears ideal threshold at 117.91 sqm",
+      "layout: 3LDK+S（納戸）",
+      "price is within budget at 13980万円",
+      "target station walk time misses target at 15 min",
+      "nearest listed station is 9 min; scoring uses 三軒茶屋 at 15 min",
+      "built in 2021",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 南向き, 陽当り良好, 日当たり良好, 採光",
+      "ceiling/window-height positives: 天井高",
+      "listing age: 0 days",
+      "first seen: 2026-04-18 (62 days ago)"
+    ],
+    "score": 85.6
+  },
+  {
+    "listing_id": "20787975",
+    "source": "suumo",
+    "property_name": "桜上水３丁目　中古戸建",
+    "title": "♪トヨタホーム施工！安心の軽量鉄骨造♪◆２０２３年１０月築の築浅戸建◆",
+    "url": "https://suumo.jp/chukoikkodate/tokyo/sc_setagaya/nc_20787975/",
+    "price_man": 15500.0,
+    "area_sqm": 89.05,
+    "land_area_sqm": 110.95,
+    "layout": "3LDK+S（納戸）",
+    "nearest_walk_min": 12,
+    "target_walk_min": 13,
+    "built_year": 2023,
+    "first_seen_at": "2026-06-03T14:52:45.168477+00:00",
+    "address": "東京都世田谷区桜上水３",
+    "access_text": "小田急線「経堂」歩13分 [ 乗り換え案内 ] 東急世田谷線「松原」歩12分 [ 乗り換え案内 ] 京王線「桜上水」歩16分 [ 乗り換え案内 ]",
+    "exact_station_hits": [
+      "経堂"
+    ],
+    "nearby_station_hits": [],
+    "dishwasher_hits": [
+      "dishwasher"
+    ],
+    "brightness_hits": [
+      "採光",
+      "通風良好"
+    ],
+    "ceiling_hits": [
+      "吹抜け"
+    ],
+    "feature_tags": [
+      "https:",
+      "lifeplan",
+      "loan",
+      "www.ad-cast.info"
+    ],
+    "detail_summary": "♪トヨタホーム施工！安心の軽量鉄骨造♪ ◆２０２３年１０月築の築浅戸建◆ ☆―――――・・・　　物件の特徴　　・・・―――――☆ ◆1階リビング＆18.3帖の広々としたLDKで家族の時間をゆったり過ごせます。 ◆「経堂」駅・「松原」駅、「桜上水駅」の3駅3路線が利用可能。 通勤・通学に便利な好立地です 。 ◆全居室に収納スペースを完備した機能的な間取り。 駐車場も備わっており、お車をお持ちの方も安心です。 まずは、現地をご案内させていただきます！ ☆―――――・・・　　―☆―　　・・・―――――☆",
+    "preview_image_url": "./house_images/20787975.jpg",
     "criteria_notes": [
       "exact target station match: 経堂",
       "best station preference: 5.5/10",
-      "size clears ideal threshold at 96.34 sqm",
-      "layout: 4LDK",
-      "price is within budget at 14500万円",
-      "target station walk time misses target at 14 min",
-      "nearest listed station is 7 min; scoring uses 経堂 at 14 min",
-      "built in 2016",
-      "dishwasher not explicitly confirmed",
-      "brightness/window positives: 陽当り良好",
-      "ceiling/window-height positives: 天井高",
-      "listing age: 1 days",
-      "first seen: 2026-06-19 (0 days ago)"
+      "size clears ideal threshold at 89.05 sqm",
+      "layout: 3LDK+S（納戸）",
+      "price is outside target budget at 15500万円",
+      "target station walk time misses target at 13 min",
+      "nearest listed station is 12 min; scoring uses 経堂 at 13 min",
+      "built in 2023",
+      "dishwasher mentioned in listing",
+      "brightness/window positives: 採光, 通風良好",
+      "ceiling/window-height positives: 吹抜け",
+      "listing age: 19 days",
+      "first seen: 2026-06-03 (16 days ago)"
     ],
-    "score": 71.9
+    "score": 83.8
   }
 ]
